@@ -13,19 +13,6 @@ on:
       - "content/published-stories.json"
       - "public/audio/shou-zhu/**"
       - ".github/workflows/narration-pilot-review.yml"
-  push:
-    branches: [main]
-    paths:
-      - "scripts/narration-pilot-review-package.mjs"
-      - "scripts/narration-pilot-review-package.test.mjs"
-      - "scripts/narration-pilot-approval.mjs"
-      - "scripts/narration-plan.mjs"
-      - "content/evidence/narration/pilots/shou-zhu-v1.json"
-      - "content/evidence/narration/receipts/**"
-      - "content/narration-state.json"
-      - "content/published-stories.json"
-      - "public/audio/shou-zhu/**"
-      - ".github/workflows/narration-pilot-review.yml"
   workflow_dispatch:
 
 permissions:

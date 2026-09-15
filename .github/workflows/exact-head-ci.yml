@@ -1,8 +1,9 @@
 name: exact-head observable CI
 
 on:
-  push:
-    branches: [main, "feat/**", "fix/**", "chore/**", "perf/**", "generated/**"]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
 
 concurrency:
   group: exact-head-${{ github.ref }}

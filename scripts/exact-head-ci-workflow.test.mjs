@@ -9,8 +9,10 @@ const CHECKOUT = "actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
 const SETUP_NODE = "actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7";
 const UPLOAD_ARTIFACT = "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6";
 
-test("observable exact-head CI runs on every project branch family and can only publish statuses", () => {
-  assert.match(workflow, /branches:\s*\[main, "feat\/\*\*", "fix\/\*\*", "chore\/\*\*", "perf\/\*\*", "generated\/\*\*"\]/);
+test("observable exact-head CI runs on pull requests to main or manual dispatch and can only publish statuses", () => {
+  assert.match(workflow, /pull_request:\s*\n\s*branches:\s*\[main\]/);
+  assert.match(workflow, /workflow_dispatch:/);
+  assert.equal(workflow.includes("push:"), false);
   assert.match(workflow, /permissions:\s*\n\s*contents:\s*read\s*\n\s*statuses:\s*write/);
   assert.equal(workflow.includes("contents: write"), false);
   assert.equal(workflow.includes("pull-requests: write"), false);

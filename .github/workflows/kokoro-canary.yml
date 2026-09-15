@@ -18,24 +18,6 @@ on:
       - "content/evidence/narration/providers/kokoro-v1.1-zh-zf001.json"
       - "content/evidence/narration/pilots/shou-zhu-v1.json"
       - ".github/workflows/kokoro-canary.yml"
-  push:
-    branches: [main]
-    paths:
-      - "scripts/kokoro-canary-qc.mjs"
-      - "scripts/kokoro-canary-qc.test.mjs"
-      - "scripts/generate-narration.mjs"
-      - "scripts/generate-narration-core.mjs"
-      - "scripts/narration-pilot-approval.mjs"
-      - "scripts/narration-pilot-review.mjs"
-      - "scripts/narration-pilot-review.test.mjs"
-      - "scripts/kokoro-synthesize.py"
-      - "scripts/kokoro_runtime.py"
-      - "scripts/kokoro-runtime-smoke.py"
-      - "scripts/kokoro-runtime-environment.mjs"
-      - "scripts/narration-runtime/**"
-      - "content/evidence/narration/providers/kokoro-v1.1-zh-zf001.json"
-      - "content/evidence/narration/pilots/shou-zhu-v1.json"
-      - ".github/workflows/kokoro-canary.yml"
   workflow_dispatch:
 
 permissions:

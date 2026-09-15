@@ -10,16 +10,6 @@ on:
       - "scripts/kokoro-synthesize.py"
       - "scripts/narration-runtime/**"
       - ".github/workflows/kokoro-runtime.yml"
-  push:
-    branches: [main]
-    paths:
-      - "scripts/kokoro_runtime.py"
-      - "scripts/kokoro-runtime-smoke.py"
-      - "scripts/kokoro-runtime-contract.test.py"
-      - "scripts/kokoro-runtime-environment.mjs"
-      - "scripts/kokoro-synthesize.py"
-      - "scripts/narration-runtime/**"
-      - ".github/workflows/kokoro-runtime.yml"
   workflow_dispatch:
 
 permissions:

@@ -74,10 +74,9 @@ test("narration maintenance workflows pin every GitHub Action to the approved im
 });
 
 test("installed pilot review workflow is read-only packaging, never synthesis or human decision automation", () => {
-  const pullRequestPaths = workflowEventPaths(reviewWorkflow, "pull_request", "push");
-  const pushPaths = workflowEventPaths(reviewWorkflow, "push", "workflow_dispatch");
+  const pullRequestPaths = workflowEventPaths(reviewWorkflow, "pull_request", "workflow_dispatch");
   assert.ok(pullRequestPaths.length > 0);
-  assert.deepEqual(pushPaths, pullRequestPaths);
+  assert.equal(reviewWorkflow.includes("push:"), false);
   assert.ok(pullRequestPaths.includes("public/audio/shou-zhu/**"));
   assert.ok(pullRequestPaths.includes("content/evidence/narration/pilots/shou-zhu-v1.json"));
   assert.ok(pullRequestPaths.includes("content/narration-state.json"));
@@ -94,11 +93,11 @@ test("installed pilot review workflow is read-only packaging, never synthesis or
   assert.ok(reviewWorkflow.includes(`uses: ${UPLOAD_REF} # v6`));
 });
 
-test("pull-request and main-push canary sensitivity stay exactly aligned", () => {
-  const pullRequestPaths = eventPaths("pull_request", "push");
-  const pushPaths = eventPaths("push", "workflow_dispatch");
+test("canary runs on pull_request path filters or manual dispatch, not default-branch push", () => {
+  const pullRequestPaths = eventPaths("pull_request", "workflow_dispatch");
   assert.ok(pullRequestPaths.length > 0, "pull_request canary path list must not be empty");
-  assert.deepEqual(pushPaths, pullRequestPaths);
+  assert.equal(workflow.includes("push:"), false);
+  assert.match(workflow, /workflow_dispatch:/);
 });
 
 test("canary cache and artifact actions stay on approved Node 24 action commits", () => {
@@ -168,8 +167,7 @@ test("cache hit may skip network download but can never skip exact asset verific
   assert.match(verifyBlock, /kokoro-provider-profile\.mjs --check --assets-dir \.runtime-assets/);
 });
 
-test("default-branch canary seeds reusable cache while retaining read-only repository permissions", () => {
-  assert.match(workflow, /push:\s*\n\s*branches:\s*\[main\]/);
+test("canary workflow retains read-only repository permissions", () => {
   assert.match(workflow, /permissions:\s*\n\s*contents:\s*read/);
   assert.equal(workflow.includes("contents: write"), false);
   assert.equal(workflow.includes("git push"), false);
