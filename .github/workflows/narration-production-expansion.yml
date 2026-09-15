@@ -15,7 +15,7 @@ concurrency:
 jobs:
   expand:
     if: >-
-      github.repository == 'kamanager2012/juniper-branch-civic-royal' &&
+      github.repository == 'kamanager2012/chengyu-storybook' &&
       github.actor == 'kamanager2012' &&
       github.event.before == '72707517818b3e5a8e715c9a5edf16e707a78cf2' &&
       contains(github.event.head_commit.message, '[run-narration-production]')

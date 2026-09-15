@@ -15,7 +15,7 @@ function spaFallback404() {
   };
 }
 
-const pagesBase = process.env.GITHUB_PAGES === "1" ? "/juniper-branch-civic-royal/" : "/";
+const pagesBase = process.env.GITHUB_PAGES === "1" ? "/chengyu-storybook/" : "/";
 const storyIndex = buildRuntimeStoryIndex({ base: pagesBase });
 const storyEditions = buildRuntimeStoryEditions();
 const narrationAvailability = buildNarrationRuntimeAvailability();

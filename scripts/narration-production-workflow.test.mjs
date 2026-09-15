@@ -22,7 +22,7 @@ test("production expansion is a one-time owner push on the exact unified branch"
   assert.match(workflow, /on:\s*\n\s*push:\s*\n\s*branches:\s*\n\s*- feat\/narration-story-batch-expansion/);
   assert.equal(workflow.includes("pull_request:"), false);
   assert.equal(workflow.includes("workflow_dispatch:"), false);
-  assert.match(workflow, /github\.repository == 'kamanager2012\/juniper-branch-civic-royal'/);
+  assert.match(workflow, /github\.repository == 'kamanager2012\/chengyu-storybook'/);
   assert.match(workflow, /github\.actor == 'kamanager2012'/);
   assert.ok(workflow.includes(`github.event.before == '${ACTIVATION_PARENT}'`));
   assert.match(workflow, /\[run-narration-production\]/);
