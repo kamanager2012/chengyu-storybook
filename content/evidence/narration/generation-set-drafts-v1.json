@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "evidenceType": "narration-generation-input-set",
+  "canonicalSource": "content/story-drafts",
+  "scope": "all-draft-story-pages",
+  "inputItemCount": 684,
+  "inputDigestSha256": "25dcb9d2ae47e3d11b06ca8de68a2e9c4c8222cd8f8726fe27c2b59c5a9dd4df",
+  "digestProjection": [
+    "key",
+    "file",
+    "textSha256"
+  ],
+  "ordering": "ascending key via localeCompare",
+  "generatedBy": "scripts/narration-generation-set.mjs",
+  "purpose": "Pin the exact 76 draft-story narration inputs before draft audio is generated. Published 216-item set remains separately pinned."
+}

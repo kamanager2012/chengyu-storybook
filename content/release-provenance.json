@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "entries": {
+    "artwork:public/favicon.svg": {
+      "fingerprintSha256": "c65508575651c8b6f1c10a9a2d252ae3ca81d35a2f4cdad0b96a4b7c90f2db88",
+      "claim": "owned",
+      "evidence": [
+        "content/evidence/artwork/project-owned-artwork.json",
+        "scripts/generate-product-artwork.mjs"
+      ]
+    },
+    "artwork:public/icon-180.svg": {
+      "fingerprintSha256": "fb60054d2c983046533b58d3567b85f6ce037942165c859b1286c9fc852f196f",
+      "claim": "owned",
+      "evidence": [
+        "content/evidence/artwork/project-owned-artwork.json",
+        "scripts/generate-product-artwork.mjs"
+      ]
+    },
+    "artwork:public/og.svg": {
+      "fingerprintSha256": "14b665893ee808757e8424c43f06e80417a8916e1fad26da33fa41dae41c71f3",
+      "claim": "owned",
+      "evidence": [
+        "content/evidence/artwork/project-owned-artwork.json",
+        "scripts/generate-product-artwork.mjs"
+      ]
+    },
+    "artwork:public/ui/bookshelf-paper.svg": {
+      "fingerprintSha256": "3e9a63d953f1694b74f87027073a90742fa51dfc8e6eee42a0629c65e4145836",
+      "claim": "owned",
+      "evidence": [
+        "content/evidence/artwork/project-owned-artwork.json",
+        "scripts/generate-product-artwork.mjs"
+      ]
+    },
+    "artwork:public/apple-touch-icon-180.png": {
+      "fingerprintSha256": "012cd97decdd21ccae133f57633f4c867409fee62f36a7a3db1960e2caec4ae6",
+      "claim": "owned",
+      "evidence": [
+        "content/evidence/artwork/project-owned-artwork.json",
+        "scripts/generate-product-artwork.mjs"
+      ]
+    },
+    "artwork:public/icon-192.png": {
+      "fingerprintSha256": "5a5479e56dbf5898758573251719e0bb2f0b5f983809e8f734b5b15b5db64cc6",
+      "claim": "owned",
+      "evidence": [
+        "content/evidence/artwork/project-owned-artwork.json",
+        "scripts/generate-product-artwork.mjs"
+      ]
+    },
+    "artwork:public/icon-512.png": {
+      "fingerprintSha256": "d67acffca9058a2cc216e1ffe9477be541dd6e714c284a4dffac297de61a07fa",
+      "claim": "owned",
+      "evidence": [
+        "content/evidence/artwork/project-owned-artwork.json",
+        "scripts/generate-product-artwork.mjs"
+      ]
+    },
+    "artwork:public/icon-maskable-512.png": {
+      "fingerprintSha256": "65dcf1dd067d88e0f573c12c5902afd9db2556d2ca040600a3822c05495cc78f",
+      "claim": "owned",
+      "evidence": [
+        "content/evidence/artwork/project-owned-artwork.json",
+        "scripts/generate-product-artwork.mjs"
+      ]
+    },
+    "font:public/fonts/MaShanZheng.woff2": {
+      "fingerprintSha256": "11e2c8cbcd09ac08fa38066a2e9699e57fda40a8e2880fbf7cbf101f5926a595",
+      "claim": "licensed",
+      "evidence": [
+        "content/evidence/fonts/MaShanZheng.json",
+        "licenses/fonts/MaShanZheng/OFL.txt",
+        "https://github.com/googlefonts/mashanzheng/blob/master/OFL.txt"
+      ]
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "schemaVersion": 1,
+  "status": "pilot-default-eve",
+  "note": "Product default narration is Grok eve under public/audio. Multi-voice picker disabled while catalog is eve-only. Other female packs may still exist under public/audio-voices/shou-zhu for local A/B.",
+  "stories": {}
+}

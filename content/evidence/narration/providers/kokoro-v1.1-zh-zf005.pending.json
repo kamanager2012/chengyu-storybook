@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "profileId": "kokoro-v1.1-zh-zf005",
+  "status": "rejected",
+  "providerType": "local-open-weight",
+  "language": "zh",
+  "sampleRateHz": 24000,
+  "intent": {
+    "why": "REJECTED after local listen on shou-zhu (2026-09-14): zf_005 did not improve storytelling warmth enough vs zf_001.",
+    "playbackInterim": "Live audio remains approved zf_001. Reader may use a slight playbackRate slowdown as interim softness only.",
+    "nextSteps": [
+      "DONE: Downloaded and SHA-checked zf_005.pt.",
+      "DONE: Candidate synth + local listen on shou-zhu; user rejected timbre.",
+      "DONE: Restored public/audio/shou-zhu from zf_001 backup.",
+      "Pick another Kokoro zf_* candidate (or leave zf_001 + interim rate), then re-run narration:candidate on shou-zhu only."
+    ]
+  },
+  "generationPolicy": {
+    "voiceMode": "bundled-profile",
+    "referenceSpeakerAudio": false,
+    "voiceCloning": false,
+    "networkRequiredAtSynthesis": false,
+    "storytellingSpeed": {
+      "mode": "length-aware",
+      "shortPhonemeCeiling": 83,
+      "longPhonemeFloor": 183,
+      "base": 0.88,
+      "short": 0.95
+    }
+  },
+  "model": {
+    "repository": "hexgrad/Kokoro-82M-v1.1-zh",
+    "revision": "a51e9e2a069a198cbda1f021f3805af3603ba92d",
+    "license": "Apache-2.0",
+    "config": {
+      "file": "config.json",
+      "sha256": "bc333efa5ce4ceff433c8c8e5d027a1eca0166001e4e4a62bea2d26ff7a46890",
+      "bytes": 3228
+    },
+    "weights": {
+      "file": "kokoro-v1_1-zh.pth",
+      "sha256": "b1d8410fa44dfb5c15471fd6c4225ea6b4e9ac7fa03c98e8bea47a9928476e2b",
+      "bytes": 327247856
+    },
+    "voice": {
+      "id": "zf_005",
+      "label": "Chinese female voice pack zf_005 (warmer storytelling candidate)",
+      "file": "voices/zf_005.pt",
+      "sha256": "64d656103a908954496676529f4e8dee783afd4c8dccd1a9042cd8dbe05e39f4",
+      "bytes": 523331
+    }
+  },
+  "runtime": {
+    "inference": {
+      "repository": "hexgrad/kokoro",
+      "commit": "dfb907a02bba8152ca444717ca5d78747ccb4bec",
+      "declaredVersion": "0.9.4",
+      "license": "Apache-2.0"
+    },
+    "g2p": {
+      "repository": "hexgrad/misaki",
+      "commit": "fba1236595f2d2bf21d414ba6e57d25256afada3",
+      "declaredVersion": "0.9.4",
+      "languageExtra": "zh",
+      "license": "Apache-2.0"
+    }
+  },
+  "rights": {
+    "claimForGeneratedNarration": "permission",
+    "basis": [
+      "Same pinned Kokoro-82M-v1.1-zh Apache-2.0 model revision as the approved zf_001 profile.",
+      "zf_005 is another bundled Chinese voice pack in that revision (LongMaoData-permitted training set).",
+      "No external reference speaker audio or voice cloning."
+    ],
+    "boundary": "Pending profile only. Do not treat as the live approved narration provider until promotion and catalog re-synthesis complete.",
+    "evidence": [
+      "https://huggingface.co/hexgrad/Kokoro-82M-v1.1-zh",
+      "https://huggingface.co/hexgrad/Kokoro-82M-v1.1-zh/blob/a51e9e2a069a198cbda1f021f3805af3603ba92d/voices/zf_005.pt"
+    ]
+  }
+}

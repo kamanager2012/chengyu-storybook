@@ -1,0 +1,1560 @@
+{
+  "schemaVersion": 1,
+  "evidenceType": "gongbi-classic-jpeg-sha256-identity",
+  "rightsClaimApplied": false,
+  "scope": "technical-origin-only",
+  "sourceRoot": "content/imagine-gongbi-jpeg",
+  "jpegRoot": "content/imagine-gongbi-jpeg",
+  "runtimeRoot": "public/classic-stories",
+  "limitations": {
+    "notInStoryImageReleaseSet": true,
+    "noGeneratorLogs": true,
+    "generatorLogRoot": null,
+    "completeGeneratorLogBooks": 0,
+    "claimMeaning": "This file records byte identity for committed 工笔 JPEG release copies under content/imagine-gongbi-jpeg. PNG working masters are not kept in the repository. This origin file is not a distribution-rights claim."
+  },
+  "audit": {
+    "matchKind": "sha256-identity",
+    "childOnlyStories": 24,
+    "gongbiImages": 192,
+    "mappingDigestSha256": "c46c92c0b12fd23f55c851fb65c9a24dbdc6592b7290912b955b62f2de1c6ef7"
+  },
+  "entries": [
+    {
+      "storyId": "shou-zhu",
+      "slot": "cover",
+      "jpegPath": "content/imagine-gongbi-jpeg/shou-zhu/cover.jpg",
+      "runtimePath": "public/classic-stories/shou-zhu/cover.jpg",
+      "jpegSha256": "08c75f776688d54825755816cb15c010a28edd4487d271aff85a31cf5d1275d4",
+      "jpegBytes": 118715
+    },
+    {
+      "storyId": "shou-zhu",
+      "slot": "p1",
+      "jpegPath": "content/imagine-gongbi-jpeg/shou-zhu/p1.jpg",
+      "runtimePath": "public/classic-stories/shou-zhu/p1.jpg",
+      "jpegSha256": "0c117e5c44d11a4a3f490ce3a4a6fdd631b63c2214b2ce82ded7d7c461e8f23c",
+      "jpegBytes": 171691
+    },
+    {
+      "storyId": "shou-zhu",
+      "slot": "p2",
+      "jpegPath": "content/imagine-gongbi-jpeg/shou-zhu/p2.jpg",
+      "runtimePath": "public/classic-stories/shou-zhu/p2.jpg",
+      "jpegSha256": "2207c799c2c045edb76ed0e500eb01561e94f69f4ea6a7966a515786e50fa9d7",
+      "jpegBytes": 158147
+    },
+    {
+      "storyId": "shou-zhu",
+      "slot": "p3",
+      "jpegPath": "content/imagine-gongbi-jpeg/shou-zhu/p3.jpg",
+      "runtimePath": "public/classic-stories/shou-zhu/p3.jpg",
+      "jpegSha256": "c4cabc6acd282a4808621c9ddd50f7313a72f0af7eee9de1c4e31593aaea6287",
+      "jpegBytes": 175497
+    },
+    {
+      "storyId": "shou-zhu",
+      "slot": "p4",
+      "jpegPath": "content/imagine-gongbi-jpeg/shou-zhu/p4.jpg",
+      "runtimePath": "public/classic-stories/shou-zhu/p4.jpg",
+      "jpegSha256": "c0d8a972b4f9e6f6bf8fee7de7e969ae6708efddce9ca13ea46296f494107be9",
+      "jpegBytes": 236978
+    },
+    {
+      "storyId": "shou-zhu",
+      "slot": "p5",
+      "jpegPath": "content/imagine-gongbi-jpeg/shou-zhu/p5.jpg",
+      "runtimePath": "public/classic-stories/shou-zhu/p5.jpg",
+      "jpegSha256": "d755480b929ce4fb1a89aac2cd1c373d700c5f950a477043debf3a01e7ef73a5",
+      "jpegBytes": 201453
+    },
+    {
+      "storyId": "shou-zhu",
+      "slot": "p6",
+      "jpegPath": "content/imagine-gongbi-jpeg/shou-zhu/p6.jpg",
+      "runtimePath": "public/classic-stories/shou-zhu/p6.jpg",
+      "jpegSha256": "186f41dfa037ce56dc018807d7e04affab6180b32c9b53477e0750664d9504da",
+      "jpegBytes": 184038
+    },
+    {
+      "storyId": "shou-zhu",
+      "slot": "p7",
+      "jpegPath": "content/imagine-gongbi-jpeg/shou-zhu/p7.jpg",
+      "runtimePath": "public/classic-stories/shou-zhu/p7.jpg",
+      "jpegSha256": "18be76a34e0e8dd896eb6702deecea313291974486e5aadc4ba6d833227636f0",
+      "jpegBytes": 199285
+    },
+    {
+      "storyId": "hu-jia",
+      "slot": "cover",
+      "jpegPath": "content/imagine-gongbi-jpeg/hu-jia/cover.jpg",
+      "runtimePath": "public/classic-stories/hu-jia/cover.jpg",
+      "jpegSha256": "d1d3e146b6f45a74047447ab48f08d6aacc819ae7cf08d73c9b732d9fac69f9c",
+      "jpegBytes": 149987
+    },
+    {
+      "storyId": "hu-jia",
+      "slot": "p1",
+      "jpegPath": "content/imagine-gongbi-jpeg/hu-jia/p1.jpg",
+      "runtimePath": "public/classic-stories/hu-jia/p1.jpg",
+      "jpegSha256": "bcb4076174a530a33a0874c86be8b707f14625408d83ae60444c193969635a4e",
+      "jpegBytes": 277264
+    },
+    {
+      "storyId": "hu-jia",
+      "slot": "p2",
+      "jpegPath": "content/imagine-gongbi-jpeg/hu-jia/p2.jpg",
+      "runtimePath": "public/classic-stories/hu-jia/p2.jpg",
+      "jpegSha256": "bc62cad6de9983744f94945bd2cc4f737fa6e2c831bc2b60489392011a53604f",
+      "jpegBytes": 259442
+    },
+    {
+      "storyId": "hu-jia",
+      "slot": "p3",
+      "jpegPath": "content/imagine-gongbi-jpeg/hu-jia/p3.jpg",
+      "runtimePath": "public/classic-stories/hu-jia/p3.jpg",
+      "jpegSha256": "b08b0de45992fe4dcbc57e444c9b02fc12bfeebdb30bf2d5036750e39bbbef80",
+      "jpegBytes": 247298
+    },
+    {
+      "storyId": "hu-jia",
+      "slot": "p4",
+      "jpegPath": "content/imagine-gongbi-jpeg/hu-jia/p4.jpg",
+      "runtimePath": "public/classic-stories/hu-jia/p4.jpg",
+      "jpegSha256": "93e1ad108caa71f3582e7176d7097af52069038cdedbc122af21a991ae272e90",
+      "jpegBytes": 235500
+    },
+    {
+      "storyId": "hu-jia",
+      "slot": "p5",
+      "jpegPath": "content/imagine-gongbi-jpeg/hu-jia/p5.jpg",
+      "runtimePath": "public/classic-stories/hu-jia/p5.jpg",
+      "jpegSha256": "533294dd2fb90f818a658c02c926a0f052a8d163c448f03bc2d72c6c531b0a6a",
+      "jpegBytes": 273389
+    },
+    {
+      "storyId": "hu-jia",
+      "slot": "p6",
+      "jpegPath": "content/imagine-gongbi-jpeg/hu-jia/p6.jpg",
+      "runtimePath": "public/classic-stories/hu-jia/p6.jpg",
+      "jpegSha256": "8928e80b7d6f00f240256e8dd8010f09d40e08a34a3eb6ac45a3b65a5de4efd5",
+      "jpegBytes": 257037
+    },
+    {
+      "storyId": "hu-jia",
+      "slot": "p7",
+      "jpegPath": "content/imagine-gongbi-jpeg/hu-jia/p7.jpg",
+      "runtimePath": "public/classic-stories/hu-jia/p7.jpg",
+      "jpegSha256": "345b121dce40f237ffe88818dd6e0ff9af75515a4a816490839eadf454489763",
+      "jpegBytes": 308230
+    },
+    {
+      "storyId": "yan-er",
+      "slot": "cover",
+      "jpegPath": "content/imagine-gongbi-jpeg/yan-er/cover.jpg",
+      "runtimePath": "public/classic-stories/yan-er/cover.jpg",
+      "jpegSha256": "63a9a972a593920e9349e2c0cc68b8bd65e3b398da5b0ae27c5c8a2f54ece1b4",
+      "jpegBytes": 133915
+    },
+    {
+      "storyId": "yan-er",
+      "slot": "p1",
+      "jpegPath": "content/imagine-gongbi-jpeg/yan-er/p1.jpg",
+      "runtimePath": "public/classic-stories/yan-er/p1.jpg",
+      "jpegSha256": "4ec8c0007da9cb38ac7879c520a5bc0ae7288395522ee5b735968aa882ccb957",
+      "jpegBytes": 177571
+    },
+    {
+      "storyId": "yan-er",
+      "slot": "p2",
+      "jpegPath": "content/imagine-gongbi-jpeg/yan-er/p2.jpg",
+      "runtimePath": "public/classic-stories/yan-er/p2.jpg",
+      "jpegSha256": "3cfe27cf008d389c11d8c12e6fbd937ad46de59dfaebd922cf2dc39064b9ee99",
+      "jpegBytes": 150170
+    },
+    {
+      "storyId": "yan-er",
+      "slot": "p3",
+      "jpegPath": "content/imagine-gongbi-jpeg/yan-er/p3.jpg",
+      "runtimePath": "public/classic-stories/yan-er/p3.jpg",
+      "jpegSha256": "3bbdfea4961f5cef833c4b836f53646a53078c1e91dfd116144f168cf8be4e9d",
+      "jpegBytes": 209821
+    },
+    {
+      "storyId": "yan-er",
+      "slot": "p4",
+      "jpegPath": "content/imagine-gongbi-jpeg/yan-er/p4.jpg",
+      "runtimePath": "public/classic-stories/yan-er/p4.jpg",
+      "jpegSha256": "39288eab3095ac78bea95a889aa465bc820c7dd4575e964d4302b615a97e47f2",
+      "jpegBytes": 159559
+    },
+    {
+      "storyId": "yan-er",
+      "slot": "p5",
+      "jpegPath": "content/imagine-gongbi-jpeg/yan-er/p5.jpg",
+      "runtimePath": "public/classic-stories/yan-er/p5.jpg",
+      "jpegSha256": "92ece9a1a985a4aab207cc21bde8acd8770eb4c7547bde524d4bc86e744ef058",
+      "jpegBytes": 163461
+    },
+    {
+      "storyId": "yan-er",
+      "slot": "p6",
+      "jpegPath": "content/imagine-gongbi-jpeg/yan-er/p6.jpg",
+      "runtimePath": "public/classic-stories/yan-er/p6.jpg",
+      "jpegSha256": "5e64574b1d9da268637f6d253faf0391ab761efa0b3901d9fe4878a426790beb",
+      "jpegBytes": 174689
+    },
+    {
+      "storyId": "yan-er",
+      "slot": "p7",
+      "jpegPath": "content/imagine-gongbi-jpeg/yan-er/p7.jpg",
+      "runtimePath": "public/classic-stories/yan-er/p7.jpg",
+      "jpegSha256": "32a7c26032e4ec3f5f19648f1ae5ca7f2d1926d3429c506ae666bb58afa23e87",
+      "jpegBytes": 134506
+    },
+    {
+      "storyId": "wang-yang",
+      "slot": "cover",
+      "jpegPath": "content/imagine-gongbi-jpeg/wang-yang/cover.jpg",
+      "runtimePath": "public/classic-stories/wang-yang/cover.jpg",
+      "jpegSha256": "6772bca0d32761fb7b2a5472ef132b67ad2ac72e22691164aebb1a447a1ebafe",
+      "jpegBytes": 169957
+    },
+    {
+      "storyId": "wang-yang",
+      "slot": "p1",
+      "jpegPath": "content/imagine-gongbi-jpeg/wang-yang/p1.jpg",
+      "runtimePath": "public/classic-stories/wang-yang/p1.jpg",
+      "jpegSha256": "71961f35575a034b2dd89873b433188e1338e7135d5dabaded40cdeb8fd4b49b",
+      "jpegBytes": 250982
+    },
+    {
+      "storyId": "wang-yang",
+      "slot": "p2",
+      "jpegPath": "content/imagine-gongbi-jpeg/wang-yang/p2.jpg",
+      "runtimePath": "public/classic-stories/wang-yang/p2.jpg",
+      "jpegSha256": "b68056e9e9f5a2dc041704f43ee6915c7937f5134e8d39d24b880ce9ee57d2c7",
+      "jpegBytes": 237823
+    },
+    {
+      "storyId": "wang-yang",
+      "slot": "p3",
+      "jpegPath": "content/imagine-gongbi-jpeg/wang-yang/p3.jpg",
+      "runtimePath": "public/classic-stories/wang-yang/p3.jpg",
+      "jpegSha256": "bade7efdc951566f89a7d766ed44de20eee36faafaced4c9cb1042237be4fda6",
+      "jpegBytes": 239630
+    },
+    {
+      "storyId": "wang-yang",
+      "slot": "p4",
+      "jpegPath": "content/imagine-gongbi-jpeg/wang-yang/p4.jpg",
+      "runtimePath": "public/classic-stories/wang-yang/p4.jpg",
+      "jpegSha256": "1f5cbe874f37b104f99c743adf21c5650cdaae45e087072ad62d20ec582ec643",
+      "jpegBytes": 260500
+    },
+    {
+      "storyId": "wang-yang",
+      "slot": "p5",
+      "jpegPath": "content/imagine-gongbi-jpeg/wang-yang/p5.jpg",
+      "runtimePath": "public/classic-stories/wang-yang/p5.jpg",
+      "jpegSha256": "743822cc377f77a6bab48ec1b303eeb6b122332bd878c588422e532e0998bc3b",
+      "jpegBytes": 218741
+    },
+    {
+      "storyId": "wang-yang",
+      "slot": "p6",
+      "jpegPath": "content/imagine-gongbi-jpeg/wang-yang/p6.jpg",
+      "runtimePath": "public/classic-stories/wang-yang/p6.jpg",
+      "jpegSha256": "0f1abbba50eee4a774caa64a52f940f9d8a5174dfc399a60c1feefd33b513f57",
+      "jpegBytes": 179852
+    },
+    {
+      "storyId": "wang-yang",
+      "slot": "p7",
+      "jpegPath": "content/imagine-gongbi-jpeg/wang-yang/p7.jpg",
+      "runtimePath": "public/classic-stories/wang-yang/p7.jpg",
+      "jpegSha256": "81f708fdb1abb74beba185c1289599329ad8a3e0db4fe79581f25dc621a6c5fc",
+      "jpegBytes": 251992
+    },
+    {
+      "storyId": "jing-di",
+      "slot": "cover",
+      "jpegPath": "content/imagine-gongbi-jpeg/jing-di/cover.jpg",
+      "runtimePath": "public/classic-stories/jing-di/cover.jpg",
+      "jpegSha256": "feddb3cb63db7e77ea881140e184fc6e421b894c002d0f4a5560f0f93b858fd3",
+      "jpegBytes": 170036
+    },
+    {
+      "storyId": "jing-di",
+      "slot": "p1",
+      "jpegPath": "content/imagine-gongbi-jpeg/jing-di/p1.jpg",
+      "runtimePath": "public/classic-stories/jing-di/p1.jpg",
+      "jpegSha256": "e9f3e3b592616b71aeaac7ee3d3a23d51b903bef714974cd42e77dafb8fbf478",
+      "jpegBytes": 223280
+    },
+    {
+      "storyId": "jing-di",
+      "slot": "p2",
+      "jpegPath": "content/imagine-gongbi-jpeg/jing-di/p2.jpg",
+      "runtimePath": "public/classic-stories/jing-di/p2.jpg",
+      "jpegSha256": "f77601b03cfd19c16f9dcefbd6a1d9c2fef2b03ac7fa4bfbd86d6d4c2d0a4ca8",
+      "jpegBytes": 264743
+    },
+    {
+      "storyId": "jing-di",
+      "slot": "p3",
+      "jpegPath": "content/imagine-gongbi-jpeg/jing-di/p3.jpg",
+      "runtimePath": "public/classic-stories/jing-di/p3.jpg",
+      "jpegSha256": "d09ce2b6fc1c10be997dcee2d78475a9371874c17c6d7679125caad463419705",
+      "jpegBytes": 216276
+    },
+    {
+      "storyId": "jing-di",
+      "slot": "p4",
+      "jpegPath": "content/imagine-gongbi-jpeg/jing-di/p4.jpg",
+      "runtimePath": "public/classic-stories/jing-di/p4.jpg",
+      "jpegSha256": "e0cdccf52f09af9ada6dd7ea6aa2b4926fd6fac94b5f2d9be95faee2eb562473",
+      "jpegBytes": 220508
+    },
+    {
+      "storyId": "jing-di",
+      "slot": "p5",
+      "jpegPath": "content/imagine-gongbi-jpeg/jing-di/p5.jpg",
+      "runtimePath": "public/classic-stories/jing-di/p5.jpg",
+      "jpegSha256": "132a8eb6e612afd4108976f9fd4d8cd0982b4b11f729ca1f94e7603c67542ab2",
+      "jpegBytes": 192707
+    },
+    {
+      "storyId": "jing-di",
+      "slot": "p6",
+      "jpegPath": "content/imagine-gongbi-jpeg/jing-di/p6.jpg",
+      "runtimePath": "public/classic-stories/jing-di/p6.jpg",
+      "jpegSha256": "e640b9eaf8badd91ef7b183a01a92d281a7c4e7489940224fb476aa6a9ec385e",
+      "jpegBytes": 181006
+    },
+    {
+      "storyId": "jing-di",
+      "slot": "p7",
+      "jpegPath": "content/imagine-gongbi-jpeg/jing-di/p7.jpg",
+      "runtimePath": "public/classic-stories/jing-di/p7.jpg",
+      "jpegSha256": "a0a848b25f2751072e98b8b4e6ceb2477e1c734e7377d1c372875750e76ae84d",
+      "jpegBytes": 265552
+    },
+    {
+      "storyId": "hua-long",
+      "slot": "cover",
+      "jpegPath": "content/imagine-gongbi-jpeg/hua-long/cover.jpg",
+      "runtimePath": "public/classic-stories/hua-long/cover.jpg",
+      "jpegSha256": "6daeeaa5e57d167dbd03098e7664274e4bcde9b494d279ee66a293178f035e29",
+      "jpegBytes": 188492
+    },
+    {
+      "storyId": "hua-long",
+      "slot": "p1",
+      "jpegPath": "content/imagine-gongbi-jpeg/hua-long/p1.jpg",
+      "runtimePath": "public/classic-stories/hua-long/p1.jpg",
+      "jpegSha256": "6bcc44f4b371b3c30124e883b08ea2163f7f6493a01cf6b8bcca33dbdfe98b23",
+      "jpegBytes": 268523
+    },
+    {
+      "storyId": "hua-long",
+      "slot": "p2",
+      "jpegPath": "content/imagine-gongbi-jpeg/hua-long/p2.jpg",
+      "runtimePath": "public/classic-stories/hua-long/p2.jpg",
+      "jpegSha256": "bced1dbf139bbd369ba81ad8121b509a189b7b7f7595e127a9801602badfe8f7",
+      "jpegBytes": 299204
+    },
+    {
+      "storyId": "hua-long",
+      "slot": "p3",
+      "jpegPath": "content/imagine-gongbi-jpeg/hua-long/p3.jpg",
+      "runtimePath": "public/classic-stories/hua-long/p3.jpg",
+      "jpegSha256": "4df3916b5557cb04cae86a4bca92f7230132dca9d05588035f3e491a2281ef71",
+      "jpegBytes": 225556
+    },
+    {
+      "storyId": "hua-long",
+      "slot": "p4",
+      "jpegPath": "content/imagine-gongbi-jpeg/hua-long/p4.jpg",
+      "runtimePath": "public/classic-stories/hua-long/p4.jpg",
+      "jpegSha256": "7f0bfdc84858827c516c60c95c860f3446c647583c792bd15dc859092e1187a1",
+      "jpegBytes": 215827
+    },
+    {
+      "storyId": "hua-long",
+      "slot": "p5",
+      "jpegPath": "content/imagine-gongbi-jpeg/hua-long/p5.jpg",
+      "runtimePath": "public/classic-stories/hua-long/p5.jpg",
+      "jpegSha256": "0fc22a9be4011101bd4bdff6b5bea2affaae0705adad56e5c7c450c96acf01dc",
+      "jpegBytes": 261648
+    },
+    {
+      "storyId": "hua-long",
+      "slot": "p6",
+      "jpegPath": "content/imagine-gongbi-jpeg/hua-long/p6.jpg",
+      "runtimePath": "public/classic-stories/hua-long/p6.jpg",
+      "jpegSha256": "0efaf9b443be1001f78275fb778a6cef24628eae45cb8cc4daa2d4b0edc6e858",
+      "jpegBytes": 305170
+    },
+    {
+      "storyId": "hua-long",
+      "slot": "p7",
+      "jpegPath": "content/imagine-gongbi-jpeg/hua-long/p7.jpg",
+      "runtimePath": "public/classic-stories/hua-long/p7.jpg",
+      "jpegSha256": "09709eddb369954b0edbf96535010c8373e8ced5b4ca2a20c0ab8aa37c337e04",
+      "jpegBytes": 248616
+    },
+    {
+      "storyId": "ke-zhou",
+      "slot": "cover",
+      "jpegPath": "content/imagine-gongbi-jpeg/ke-zhou/cover.jpg",
+      "runtimePath": "public/classic-stories/ke-zhou/cover.jpg",
+      "jpegSha256": "e5812b6fcc4a4b9a023dce2f0cc5e6e3639e8303c852ac5086609d0246383c57",
+      "jpegBytes": 138746
+    },
+    {
+      "storyId": "ke-zhou",
+      "slot": "p1",
+      "jpegPath": "content/imagine-gongbi-jpeg/ke-zhou/p1.jpg",
+      "runtimePath": "public/classic-stories/ke-zhou/p1.jpg",
+      "jpegSha256": "dba12ba6c9f278feeb487f97a898610e60e710d1f0b52304ebdae4c683dcdc23",
+      "jpegBytes": 212080
+    },
+    {
+      "storyId": "ke-zhou",
+      "slot": "p2",
+      "jpegPath": "content/imagine-gongbi-jpeg/ke-zhou/p2.jpg",
+      "runtimePath": "public/classic-stories/ke-zhou/p2.jpg",
+      "jpegSha256": "683eb57d7e76e920f64483aa6d38513ca633e1e421230b8c00c34e03b251c675",
+      "jpegBytes": 252407
+    },
+    {
+      "storyId": "ke-zhou",
+      "slot": "p3",
+      "jpegPath": "content/imagine-gongbi-jpeg/ke-zhou/p3.jpg",
+      "runtimePath": "public/classic-stories/ke-zhou/p3.jpg",
+      "jpegSha256": "d7088acc338201bd93b1f826368f4e73ec8e5c3dbc945222b4c7f1392ceb934f",
+      "jpegBytes": 209609
+    },
+    {
+      "storyId": "ke-zhou",
+      "slot": "p4",
+      "jpegPath": "content/imagine-gongbi-jpeg/ke-zhou/p4.jpg",
+      "runtimePath": "public/classic-stories/ke-zhou/p4.jpg",
+      "jpegSha256": "723c117ef1ca671ae6ba92e8e3789eb3eda49a254e48aece880ad41d1f8d33b4",
+      "jpegBytes": 191227
+    },
+    {
+      "storyId": "ke-zhou",
+      "slot": "p5",
+      "jpegPath": "content/imagine-gongbi-jpeg/ke-zhou/p5.jpg",
+      "runtimePath": "public/classic-stories/ke-zhou/p5.jpg",
+      "jpegSha256": "6d852cea09a532e0a7b4045844047f245ccdfe58a7db4c65f24e07ba783bf651",
+      "jpegBytes": 241693
+    },
+    {
+      "storyId": "ke-zhou",
+      "slot": "p6",
+      "jpegPath": "content/imagine-gongbi-jpeg/ke-zhou/p6.jpg",
+      "runtimePath": "public/classic-stories/ke-zhou/p6.jpg",
+      "jpegSha256": "464de9c22e524ec3b433ff463a4cfc2d75ee172837768071fe1ba537ff364fd7",
+      "jpegBytes": 190173
+    },
+    {
+      "storyId": "ke-zhou",
+      "slot": "p7",
+      "jpegPath": "content/imagine-gongbi-jpeg/ke-zhou/p7.jpg",
+      "runtimePath": "public/classic-stories/ke-zhou/p7.jpg",
+      "jpegSha256": "14a2a20d2132f1f037fdd3ca07cdda2202f0edb67bd073e6a14670138a19861a",
+      "jpegBytes": 191522
+    },
+    {
+      "storyId": "dui-niu",
+      "slot": "cover",
+      "jpegPath": "content/imagine-gongbi-jpeg/dui-niu/cover.jpg",
+      "runtimePath": "public/classic-stories/dui-niu/cover.jpg",
+      "jpegSha256": "cf4f2a938ea289b143289d4d034118a16d08463b46052a2de281e66d2df538d1",
+      "jpegBytes": 149970
+    },
+    {
+      "storyId": "dui-niu",
+      "slot": "p1",
+      "jpegPath": "content/imagine-gongbi-jpeg/dui-niu/p1.jpg",
+      "runtimePath": "public/classic-stories/dui-niu/p1.jpg",
+      "jpegSha256": "706fcbada522133547933ffb3b84ec36f1d9c5d518a822d57fe147cbade17d63",
+      "jpegBytes": 220302
+    },
+    {
+      "storyId": "dui-niu",
+      "slot": "p2",
+      "jpegPath": "content/imagine-gongbi-jpeg/dui-niu/p2.jpg",
+      "runtimePath": "public/classic-stories/dui-niu/p2.jpg",
+      "jpegSha256": "9d5eb4f39f66bfc8981e0586ee69dd835bdf1ac5f1c2107b1e22b2bab96b94b1",
+      "jpegBytes": 217730
+    },
+    {
+      "storyId": "dui-niu",
+      "slot": "p3",
+      "jpegPath": "content/imagine-gongbi-jpeg/dui-niu/p3.jpg",
+      "runtimePath": "public/classic-stories/dui-niu/p3.jpg",
+      "jpegSha256": "f09140b6c3d26489f186d75e83b3147cf6cb5bbe16048e9245bac45c2d6b533f",
+      "jpegBytes": 229869
+    },
+    {
+      "storyId": "dui-niu",
+      "slot": "p4",
+      "jpegPath": "content/imagine-gongbi-jpeg/dui-niu/p4.jpg",
+      "runtimePath": "public/classic-stories/dui-niu/p4.jpg",
+      "jpegSha256": "b2cd8c52f3868534623ca51be8d8c40bec4b3460d90012a7c3caaa2c8d061522",
+      "jpegBytes": 247358
+    },
+    {
+      "storyId": "dui-niu",
+      "slot": "p5",
+      "jpegPath": "content/imagine-gongbi-jpeg/dui-niu/p5.jpg",
+      "runtimePath": "public/classic-stories/dui-niu/p5.jpg",
+      "jpegSha256": "ca3fdc89ef45a072ad0e44fb5510f2d5f4f84439920a44cd7db08a4e1455aaaf",
+      "jpegBytes": 277336
+    },
+    {
+      "storyId": "dui-niu",
+      "slot": "p6",
+      "jpegPath": "content/imagine-gongbi-jpeg/dui-niu/p6.jpg",
+      "runtimePath": "public/classic-stories/dui-niu/p6.jpg",
+      "jpegSha256": "843a1a62f5d933bfa6ed82a8e0fd803df81e7b79bc1b6c419f0cea2c6345e88e",
+      "jpegBytes": 251754
+    },
+    {
+      "storyId": "dui-niu",
+      "slot": "p7",
+      "jpegPath": "content/imagine-gongbi-jpeg/dui-niu/p7.jpg",
+      "runtimePath": "public/classic-stories/dui-niu/p7.jpg",
+      "jpegSha256": "5bbbf2c5909fbc8c4811362dca1987b93d41d6fbde222df72dd924269abaaa81",
+      "jpegBytes": 236531
+    },
+    {
+      "storyId": "yi-ming",
+      "slot": "cover",
+      "jpegPath": "content/imagine-gongbi-jpeg/yi-ming/cover.jpg",
+      "runtimePath": "public/classic-stories/yi-ming/cover.jpg",
+      "jpegSha256": "0259f33f390177541be185f950134c0e96c5021d8f84d5858cecd6add572fe49",
+      "jpegBytes": 160618
+    },
+    {
+      "storyId": "yi-ming",
+      "slot": "p1",
+      "jpegPath": "content/imagine-gongbi-jpeg/yi-ming/p1.jpg",
+      "runtimePath": "public/classic-stories/yi-ming/p1.jpg",
+      "jpegSha256": "1d7e967b2d4074d420ef47d61aee08deb6b2c3f8adaa5f1d706d48a9fe791244",
+      "jpegBytes": 282325
+    },
+    {
+      "storyId": "yi-ming",
+      "slot": "p2",
+      "jpegPath": "content/imagine-gongbi-jpeg/yi-ming/p2.jpg",
+      "runtimePath": "public/classic-stories/yi-ming/p2.jpg",
+      "jpegSha256": "c91f8f14fccb8918ddf777a0ff9e92ddb0814fd77e9420da8cd65f1e2d544fb5",
+      "jpegBytes": 267685
+    },
+    {
+      "storyId": "yi-ming",
+      "slot": "p3",
+      "jpegPath": "content/imagine-gongbi-jpeg/yi-ming/p3.jpg",
+      "runtimePath": "public/classic-stories/yi-ming/p3.jpg",
+      "jpegSha256": "3197ac748aecd55acab62319ac35d85eb94a48fdc43d4013c4e67542fc5c6c57",
+      "jpegBytes": 232146
+    },
+    {
+      "storyId": "yi-ming",
+      "slot": "p4",
+      "jpegPath": "content/imagine-gongbi-jpeg/yi-ming/p4.jpg",
+      "runtimePath": "public/classic-stories/yi-ming/p4.jpg",
+      "jpegSha256": "fb6379c886733c9374f624f65a3e702bc285c536a9f230794d844017d97dee9a",
+      "jpegBytes": 294365
+    },
+    {
+      "storyId": "yi-ming",
+      "slot": "p5",
+      "jpegPath": "content/imagine-gongbi-jpeg/yi-ming/p5.jpg",
+      "runtimePath": "public/classic-stories/yi-ming/p5.jpg",
+      "jpegSha256": "a931dc4b56643b87f0a9da155193988539a75b2fce8dc39bdd4c1ee7246d8e35",
+      "jpegBytes": 272805
+    },
+    {
+      "storyId": "yi-ming",
+      "slot": "p6",
+      "jpegPath": "content/imagine-gongbi-jpeg/yi-ming/p6.jpg",
+      "runtimePath": "public/classic-stories/yi-ming/p6.jpg",
+      "jpegSha256": "8e5c665d6c406a153d7c493849282b3f8d3c0e018d4faff561dd874e1380259a",
+      "jpegBytes": 263480
+    },
+    {
+      "storyId": "yi-ming",
+      "slot": "p7",
+      "jpegPath": "content/imagine-gongbi-jpeg/yi-ming/p7.jpg",
+      "runtimePath": "public/classic-stories/yi-ming/p7.jpg",
+      "jpegSha256": "aa4f0c04da79226d77e3f3051e0a55b0f3019873c22ba39297de7e1ea873f81c",
+      "jpegBytes": 203607
+    },
+    {
+      "storyId": "jing-wei",
+      "slot": "cover",
+      "jpegPath": "content/imagine-gongbi-jpeg/jing-wei/cover.jpg",
+      "runtimePath": "public/classic-stories/jing-wei/cover.jpg",
+      "jpegSha256": "33514f107e8eaac9c265042624e286ecfabd0f1fb12d110e7f8bd80e011a6763",
+      "jpegBytes": 130041
+    },
+    {
+      "storyId": "jing-wei",
+      "slot": "p1",
+      "jpegPath": "content/imagine-gongbi-jpeg/jing-wei/p1.jpg",
+      "runtimePath": "public/classic-stories/jing-wei/p1.jpg",
+      "jpegSha256": "35e078da3ec4692ad0dd66107d8f08425fc306dd54b2fecbd986ee0444602ede",
+      "jpegBytes": 196818
+    },
+    {
+      "storyId": "jing-wei",
+      "slot": "p2",
+      "jpegPath": "content/imagine-gongbi-jpeg/jing-wei/p2.jpg",
+      "runtimePath": "public/classic-stories/jing-wei/p2.jpg",
+      "jpegSha256": "c8966e5ce834eae25f0379bb0866129cb6dbe8499e0789912601d3f5733cc404",
+      "jpegBytes": 303952
+    },
+    {
+      "storyId": "jing-wei",
+      "slot": "p3",
+      "jpegPath": "content/imagine-gongbi-jpeg/jing-wei/p3.jpg",
+      "runtimePath": "public/classic-stories/jing-wei/p3.jpg",
+      "jpegSha256": "3214d39752637f0148af70a1de85bf1cdd6a11ddb28c961cdb15755ffef2f019",
+      "jpegBytes": 238752
+    },
+    {
+      "storyId": "jing-wei",
+      "slot": "p4",
+      "jpegPath": "content/imagine-gongbi-jpeg/jing-wei/p4.jpg",
+      "runtimePath": "public/classic-stories/jing-wei/p4.jpg",
+      "jpegSha256": "2946879c6e3dcbd72cd868b2f7fff9ef2773fdb47a7efb4dd91a7ad06b171a90",
+      "jpegBytes": 201113
+    },
+    {
+      "storyId": "jing-wei",
+      "slot": "p5",
+      "jpegPath": "content/imagine-gongbi-jpeg/jing-wei/p5.jpg",
+      "runtimePath": "public/classic-stories/jing-wei/p5.jpg",
+      "jpegSha256": "4fae8fb82d83b7ee2b176356d6c2f11097f3122ac3f708585be95b97f242daf3",
+      "jpegBytes": 195186
+    },
+    {
+      "storyId": "jing-wei",
+      "slot": "p6",
+      "jpegPath": "content/imagine-gongbi-jpeg/jing-wei/p6.jpg",
+      "runtimePath": "public/classic-stories/jing-wei/p6.jpg",
+      "jpegSha256": "c274869200954702c7f988be37264bacff8bc2850caadf88aab845ee3dcc0cef",
+      "jpegBytes": 223790
+    },
+    {
+      "storyId": "jing-wei",
+      "slot": "p7",
+      "jpegPath": "content/imagine-gongbi-jpeg/jing-wei/p7.jpg",
+      "runtimePath": "public/classic-stories/jing-wei/p7.jpg",
+      "jpegSha256": "04b69b046fc8dbc95e490c25e7f1699466c5e3aeb6d98ccfa8544dee1891e462",
+      "jpegBytes": 220881
+    },
+    {
+      "storyId": "ba-miao",
+      "slot": "cover",
+      "jpegPath": "content/imagine-gongbi-jpeg/ba-miao/cover.jpg",
+      "runtimePath": "public/classic-stories/ba-miao/cover.jpg",
+      "jpegSha256": "69cf00ed36bb9c8c22d7bb91a4f276479426572a7745a55986ed1939059177da",
+      "jpegBytes": 178798
+    },
+    {
+      "storyId": "ba-miao",
+      "slot": "p1",
+      "jpegPath": "content/imagine-gongbi-jpeg/ba-miao/p1.jpg",
+      "runtimePath": "public/classic-stories/ba-miao/p1.jpg",
+      "jpegSha256": "b64417b11d705995e9f9e9b41ecf6763c4c9e2997481cf480a93dcaedcbe6d63",
+      "jpegBytes": 276575
+    },
+    {
+      "storyId": "ba-miao",
+      "slot": "p2",
+      "jpegPath": "content/imagine-gongbi-jpeg/ba-miao/p2.jpg",
+      "runtimePath": "public/classic-stories/ba-miao/p2.jpg",
+      "jpegSha256": "53acb030ba8df9896aa4ab6d157d36aa3a2f382818008a3319d0f3a25d9f7152",
+      "jpegBytes": 277087
+    },
+    {
+      "storyId": "ba-miao",
+      "slot": "p3",
+      "jpegPath": "content/imagine-gongbi-jpeg/ba-miao/p3.jpg",
+      "runtimePath": "public/classic-stories/ba-miao/p3.jpg",
+      "jpegSha256": "9511d02ea0b16927e0284e4b492273ae3bed652c5231f897a1125a8828588156",
+      "jpegBytes": 267559
+    },
+    {
+      "storyId": "ba-miao",
+      "slot": "p4",
+      "jpegPath": "content/imagine-gongbi-jpeg/ba-miao/p4.jpg",
+      "runtimePath": "public/classic-stories/ba-miao/p4.jpg",
+      "jpegSha256": "c61a7fff3d1f56bab4d1fc27e4124d83f9ebfb5ba5fd9bda50d10be37d4fe64d",
+      "jpegBytes": 259431
+    },
+    {
+      "storyId": "ba-miao",
+      "slot": "p5",
+      "jpegPath": "content/imagine-gongbi-jpeg/ba-miao/p5.jpg",
+      "runtimePath": "public/classic-stories/ba-miao/p5.jpg",
+      "jpegSha256": "254db70ef2f7e18b9e94198b67795e65e4782882c7ffb7837b181cccc52dc4b5",
+      "jpegBytes": 226902
+    },
+    {
+      "storyId": "ba-miao",
+      "slot": "p6",
+      "jpegPath": "content/imagine-gongbi-jpeg/ba-miao/p6.jpg",
+      "runtimePath": "public/classic-stories/ba-miao/p6.jpg",
+      "jpegSha256": "853fecb8715225d1ec6515952c419da561b1518a4ce5eb46b70dfbb26b89985f",
+      "jpegBytes": 301421
+    },
+    {
+      "storyId": "ba-miao",
+      "slot": "p7",
+      "jpegPath": "content/imagine-gongbi-jpeg/ba-miao/p7.jpg",
+      "runtimePath": "public/classic-stories/ba-miao/p7.jpg",
+      "jpegSha256": "93c3c490931367ff78ddf7dc681ef202c0c8f3a2e1db04c86982a829a6211bda",
+      "jpegBytes": 208611
+    },
+    {
+      "storyId": "yu-gong",
+      "slot": "cover",
+      "jpegPath": "content/imagine-gongbi-jpeg/yu-gong/cover.jpg",
+      "runtimePath": "public/classic-stories/yu-gong/cover.jpg",
+      "jpegSha256": "6791484ddbab162c1ac46550e31661c848a03fbb92a22d3f48a80eb7a3a97f1f",
+      "jpegBytes": 201906
+    },
+    {
+      "storyId": "yu-gong",
+      "slot": "p1",
+      "jpegPath": "content/imagine-gongbi-jpeg/yu-gong/p1.jpg",
+      "runtimePath": "public/classic-stories/yu-gong/p1.jpg",
+      "jpegSha256": "120a79828a07deb4b0e117541e3eee249c4d0cbd185ffc6480669cafd1945151",
+      "jpegBytes": 279766
+    },
+    {
+      "storyId": "yu-gong",
+      "slot": "p2",
+      "jpegPath": "content/imagine-gongbi-jpeg/yu-gong/p2.jpg",
+      "runtimePath": "public/classic-stories/yu-gong/p2.jpg",
+      "jpegSha256": "b6d6c70a8b0a139ec4558aab5bf90c3b79ffb3e641ede5064a528752c34b5031",
+      "jpegBytes": 233229
+    },
+    {
+      "storyId": "yu-gong",
+      "slot": "p3",
+      "jpegPath": "content/imagine-gongbi-jpeg/yu-gong/p3.jpg",
+      "runtimePath": "public/classic-stories/yu-gong/p3.jpg",
+      "jpegSha256": "cf5b14861d659fb722577f641c31b7880fb634acb0eb29f37f53283bdc6a9d42",
+      "jpegBytes": 246338
+    },
+    {
+      "storyId": "yu-gong",
+      "slot": "p4",
+      "jpegPath": "content/imagine-gongbi-jpeg/yu-gong/p4.jpg",
+      "runtimePath": "public/classic-stories/yu-gong/p4.jpg",
+      "jpegSha256": "4b76abca3101f915aa6941ab2dbec3b19fff59592e4dec837e941a5d477630b5",
+      "jpegBytes": 282874
+    },
+    {
+      "storyId": "yu-gong",
+      "slot": "p5",
+      "jpegPath": "content/imagine-gongbi-jpeg/yu-gong/p5.jpg",
+      "runtimePath": "public/classic-stories/yu-gong/p5.jpg",
+      "jpegSha256": "f7976e85e91a7992a0c4df0bbd67456d1a0ed5c3145bf057b4eeb41af38d4628",
+      "jpegBytes": 221756
+    },
+    {
+      "storyId": "yu-gong",
+      "slot": "p6",
+      "jpegPath": "content/imagine-gongbi-jpeg/yu-gong/p6.jpg",
+      "runtimePath": "public/classic-stories/yu-gong/p6.jpg",
+      "jpegSha256": "458b2e10e95b498ec34d3bacf064e74fee117757d992428d2952e2694c1ea01e",
+      "jpegBytes": 264391
+    },
+    {
+      "storyId": "yu-gong",
+      "slot": "p7",
+      "jpegPath": "content/imagine-gongbi-jpeg/yu-gong/p7.jpg",
+      "runtimePath": "public/classic-stories/yu-gong/p7.jpg",
+      "jpegSha256": "da3fbd4760cd75608ff06c590e17b3b0b0f54beb9276feb97255c265af7f2712",
+      "jpegBytes": 257630
+    },
+    {
+      "storyId": "ye-gong",
+      "slot": "cover",
+      "jpegPath": "content/imagine-gongbi-jpeg/ye-gong/cover.jpg",
+      "runtimePath": "public/classic-stories/ye-gong/cover.jpg",
+      "jpegSha256": "dde4003cc8c992bb3846d2b1a3b1395fd5a640ad620811facb708b8a4726cbb6",
+      "jpegBytes": 187416
+    },
+    {
+      "storyId": "ye-gong",
+      "slot": "p1",
+      "jpegPath": "content/imagine-gongbi-jpeg/ye-gong/p1.jpg",
+      "runtimePath": "public/classic-stories/ye-gong/p1.jpg",
+      "jpegSha256": "8f1bcaf564a1c9204efd10ad6108ea71702dc3ebf37c7717783ad699e87a1303",
+      "jpegBytes": 287398
+    },
+    {
+      "storyId": "ye-gong",
+      "slot": "p2",
+      "jpegPath": "content/imagine-gongbi-jpeg/ye-gong/p2.jpg",
+      "runtimePath": "public/classic-stories/ye-gong/p2.jpg",
+      "jpegSha256": "b6c9c7d9853ad8a2de11a4e6921188d7c6eedc525bdc80ee73c6c7cc80f5aaa1",
+      "jpegBytes": 248994
+    },
+    {
+      "storyId": "ye-gong",
+      "slot": "p3",
+      "jpegPath": "content/imagine-gongbi-jpeg/ye-gong/p3.jpg",
+      "runtimePath": "public/classic-stories/ye-gong/p3.jpg",
+      "jpegSha256": "2df9e084e687bfd01d55a477ba20750a1d54cd6569fad1f71bad6b59073842f9",
+      "jpegBytes": 270342
+    },
+    {
+      "storyId": "ye-gong",
+      "slot": "p4",
+      "jpegPath": "content/imagine-gongbi-jpeg/ye-gong/p4.jpg",
+      "runtimePath": "public/classic-stories/ye-gong/p4.jpg",
+      "jpegSha256": "bc97a9c8bf5ddc0cd8a83ab790a47892a5d2b8753dfa20f39411d352766300c1",
+      "jpegBytes": 257071
+    },
+    {
+      "storyId": "ye-gong",
+      "slot": "p5",
+      "jpegPath": "content/imagine-gongbi-jpeg/ye-gong/p5.jpg",
+      "runtimePath": "public/classic-stories/ye-gong/p5.jpg",
+      "jpegSha256": "1dcb639d7c6d4384c538331bc2ff7411847e9f13525d51e73e6538a88600d983",
+      "jpegBytes": 231261
+    },
+    {
+      "storyId": "ye-gong",
+      "slot": "p6",
+      "jpegPath": "content/imagine-gongbi-jpeg/ye-gong/p6.jpg",
+      "runtimePath": "public/classic-stories/ye-gong/p6.jpg",
+      "jpegSha256": "18db44e77443958544c676a110c8cf0e5f8cf25acc62083b9ef8eb61afbc1e54",
+      "jpegBytes": 233406
+    },
+    {
+      "storyId": "ye-gong",
+      "slot": "p7",
+      "jpegPath": "content/imagine-gongbi-jpeg/ye-gong/p7.jpg",
+      "runtimePath": "public/classic-stories/ye-gong/p7.jpg",
+      "jpegSha256": "22f3d8dbd1002cf3449a712e27d8ab0f776279ac3975a8bf37f96252f3d8e627",
+      "jpegBytes": 222016
+    },
+    {
+      "storyId": "sai-weng",
+      "slot": "cover",
+      "jpegPath": "content/imagine-gongbi-jpeg/sai-weng/cover.jpg",
+      "runtimePath": "public/classic-stories/sai-weng/cover.jpg",
+      "jpegSha256": "0eff028e07dd2570e7fa29bdf379ab39542ead4070d1c49495bb7f5fb14498b8",
+      "jpegBytes": 138629
+    },
+    {
+      "storyId": "sai-weng",
+      "slot": "p1",
+      "jpegPath": "content/imagine-gongbi-jpeg/sai-weng/p1.jpg",
+      "runtimePath": "public/classic-stories/sai-weng/p1.jpg",
+      "jpegSha256": "6bd3f6e2d617edb1ff1263f5236cfe527a9394884b97a3e7744f28d3d0482994",
+      "jpegBytes": 270535
+    },
+    {
+      "storyId": "sai-weng",
+      "slot": "p2",
+      "jpegPath": "content/imagine-gongbi-jpeg/sai-weng/p2.jpg",
+      "runtimePath": "public/classic-stories/sai-weng/p2.jpg",
+      "jpegSha256": "3908d79bb5e69e031cf20189c4fc9fe40cedb93e11ec5111f8b46abef541b48e",
+      "jpegBytes": 263075
+    },
+    {
+      "storyId": "sai-weng",
+      "slot": "p3",
+      "jpegPath": "content/imagine-gongbi-jpeg/sai-weng/p3.jpg",
+      "runtimePath": "public/classic-stories/sai-weng/p3.jpg",
+      "jpegSha256": "4b572b4086db37353612eba83ad6c119bf916a3218899696638e70ef676657fe",
+      "jpegBytes": 219533
+    },
+    {
+      "storyId": "sai-weng",
+      "slot": "p4",
+      "jpegPath": "content/imagine-gongbi-jpeg/sai-weng/p4.jpg",
+      "runtimePath": "public/classic-stories/sai-weng/p4.jpg",
+      "jpegSha256": "abae65f854e065f1928b73bc4602b7885d2c0f9a64a8b05864dae3783e3c7ce6",
+      "jpegBytes": 261050
+    },
+    {
+      "storyId": "sai-weng",
+      "slot": "p5",
+      "jpegPath": "content/imagine-gongbi-jpeg/sai-weng/p5.jpg",
+      "runtimePath": "public/classic-stories/sai-weng/p5.jpg",
+      "jpegSha256": "4714122a56b395d77cffbe5d3a952bea4de410dd33c4ca2fb0c0a50f87c9023e",
+      "jpegBytes": 228173
+    },
+    {
+      "storyId": "sai-weng",
+      "slot": "p6",
+      "jpegPath": "content/imagine-gongbi-jpeg/sai-weng/p6.jpg",
+      "runtimePath": "public/classic-stories/sai-weng/p6.jpg",
+      "jpegSha256": "74fbc88ece7d6d6f226319483fc75b86140b9c4888e803219d269f3de89c8cf0",
+      "jpegBytes": 245675
+    },
+    {
+      "storyId": "sai-weng",
+      "slot": "p7",
+      "jpegPath": "content/imagine-gongbi-jpeg/sai-weng/p7.jpg",
+      "runtimePath": "public/classic-stories/sai-weng/p7.jpg",
+      "jpegSha256": "6dc6379ed6eb24a0c953d712eddb6097f93372d3e0b652090b4944cd5b78f67c",
+      "jpegBytes": 197061
+    },
+    {
+      "storyId": "zhao-san",
+      "slot": "cover",
+      "jpegPath": "content/imagine-gongbi-jpeg/zhao-san/cover.jpg",
+      "runtimePath": "public/classic-stories/zhao-san/cover.jpg",
+      "jpegSha256": "6f008ea480789d516680a174c0e6f2b88555ff4cc8ecc0ec16045821384ea0b0",
+      "jpegBytes": 222009
+    },
+    {
+      "storyId": "zhao-san",
+      "slot": "p1",
+      "jpegPath": "content/imagine-gongbi-jpeg/zhao-san/p1.jpg",
+      "runtimePath": "public/classic-stories/zhao-san/p1.jpg",
+      "jpegSha256": "cac1cd6099d983a2b3a1c9b95cffb7d907be9398aefbef14661c917d828caa0b",
+      "jpegBytes": 245488
+    },
+    {
+      "storyId": "zhao-san",
+      "slot": "p2",
+      "jpegPath": "content/imagine-gongbi-jpeg/zhao-san/p2.jpg",
+      "runtimePath": "public/classic-stories/zhao-san/p2.jpg",
+      "jpegSha256": "147316907f79df4cef22c70a1329d118e2c55d567d1ca4852b4784f2c332d4e0",
+      "jpegBytes": 233888
+    },
+    {
+      "storyId": "zhao-san",
+      "slot": "p3",
+      "jpegPath": "content/imagine-gongbi-jpeg/zhao-san/p3.jpg",
+      "runtimePath": "public/classic-stories/zhao-san/p3.jpg",
+      "jpegSha256": "88f1ad293ad3d4335cd486dc05cf43ef3541682223ea36f8ad395f2384282313",
+      "jpegBytes": 237002
+    },
+    {
+      "storyId": "zhao-san",
+      "slot": "p4",
+      "jpegPath": "content/imagine-gongbi-jpeg/zhao-san/p4.jpg",
+      "runtimePath": "public/classic-stories/zhao-san/p4.jpg",
+      "jpegSha256": "567aa8c3f95afd2efc897ad6bbbb4750c5797ffe8ad9dcbd5e94911d41935809",
+      "jpegBytes": 156080
+    },
+    {
+      "storyId": "zhao-san",
+      "slot": "p5",
+      "jpegPath": "content/imagine-gongbi-jpeg/zhao-san/p5.jpg",
+      "runtimePath": "public/classic-stories/zhao-san/p5.jpg",
+      "jpegSha256": "d6f5e0adf02d10c973fe873945d74c7b50d4f545346fefb85f1e07e7b99010c5",
+      "jpegBytes": 243923
+    },
+    {
+      "storyId": "zhao-san",
+      "slot": "p6",
+      "jpegPath": "content/imagine-gongbi-jpeg/zhao-san/p6.jpg",
+      "runtimePath": "public/classic-stories/zhao-san/p6.jpg",
+      "jpegSha256": "a1040d513fca370530ca689285224bbff924a11be88fda6b9b76c8c31a44f2e8",
+      "jpegBytes": 164344
+    },
+    {
+      "storyId": "zhao-san",
+      "slot": "p7",
+      "jpegPath": "content/imagine-gongbi-jpeg/zhao-san/p7.jpg",
+      "runtimePath": "public/classic-stories/zhao-san/p7.jpg",
+      "jpegSha256": "e970560b81858c5c8a1957b893e10fe142885e696a812996eaddd33a5f4305d9",
+      "jpegBytes": 160034
+    },
+    {
+      "storyId": "lan-yu",
+      "slot": "cover",
+      "jpegPath": "content/imagine-gongbi-jpeg/lan-yu/cover.jpg",
+      "runtimePath": "public/classic-stories/lan-yu/cover.jpg",
+      "jpegSha256": "18de4212b86243d05c5fa3b78ca95fd540000d16cda29ca92c6e377a69a830ef",
+      "jpegBytes": 151856
+    },
+    {
+      "storyId": "lan-yu",
+      "slot": "p1",
+      "jpegPath": "content/imagine-gongbi-jpeg/lan-yu/p1.jpg",
+      "runtimePath": "public/classic-stories/lan-yu/p1.jpg",
+      "jpegSha256": "ae9f422b69fdc194cf2f9cca868773e42d9db39266f64f191f8314f941384abf",
+      "jpegBytes": 262945
+    },
+    {
+      "storyId": "lan-yu",
+      "slot": "p2",
+      "jpegPath": "content/imagine-gongbi-jpeg/lan-yu/p2.jpg",
+      "runtimePath": "public/classic-stories/lan-yu/p2.jpg",
+      "jpegSha256": "882321b9bf9961a271cc51489a3500109460ac0ccc5cdab2c51e591879d08223",
+      "jpegBytes": 219042
+    },
+    {
+      "storyId": "lan-yu",
+      "slot": "p3",
+      "jpegPath": "content/imagine-gongbi-jpeg/lan-yu/p3.jpg",
+      "runtimePath": "public/classic-stories/lan-yu/p3.jpg",
+      "jpegSha256": "759bc04cb0b180d16e2b68ef11cee8704b7e3556cb062ed6763ce3f30b0c7fa9",
+      "jpegBytes": 240140
+    },
+    {
+      "storyId": "lan-yu",
+      "slot": "p4",
+      "jpegPath": "content/imagine-gongbi-jpeg/lan-yu/p4.jpg",
+      "runtimePath": "public/classic-stories/lan-yu/p4.jpg",
+      "jpegSha256": "33f660b11ff5b72a21b8db01738a5883069bfe4aacb548d89befbfc6f8b39cf7",
+      "jpegBytes": 244601
+    },
+    {
+      "storyId": "lan-yu",
+      "slot": "p5",
+      "jpegPath": "content/imagine-gongbi-jpeg/lan-yu/p5.jpg",
+      "runtimePath": "public/classic-stories/lan-yu/p5.jpg",
+      "jpegSha256": "daa8fd3c445fc0d93a51e5cb2787685ab8d8f7dd037a04ddd3f8f1a465272c2f",
+      "jpegBytes": 232865
+    },
+    {
+      "storyId": "lan-yu",
+      "slot": "p6",
+      "jpegPath": "content/imagine-gongbi-jpeg/lan-yu/p6.jpg",
+      "runtimePath": "public/classic-stories/lan-yu/p6.jpg",
+      "jpegSha256": "75cbaff2c712dc3cc17267a48577ae21a6d3a56dfb8a5e545a93b0162b814e4a",
+      "jpegBytes": 186812
+    },
+    {
+      "storyId": "lan-yu",
+      "slot": "p7",
+      "jpegPath": "content/imagine-gongbi-jpeg/lan-yu/p7.jpg",
+      "runtimePath": "public/classic-stories/lan-yu/p7.jpg",
+      "jpegSha256": "9ba8823af25e8828f94d25466ca2b32fce4f31955d58e5766ad88f063f6f1710",
+      "jpegBytes": 175369
+    },
+    {
+      "storyId": "hua-she",
+      "slot": "cover",
+      "jpegPath": "content/imagine-gongbi-jpeg/hua-she/cover.jpg",
+      "runtimePath": "public/classic-stories/hua-she/cover.jpg",
+      "jpegSha256": "bb16124b1c41d392a10308cd86648b6e90a47b5fbb89bdab9a75f1c2928c9e72",
+      "jpegBytes": 145428
+    },
+    {
+      "storyId": "hua-she",
+      "slot": "p1",
+      "jpegPath": "content/imagine-gongbi-jpeg/hua-she/p1.jpg",
+      "runtimePath": "public/classic-stories/hua-she/p1.jpg",
+      "jpegSha256": "9977d2aa6af67ff44f04fda13f810973b18d80c7d4140e54d48d6df50367aeeb",
+      "jpegBytes": 297428
+    },
+    {
+      "storyId": "hua-she",
+      "slot": "p2",
+      "jpegPath": "content/imagine-gongbi-jpeg/hua-she/p2.jpg",
+      "runtimePath": "public/classic-stories/hua-she/p2.jpg",
+      "jpegSha256": "c64e898edca19c9a70d973985d8bd56e359ce40c22ece88c518c9e23233910e5",
+      "jpegBytes": 191121
+    },
+    {
+      "storyId": "hua-she",
+      "slot": "p3",
+      "jpegPath": "content/imagine-gongbi-jpeg/hua-she/p3.jpg",
+      "runtimePath": "public/classic-stories/hua-she/p3.jpg",
+      "jpegSha256": "11f86060db2e58ac9ec00149a8c85598bd58bd460d697208ea92457bde7ad005",
+      "jpegBytes": 215505
+    },
+    {
+      "storyId": "hua-she",
+      "slot": "p4",
+      "jpegPath": "content/imagine-gongbi-jpeg/hua-she/p4.jpg",
+      "runtimePath": "public/classic-stories/hua-she/p4.jpg",
+      "jpegSha256": "a3ded1dbd70e30fc0a28d53b27f2ef0de9ab65d689df6aae4095b3e126f68ad5",
+      "jpegBytes": 244654
+    },
+    {
+      "storyId": "hua-she",
+      "slot": "p5",
+      "jpegPath": "content/imagine-gongbi-jpeg/hua-she/p5.jpg",
+      "runtimePath": "public/classic-stories/hua-she/p5.jpg",
+      "jpegSha256": "889f99dba448bf5848ff48e026be074aacc090cfd30641913a7b9f2aa2937d11",
+      "jpegBytes": 204727
+    },
+    {
+      "storyId": "hua-she",
+      "slot": "p6",
+      "jpegPath": "content/imagine-gongbi-jpeg/hua-she/p6.jpg",
+      "runtimePath": "public/classic-stories/hua-she/p6.jpg",
+      "jpegSha256": "9030a08d3d49757e653032dfe36cac7fba0b7d429e7b7ff1455658d56bf434b4",
+      "jpegBytes": 234365
+    },
+    {
+      "storyId": "hua-she",
+      "slot": "p7",
+      "jpegPath": "content/imagine-gongbi-jpeg/hua-she/p7.jpg",
+      "runtimePath": "public/classic-stories/hua-she/p7.jpg",
+      "jpegSha256": "a340187e73ba8283cba69ca096082095fd9db7ceb175237f66cec0dbf1447acd",
+      "jpegBytes": 185035
+    },
+    {
+      "storyId": "zi-xiang",
+      "slot": "cover",
+      "jpegPath": "content/imagine-gongbi-jpeg/zi-xiang/cover.jpg",
+      "runtimePath": "public/classic-stories/zi-xiang/cover.jpg",
+      "jpegSha256": "ab5ec8026c45e55a6012358bf19cc4792d91d72e118a4ba6e1b065c859972837",
+      "jpegBytes": 139926
+    },
+    {
+      "storyId": "zi-xiang",
+      "slot": "p1",
+      "jpegPath": "content/imagine-gongbi-jpeg/zi-xiang/p1.jpg",
+      "runtimePath": "public/classic-stories/zi-xiang/p1.jpg",
+      "jpegSha256": "024fbde84857ac4ec8cbe194cf821cbe606c3fda5c5ed6b2778216348c8ee3d7",
+      "jpegBytes": 221279
+    },
+    {
+      "storyId": "zi-xiang",
+      "slot": "p2",
+      "jpegPath": "content/imagine-gongbi-jpeg/zi-xiang/p2.jpg",
+      "runtimePath": "public/classic-stories/zi-xiang/p2.jpg",
+      "jpegSha256": "14576e4619cb1f4eb47fd9af686bc9d363a6bba1538f54eddbe92daf6a5dc5c2",
+      "jpegBytes": 208438
+    },
+    {
+      "storyId": "zi-xiang",
+      "slot": "p3",
+      "jpegPath": "content/imagine-gongbi-jpeg/zi-xiang/p3.jpg",
+      "runtimePath": "public/classic-stories/zi-xiang/p3.jpg",
+      "jpegSha256": "5111b235277f9748afff9492a5e9be08f0126e4cc4b908aae964ee5b569fb6fa",
+      "jpegBytes": 223690
+    },
+    {
+      "storyId": "zi-xiang",
+      "slot": "p4",
+      "jpegPath": "content/imagine-gongbi-jpeg/zi-xiang/p4.jpg",
+      "runtimePath": "public/classic-stories/zi-xiang/p4.jpg",
+      "jpegSha256": "3c864a15c1cfbeb12c6522a28afb82a511e06398d5e2bf32607b7c6419f557f1",
+      "jpegBytes": 205127
+    },
+    {
+      "storyId": "zi-xiang",
+      "slot": "p5",
+      "jpegPath": "content/imagine-gongbi-jpeg/zi-xiang/p5.jpg",
+      "runtimePath": "public/classic-stories/zi-xiang/p5.jpg",
+      "jpegSha256": "3d781ef0b465dd7abc7fa5d57e2214d247940a9a521acc32febe8a2f4dab398e",
+      "jpegBytes": 207083
+    },
+    {
+      "storyId": "zi-xiang",
+      "slot": "p6",
+      "jpegPath": "content/imagine-gongbi-jpeg/zi-xiang/p6.jpg",
+      "runtimePath": "public/classic-stories/zi-xiang/p6.jpg",
+      "jpegSha256": "d61aa115dcb45b94db779eea3435aa590119788d7e4c3963d879834483c739cc",
+      "jpegBytes": 204120
+    },
+    {
+      "storyId": "zi-xiang",
+      "slot": "p7",
+      "jpegPath": "content/imagine-gongbi-jpeg/zi-xiang/p7.jpg",
+      "runtimePath": "public/classic-stories/zi-xiang/p7.jpg",
+      "jpegSha256": "265051b7f79d6be67c4d279df95a65ae3f307a92007e0ac6991154b89fc759be",
+      "jpegBytes": 211159
+    },
+    {
+      "storyId": "qi-ren",
+      "slot": "cover",
+      "jpegPath": "content/imagine-gongbi-jpeg/qi-ren/cover.jpg",
+      "runtimePath": "public/classic-stories/qi-ren/cover.jpg",
+      "jpegSha256": "6823245aba1ef3b81253e3eb32fb0dfce679a4cd139a34e3fe1472971acac73a",
+      "jpegBytes": 127044
+    },
+    {
+      "storyId": "qi-ren",
+      "slot": "p1",
+      "jpegPath": "content/imagine-gongbi-jpeg/qi-ren/p1.jpg",
+      "runtimePath": "public/classic-stories/qi-ren/p1.jpg",
+      "jpegSha256": "af65f781ea128b8d5d9400f01b396b263794f788c5bab32c79c4e8d9b7a34af9",
+      "jpegBytes": 176280
+    },
+    {
+      "storyId": "qi-ren",
+      "slot": "p2",
+      "jpegPath": "content/imagine-gongbi-jpeg/qi-ren/p2.jpg",
+      "runtimePath": "public/classic-stories/qi-ren/p2.jpg",
+      "jpegSha256": "4f16ef1e0e6d636af2c8845d6839f6c9aeea88b89f209ae2c46fbec4db87402c",
+      "jpegBytes": 147302
+    },
+    {
+      "storyId": "qi-ren",
+      "slot": "p3",
+      "jpegPath": "content/imagine-gongbi-jpeg/qi-ren/p3.jpg",
+      "runtimePath": "public/classic-stories/qi-ren/p3.jpg",
+      "jpegSha256": "7cb45c54b2704a84cf4d76826c13a25e5911f5e71e031df44c6fc671003c1d5c",
+      "jpegBytes": 190653
+    },
+    {
+      "storyId": "qi-ren",
+      "slot": "p4",
+      "jpegPath": "content/imagine-gongbi-jpeg/qi-ren/p4.jpg",
+      "runtimePath": "public/classic-stories/qi-ren/p4.jpg",
+      "jpegSha256": "e05cd339d084f5a98e5724afc8bbcf38d80f276ba976ae76fcbd29464e1c503a",
+      "jpegBytes": 195970
+    },
+    {
+      "storyId": "qi-ren",
+      "slot": "p5",
+      "jpegPath": "content/imagine-gongbi-jpeg/qi-ren/p5.jpg",
+      "runtimePath": "public/classic-stories/qi-ren/p5.jpg",
+      "jpegSha256": "3929c7b887f96fa18bf3fa90580f72f500f8502d854d7d8f5f37de75a4ce40a1",
+      "jpegBytes": 245738
+    },
+    {
+      "storyId": "qi-ren",
+      "slot": "p6",
+      "jpegPath": "content/imagine-gongbi-jpeg/qi-ren/p6.jpg",
+      "runtimePath": "public/classic-stories/qi-ren/p6.jpg",
+      "jpegSha256": "cb64039673a0bf1187208c4954b9b057670d0f686a01c0ee3c338b95b211d12a",
+      "jpegBytes": 177045
+    },
+    {
+      "storyId": "qi-ren",
+      "slot": "p7",
+      "jpegPath": "content/imagine-gongbi-jpeg/qi-ren/p7.jpg",
+      "runtimePath": "public/classic-stories/qi-ren/p7.jpg",
+      "jpegSha256": "b63d353e27f69b8f84bcdf7590d56dede5aaab53304900660670939633801909",
+      "jpegBytes": 213175
+    },
+    {
+      "storyId": "mang-ren",
+      "slot": "cover",
+      "jpegPath": "content/imagine-gongbi-jpeg/mang-ren/cover.jpg",
+      "runtimePath": "public/classic-stories/mang-ren/cover.jpg",
+      "jpegSha256": "809d7087e102b0fd14d6d0c5f81f0a16388f3364a193bf2d21bfa82bbe38af7b",
+      "jpegBytes": 140967
+    },
+    {
+      "storyId": "mang-ren",
+      "slot": "p1",
+      "jpegPath": "content/imagine-gongbi-jpeg/mang-ren/p1.jpg",
+      "runtimePath": "public/classic-stories/mang-ren/p1.jpg",
+      "jpegSha256": "8f044e11ff694a60614f88e9e97a8aba49028b0de4fe6c41df6f81e9b146d7d3",
+      "jpegBytes": 255598
+    },
+    {
+      "storyId": "mang-ren",
+      "slot": "p2",
+      "jpegPath": "content/imagine-gongbi-jpeg/mang-ren/p2.jpg",
+      "runtimePath": "public/classic-stories/mang-ren/p2.jpg",
+      "jpegSha256": "5b1ae8147fe32136899531ad0e222be59795859b7f938cb90e031579c6a55f30",
+      "jpegBytes": 182821
+    },
+    {
+      "storyId": "mang-ren",
+      "slot": "p3",
+      "jpegPath": "content/imagine-gongbi-jpeg/mang-ren/p3.jpg",
+      "runtimePath": "public/classic-stories/mang-ren/p3.jpg",
+      "jpegSha256": "1029238e09479cbae767e97ddbe7b1d9f19a796686c5a66067d6405b971bc4d1",
+      "jpegBytes": 241840
+    },
+    {
+      "storyId": "mang-ren",
+      "slot": "p4",
+      "jpegPath": "content/imagine-gongbi-jpeg/mang-ren/p4.jpg",
+      "runtimePath": "public/classic-stories/mang-ren/p4.jpg",
+      "jpegSha256": "6bd50e85e235f0595a4cab2ceca084654f5127bcc51299e494018206fbc5bf41",
+      "jpegBytes": 228964
+    },
+    {
+      "storyId": "mang-ren",
+      "slot": "p5",
+      "jpegPath": "content/imagine-gongbi-jpeg/mang-ren/p5.jpg",
+      "runtimePath": "public/classic-stories/mang-ren/p5.jpg",
+      "jpegSha256": "c7816393282f6cea53740f968f8c87ef57e2f831558945a7b0ce6f3f86b311d7",
+      "jpegBytes": 242988
+    },
+    {
+      "storyId": "mang-ren",
+      "slot": "p6",
+      "jpegPath": "content/imagine-gongbi-jpeg/mang-ren/p6.jpg",
+      "runtimePath": "public/classic-stories/mang-ren/p6.jpg",
+      "jpegSha256": "bafd24b5f7525c3e6d88301c58c0f85ef18d110d328cfa1c49d7c1e399f3480a",
+      "jpegBytes": 248252
+    },
+    {
+      "storyId": "mang-ren",
+      "slot": "p7",
+      "jpegPath": "content/imagine-gongbi-jpeg/mang-ren/p7.jpg",
+      "runtimePath": "public/classic-stories/mang-ren/p7.jpg",
+      "jpegSha256": "5e6dc57cc88c3449528b75eed4ee227af4de318755d88fbae537e8adcd75606c",
+      "jpegBytes": 248696
+    },
+    {
+      "storyId": "nan-yuan",
+      "slot": "cover",
+      "jpegPath": "content/imagine-gongbi-jpeg/nan-yuan/cover.jpg",
+      "runtimePath": "public/classic-stories/nan-yuan/cover.jpg",
+      "jpegSha256": "27268b2f3130948d6ddaae0c6e3ed9ce3f9ca555d0d1ae5827f7acb8ac7d9018",
+      "jpegBytes": 164284
+    },
+    {
+      "storyId": "nan-yuan",
+      "slot": "p1",
+      "jpegPath": "content/imagine-gongbi-jpeg/nan-yuan/p1.jpg",
+      "runtimePath": "public/classic-stories/nan-yuan/p1.jpg",
+      "jpegSha256": "712209e5d6af61025f2d44954c5f5b3eb31fc93efa066d268549b6774bbec3af",
+      "jpegBytes": 239196
+    },
+    {
+      "storyId": "nan-yuan",
+      "slot": "p2",
+      "jpegPath": "content/imagine-gongbi-jpeg/nan-yuan/p2.jpg",
+      "runtimePath": "public/classic-stories/nan-yuan/p2.jpg",
+      "jpegSha256": "844d5456d080fb3d9ab127fec627c31ac17bdc79091b254fa29aea4f738f339f",
+      "jpegBytes": 212674
+    },
+    {
+      "storyId": "nan-yuan",
+      "slot": "p3",
+      "jpegPath": "content/imagine-gongbi-jpeg/nan-yuan/p3.jpg",
+      "runtimePath": "public/classic-stories/nan-yuan/p3.jpg",
+      "jpegSha256": "02bb0cf5d50cf68d63195f48ada42a9b8ae7037419c31d854f7faaad59fba105",
+      "jpegBytes": 216054
+    },
+    {
+      "storyId": "nan-yuan",
+      "slot": "p4",
+      "jpegPath": "content/imagine-gongbi-jpeg/nan-yuan/p4.jpg",
+      "runtimePath": "public/classic-stories/nan-yuan/p4.jpg",
+      "jpegSha256": "2e1de763f8a11aaa56464d42bf19e077b51a6903770f9772a7f1d266a3786989",
+      "jpegBytes": 221525
+    },
+    {
+      "storyId": "nan-yuan",
+      "slot": "p5",
+      "jpegPath": "content/imagine-gongbi-jpeg/nan-yuan/p5.jpg",
+      "runtimePath": "public/classic-stories/nan-yuan/p5.jpg",
+      "jpegSha256": "ec1868dffce5178c752ec6c8576736d484006609f923029ef60726235172c287",
+      "jpegBytes": 205684
+    },
+    {
+      "storyId": "nan-yuan",
+      "slot": "p6",
+      "jpegPath": "content/imagine-gongbi-jpeg/nan-yuan/p6.jpg",
+      "runtimePath": "public/classic-stories/nan-yuan/p6.jpg",
+      "jpegSha256": "2e63bce0d99c169bf894318ea4218b852353580090a95f17b4add61766f18005",
+      "jpegBytes": 238865
+    },
+    {
+      "storyId": "nan-yuan",
+      "slot": "p7",
+      "jpegPath": "content/imagine-gongbi-jpeg/nan-yuan/p7.jpg",
+      "runtimePath": "public/classic-stories/nan-yuan/p7.jpg",
+      "jpegSha256": "d5f0f90a4538c04f8b2fda377b0a6adcaaa6e2c5f8bf9b14c74ec98012026e55",
+      "jpegBytes": 177201
+    },
+    {
+      "storyId": "wang-mei",
+      "slot": "cover",
+      "jpegPath": "content/imagine-gongbi-jpeg/wang-mei/cover.jpg",
+      "runtimePath": "public/classic-stories/wang-mei/cover.jpg",
+      "jpegSha256": "066ec17ee3446b847a2d16a8ed296133181052f2e8c31ec03e80c56ac1079f49",
+      "jpegBytes": 183758
+    },
+    {
+      "storyId": "wang-mei",
+      "slot": "p1",
+      "jpegPath": "content/imagine-gongbi-jpeg/wang-mei/p1.jpg",
+      "runtimePath": "public/classic-stories/wang-mei/p1.jpg",
+      "jpegSha256": "a0cb0a9da4f19833a0a8d3960860c523a91ca104009ae6726f126182e4af80fb",
+      "jpegBytes": 211652
+    },
+    {
+      "storyId": "wang-mei",
+      "slot": "p2",
+      "jpegPath": "content/imagine-gongbi-jpeg/wang-mei/p2.jpg",
+      "runtimePath": "public/classic-stories/wang-mei/p2.jpg",
+      "jpegSha256": "d9432343d7ad552ba930e892e72bb13f87d30d2da8f298c6c1de68de8b0171e2",
+      "jpegBytes": 209935
+    },
+    {
+      "storyId": "wang-mei",
+      "slot": "p3",
+      "jpegPath": "content/imagine-gongbi-jpeg/wang-mei/p3.jpg",
+      "runtimePath": "public/classic-stories/wang-mei/p3.jpg",
+      "jpegSha256": "87cc84682560b7789fa272a04178b4a90d8482b6bef7d54ddc9637fa3411a6a8",
+      "jpegBytes": 224273
+    },
+    {
+      "storyId": "wang-mei",
+      "slot": "p4",
+      "jpegPath": "content/imagine-gongbi-jpeg/wang-mei/p4.jpg",
+      "runtimePath": "public/classic-stories/wang-mei/p4.jpg",
+      "jpegSha256": "73b0bc3f7c8e4eee05ce831592782579ce727235559bd4f50c7af8e0ff5d4fe1",
+      "jpegBytes": 189535
+    },
+    {
+      "storyId": "wang-mei",
+      "slot": "p5",
+      "jpegPath": "content/imagine-gongbi-jpeg/wang-mei/p5.jpg",
+      "runtimePath": "public/classic-stories/wang-mei/p5.jpg",
+      "jpegSha256": "d6184312871251eae7e1dd39e1054a83ac944d051dab963451366f8d4c0cda54",
+      "jpegBytes": 245465
+    },
+    {
+      "storyId": "wang-mei",
+      "slot": "p6",
+      "jpegPath": "content/imagine-gongbi-jpeg/wang-mei/p6.jpg",
+      "runtimePath": "public/classic-stories/wang-mei/p6.jpg",
+      "jpegSha256": "4bc2f25e6753ce1d895e9fbe757a09d3d4755be09e9e287eb8dab4b2d8d19b4c",
+      "jpegBytes": 244139
+    },
+    {
+      "storyId": "wang-mei",
+      "slot": "p7",
+      "jpegPath": "content/imagine-gongbi-jpeg/wang-mei/p7.jpg",
+      "runtimePath": "public/classic-stories/wang-mei/p7.jpg",
+      "jpegSha256": "b2f7299902aa831612d71514d4dfd1901593c2fd5e73b31b27f1d5b8309f7b19",
+      "jpegBytes": 211454
+    },
+    {
+      "storyId": "mai-du",
+      "slot": "cover",
+      "jpegPath": "content/imagine-gongbi-jpeg/mai-du/cover.jpg",
+      "runtimePath": "public/classic-stories/mai-du/cover.jpg",
+      "jpegSha256": "67f2b85631242b3675d996c37caeddb6c194c99eb9a712359b3365d231b9121b",
+      "jpegBytes": 149518
+    },
+    {
+      "storyId": "mai-du",
+      "slot": "p1",
+      "jpegPath": "content/imagine-gongbi-jpeg/mai-du/p1.jpg",
+      "runtimePath": "public/classic-stories/mai-du/p1.jpg",
+      "jpegSha256": "c57ac9e6fe6b429307462b8e6c3f29c515f195b54baa8d0f633cee179299c8db",
+      "jpegBytes": 246263
+    },
+    {
+      "storyId": "mai-du",
+      "slot": "p2",
+      "jpegPath": "content/imagine-gongbi-jpeg/mai-du/p2.jpg",
+      "runtimePath": "public/classic-stories/mai-du/p2.jpg",
+      "jpegSha256": "26a1e9ad51b3b350dc036f198bcc2b6afd62b675d04ead8349a246d401a28d0c",
+      "jpegBytes": 273140
+    },
+    {
+      "storyId": "mai-du",
+      "slot": "p3",
+      "jpegPath": "content/imagine-gongbi-jpeg/mai-du/p3.jpg",
+      "runtimePath": "public/classic-stories/mai-du/p3.jpg",
+      "jpegSha256": "5c47e5d7e44dc8040cdfce10aa076d2742f695f52c3bbc4ede1f03065359f7a8",
+      "jpegBytes": 182280
+    },
+    {
+      "storyId": "mai-du",
+      "slot": "p4",
+      "jpegPath": "content/imagine-gongbi-jpeg/mai-du/p4.jpg",
+      "runtimePath": "public/classic-stories/mai-du/p4.jpg",
+      "jpegSha256": "4e90c8ac47c7d28c3b09ad106d14611c36caa4f219526be778f629b02a6ff4fe",
+      "jpegBytes": 218153
+    },
+    {
+      "storyId": "mai-du",
+      "slot": "p5",
+      "jpegPath": "content/imagine-gongbi-jpeg/mai-du/p5.jpg",
+      "runtimePath": "public/classic-stories/mai-du/p5.jpg",
+      "jpegSha256": "b15f1b7c6040c7644e6401f1557370ac33a3ac52c4060494b9e2be76c83a2918",
+      "jpegBytes": 195411
+    },
+    {
+      "storyId": "mai-du",
+      "slot": "p6",
+      "jpegPath": "content/imagine-gongbi-jpeg/mai-du/p6.jpg",
+      "runtimePath": "public/classic-stories/mai-du/p6.jpg",
+      "jpegSha256": "f4e6b99cee9eac56fa960021204c6123bcd8580be3e1b16a7db12304c7f26ccd",
+      "jpegBytes": 203625
+    },
+    {
+      "storyId": "mai-du",
+      "slot": "p7",
+      "jpegPath": "content/imagine-gongbi-jpeg/mai-du/p7.jpg",
+      "runtimePath": "public/classic-stories/mai-du/p7.jpg",
+      "jpegSha256": "a2ac67e45eba1393fd20f87f56850f3a9b805b31e85e923c1a3abb7e69fc7e19",
+      "jpegBytes": 186467
+    },
+    {
+      "storyId": "yu-bang",
+      "slot": "cover",
+      "jpegPath": "content/imagine-gongbi-jpeg/yu-bang/cover.jpg",
+      "runtimePath": "public/classic-stories/yu-bang/cover.jpg",
+      "jpegSha256": "e02a35a8cbb28febbc861730babfcab57e48add9cc37658dc2be7baeb4e4db39",
+      "jpegBytes": 170306
+    },
+    {
+      "storyId": "yu-bang",
+      "slot": "p1",
+      "jpegPath": "content/imagine-gongbi-jpeg/yu-bang/p1.jpg",
+      "runtimePath": "public/classic-stories/yu-bang/p1.jpg",
+      "jpegSha256": "82b41c8c60d11eb22edca5d479ddcb3e3a4b6c4e5c5662f509aaf2dd626b78f9",
+      "jpegBytes": 232850
+    },
+    {
+      "storyId": "yu-bang",
+      "slot": "p2",
+      "jpegPath": "content/imagine-gongbi-jpeg/yu-bang/p2.jpg",
+      "runtimePath": "public/classic-stories/yu-bang/p2.jpg",
+      "jpegSha256": "724c4a59a9fe6051ce643c0bddc59399eec4f6d1e2614fd227a63a76bf227e7f",
+      "jpegBytes": 222629
+    },
+    {
+      "storyId": "yu-bang",
+      "slot": "p3",
+      "jpegPath": "content/imagine-gongbi-jpeg/yu-bang/p3.jpg",
+      "runtimePath": "public/classic-stories/yu-bang/p3.jpg",
+      "jpegSha256": "17767ec14411207a97e84ade41b9074a8afc9704f5c158992a7f344996c069d1",
+      "jpegBytes": 249703
+    },
+    {
+      "storyId": "yu-bang",
+      "slot": "p4",
+      "jpegPath": "content/imagine-gongbi-jpeg/yu-bang/p4.jpg",
+      "runtimePath": "public/classic-stories/yu-bang/p4.jpg",
+      "jpegSha256": "4eefd5d25be11e42cede01314bf9a162f07e5c6c72ca8dd5ee5997fb13958cdf",
+      "jpegBytes": 241835
+    },
+    {
+      "storyId": "yu-bang",
+      "slot": "p5",
+      "jpegPath": "content/imagine-gongbi-jpeg/yu-bang/p5.jpg",
+      "runtimePath": "public/classic-stories/yu-bang/p5.jpg",
+      "jpegSha256": "897892c89cb2b4a33329db178b6c4bb3c9245d0ce453110389fa5a2f80f54276",
+      "jpegBytes": 200028
+    },
+    {
+      "storyId": "yu-bang",
+      "slot": "p6",
+      "jpegPath": "content/imagine-gongbi-jpeg/yu-bang/p6.jpg",
+      "runtimePath": "public/classic-stories/yu-bang/p6.jpg",
+      "jpegSha256": "00221678e270755c9e949cba6265c34f0125e23d345ecd660a4870c8d7017abf",
+      "jpegBytes": 158314
+    },
+    {
+      "storyId": "yu-bang",
+      "slot": "p7",
+      "jpegPath": "content/imagine-gongbi-jpeg/yu-bang/p7.jpg",
+      "runtimePath": "public/classic-stories/yu-bang/p7.jpg",
+      "jpegSha256": "4d52a9a6da23d7742148aa1bf07b9fdc848b90420c5647c796a1b6e4b9f32b88",
+      "jpegBytes": 159131
+    }
+  ]
+}

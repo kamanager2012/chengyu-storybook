@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "batchId": "kokoro-20260827t174414688z-wan-bi-gui-zhao-81db0d4dceca",
+  "canonicalSource": "content/story-drafts",
+  "createdAt": "2026-08-27T17:44:14.688Z",
+  "inputItemCount": 9,
+  "inputDigestSha256": "81db0d4dceca2f00bf01e95a54a36d5ef660e721b673118a934bf4dc06f40d5a",
+  "provider": {
+    "name": "kokoro-local",
+    "voice": "zf_001",
+    "language": "zh",
+    "generator": "kokoro-local-adapter-v2",
+    "profile": {
+      "id": "kokoro-v1.1-zh-zf001",
+      "evidence": "content/evidence/narration/providers/kokoro-v1.1-zh-zf001.json",
+      "sha256": "87c7dcc77a20841e45320b4f7479e4cc1d7384c1058ed9be749fdeead68a885b"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/kokoro-v1.1-zh-zf001.json"
+    ]
+  },
+  "execution": {
+    "model": {
+      "repository": "hexgrad/Kokoro-82M-v1.1-zh",
+      "revision": "a51e9e2a069a198cbda1f021f3805af3603ba92d",
+      "configSha256": "bc333efa5ce4ceff433c8c8e5d027a1eca0166001e4e4a62bea2d26ff7a46890",
+      "weightsSha256": "b1d8410fa44dfb5c15471fd6c4225ea6b4e9ac7fa03c98e8bea47a9928476e2b",
+      "voiceSha256": "9bdc9a87e13e9bb1ea3e7803259c2ecbfebaeeb2ff80b5d0c76df1a464c1c962"
+    },
+    "runtime": {
+      "inferenceRepository": "hexgrad/kokoro",
+      "inferenceCommit": "dfb907a02bba8152ca444717ca5d78747ccb4bec",
+      "g2pRepository": "hexgrad/misaki",
+      "g2pCommit": "fba1236595f2d2bf21d414ba6e57d25256afada3",
+      "platform": "linux",
+      "arch": "x64",
+      "pythonVersion": "3.12.14",
+      "torchVersion": "2.6.0+cpu",
+      "device": "cpu",
+      "environment": {
+        "id": "kokoro-mandarin-python312-linux-x64-cpu-v1",
+        "target": {
+          "platform": "linux",
+          "arch": "x64",
+          "python": "3.12",
+          "device": "cpu"
+        },
+        "resolver": {
+          "name": "uv",
+          "version": "0.10.0"
+        },
+        "project": {
+          "path": "scripts/narration-runtime/pyproject.toml",
+          "sha256": "b5ae9f93bb07807e73cf497a5815d8526fedefb1cab4c5804d687e6b9ab1d6d0"
+        },
+        "lock": {
+          "path": "scripts/narration-runtime/uv.lock",
+          "sha256": "75dac0288870fd549098dc2ae7a7e3433cbf681433e81a00e15689661accdd9f"
+        }
+      }
+    },
+    "encoder": {
+      "name": "ffmpeg",
+      "version": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+      "codec": "libmp3lame",
+      "bitrateKbps": 40,
+      "sampleRateHz": 24000,
+      "channels": 1,
+      "binarySha256": "e8a8d46f5225f3062cec7c07fb145d58ae73c603cb740dcd5bad34bfb54e455a",
+      "libmp3lameSha256": "98d0d7579c760053242a1deac2ebe335b8f8636f44235580f05b732f5fa207bb",
+      "profile": {
+        "id": "ffmpeg-trixie-7.1.5-libmp3lame-v1",
+        "evidence": "content/evidence/narration/encoders/ffmpeg-trixie-7.1.5-libmp3lame.json",
+        "sha256": "8029d8f2a8dc44619f3e6a2d80b7626c33d3f53c01c8ebfa6205f11f08ba28fe"
+      }
+    }
+  },
+  "items": [
+    {
+      "key": "wan-bi-gui-zhao/moral",
+      "file": "public/audio/wan-bi-gui-zhao/moral.mp3",
+      "textSha256": "5cf2a23456a1908a26fc8a4d11706fb9dd372f2b3cf1bf96b92f4f4cd9c5455f",
+      "audioSha256": "c9c7d90b467a441a641cec7e2d59ee1082f80c79927150d7719b76a2916b517d"
+    },
+    {
+      "key": "wan-bi-gui-zhao/p0",
+      "file": "public/audio/wan-bi-gui-zhao/p0.mp3",
+      "textSha256": "a3d5c511f112a258e0a56c582ab27dd137241547eea0e760e0335f58eed71e36",
+      "audioSha256": "20c9af1dfb0d8bedb8fd2433993ff301f6c0c73107b3f81eb459a651e373fcf2"
+    },
+    {
+      "key": "wan-bi-gui-zhao/p1",
+      "file": "public/audio/wan-bi-gui-zhao/p1.mp3",
+      "textSha256": "64bdc2cccb5c053297dacf4325b395f0b79ba7ff444e2e171790dc5ec0ff1bff",
+      "audioSha256": "d9ec88a2d85ffb5e25b7c2a93fa553199f04f44004b32a7483fad56aecfc73f8"
+    },
+    {
+      "key": "wan-bi-gui-zhao/p2",
+      "file": "public/audio/wan-bi-gui-zhao/p2.mp3",
+      "textSha256": "5c74e24c5a1a1a990aa23783fdec1c8cd5d824c4ed70f9dff73d6d01d682ac97",
+      "audioSha256": "b277abe728100e7ddfaae52c73a0f986e43ae669a5b734f6740d1834b231ff40"
+    },
+    {
+      "key": "wan-bi-gui-zhao/p3",
+      "file": "public/audio/wan-bi-gui-zhao/p3.mp3",
+      "textSha256": "e3d014c041a4c620bf1a0b4bea05acd83615a62d4078c368f2c94dc4154a5f9a",
+      "audioSha256": "c293f012e677b7fc76f34800935d7ddefcae61dd4d2402a2da502b67aa51394a"
+    },
+    {
+      "key": "wan-bi-gui-zhao/p4",
+      "file": "public/audio/wan-bi-gui-zhao/p4.mp3",
+      "textSha256": "2e5be6ab24f9668230f0feb4e3d518c21bc8994f6796f5ecb35e92b94b8f9ca5",
+      "audioSha256": "0c809c7bd75c6a1af82566b414807e83e3d3be522f7d1ec777f1e76863fd2792"
+    },
+    {
+      "key": "wan-bi-gui-zhao/p5",
+      "file": "public/audio/wan-bi-gui-zhao/p5.mp3",
+      "textSha256": "7bb2b80efcaf511293b1276599a75f1c37e8a55eb91dc4f3b434c96aed09ca6b",
+      "audioSha256": "1f748669da619b71243f8143a02aa40b573ab471d651aca1d85f1901084e8bf0"
+    },
+    {
+      "key": "wan-bi-gui-zhao/p6",
+      "file": "public/audio/wan-bi-gui-zhao/p6.mp3",
+      "textSha256": "1d692cc48918415d34a7b9d344afb3d8a0275ffe6fa4de9688a14d010cf30403",
+      "audioSha256": "1bcefd76f1e7aacec3f3033520d4ea1175b76c634c5cdaa75a43b4ac99bcfc55"
+    },
+    {
+      "key": "wan-bi-gui-zhao/p7",
+      "file": "public/audio/wan-bi-gui-zhao/p7.mp3",
+      "textSha256": "14d33e645e66995305ab4d5e536bc09b202a240efd5e280cd2f2c93d0e878ccc",
+      "audioSha256": "61d7825eb38a4d891ca586c30ddf64185d7b0e748257753a9876f55e9b99923c"
+    }
+  ]
+}

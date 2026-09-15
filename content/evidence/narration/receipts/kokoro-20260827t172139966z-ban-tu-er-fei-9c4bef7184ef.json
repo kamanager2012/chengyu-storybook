@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "batchId": "kokoro-20260827t172139966z-ban-tu-er-fei-9c4bef7184ef",
+  "canonicalSource": "content/story-drafts",
+  "createdAt": "2026-08-27T17:21:39.966Z",
+  "inputItemCount": 9,
+  "inputDigestSha256": "9c4bef7184efab815fdd5bc811848959bcad0a8e79f43d6b27b3f3eeef982d11",
+  "provider": {
+    "name": "kokoro-local",
+    "voice": "zf_001",
+    "language": "zh",
+    "generator": "kokoro-local-adapter-v2",
+    "profile": {
+      "id": "kokoro-v1.1-zh-zf001",
+      "evidence": "content/evidence/narration/providers/kokoro-v1.1-zh-zf001.json",
+      "sha256": "87c7dcc77a20841e45320b4f7479e4cc1d7384c1058ed9be749fdeead68a885b"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/kokoro-v1.1-zh-zf001.json"
+    ]
+  },
+  "execution": {
+    "model": {
+      "repository": "hexgrad/Kokoro-82M-v1.1-zh",
+      "revision": "a51e9e2a069a198cbda1f021f3805af3603ba92d",
+      "configSha256": "bc333efa5ce4ceff433c8c8e5d027a1eca0166001e4e4a62bea2d26ff7a46890",
+      "weightsSha256": "b1d8410fa44dfb5c15471fd6c4225ea6b4e9ac7fa03c98e8bea47a9928476e2b",
+      "voiceSha256": "9bdc9a87e13e9bb1ea3e7803259c2ecbfebaeeb2ff80b5d0c76df1a464c1c962"
+    },
+    "runtime": {
+      "inferenceRepository": "hexgrad/kokoro",
+      "inferenceCommit": "dfb907a02bba8152ca444717ca5d78747ccb4bec",
+      "g2pRepository": "hexgrad/misaki",
+      "g2pCommit": "fba1236595f2d2bf21d414ba6e57d25256afada3",
+      "platform": "linux",
+      "arch": "x64",
+      "pythonVersion": "3.12.14",
+      "torchVersion": "2.6.0+cpu",
+      "device": "cpu",
+      "environment": {
+        "id": "kokoro-mandarin-python312-linux-x64-cpu-v1",
+        "target": {
+          "platform": "linux",
+          "arch": "x64",
+          "python": "3.12",
+          "device": "cpu"
+        },
+        "resolver": {
+          "name": "uv",
+          "version": "0.10.0"
+        },
+        "project": {
+          "path": "scripts/narration-runtime/pyproject.toml",
+          "sha256": "b5ae9f93bb07807e73cf497a5815d8526fedefb1cab4c5804d687e6b9ab1d6d0"
+        },
+        "lock": {
+          "path": "scripts/narration-runtime/uv.lock",
+          "sha256": "75dac0288870fd549098dc2ae7a7e3433cbf681433e81a00e15689661accdd9f"
+        }
+      }
+    },
+    "encoder": {
+      "name": "ffmpeg",
+      "version": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+      "codec": "libmp3lame",
+      "bitrateKbps": 40,
+      "sampleRateHz": 24000,
+      "channels": 1,
+      "binarySha256": "e8a8d46f5225f3062cec7c07fb145d58ae73c603cb740dcd5bad34bfb54e455a",
+      "libmp3lameSha256": "98d0d7579c760053242a1deac2ebe335b8f8636f44235580f05b732f5fa207bb",
+      "profile": {
+        "id": "ffmpeg-trixie-7.1.5-libmp3lame-v1",
+        "evidence": "content/evidence/narration/encoders/ffmpeg-trixie-7.1.5-libmp3lame.json",
+        "sha256": "8029d8f2a8dc44619f3e6a2d80b7626c33d3f53c01c8ebfa6205f11f08ba28fe"
+      }
+    }
+  },
+  "items": [
+    {
+      "key": "ban-tu-er-fei/moral",
+      "file": "public/audio/ban-tu-er-fei/moral.mp3",
+      "textSha256": "f8dd388e583c1868eaad47142430ca3324da5ff91f84b125080ee17dd5ce4a27",
+      "audioSha256": "ea0b139c4fb0c72d52a7e4b38e0387f12fd304c1661e46818118fe3d009daeb6"
+    },
+    {
+      "key": "ban-tu-er-fei/p0",
+      "file": "public/audio/ban-tu-er-fei/p0.mp3",
+      "textSha256": "b272a1e218bb11ac10e9eb8b04ed53775e472074355602c3e11b7e3b21bee1fb",
+      "audioSha256": "b20ce6628eddf5a3d4787c2927240288b7c7725d2171579acf8843fd0792e823"
+    },
+    {
+      "key": "ban-tu-er-fei/p1",
+      "file": "public/audio/ban-tu-er-fei/p1.mp3",
+      "textSha256": "f58138cc25d11959a7e852cc9cc129d25c4729ff41037fbc15cc82b6741688bd",
+      "audioSha256": "cb7ab31cb7b6e7fa293886d0a8741a729c960acaf753af558c5d1bbb887afca0"
+    },
+    {
+      "key": "ban-tu-er-fei/p2",
+      "file": "public/audio/ban-tu-er-fei/p2.mp3",
+      "textSha256": "f575053f1113a0ef869a99f74da68c853d89c6af224d805e3f9b5451408baaba",
+      "audioSha256": "6e3929e9abea7bdc8b4aaf22205def8f8b2ab2b500f879a71a5efc577a8bd67d"
+    },
+    {
+      "key": "ban-tu-er-fei/p3",
+      "file": "public/audio/ban-tu-er-fei/p3.mp3",
+      "textSha256": "b4d4b666fd9fd071649310b1c386a491ccbe86f58174fa91c865e1d810cfdea4",
+      "audioSha256": "d41a77c2321b7e287876b90f8f6eca4967d1824434de2060b02712fb28d838ab"
+    },
+    {
+      "key": "ban-tu-er-fei/p4",
+      "file": "public/audio/ban-tu-er-fei/p4.mp3",
+      "textSha256": "b0f2b6deb57f3febec4224bb21a978f573e11967502bee44e522eba420e6b650",
+      "audioSha256": "2c98fdb46a1d16a226d727f374f05f7ef4622db5e53ee1075820af3028e1acfb"
+    },
+    {
+      "key": "ban-tu-er-fei/p5",
+      "file": "public/audio/ban-tu-er-fei/p5.mp3",
+      "textSha256": "00087d635d83f9da1dca12e89253307306c8d0adc2c4eef7f51a34d48b826e36",
+      "audioSha256": "15b9840a9d9424f6701c495741c2093083fa308d997fa615d9b370ed2c0db4b0"
+    },
+    {
+      "key": "ban-tu-er-fei/p6",
+      "file": "public/audio/ban-tu-er-fei/p6.mp3",
+      "textSha256": "e661fc8fc8ee230d9411a997caded1f63364b21ed5772e3d9ecd5609e3207bd0",
+      "audioSha256": "2bcf8c29e3c89a43e54072c748c6701dc24208f4a77f77fff27a0fd34aaa8622"
+    },
+    {
+      "key": "ban-tu-er-fei/p7",
+      "file": "public/audio/ban-tu-er-fei/p7.mp3",
+      "textSha256": "af2d9fc112d9af831b66ba3d05b96350b0f7fc2c3f41b2514f1a9b5a14da0443",
+      "audioSha256": "b07c6623c136e1b732cb3c37525473f16bdd1889ccbc1cc7b0aa4d28e07715e0"
+    }
+  ]
+}

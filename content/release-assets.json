@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "productArtwork": [
+    "public/favicon.svg",
+    "public/icon-180.svg",
+    "public/og.svg",
+    "public/ui/bookshelf-paper.svg",
+    "public/apple-touch-icon-180.png",
+    "public/icon-192.png",
+    "public/icon-512.png",
+    "public/icon-maskable-512.png"
+  ],
+  "retiredProductArtwork": [
+    "public/icon-180.png",
+    "public/og.jpg",
+    "public/ui/bookshelf-paper.jpg"
+  ]
+}

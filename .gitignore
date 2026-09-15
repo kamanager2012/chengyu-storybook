@@ -1,0 +1,48 @@
+node_modules/
+dist/
+.output/
+coverage/
+.tanstack/
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# Pay service local order store / secrets
+server/pay/.pay-data/
+server/pay/.env
+server/pay/.env.*
+!server/pay/env.example
+
+# Local narration generation workspace
+.narration-work/
+.runtime-assets/
+.runtime-src/
+/idiom-redraw-wave*-png/
+/idiom-redraw-*.json
+scripts/narration-runtime/.venv/
+content/imagine-child-drafts/logs/
+content/imagine-gongbi/logs/
+content/imagine-drafts/
+content/imagine-gongbi/**/*.png
+
+# Builder / deployment workspace state
+.grok/
+.vercel/
+artifacts/
+screenshots/
+test-results/
+playwright-report/
+.node_modules.lock
+.project_id
+.github_repo
+
+# Dual-hall overlays: synced from origin folders at build/dev
+public/classic-stories/
+public/child-stories/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+*.log

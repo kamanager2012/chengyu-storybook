@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "pilotId": "shou-zhu-kokoro-v1",
+  "storyId": "shou-zhu",
+  "installedBatch": {
+    "batchId": "kokoro-20260827t165330108z-shou-zhu-106ebc53267a",
+    "receiptPath": "content/evidence/narration/receipts/kokoro-20260827t165330108z-shou-zhu-106ebc53267a.json",
+    "receiptSha256": "a33b3e5c690c93ec8b69cc804d097981d78c649c628de74060fdaa264c06d1c7",
+    "inputItemCount": 9,
+    "inputDigestSha256": "106ebc53267a9e52a254663dcff7d2e79017b4e26b30eb7d3a16c20257c8598c"
+  },
+  "technicalQc": {
+    "status": "passed",
+    "itemCount": 9,
+    "sampleRateHz": 24000,
+    "channels": 1,
+    "bitrateKbps": 40,
+    "totalDurationSeconds": 71.496,
+    "averageDurationSeconds": 7.944,
+    "minimumDurationSeconds": 7.104,
+    "maximumDurationSeconds": 9.24,
+    "totalBytes": 359604,
+    "averageBytes": 39956,
+    "minimumBytes": 35756,
+    "maximumBytes": 46436,
+    "nonSilenceCheck": "passed",
+    "productionBundleModelLeakCheck": "passed"
+  },
+  "audioSha256": {
+    "shou-zhu/moral": "33e84012f9bc235bda0cfbc16071bef9cea7b2e234fe36e764abbfc97e2b78bb",
+    "shou-zhu/p0": "738d2f69d733f5cf36d2110453021db376f20f07348ca8b7645a958198d1ce58",
+    "shou-zhu/p1": "30791a0bf6e60eac0d6bafce52374db352a5a08ea30fd4d7ed38b792bc8a33b3",
+    "shou-zhu/p2": "1fee553abfe7b7bfc050ac01667e2d7d304a3acf58c5d0cf7baa2be506538306",
+    "shou-zhu/p3": "c8ea06fefc904022a029ffb4e4f4395b691bd1f39b3da1ac08d0a8fe0a02a934",
+    "shou-zhu/p4": "6d5cd028978bd02541446abfacc216b9e4f8abb3c1a067e9171740fc4558752a",
+    "shou-zhu/p5": "5a1f11f9f19fe5c7ad1a93859f610211d5516eb94c8085bae3adb459a0c601df",
+    "shou-zhu/p6": "0a62ca08c5345b56b8aa8cd1b5766429cebdf086b4aa46d358c16af61869dc38",
+    "shou-zhu/p7": "0fd56b41332097afb2b9750e54ff65101695816ba7d41aa880875153384f84e1"
+  },
+  "qualityReview": {
+    "listeningStatus": "waived",
+    "expansionApproved": true,
+    "reviewedAt": "2026-08-27T16:55:30.000Z",
+    "reviewerRole": "project-owner",
+    "decisionNote": "Project owner instructed unifying published and draft narration onto the host ffmpeg 7.1.5 pin. Human listening was not repeated; this waiver authorizes replacement of the 24 published books and expansion to the 76 drafts."
+  }
+}

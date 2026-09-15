@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "claim": "owned",
+  "rightsClaimApplied": true,
+  "scope": "grok-imagine-child-overlay-jpegs",
+  "retrievedAt": "2026-09-09",
+  "overlaySet": {
+    "source": "grok-imagine",
+    "stories": 11,
+    "images": 88,
+    "digestSha256": "d1ce4af530d68fb333484d4aee239cab55d751328901cc4c20742c85db86be7b"
+  },
+  "origin": {
+    "evidence": "content/evidence/story-images/cursor-child-overlay-origin.json",
+    "mappingDigestSha256": "15ec167e316413ac3685e56d0b8ea212067afba811f27880b96bd58a13d5fe88"
+  },
+  "providerRights": {
+    "provider": "X.AI LLC",
+    "consumerTerms": {
+      "url": "https://x.ai/legal/terms-of-service",
+      "effectiveDate": "2026-06-26",
+      "summary": "The Consumer Terms define Grok Output as User Content and state that, to the extent permitted by applicable law and as between the user and xAI, the user retains ownership rights to User Content."
+    },
+    "consumerFaq": {
+      "url": "https://x.ai/legal/faq",
+      "summary": "The Consumer FAQ states that users own Grok Inputs and Outputs, including generated images, and may use Grok Outputs as they wish, including commercially."
+    },
+    "brandGuidelines": {
+      "url": "https://x.ai/legal/brand-guidelines",
+      "attribution": "Created with Grok",
+      "summary": "xAI asks that Grok-generated images be attributed using the phrase Created with Grok."
+    }
+  },
+  "limitations": {
+    "copyrightability": "This evidence does not assert that every element of an AI-generated image is independently copyrightable in every jurisdiction.",
+    "thirdPartyRights": "xAI states that outputs may not be unique and disclaims warranties including non-infringement. This claim therefore does not represent a warranty against every possible third-party copyright, trademark, likeness, or other rights claim.",
+    "notMergedIntoGrokPublicStoriesSet": true,
+    "claimMeaning": "The owned claim records the project's rights position as between the user and xAI for the logged Grok Imagine children's overlay JPEGs; it is not a universal non-infringement certification and does not add these files to the 800-image public/stories Grok set."
+  }
+}

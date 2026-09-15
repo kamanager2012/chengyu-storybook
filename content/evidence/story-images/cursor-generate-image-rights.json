@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "claim": "owned",
+  "rightsClaimApplied": true,
+  "scope": "cursor-generate-image-child-overlay-jpegs",
+  "retrievedAt": "2026-09-09",
+  "overlaySet": {
+    "source": "cursor-generate-image",
+    "stories": 65,
+    "images": 520,
+    "digestSha256": "f5640d0cf0adb79541d33adacfdd3d76c0f25c95d8fdd4a84e80cb8eb6f70b23"
+  },
+  "origin": {
+    "evidence": "content/evidence/story-images/cursor-child-overlay-origin.json",
+    "mappingDigestSha256": "15ec167e316413ac3685e56d0b8ea212067afba811f27880b96bd58a13d5fe88"
+  },
+  "providerRights": {
+    "provider": "Anysphere, Inc.",
+    "consumerTerms": {
+      "url": "https://cursor.com/terms-of-service",
+      "retrievedAt": "2026-09-09",
+      "localExcerpt": "licenses/cursor/Anysphere-Terms-excerpt-2026-09-09.txt",
+      "excerptSha256": "925fe1a5ee474c07e3626519b49f268f7caf6608cf7d40dc77f9e464aa85bab5",
+      "summary": "Section 1.2 defines Suggestions as code, outputs, or other functions based on Inputs. Section 5.3 assigns Anysphere's right, title, and interest if any in Suggestions to the user. This claim treats Cursor GenerateImage JPEGs recorded in child-overlay logs as Suggestions/outputs."
+    }
+  },
+  "limitations": {
+    "copyrightability": "This evidence does not assert that every element of an AI-generated image is independently copyrightable in every jurisdiction.",
+    "thirdPartyRights": "Anysphere disclaims non-infringement warranties. Suggestions may be similar to outputs provided to other customers. This claim is not a warranty against every possible third-party copyright, trademark, likeness, or other rights claim.",
+    "notMergedIntoGrokPublicStoriesSet": true,
+    "claimMeaning": "The owned claim records the project's rights position as between the user and Anysphere for the logged Cursor GenerateImage children's overlay JPEGs; it is not a universal non-infringement certification and does not add these files to the 800-image Grok public/stories set."
+  }
+}
