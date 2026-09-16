@@ -1,0 +1,1 @@
+var e=[];if(e.length!==0)throw Error(`expected 0 remaining draft stories, found ${e.length}`);function t(t){return e.find(e=>e.id===t)}var n=[];function r(e){return n.find(t=>t.id===e)}export{r as getDraftMediaStory,t as getDraftStory};
