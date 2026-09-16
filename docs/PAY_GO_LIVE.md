@@ -46,6 +46,17 @@ sudo systemctl daemon-reload && sudo systemctl enable --now chengyu-pay
 2. 真机扫码付 0.01 元试单（若商户支持）或 19.9 元一笔，确认 notify 到账、`/order` 变 `paid`、`/claim` 写出权益。
 3. 邮箱注册 → 登录 → 解锁 → 换设备同邮箱仍有效。
 
+## 本机模拟（无商户）
+
+```bash
+# 终端1
+npm run pay:dev
+# 终端2（另开）
+npm run pay:smoke
+```
+
+`pay:smoke`：注册 → 微信下单 → `simulate-paid` → claim → `/auth/me`。
+
 ## 刻意不做
 
 - 不把商户密钥写进仓库或 GitHub Secrets（除非你另开私密托管并明确授权）。
