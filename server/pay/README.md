@@ -70,6 +70,12 @@ curl -X POST http://127.0.0.1:8787/dev/simulate-paid/<orderId>
 - 密码用 scrypt；会话 token 只存哈希，约 400 天有效。
 - 配通并实测成功后，再考虑 `content/commerce.json` 的 `readGateEnabled: true`。
 
+## 生产部署样例
+
+见 `server/pay/deploy/`（Dockerfile / compose / systemd / nginx）与仓库根 `docs/PAY_GO_LIVE.md`。
+
+`readGateEnabled` 已在 `content/commerce.json` 打开；无公网支付时前端解锁会失败，免费 12 本仍可读。
+
 ## npm
 
 ```bash

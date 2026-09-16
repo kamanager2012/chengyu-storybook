@@ -1,0 +1,19 @@
+[Unit]
+Description=Chengyu storybook pay API
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/chengyu-storybook
+EnvironmentFile=/opt/chengyu-storybook/server/pay/.env
+Environment=PAY_HOST=127.0.0.1
+Environment=PAY_PORT=8787
+Environment=PAY_DEV_SIMULATE=0
+ExecStart=/usr/bin/node server/pay/index.mjs
+Restart=on-failure
+RestartSec=3
+User=www-data
+Group=www-data
+
+[Install]
+WantedBy=multi-user.target

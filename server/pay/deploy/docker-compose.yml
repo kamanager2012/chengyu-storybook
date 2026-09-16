@@ -1,0 +1,21 @@
+# Example: docker compose -f server/pay/deploy/docker-compose.yml --env-file server/pay/.env up -d
+services:
+  pay:
+    build:
+      context: ../../..
+      dockerfile: server/pay/deploy/Dockerfile
+    ports:
+      - "8787:8787"
+    env_file:
+      - ../.env
+    environment:
+      PAY_HOST: "0.0.0.0"
+      PAY_PORT: "8787"
+      PAY_DEV_SIMULATE: "0"
+      PAY_STORE_PATH: /app/server/pay/.pay-data/orders.json
+    volumes:
+      - pay-data:/app/server/pay/.pay-data
+    restart: unless-stopped
+
+volumes:
+  pay-data:
