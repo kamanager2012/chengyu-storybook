@@ -10,7 +10,7 @@ test("annual catalog is twelve free classics at 19.9 for 365 days", () => {
   assert.equal(commerce.durationDays, 365);
   assert.equal(commerce.freeCount, 12);
   assert.equal(commerce.catalogCount, 100);
-  assert.equal(commerce.readGateEnabled, false);
+  assert.equal(commerce.readGateEnabled, true);
   assert.equal(commerce.freeStoryIds.length, 12);
   assert.equal(commerce.freeStoryIds[0], "shou-zhu");
   assert.equal(commerce.freeStoryIds[11], "yu-gong");
