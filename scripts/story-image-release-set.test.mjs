@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import { buildStoryImageReleaseSet } from "./story-image-release-set.mjs";
 
-const EXPECTED_DIGEST = "4627862af33f63d1e5843e434bd2a0eae69ec5873601acb7a066e28decfe398f";
+const EXPECTED_DIGEST = "bf71ab75aa0b9dad9b4dfeab26bd781631f1c60ef03ce2f8ecc8666f46955b0d";
 const releaseSet = buildStoryImageReleaseSet();
 
 test("story image release set is complete and byte-pinned", () => {

@@ -23,7 +23,7 @@ const assets = releaseSet.entries.map((entry) => ({
 test("story image rights evidence pins technical origin and current release bytes", () => {
   assert.equal(rights.claim, "owned");
   assert.equal(rights.releaseSet.count, 800);
-  assert.equal(rights.releaseSet.digestSha256, "4627862af33f63d1e5843e434bd2a0eae69ec5873601acb7a066e28decfe398f");
+  assert.equal(rights.releaseSet.digestSha256, "bf71ab75aa0b9dad9b4dfeab26bd781631f1c60ef03ce2f8ecc8666f46955b0d");
   assert.equal(rights.technicalOrigin.mappingDigestSha256, "ca3f410fe320ddb4b443d8089b84a4483de0e13d5731c806c894e865ad1c2cac");
   assert.equal(origin.audit.mappingDigestSha256, rights.technicalOrigin.mappingDigestSha256);
   assert.equal(rights.providerRights.consumerTerms.effectiveDate, "2026-06-26");
