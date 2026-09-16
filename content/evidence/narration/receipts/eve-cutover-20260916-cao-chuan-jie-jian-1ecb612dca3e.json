@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-cutover-20260916-cao-chuan-jie-jian-1ecb612dca3e",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-16T03:01:09.412Z",
+  "inputItemCount": 9,
+  "inputDigestSha256": "1ecb612dca3ef13ce535161d332db50e6d809e53de6b097bd184f8c78babc814",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "cutover": {
+      "kind": "eve-product-audio-cutover-binding",
+      "attestation": "content/evidence/narration/eve-cutover-attestation.json"
+    }
+  },
+  "items": [
+    {
+      "key": "cao-chuan-jie-jian/p0",
+      "file": "public/audio/cao-chuan-jie-jian/p0.mp3",
+      "textSha256": "0a709d785818d96e9ca3fa644638cd1a732858ceca7d27b45a79dd7b475bb15d",
+      "audioSha256": "c18e442f4f458008da0f12181258e3b2d96e114647c066080e631e5ca0ac528c"
+    },
+    {
+      "key": "cao-chuan-jie-jian/p1",
+      "file": "public/audio/cao-chuan-jie-jian/p1.mp3",
+      "textSha256": "b21f22b3ce1d61e4a3a36810b2fc324cf7dc876d0a9d55cafe72dd7d35b324d1",
+      "audioSha256": "29df10c88207121cbf09796c4248b65abba6d4e5d7b1cfb5307378467ed2ae74"
+    },
+    {
+      "key": "cao-chuan-jie-jian/p2",
+      "file": "public/audio/cao-chuan-jie-jian/p2.mp3",
+      "textSha256": "4b8aedaa55fbf2502b3ddf519bc92b2cd3fdca9d18ed390566d79b33b4f92332",
+      "audioSha256": "63bf80cc56e44c15236ecd8ec6e0553f04bf91e4de91e5bc9d55bb1bcf185897"
+    },
+    {
+      "key": "cao-chuan-jie-jian/p3",
+      "file": "public/audio/cao-chuan-jie-jian/p3.mp3",
+      "textSha256": "4d078206e86360722df7726028720c5c6bff5b5052a6931906abf5b2baea8f3f",
+      "audioSha256": "a44cd5edd5c8c35e75c0987871a292a632ec079ae7f6bb104271b21e53c02644"
+    },
+    {
+      "key": "cao-chuan-jie-jian/p4",
+      "file": "public/audio/cao-chuan-jie-jian/p4.mp3",
+      "textSha256": "e1ec1c0f1fcdb4166f495af7e8e38e3537d1cdd6d21d65bc4d6028fd48093838",
+      "audioSha256": "e11395b927e5981c3999fcc7cbaf5c848fd3210c344e18123b5b199b1bd8f7cb"
+    },
+    {
+      "key": "cao-chuan-jie-jian/p5",
+      "file": "public/audio/cao-chuan-jie-jian/p5.mp3",
+      "textSha256": "2a99510e339c617adae47039e1abcb0f97cbfaf7826c0ee0dec6d6b68e774f8f",
+      "audioSha256": "972ca8b034b5ac29ce13460ef9b77a9bc99f177a7c11565875b03f5048e656ab"
+    },
+    {
+      "key": "cao-chuan-jie-jian/p6",
+      "file": "public/audio/cao-chuan-jie-jian/p6.mp3",
+      "textSha256": "154a7997f59c0b1691835a8b39d4e9dc018fa670c70954dc2ad73d6ba1f427c9",
+      "audioSha256": "2fb0a460f75813c53a5094219cd3c2854a9e682fb8bac620d9b6d7fa0bc8b212"
+    },
+    {
+      "key": "cao-chuan-jie-jian/p7",
+      "file": "public/audio/cao-chuan-jie-jian/p7.mp3",
+      "textSha256": "9ae19ff3f9c8292dfdea0b30d5ccd23cd3846c13eecb3bf41471b209620ca9ca",
+      "audioSha256": "164805f0a848f66d3d4f6baa6bc02af6b074cd215674f21f0de892d68e25024b"
+    },
+    {
+      "key": "cao-chuan-jie-jian/moral",
+      "file": "public/audio/cao-chuan-jie-jian/moral.mp3",
+      "textSha256": "8e3c4d789beb68e98d9cc286bc759fa6261508fdb3551d82f2bbf31bdf061e15",
+      "audioSha256": "1ce3b7f81b172d56304c1284f9742e35128ca1d9f81b530f211cfdac3c7f9552"
+    }
+  ]
+}

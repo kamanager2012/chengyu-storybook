@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "profileId": "xai-grok-tts-eve-v1",
+  "status": "approved",
+  "providerType": "cloud-tts",
+  "language": "zh",
+  "voice": {
+    "id": "eve",
+    "label": "Grok / xAI TTS voice eve"
+  },
+  "api": {
+    "endpoint": "https://api.x.ai/v1/tts",
+    "voicesEndpoint": "https://api.x.ai/v1/tts/voices",
+    "generator": "xai-grok-tts-batch-v1",
+    "batchScript": "scripts/generate-narration-grok-batch.py"
+  },
+  "generationPolicy": {
+    "voiceMode": "named-cloud-voice",
+    "referenceSpeakerAudio": false,
+    "voiceCloning": false,
+    "networkRequiredAtSynthesis": true
+  },
+  "rights": {
+    "claimForGeneratedNarration": "permission",
+    "basis": [
+      "Product default narration is Grok eve under public/audio (content/narration-voice-pilot.json).",
+      "Audio was produced with xAI TTS (api.x.ai/v1/tts, voice_id=eve) via scripts/generate-narration-grok-batch.py.",
+      "This profile records permission to use that TTS output for project narration distribution; it does not assert exclusive ownership of the voice identity or universal copyrightability of generated audio."
+    ],
+    "boundary": "Cutover binding pins current release MP3 bytes and canonical page text. It is not a reconstructed contemporaneous generation log for each synthesis call.",
+    "evidence": [
+      "content/narration-voice-pilot.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "https://x.ai/legal/terms-of-service",
+      "https://x.ai/legal/faq",
+      "https://api.x.ai/v1/tts"
+    ]
+  },
+  "approval": {
+    "approved": true,
+    "approvedByEvidence": [
+      "content/narration-voice-pilot.json status=pilot-default-eve",
+      "Wave-13 product cutover commit message records Eve narration for classic redraw pages; full catalog default is Eve under public/audio."
+    ]
+  }
+}

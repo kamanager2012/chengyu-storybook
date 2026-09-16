@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-cutover-20260916-jin-shang-tian-hua-566588887796",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-16T03:01:09.412Z",
+  "inputItemCount": 9,
+  "inputDigestSha256": "566588887796e6b45cb5c78982052e3f9663cf4fb43e6f846bee5fb7d866d521",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "cutover": {
+      "kind": "eve-product-audio-cutover-binding",
+      "attestation": "content/evidence/narration/eve-cutover-attestation.json"
+    }
+  },
+  "items": [
+    {
+      "key": "jin-shang-tian-hua/p0",
+      "file": "public/audio/jin-shang-tian-hua/p0.mp3",
+      "textSha256": "20669e4337fd6d4919ff7d00724bb71ce27dbf66851a66661e03b51d78089deb",
+      "audioSha256": "022b7fe0574843f36bd81a718c8c00fe78488b60e56b304d1eee2fb8d9339f67"
+    },
+    {
+      "key": "jin-shang-tian-hua/p1",
+      "file": "public/audio/jin-shang-tian-hua/p1.mp3",
+      "textSha256": "02c791dea50ebfa1db1085e8719e2e32a1a176b6a90c8d02ef9ed7da854c641a",
+      "audioSha256": "020d28ef615a5ee4f15d0774bedb21782a52c07a9d8d800a16647eaac6c81ac7"
+    },
+    {
+      "key": "jin-shang-tian-hua/p2",
+      "file": "public/audio/jin-shang-tian-hua/p2.mp3",
+      "textSha256": "7fa663bd1b625993efeb7838272ee98ed85bf54b7cf34ca97a9e0e91912d5d9b",
+      "audioSha256": "314a792c18f0001b52b6a725555dee672aba78fcf3c8d619f642740b8a6e7fef"
+    },
+    {
+      "key": "jin-shang-tian-hua/p3",
+      "file": "public/audio/jin-shang-tian-hua/p3.mp3",
+      "textSha256": "46e13ae0a10f71da91e63939396f790043e98d048d03fd70efa02c9a89eb3421",
+      "audioSha256": "bdd3286322e0708023247811ab59411bcec5f89ace35fd552cdc51c19ff0d597"
+    },
+    {
+      "key": "jin-shang-tian-hua/p4",
+      "file": "public/audio/jin-shang-tian-hua/p4.mp3",
+      "textSha256": "8b78e79f15012d584c7301b9ef6dc7dd3e098aa4955d1db8b56dffc291eebad3",
+      "audioSha256": "913482a40795eadd282877811da59e7586f149f0cfaea4328eb514a2c2840d02"
+    },
+    {
+      "key": "jin-shang-tian-hua/p5",
+      "file": "public/audio/jin-shang-tian-hua/p5.mp3",
+      "textSha256": "2691ce78f8b4844d629f68e59cfc8c9a854af01de085855c984f5b6c960430e1",
+      "audioSha256": "a2ce5072dea3b675d4ce1557052a8b28adde3a0c34c80873063bc25fb1f42e28"
+    },
+    {
+      "key": "jin-shang-tian-hua/p6",
+      "file": "public/audio/jin-shang-tian-hua/p6.mp3",
+      "textSha256": "f3c6d78ca0ff3d241c1ad7292ea0bc609dc7d7ef54fc0e16bba8f32cb731ecc1",
+      "audioSha256": "2d6e9aedb7ab2b0cf38c0bdc5c619a20e7373f65581fc7f5f05c901713369f96"
+    },
+    {
+      "key": "jin-shang-tian-hua/p7",
+      "file": "public/audio/jin-shang-tian-hua/p7.mp3",
+      "textSha256": "60af247b897df293ef80a4fd30862b1c6c9c3266d4daed07b11b61eac63cd7d4",
+      "audioSha256": "e80c1c4cb46681d9408bcdf00e9578cf034e593a8eef2c73d577de217134b3d8"
+    },
+    {
+      "key": "jin-shang-tian-hua/moral",
+      "file": "public/audio/jin-shang-tian-hua/moral.mp3",
+      "textSha256": "4a074288f95b3407a1a4037a4106025808a4be9c03ed6c32f01dffce16cdcb91",
+      "audioSha256": "3e200dd2332f6a8bfdccdbf489a72d3cf0575cf1f076ae95598e9bb441f86ad1"
+    }
+  ]
+}

@@ -10,6 +10,13 @@ import {
 } from "./narration-pilot-approval.mjs";
 import { repoRoot } from "./story-model.mjs";
 
+function reviewTimestamp() {
+  const evidence = readNarrationPilotEvidence();
+  const receipt = JSON.parse(readFileSync(join(repoRoot, evidence.installedBatch.receiptPath), "utf8"));
+  const created = Date.parse(receipt.createdAt);
+  return new Date(created + 5 * 60 * 1000).toISOString();
+}
+
 function pendingEvidence() {
   const evidence = readNarrationPilotEvidence();
   evidence.qualityReview = {
@@ -27,7 +34,7 @@ function approvedEvidence() {
   evidence.qualityReview = {
     listeningStatus: "approved",
     expansionApproved: true,
-    reviewedAt: "2026-08-27T17:00:00.000Z",
+    reviewedAt: reviewTimestamp(),
     reviewerRole: "project-owner",
     decisionNote: "Human listening review approved pronunciation, pacing, intelligibility, and overall story narration quality for controlled expansion.",
   };
@@ -39,7 +46,7 @@ function waivedEvidence() {
   evidence.qualityReview = {
     listeningStatus: "waived",
     expansionApproved: true,
-    reviewedAt: "2026-08-27T17:00:00.000Z",
+    reviewedAt: reviewTimestamp(),
     reviewerRole: "project-owner",
     decisionNote: "Project owner explicitly waived human listening and authorized controlled narration expansion without representing that listening occurred.",
   };

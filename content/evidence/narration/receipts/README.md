@@ -91,3 +91,8 @@ Technical source lineage is separate from rights provenance. A current receipt-b
 Changing the generation input selection, canonical text, MP3 bytes, receipt bytes/path, provider profile bytes, model/runtime identity, provider/voice metadata, rights claim, or rights evidence revokes the relevant generated narration verification until a new valid batch is generated and imported.
 
 The existing legacy narration files have no historical receipts and therefore remain unverified. Do not create receipts retroactively merely to raise coverage numbers.
+
+## Grok Eve product cutover (2026-09-16)
+
+Product default narration is Grok `eve` under `public/audio`. Cutover binding receipts use provider `xai-grok-tts` / voice `eve`, batch ids `eve-cutover-20260916-*`, and are attested by `content/evidence/narration/eve-cutover-attestation.json` plus `content/evidence/narration/providers/xai-grok-tts-eve.json`. These receipts fingerprint-bind the already-shipped Eve MP3s and current canonical page text; they do not rewrite audio.
+

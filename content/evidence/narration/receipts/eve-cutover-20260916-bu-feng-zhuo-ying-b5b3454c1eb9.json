@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-cutover-20260916-bu-feng-zhuo-ying-b5b3454c1eb9",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-16T03:01:09.412Z",
+  "inputItemCount": 9,
+  "inputDigestSha256": "b5b3454c1eb98bfac4ab9256e2d5dcb152943435f876a15d23553197b2d5e84a",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "cutover": {
+      "kind": "eve-product-audio-cutover-binding",
+      "attestation": "content/evidence/narration/eve-cutover-attestation.json"
+    }
+  },
+  "items": [
+    {
+      "key": "bu-feng-zhuo-ying/p0",
+      "file": "public/audio/bu-feng-zhuo-ying/p0.mp3",
+      "textSha256": "1826ac58b02f072f2ca51a769a48911927de6b3f8a3c888f2f0a45e305d8df4b",
+      "audioSha256": "2d1c4241331e6568e26f1519875989a0d0975f9c4c5d7d1c079ab1b0f594d36f"
+    },
+    {
+      "key": "bu-feng-zhuo-ying/p1",
+      "file": "public/audio/bu-feng-zhuo-ying/p1.mp3",
+      "textSha256": "c54530ecce25045497db1bf98ac733781e7e686abe965be90ed62bba9f081cc5",
+      "audioSha256": "3b1e006953a902c1ce137bc852099a428a1e2885a615f6bd4cbe2427c21ce215"
+    },
+    {
+      "key": "bu-feng-zhuo-ying/p2",
+      "file": "public/audio/bu-feng-zhuo-ying/p2.mp3",
+      "textSha256": "ffce292d80b98654e52a9950e65afbd495880412d025352a14861238c559c415",
+      "audioSha256": "5ea920804f10c1566562222f9f5e24500a32af844832da808753bd26e49afd87"
+    },
+    {
+      "key": "bu-feng-zhuo-ying/p3",
+      "file": "public/audio/bu-feng-zhuo-ying/p3.mp3",
+      "textSha256": "4fe3dfa06b710e28986538998b83bc62d9b55f1782eab63d9ad696a37186a3ba",
+      "audioSha256": "213100b88b12f1a3526fa43c54868893b0fbdafc9d0624f83ebdb98577151e0c"
+    },
+    {
+      "key": "bu-feng-zhuo-ying/p4",
+      "file": "public/audio/bu-feng-zhuo-ying/p4.mp3",
+      "textSha256": "d917a51bc78d359019f2fdaeaace81bdc9289ad2a67a327b9a06734eefb848bf",
+      "audioSha256": "7e85ea5f8618d561a0344930447ce706263b380dd3929c9400f8f10fd7053d12"
+    },
+    {
+      "key": "bu-feng-zhuo-ying/p5",
+      "file": "public/audio/bu-feng-zhuo-ying/p5.mp3",
+      "textSha256": "fa78322d204ed3d0da1440c7ad7f9417626ba3dadabe58d05f71d638e227539c",
+      "audioSha256": "ff2c529aad3fa7eae48d0e2de8d218ec96d1462a65e5bd77f6a63f676c97b420"
+    },
+    {
+      "key": "bu-feng-zhuo-ying/p6",
+      "file": "public/audio/bu-feng-zhuo-ying/p6.mp3",
+      "textSha256": "31c8693f757a4ca21527f397089cf7fbc0aaa9ef6f7c92d4e2e62024d64de98c",
+      "audioSha256": "7cc9b1332d74166db7b1d593d4837cd6b198289ee123e536aeaab29242957754"
+    },
+    {
+      "key": "bu-feng-zhuo-ying/p7",
+      "file": "public/audio/bu-feng-zhuo-ying/p7.mp3",
+      "textSha256": "65d19223b77e9a7b517ab3998bee8bf823071a6ec54174739316d97bc1735f3e",
+      "audioSha256": "df7e867981d5216efcaa5f3c8e8ce94e1c9774dbfed42e4642a346372f2e5002"
+    },
+    {
+      "key": "bu-feng-zhuo-ying/moral",
+      "file": "public/audio/bu-feng-zhuo-ying/moral.mp3",
+      "textSha256": "ba76b407b16f9bcead1fb301745b655594cb76b4be7fd38cfe1ef5a1bc3d2237",
+      "audioSha256": "3b4228784a19ba0fa958d023dafe05941c0bd1f60382e7a953542d27f418cc2c"
+    }
+  ]
+}

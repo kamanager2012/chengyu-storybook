@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-cutover-20260916-meng-mu-san-qian-49a6dd12332b",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-16T03:01:09.412Z",
+  "inputItemCount": 9,
+  "inputDigestSha256": "49a6dd12332bc93f21b396f5891ba2c9d32d0636b88bb3d1c7d50e31a4713eb3",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "cutover": {
+      "kind": "eve-product-audio-cutover-binding",
+      "attestation": "content/evidence/narration/eve-cutover-attestation.json"
+    }
+  },
+  "items": [
+    {
+      "key": "meng-mu-san-qian/p0",
+      "file": "public/audio/meng-mu-san-qian/p0.mp3",
+      "textSha256": "7fbf2a9bf58eb8a1f91be92803854db7c4ef1e5a0c6e1adbaedc0a48db0c72d4",
+      "audioSha256": "c7bc0b7b497f438018e4c03a76cdb5e26d19116c39e89dcbd1cff6913a050fa3"
+    },
+    {
+      "key": "meng-mu-san-qian/p1",
+      "file": "public/audio/meng-mu-san-qian/p1.mp3",
+      "textSha256": "017a1a4f9c0de71febec15ab126fdb997908d32e47e20f823b26b94bec2f58ec",
+      "audioSha256": "a7aa7e3ed28486a654b1cfe7dce7a08ab607e424d26c3cc5a1d5fb68734765b4"
+    },
+    {
+      "key": "meng-mu-san-qian/p2",
+      "file": "public/audio/meng-mu-san-qian/p2.mp3",
+      "textSha256": "3f24bff96fb181932b191cd58df6b23a80997f549d7983151fe01f10fbbdc4d6",
+      "audioSha256": "907b428579de82ac8b737e39cf55feaab8547f0d7d15a91fa5c1fb58ac4831e0"
+    },
+    {
+      "key": "meng-mu-san-qian/p3",
+      "file": "public/audio/meng-mu-san-qian/p3.mp3",
+      "textSha256": "6064f2b0efedebc0ab3432efcf03c88956e7e86bbddb4cb8da532cada5a0087c",
+      "audioSha256": "f90d1a565da69c28d0ad79f9b30e768ea8cc5902af302edf5187699aa18e0329"
+    },
+    {
+      "key": "meng-mu-san-qian/p4",
+      "file": "public/audio/meng-mu-san-qian/p4.mp3",
+      "textSha256": "9df044aa4bfca5ba66bd44faeef643d456a11a49b00ee68ade64985439a3182e",
+      "audioSha256": "6be63cf6517e89a9b479773ec58299d75aa24b0961642c68e2ccf666128bf3bb"
+    },
+    {
+      "key": "meng-mu-san-qian/p5",
+      "file": "public/audio/meng-mu-san-qian/p5.mp3",
+      "textSha256": "31ad7fd5c44f18e10f88892c9e92dc52e4acd1c7058aadb7b560f0198bc8c611",
+      "audioSha256": "27f41e8bb6ca1f9a6945aff617c5c6de6cd9d97c857caa1224219811ad84e4c4"
+    },
+    {
+      "key": "meng-mu-san-qian/p6",
+      "file": "public/audio/meng-mu-san-qian/p6.mp3",
+      "textSha256": "0789823e6610ab936eb352788c1f3e1c4dc72091a37272228575687e3ab6f5b6",
+      "audioSha256": "ad972165c3270bb6efd47522b61183cf6c8cb1fd4d9419249822eaa00e47296b"
+    },
+    {
+      "key": "meng-mu-san-qian/p7",
+      "file": "public/audio/meng-mu-san-qian/p7.mp3",
+      "textSha256": "2c8584e73178971c4f5669b656b90c05bdb0a2d5f513d9220a8822e3d7726f1c",
+      "audioSha256": "a11d797eecd0038f6022861595f6706dc43bab3cc912ffcd0ca611a7b7e5f94b"
+    },
+    {
+      "key": "meng-mu-san-qian/moral",
+      "file": "public/audio/meng-mu-san-qian/moral.mp3",
+      "textSha256": "e46975f9382334aa086cbda83eb662d2fce3d8960d87dd652c118d92bca1c25b",
+      "audioSha256": "4b8f59d9a0e793cbed972350a89a91da9896b62b49a60239c1bd0558892c41fd"
+    }
+  ]
+}

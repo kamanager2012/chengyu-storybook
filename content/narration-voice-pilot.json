@@ -1,6 +1,8 @@
 {
   "schemaVersion": 1,
   "status": "pilot-default-eve",
-  "note": "Product default narration is Grok eve under public/audio. Multi-voice picker disabled while catalog is eve-only. Other female packs may still exist under public/audio-voices/shou-zhu for local A/B.",
+  "note": "Product default narration is Grok eve under public/audio. Multi-voice picker disabled while catalog is eve-only. Other female packs may still exist under public/audio-voices/<id> for local A/B.",
+  "providerProfile": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+  "cutoverAttestation": "content/evidence/narration/eve-cutover-attestation.json",
   "stories": {}
 }

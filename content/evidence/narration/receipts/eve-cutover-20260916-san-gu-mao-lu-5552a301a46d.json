@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-cutover-20260916-san-gu-mao-lu-5552a301a46d",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-16T03:01:09.412Z",
+  "inputItemCount": 9,
+  "inputDigestSha256": "5552a301a46de1f93aef4d5c8984d3870f1c5c9fe94e7a36538d3bc4e22df40a",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "cutover": {
+      "kind": "eve-product-audio-cutover-binding",
+      "attestation": "content/evidence/narration/eve-cutover-attestation.json"
+    }
+  },
+  "items": [
+    {
+      "key": "san-gu-mao-lu/p0",
+      "file": "public/audio/san-gu-mao-lu/p0.mp3",
+      "textSha256": "68d9b94e739d77b8b413017e2d275b8b15b6f810a00c2f9d6ccd24e71757b411",
+      "audioSha256": "4cbf50b21eba80cbfab1eff1f94bf204557d2a7a0f9a77499d4f5162ddccf843"
+    },
+    {
+      "key": "san-gu-mao-lu/p1",
+      "file": "public/audio/san-gu-mao-lu/p1.mp3",
+      "textSha256": "8e792a4315a4f3a1a003cfc2aca3fa6baa174e73d4e09f68908277b952e910ae",
+      "audioSha256": "8b59ebe854926027582c995766edb5f770abff994d95d0fcb73cec222bf528e8"
+    },
+    {
+      "key": "san-gu-mao-lu/p2",
+      "file": "public/audio/san-gu-mao-lu/p2.mp3",
+      "textSha256": "098944332703ff6c2a2eacd8df32e11896ac10cccc1dfa6dda2a48a5170826c4",
+      "audioSha256": "422aafdbb449749218989b824ea96cd7033c301c9b180cb3c3877e6c9a191d98"
+    },
+    {
+      "key": "san-gu-mao-lu/p3",
+      "file": "public/audio/san-gu-mao-lu/p3.mp3",
+      "textSha256": "6730dedf9c758fad3183b7c91083993f453dbbce8c805fd6cd32ee797e31a71c",
+      "audioSha256": "32a03d6af10da74052ef41030338c8d741c5d88ecad01534d757d16ee534f925"
+    },
+    {
+      "key": "san-gu-mao-lu/p4",
+      "file": "public/audio/san-gu-mao-lu/p4.mp3",
+      "textSha256": "598dd7aaa50d0e828e7b6d914e0923c17f876a8f58aaa6ffacb63a66d288c720",
+      "audioSha256": "b2af56afaba6e8692be335adc84407d0bf6c8f5ba0f4a02e6485aa944b7b4c76"
+    },
+    {
+      "key": "san-gu-mao-lu/p5",
+      "file": "public/audio/san-gu-mao-lu/p5.mp3",
+      "textSha256": "ff454bf1edea38de3b42b231861456e5e212e529ade75e3bd06d197d91cb558e",
+      "audioSha256": "eeef8b2552226398bb1365cbe75085e2451cd4daca1832dfc782707569d36c98"
+    },
+    {
+      "key": "san-gu-mao-lu/p6",
+      "file": "public/audio/san-gu-mao-lu/p6.mp3",
+      "textSha256": "0e0295bfafcd48fc59182ed5a6c69d5396d4543e56a380e005ca886e1fe54154",
+      "audioSha256": "ae38f68be79a0e3597cfc933a80ed4ee1414c85c0bc76394aceedffad56c2322"
+    },
+    {
+      "key": "san-gu-mao-lu/p7",
+      "file": "public/audio/san-gu-mao-lu/p7.mp3",
+      "textSha256": "7bfb5f52b0e54f89a22f7094df827bb07683f09acc2100b7e050faa1be5dac29",
+      "audioSha256": "2dd218e0b065a7f0949f4839fb9c966469af00340d862ee065d60f75b894093e"
+    },
+    {
+      "key": "san-gu-mao-lu/moral",
+      "file": "public/audio/san-gu-mao-lu/moral.mp3",
+      "textSha256": "0073855d1758b35c586dbe5cb3155cfaeb572da33d22b60a1fd2e7360101cdc2",
+      "audioSha256": "1cbdb74e8cedf3faacb5f14533ba2434c5485e1bed9fa7caf8a30ecd814a882b"
+    }
+  ]
+}

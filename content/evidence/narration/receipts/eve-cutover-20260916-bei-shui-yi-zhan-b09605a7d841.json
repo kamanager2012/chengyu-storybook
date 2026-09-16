@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-cutover-20260916-bei-shui-yi-zhan-b09605a7d841",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-16T03:01:09.412Z",
+  "inputItemCount": 9,
+  "inputDigestSha256": "b09605a7d84172fcfc96e1d956bf0f577f69c4566f871f359a9e48f0d44faf21",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "cutover": {
+      "kind": "eve-product-audio-cutover-binding",
+      "attestation": "content/evidence/narration/eve-cutover-attestation.json"
+    }
+  },
+  "items": [
+    {
+      "key": "bei-shui-yi-zhan/p0",
+      "file": "public/audio/bei-shui-yi-zhan/p0.mp3",
+      "textSha256": "d2d12d556fb67bbb6ef44262a76a9fbbe705235c22929ca884969cad498cf351",
+      "audioSha256": "da92fca2cda7a1cc826a1be78991bb44ef4e9d007d9db9a7645ef40c5b23b8ad"
+    },
+    {
+      "key": "bei-shui-yi-zhan/p1",
+      "file": "public/audio/bei-shui-yi-zhan/p1.mp3",
+      "textSha256": "80d61f41e2cfc1fd3c1f704e64e1bce558eaf86152187478956cedf22c5400e6",
+      "audioSha256": "a6e2e1422345b7518fbc9d5b8ba4613378d9ff94f1b0d7ce46883233c3913783"
+    },
+    {
+      "key": "bei-shui-yi-zhan/p2",
+      "file": "public/audio/bei-shui-yi-zhan/p2.mp3",
+      "textSha256": "6dd50cc572c095f42d4bceffaac8fdd6064ef928486457be271fb36fec621575",
+      "audioSha256": "e83784d4a1ba0ed2dc707640e74afe5de8563db2455f7080fa7b00eb70d5c52a"
+    },
+    {
+      "key": "bei-shui-yi-zhan/p3",
+      "file": "public/audio/bei-shui-yi-zhan/p3.mp3",
+      "textSha256": "a7ebe892a2bda4aeca29b39f25e8eb74acb7eef778a08792329bcbfe6a30ba1a",
+      "audioSha256": "161639b3a0eea58268ee8c730f93a54cfe45a3187dbcda58196d1534c326e597"
+    },
+    {
+      "key": "bei-shui-yi-zhan/p4",
+      "file": "public/audio/bei-shui-yi-zhan/p4.mp3",
+      "textSha256": "1c75f7bde97fb1e2eae93b8af332565859aca9638716aaab9d987aef2786e661",
+      "audioSha256": "2fbd529567b72f22f937172dad3e7223a66319fb195558bc36874ced3963789b"
+    },
+    {
+      "key": "bei-shui-yi-zhan/p5",
+      "file": "public/audio/bei-shui-yi-zhan/p5.mp3",
+      "textSha256": "0181929f1b2af332350d139f0dcce329dd00648415375ff83b8f546e3e39dec8",
+      "audioSha256": "3f8a57db58c9bee994180225d6a8942591bef28f073f4d2e08064f0b275512b8"
+    },
+    {
+      "key": "bei-shui-yi-zhan/p6",
+      "file": "public/audio/bei-shui-yi-zhan/p6.mp3",
+      "textSha256": "97ffe7c71c8afffca9f75dc5a0453d950a7ae4a02028a98b7721c1724f96b17c",
+      "audioSha256": "bc7901cd09fc6802e1bb946cc36c0b91ed6f59fc867aca9073376df914c854b3"
+    },
+    {
+      "key": "bei-shui-yi-zhan/p7",
+      "file": "public/audio/bei-shui-yi-zhan/p7.mp3",
+      "textSha256": "880a486c5a6284f57a53e295d4b031a2fb3b0ebeb7f214b8e76f354872bccf6c",
+      "audioSha256": "d00ef648427320ce4a2d29f60a3c4b9b28fc8bf9ec8f5eda7b6d381d37f22905"
+    },
+    {
+      "key": "bei-shui-yi-zhan/moral",
+      "file": "public/audio/bei-shui-yi-zhan/moral.mp3",
+      "textSha256": "0f8e0b28f8beb6a815f14883a2fa92e6bda8ab69abf05e95a8cd35bdf328bb03",
+      "audioSha256": "98b3f9fd504b4587cbfe64671dd04aacad0d6b31ef4ad4f6e6ac3ea16ae14031"
+    }
+  ]
+}

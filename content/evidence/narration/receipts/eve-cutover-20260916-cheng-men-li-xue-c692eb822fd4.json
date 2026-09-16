@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-cutover-20260916-cheng-men-li-xue-c692eb822fd4",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-16T03:01:09.412Z",
+  "inputItemCount": 9,
+  "inputDigestSha256": "c692eb822fd4b807e81b08ca6d5284de0f8c394ad8a2d29673323f194bcb4971",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "cutover": {
+      "kind": "eve-product-audio-cutover-binding",
+      "attestation": "content/evidence/narration/eve-cutover-attestation.json"
+    }
+  },
+  "items": [
+    {
+      "key": "cheng-men-li-xue/p0",
+      "file": "public/audio/cheng-men-li-xue/p0.mp3",
+      "textSha256": "88f64a2e121cc167a50a97c6be3e8576be6859ca96c948ae0d57d0c162e59584",
+      "audioSha256": "ba5a34676e7358bb641469d10202b0df2cebf26312f50b6d881dc14ae7a495e1"
+    },
+    {
+      "key": "cheng-men-li-xue/p1",
+      "file": "public/audio/cheng-men-li-xue/p1.mp3",
+      "textSha256": "8f0d9bff5d77ee32f8f233eddafcc2903d9f31cfa8c88440ce43aa8d0c0ded81",
+      "audioSha256": "09816d08ee2aa924d7aa7a97b0aa37d9c609c8322e14ce30580c9693fe5e1c25"
+    },
+    {
+      "key": "cheng-men-li-xue/p2",
+      "file": "public/audio/cheng-men-li-xue/p2.mp3",
+      "textSha256": "3548b65449700d4746fa9a2389db4556ea6a6732de1dcfc4512029bc542ecb9c",
+      "audioSha256": "34dee99cfa7508e7a171bcaf4cba918718a65b348dddad9a9b978288096ba9f8"
+    },
+    {
+      "key": "cheng-men-li-xue/p3",
+      "file": "public/audio/cheng-men-li-xue/p3.mp3",
+      "textSha256": "9de568f85a8fce091bb84f2625ecf500e8801e930dfa2ea445bd7a8b9017dd84",
+      "audioSha256": "8d757f1270544340a6d5bfb97a1a165eccdeaed4f2118ebbce4fb65eec45c35c"
+    },
+    {
+      "key": "cheng-men-li-xue/p4",
+      "file": "public/audio/cheng-men-li-xue/p4.mp3",
+      "textSha256": "b7966160896e2f72df3d0876d2b98005deb91fd9212c5b43f454e8b34a3c3405",
+      "audioSha256": "74fa9747dea06acf9b4070bacb8a2f45d321587cb9c7d9e357b462510bfd4624"
+    },
+    {
+      "key": "cheng-men-li-xue/p5",
+      "file": "public/audio/cheng-men-li-xue/p5.mp3",
+      "textSha256": "62df706f037551c5422eaa98c761e025ead298ebbc7a426e7c2b2af1d545b533",
+      "audioSha256": "35f2d14755f04d55013760735cc7944b5829c4994dd44179908cb927beda98c0"
+    },
+    {
+      "key": "cheng-men-li-xue/p6",
+      "file": "public/audio/cheng-men-li-xue/p6.mp3",
+      "textSha256": "74186fa83f50c7a9741cdc253dbb03df1f2ca6805312129c600222f39516b8b3",
+      "audioSha256": "33e53d96d28b3cb47283b30c7d359b0998c31d71bed60ebebb3898106386cdc4"
+    },
+    {
+      "key": "cheng-men-li-xue/p7",
+      "file": "public/audio/cheng-men-li-xue/p7.mp3",
+      "textSha256": "b32b12663907c3aa121499c3839d8be30b37ef6c41eec38dd3e596568ae0b548",
+      "audioSha256": "e17a07f76c75d158fe350fe7f4789865af6762d8b0a18cd4be1ef8432f83365e"
+    },
+    {
+      "key": "cheng-men-li-xue/moral",
+      "file": "public/audio/cheng-men-li-xue/moral.mp3",
+      "textSha256": "066c0cb7d611919829de8cbf8ef60788ffbbc7473ac5634809b5147924760d88",
+      "audioSha256": "3fff3530ef21823c9d2becee641e6255479c07f74c4ca76e5d3a72436c88953c"
+    }
+  ]
+}

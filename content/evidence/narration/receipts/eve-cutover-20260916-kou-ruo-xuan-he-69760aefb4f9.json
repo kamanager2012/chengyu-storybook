@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-cutover-20260916-kou-ruo-xuan-he-69760aefb4f9",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-16T03:01:09.412Z",
+  "inputItemCount": 9,
+  "inputDigestSha256": "69760aefb4f9cf8b9d86b47fd4d948c1af2a8e39a04a5dcb3b0468f80eec4f5a",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "cutover": {
+      "kind": "eve-product-audio-cutover-binding",
+      "attestation": "content/evidence/narration/eve-cutover-attestation.json"
+    }
+  },
+  "items": [
+    {
+      "key": "kou-ruo-xuan-he/p0",
+      "file": "public/audio/kou-ruo-xuan-he/p0.mp3",
+      "textSha256": "c7fe3dd273c4a10f335a0a7ae45aa17eb8d3d5f8488c2d3f00d003d2544337e3",
+      "audioSha256": "f91eafc7b4470b0e8b56f869a35b81676bd23d0b9efaf888e687ad38caf23f21"
+    },
+    {
+      "key": "kou-ruo-xuan-he/p1",
+      "file": "public/audio/kou-ruo-xuan-he/p1.mp3",
+      "textSha256": "ed8cb8214a043cdf2223f14ad0f0cda8b2cb78dc818cd938a30ef92391ed1704",
+      "audioSha256": "24ffef162ba9282a42894bb0bdebca068b07143764219c4f206690e87d951e44"
+    },
+    {
+      "key": "kou-ruo-xuan-he/p2",
+      "file": "public/audio/kou-ruo-xuan-he/p2.mp3",
+      "textSha256": "3c13aa05bc5dd8e24646eb9dd4b41454ee80eab1c31959bb2a591f2b6a561b50",
+      "audioSha256": "24d821ae0166af388cd7cb669210d0642ef95932dc17c11e8b06f5537a78c329"
+    },
+    {
+      "key": "kou-ruo-xuan-he/p3",
+      "file": "public/audio/kou-ruo-xuan-he/p3.mp3",
+      "textSha256": "96a507b5ac32b47fd4d72c2d40c6aeec79dbf9f61a693f0aa68c24c280ec0bfc",
+      "audioSha256": "90518476352a7e0eea2fdedd3efee3cf0c90d9b48e39436fc9b41cf7d779fca3"
+    },
+    {
+      "key": "kou-ruo-xuan-he/p4",
+      "file": "public/audio/kou-ruo-xuan-he/p4.mp3",
+      "textSha256": "00c6e07f132727dc83e4049a3eedd9b787056b521f03b1285f4b8f5182dd39ef",
+      "audioSha256": "8ead4978f9ebb4640b23ff5b72b693f41cdc171f4670b2d85167ee7fa6820cab"
+    },
+    {
+      "key": "kou-ruo-xuan-he/p5",
+      "file": "public/audio/kou-ruo-xuan-he/p5.mp3",
+      "textSha256": "472bf8fa7426cd0e3782fa88beb99a019db5d8c8a0820bdacbb66cebd5925f98",
+      "audioSha256": "a4fb9d20d365c2643a786bb5d2e704265f3a11d2512dd3ea4beb65f4570a5713"
+    },
+    {
+      "key": "kou-ruo-xuan-he/p6",
+      "file": "public/audio/kou-ruo-xuan-he/p6.mp3",
+      "textSha256": "39b4e7c2e2c1c6663b5b61a545bed1cc487c5e58bb2432065701a3ef531a788b",
+      "audioSha256": "a06b0c65dc725d89af35af4d1692bb6e5b60f3ccb0a00f9b5ebc6c0a98277c10"
+    },
+    {
+      "key": "kou-ruo-xuan-he/p7",
+      "file": "public/audio/kou-ruo-xuan-he/p7.mp3",
+      "textSha256": "2c083c892c668e3ca514a648498f9fb2e8bc2550f5ce16e562b684a9a5cc34a4",
+      "audioSha256": "0b20a298d3f020566abbc15e32770efb3fd38507eb5e3b07fbdf1f1a96dbb7e5"
+    },
+    {
+      "key": "kou-ruo-xuan-he/moral",
+      "file": "public/audio/kou-ruo-xuan-he/moral.mp3",
+      "textSha256": "3e6b6498f902679ee5d619ae411995efb2c4ef76dfa9df5faf4497891f34b61c",
+      "audioSha256": "c3e658a8cd54db52387664a6c586c6afa57e7916f13d0f2d0634c31a9592e4c0"
+    }
+  ]
+}

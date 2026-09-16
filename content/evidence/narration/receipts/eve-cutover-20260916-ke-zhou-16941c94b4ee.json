@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-cutover-20260916-ke-zhou-16941c94b4ee",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-16T03:01:09.412Z",
+  "inputItemCount": 9,
+  "inputDigestSha256": "16941c94b4eedbd1504fa36ce23aa12a1de012e89ead0aa3ce8afdf51fa9c362",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "cutover": {
+      "kind": "eve-product-audio-cutover-binding",
+      "attestation": "content/evidence/narration/eve-cutover-attestation.json"
+    }
+  },
+  "items": [
+    {
+      "key": "ke-zhou/p0",
+      "file": "public/audio/ke-zhou/p0.mp3",
+      "textSha256": "b0b6d6ce989ea7f453f69abfa1db2f48c9178c01b50a1c06c8f6e4f40e2334a4",
+      "audioSha256": "51113c9e4e2da26c4ffc6fb2656f929c60776551c31c00fe58df9b620b0a8175"
+    },
+    {
+      "key": "ke-zhou/p1",
+      "file": "public/audio/ke-zhou/p1.mp3",
+      "textSha256": "5d0926959b6596c68ff1caa98a1bc4daf40b886a03cc8d02bd4f5220577b37f6",
+      "audioSha256": "c6ec22b071b412752345638e05b412f1e548c0419763069f48b79f21567fef27"
+    },
+    {
+      "key": "ke-zhou/p2",
+      "file": "public/audio/ke-zhou/p2.mp3",
+      "textSha256": "a92b956ff8779dd2a3b2a47e586a8494b93b66c03db01e6f9f34c9482adf7375",
+      "audioSha256": "bffa4242f96f0981b05ab7f4cf6d7af787c88c27bc90d063d24a3e4a907516ed"
+    },
+    {
+      "key": "ke-zhou/p3",
+      "file": "public/audio/ke-zhou/p3.mp3",
+      "textSha256": "5ee032407080a9ddbd5ae3b8db4018734babbd61c876bd6f795ff3c6080b9bd1",
+      "audioSha256": "1499762be4698a569f57bfe47811fffb085217a1954a98bef5e037e83c937e05"
+    },
+    {
+      "key": "ke-zhou/p4",
+      "file": "public/audio/ke-zhou/p4.mp3",
+      "textSha256": "b22e61580b89cc9f1970ae57057590d25b5597fbb4f764c0b42d7d427cb2e510",
+      "audioSha256": "99ce06d554202b633968c7cb235d390b83ad62f8e86355cefcda9bfa0ac39c3d"
+    },
+    {
+      "key": "ke-zhou/p5",
+      "file": "public/audio/ke-zhou/p5.mp3",
+      "textSha256": "bb8286d7a69f692fc9193fd63e8b707a7bc460d189da08a6b8a38f9132912a40",
+      "audioSha256": "be59795f79c3441cdbbded99255882a63843a128e578315faa4da92a583242af"
+    },
+    {
+      "key": "ke-zhou/p6",
+      "file": "public/audio/ke-zhou/p6.mp3",
+      "textSha256": "d797c2ec3e00604cbbae98c37b6ba2560e6e83461fa1efbf715b94f2a27c8c06",
+      "audioSha256": "9aaff635852930084ea64c53099fb50e6d72f77a9d95fd57f426f981b07517af"
+    },
+    {
+      "key": "ke-zhou/p7",
+      "file": "public/audio/ke-zhou/p7.mp3",
+      "textSha256": "8875faa3693e66d8f49443b0565ffa7dc1d4a0f83929311c1d1802efa6bdc592",
+      "audioSha256": "98b0640f01c70e497c45482124a73ecddc8897031eb28298d4faf1bb2539fe0b"
+    },
+    {
+      "key": "ke-zhou/moral",
+      "file": "public/audio/ke-zhou/moral.mp3",
+      "textSha256": "0a21f5e06a111aa962f381ad2baa192d659ac13f27c299b18a488db7886a9285",
+      "audioSha256": "dcc481891f9429fd6b6ead8f781d8bbc63357405caa9d1c604ef0fc49a952309"
+    }
+  ]
+}

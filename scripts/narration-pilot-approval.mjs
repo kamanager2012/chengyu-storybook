@@ -5,7 +5,7 @@ import { readNarrationReceipt } from "./narration-receipt.mjs";
 import { repoRoot } from "./story-model.mjs";
 
 export const NARRATION_PILOT_STORY_ID = "shou-zhu";
-export const NARRATION_PILOT_ID = "shou-zhu-kokoro-v1";
+export const NARRATION_PILOT_ID = "shou-zhu-eve-cutover-v1";
 export const NARRATION_PILOT_EVIDENCE_PATH = "content/evidence/narration/pilots/shou-zhu-v1.json";
 
 const EXPECTED_TECHNICAL_QC = Object.freeze({
@@ -13,15 +13,15 @@ const EXPECTED_TECHNICAL_QC = Object.freeze({
   itemCount: 9,
   sampleRateHz: 24000,
   channels: 1,
-  bitrateKbps: 40,
-  totalDurationSeconds: 71.496,
-  averageDurationSeconds: 7.944,
-  minimumDurationSeconds: 7.104,
-  maximumDurationSeconds: 9.24,
-  totalBytes: 359604,
-  averageBytes: 39956,
-  minimumBytes: 35756,
-  maximumBytes: 46436,
+  bitrateKbps: 128,
+  totalDurationSeconds: 73.296,
+  averageDurationSeconds: 8.144,
+  minimumDurationSeconds: 6.36,
+  maximumDurationSeconds: 12.36,
+  totalBytes: 1172736,
+  averageBytes: 130304,
+  minimumBytes: 101760,
+  maximumBytes: 197760,
   nonSilenceCheck: "passed",
   productionBundleModelLeakCheck: "passed",
 });
@@ -94,8 +94,8 @@ export function validateNarrationPilotEvidence(evidence, options = {}) {
     if (receipt.batchId !== installed.batchId) problems.push("pilot receipt batchId no longer matches evidence");
     if (receipt.inputItemCount !== installed.inputItemCount) problems.push("pilot receipt item count no longer matches evidence");
     if (receipt.inputDigestSha256 !== installed.inputDigestSha256) problems.push("pilot receipt input digest no longer matches evidence");
-    if (receipt.provider?.name !== "kokoro-local") problems.push("pilot receipt provider must remain kokoro-local");
-    if (receipt.provider?.voice !== "zf_001") problems.push("pilot receipt voice must remain zf_001");
+    if (receipt.provider?.name !== "xai-grok-tts") problems.push("pilot receipt provider must remain xai-grok-tts");
+    if (receipt.provider?.voice !== "eve") problems.push("pilot receipt voice must remain eve");
     if (receipt.rights?.claim !== "permission") problems.push("pilot receipt rights claim must remain permission");
     if (!nonEmpty(receipt.createdAt) || Number.isNaN(Date.parse(receipt.createdAt))) {
       problems.push("pilot receipt createdAt must remain a valid timestamp");

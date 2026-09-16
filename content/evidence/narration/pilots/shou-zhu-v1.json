@@ -1,47 +1,47 @@
 {
   "schemaVersion": 1,
-  "pilotId": "shou-zhu-kokoro-v1",
+  "pilotId": "shou-zhu-eve-cutover-v1",
   "storyId": "shou-zhu",
   "installedBatch": {
-    "batchId": "kokoro-20260827t165330108z-shou-zhu-106ebc53267a",
-    "receiptPath": "content/evidence/narration/receipts/kokoro-20260827t165330108z-shou-zhu-106ebc53267a.json",
-    "receiptSha256": "a33b3e5c690c93ec8b69cc804d097981d78c649c628de74060fdaa264c06d1c7",
+    "batchId": "eve-cutover-20260916-shou-zhu-c64ba3b04d15",
+    "receiptPath": "content/evidence/narration/receipts/eve-cutover-20260916-shou-zhu-c64ba3b04d15.json",
+    "receiptSha256": "4b14e7af2151f47ebc3bcc3af55071c029cfff8e651870fb12a41ca8aef0f29f",
     "inputItemCount": 9,
-    "inputDigestSha256": "106ebc53267a9e52a254663dcff7d2e79017b4e26b30eb7d3a16c20257c8598c"
+    "inputDigestSha256": "c64ba3b04d157b26fb7de32489bcab59b28fb701a7494f0df0d97b8019cb8f9b"
   },
   "technicalQc": {
     "status": "passed",
     "itemCount": 9,
     "sampleRateHz": 24000,
     "channels": 1,
-    "bitrateKbps": 40,
-    "totalDurationSeconds": 71.496,
-    "averageDurationSeconds": 7.944,
-    "minimumDurationSeconds": 7.104,
-    "maximumDurationSeconds": 9.24,
-    "totalBytes": 359604,
-    "averageBytes": 39956,
-    "minimumBytes": 35756,
-    "maximumBytes": 46436,
+    "bitrateKbps": 128,
+    "totalDurationSeconds": 73.296,
+    "averageDurationSeconds": 8.144,
+    "minimumDurationSeconds": 6.36,
+    "maximumDurationSeconds": 12.36,
+    "totalBytes": 1172736,
+    "averageBytes": 130304,
+    "minimumBytes": 101760,
+    "maximumBytes": 197760,
     "nonSilenceCheck": "passed",
     "productionBundleModelLeakCheck": "passed"
   },
   "audioSha256": {
-    "shou-zhu/moral": "33e84012f9bc235bda0cfbc16071bef9cea7b2e234fe36e764abbfc97e2b78bb",
-    "shou-zhu/p0": "738d2f69d733f5cf36d2110453021db376f20f07348ca8b7645a958198d1ce58",
-    "shou-zhu/p1": "30791a0bf6e60eac0d6bafce52374db352a5a08ea30fd4d7ed38b792bc8a33b3",
-    "shou-zhu/p2": "1fee553abfe7b7bfc050ac01667e2d7d304a3acf58c5d0cf7baa2be506538306",
-    "shou-zhu/p3": "c8ea06fefc904022a029ffb4e4f4395b691bd1f39b3da1ac08d0a8fe0a02a934",
-    "shou-zhu/p4": "6d5cd028978bd02541446abfacc216b9e4f8abb3c1a067e9171740fc4558752a",
-    "shou-zhu/p5": "5a1f11f9f19fe5c7ad1a93859f610211d5516eb94c8085bae3adb459a0c601df",
-    "shou-zhu/p6": "0a62ca08c5345b56b8aa8cd1b5766429cebdf086b4aa46d358c16af61869dc38",
-    "shou-zhu/p7": "0fd56b41332097afb2b9750e54ff65101695816ba7d41aa880875153384f84e1"
+    "shou-zhu/p0": "b52a42a3f82b2d9202513da4b1804783c77b2f1ab8956e626bd65e378124321b",
+    "shou-zhu/p1": "308484433af2d78acc1cdea833a9c3054552cd3793b8bd97fcc76f5f3d62b76a",
+    "shou-zhu/p2": "8fe281a536f5cf0faa21541d9697a2a7821abf8a62eb9e2bad6e0f58bfc2e221",
+    "shou-zhu/p3": "fd75f1d25dacd57960c5b582235ed0c066d752eb40dadc5c332a898a331464ae",
+    "shou-zhu/p4": "bd6d98d0369b772be2c276861221e8e7f87afbe99ba0311cc99399b21ea2cf86",
+    "shou-zhu/p5": "19fb0688110c3fe0c71febd947291eff0aa705c235934584cea66a39720ce436",
+    "shou-zhu/p6": "6381e49ebc5e14fc200580414fcbc8472fa3bd1571f21504d797ce6171c65cb2",
+    "shou-zhu/p7": "e8cce9728777ca609c942758c9ebbefcbb848d3822664dd4610d6d1d456b3e23",
+    "shou-zhu/moral": "a0053029116d56e7c06f5030504c0fd978cb14f9dbb42027b50df00a46f8e652"
   },
   "qualityReview": {
     "listeningStatus": "waived",
     "expansionApproved": true,
-    "reviewedAt": "2026-08-27T16:55:30.000Z",
+    "reviewedAt": "2026-09-16T03:06:09.412Z",
     "reviewerRole": "project-owner",
-    "decisionNote": "Project owner instructed unifying published and draft narration onto the host ffmpeg 7.1.5 pin. Human listening was not repeated; this waiver authorizes replacement of the 24 published books and expansion to the 76 drafts."
+    "decisionNote": "Product default is Grok eve under public/audio. Owner directed Eve provenance cutover binding without regenerating MP3s; human listening waiver carries prior Eve cutover acceptance."
   }
 }

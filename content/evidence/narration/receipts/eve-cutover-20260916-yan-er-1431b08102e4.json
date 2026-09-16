@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-cutover-20260916-yan-er-1431b08102e4",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-16T03:01:09.412Z",
+  "inputItemCount": 9,
+  "inputDigestSha256": "1431b08102e406b1a22c20006f4317cfce97d2b3e937cd13d2749028ccb5397a",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "cutover": {
+      "kind": "eve-product-audio-cutover-binding",
+      "attestation": "content/evidence/narration/eve-cutover-attestation.json"
+    }
+  },
+  "items": [
+    {
+      "key": "yan-er/p0",
+      "file": "public/audio/yan-er/p0.mp3",
+      "textSha256": "238f590ecbf370e6431e8399cc4e0a7d29ffb00e3d048dcfeddb1d5eaf30b6d5",
+      "audioSha256": "63e9920e034f3b9e551e1c655019b37061bc477f15c01bade8ed99efd898bb39"
+    },
+    {
+      "key": "yan-er/p1",
+      "file": "public/audio/yan-er/p1.mp3",
+      "textSha256": "30d4d7af32a1a81d6499acf3429dd708fc088886928a24dd0f5af573b490a2d9",
+      "audioSha256": "9d45806f9298ab772596432a008079f429a93e7d1e85061aaa048428e8a21074"
+    },
+    {
+      "key": "yan-er/p2",
+      "file": "public/audio/yan-er/p2.mp3",
+      "textSha256": "9bcb37a5fedce17ae1deb48de008a0b44f746a82ada2a24e6cbdf5424b4db940",
+      "audioSha256": "8f1c9728d802d515feb1df578a9a73ce584004c21eaaca2d2ee88b295802c8a5"
+    },
+    {
+      "key": "yan-er/p3",
+      "file": "public/audio/yan-er/p3.mp3",
+      "textSha256": "a4a73c793ab501594f92188e8043dbd7b0366cf4a58852ad4fca28499bf06ec6",
+      "audioSha256": "fc2bb27621a1c51a216138f83766e57bb17c1f9ecedad7bcd5a71032ea072dea"
+    },
+    {
+      "key": "yan-er/p4",
+      "file": "public/audio/yan-er/p4.mp3",
+      "textSha256": "164f63df57760114b1508c3c8d74ecfd7df68b93ddd75aa3e77953e889bbb508",
+      "audioSha256": "509f5e4505e79e68e6afb79cbf887939904fc9fa4c795bd21add8752d3c7272b"
+    },
+    {
+      "key": "yan-er/p5",
+      "file": "public/audio/yan-er/p5.mp3",
+      "textSha256": "9bdc61d25b0077f35122540d9155a902c5d36360edc7da275527c9fa4e58334c",
+      "audioSha256": "7b6f4be4561d235170fa219b26375a5f529345a4918921f5e76be0149d501bfa"
+    },
+    {
+      "key": "yan-er/p6",
+      "file": "public/audio/yan-er/p6.mp3",
+      "textSha256": "43b89f7642073f1c74c7e5a38631fdf877a5b22176f261bd7bb35f41567090a4",
+      "audioSha256": "d2c8ce8e04be8a76d372e17d60c0af4c93060acc936e91742c9c3da506bb8369"
+    },
+    {
+      "key": "yan-er/p7",
+      "file": "public/audio/yan-er/p7.mp3",
+      "textSha256": "26928e3e9ed80b243c04603a51bf596678c73bcaaf9914aec91e0d3063b277ad",
+      "audioSha256": "94e26fc2102dcfd792b9856cfb95c9faa28440a649b4acbeec717260cf74ae8f"
+    },
+    {
+      "key": "yan-er/moral",
+      "file": "public/audio/yan-er/moral.mp3",
+      "textSha256": "80896a293f0bd10dfc34837612dbeb84febde716bbc8137f566fb49f158a7423",
+      "audioSha256": "9e1170d4517e62488ee9f0ecd40a60c21abc4602ff10d4206c415ced8bae3ca5"
+    }
+  ]
+}

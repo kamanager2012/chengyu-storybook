@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-cutover-20260916-mang-ren-512688fed3e3",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-16T03:01:09.412Z",
+  "inputItemCount": 9,
+  "inputDigestSha256": "512688fed3e3a6d37ebf28fa3e8609e0b0dc1402e447a022875aaf9c80da271b",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "cutover": {
+      "kind": "eve-product-audio-cutover-binding",
+      "attestation": "content/evidence/narration/eve-cutover-attestation.json"
+    }
+  },
+  "items": [
+    {
+      "key": "mang-ren/p0",
+      "file": "public/audio/mang-ren/p0.mp3",
+      "textSha256": "284dca41bd1820fdaafc8228e8919dee9a189ed22eb85d36a73fbae713d6e4cc",
+      "audioSha256": "40dd633e67e6a66d6f620bbb89175485d1098ee60877cfe61e2ac637066fac66"
+    },
+    {
+      "key": "mang-ren/p1",
+      "file": "public/audio/mang-ren/p1.mp3",
+      "textSha256": "5dba0d64364f4b33ed9b7e12d407e9e5ec8536a6cd7cf42270c0d1a12787a9b4",
+      "audioSha256": "b15b58a9ae1bd4763919c672614bfc7fb6b1a78ff58f184dffab9b9041774c5a"
+    },
+    {
+      "key": "mang-ren/p2",
+      "file": "public/audio/mang-ren/p2.mp3",
+      "textSha256": "a962963ec8deb6645e95983d3f7d0d253ce5e96f61dc8eea54049ffa0574026f",
+      "audioSha256": "76d81bd7b11e31ede804c52773b02e8bf9527081f8ef42d16cc529efff3a7ee5"
+    },
+    {
+      "key": "mang-ren/p3",
+      "file": "public/audio/mang-ren/p3.mp3",
+      "textSha256": "91ab122a238d5cf450bd25d75630ea33e4a472dac931312ec6c3b10f3cdabe0b",
+      "audioSha256": "534db7a0fd3bf3a5a335dbca853a3d0282af65b3b612a786722c92f5ac545874"
+    },
+    {
+      "key": "mang-ren/p4",
+      "file": "public/audio/mang-ren/p4.mp3",
+      "textSha256": "23869fe0e34f7c145e636d65407d2758e6b412c6df3bb07345fd1523d05e1f3c",
+      "audioSha256": "3df35ccc0e614c0d3dd00bc66553fd32baa4d7a3ebf2b51b886cb4c95868a2ae"
+    },
+    {
+      "key": "mang-ren/p5",
+      "file": "public/audio/mang-ren/p5.mp3",
+      "textSha256": "0eb45cd01875fddc7217d3f68fb9aab576345740a812cc95ac36f75cffeae309",
+      "audioSha256": "a26f2814aa3a1a3d83ce5a50be2f90684aeb5aec92f6d86c3eaf8425324d9944"
+    },
+    {
+      "key": "mang-ren/p6",
+      "file": "public/audio/mang-ren/p6.mp3",
+      "textSha256": "09c0099748828d4af194cb780541662702b96e13a3d60f027b1cda833798a59a",
+      "audioSha256": "4fc324bcd71ec3da80c710be66da38487d61503ce4afaa8f12a7b4ab557eb370"
+    },
+    {
+      "key": "mang-ren/p7",
+      "file": "public/audio/mang-ren/p7.mp3",
+      "textSha256": "a7e2b17b3955108554343708b97f70bd1b8fd1c04f60d56dd377ea1ab66aae53",
+      "audioSha256": "46f8c6f79a26202e2d44060fda8a08b2b5f199ef3b6d3eb0ce0bae15d77d7d3c"
+    },
+    {
+      "key": "mang-ren/moral",
+      "file": "public/audio/mang-ren/moral.mp3",
+      "textSha256": "56ee1d5ce7a307f751c285196510575a50d4dcb6000acd50981c22899679bc74",
+      "audioSha256": "87588154abb085e30e7a6a219616285d782cf16037f8b4973b1a386375c12ff7"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-cutover-20260916-wang-yang-5a1bba048a0d",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-16T03:01:09.412Z",
+  "inputItemCount": 9,
+  "inputDigestSha256": "5a1bba048a0dfd036821d76b3cea422cc3b2a2e0122da22fd8edcdc6675d79de",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "cutover": {
+      "kind": "eve-product-audio-cutover-binding",
+      "attestation": "content/evidence/narration/eve-cutover-attestation.json"
+    }
+  },
+  "items": [
+    {
+      "key": "wang-yang/p0",
+      "file": "public/audio/wang-yang/p0.mp3",
+      "textSha256": "f6d8abc6e79b8a5742992fcb974e7ce84a943ac0827f8527266abfb7fb76f8c6",
+      "audioSha256": "785b66c8d59d4156d2aef1d788a369bd84ecd7db95b3bb0852b485ffa0eb7214"
+    },
+    {
+      "key": "wang-yang/p1",
+      "file": "public/audio/wang-yang/p1.mp3",
+      "textSha256": "8d8012de0d211af415d52ba103706c34a2c3d424a97ebcb8263d58ca40d9430e",
+      "audioSha256": "7e54e1f75c15dae7884fc03e6214ff815c568975b16634ac9bdb17646396d5ed"
+    },
+    {
+      "key": "wang-yang/p2",
+      "file": "public/audio/wang-yang/p2.mp3",
+      "textSha256": "f6839d28925daef2746ccfcd1f04129a40e498cf5670ae800d46122637b691c4",
+      "audioSha256": "0491b74d0729083a67ee6bb17302555904137611c3a1d855e1c74d77898462b1"
+    },
+    {
+      "key": "wang-yang/p3",
+      "file": "public/audio/wang-yang/p3.mp3",
+      "textSha256": "71e080aeab491e8b2e2087111f39b6f08debaf53c86dfe7ed593f6dd75ec4bbd",
+      "audioSha256": "6e155e99d14dbc77c1789aed65f557a41be608342251c8bd33fe91a6cb5a8fd5"
+    },
+    {
+      "key": "wang-yang/p4",
+      "file": "public/audio/wang-yang/p4.mp3",
+      "textSha256": "8611d954b02dc59d6b2b238b535115064e748776a6883d67eaa07474009a4981",
+      "audioSha256": "cabb1a8de2575220429fde123b70b3ee2712ce9f1f20bfbded58acc2bb8f204c"
+    },
+    {
+      "key": "wang-yang/p5",
+      "file": "public/audio/wang-yang/p5.mp3",
+      "textSha256": "09148b72d85e4d5189a98e60cbe313aa9a85e22fbcddda2e2ff3dfa9a64323f2",
+      "audioSha256": "8dd1a4165abea3e191a4f4c210fa4178c8f5e64e7b7989f57e596569dae9cebb"
+    },
+    {
+      "key": "wang-yang/p6",
+      "file": "public/audio/wang-yang/p6.mp3",
+      "textSha256": "c5cf661d597fd7e1850f02e3d150af52eb3ea61af7b4b588831998417bfc1ade",
+      "audioSha256": "5bf6d335c3febe47b9a9af421a9aa5e46759ba587fef4e02ad12bca29985fedc"
+    },
+    {
+      "key": "wang-yang/p7",
+      "file": "public/audio/wang-yang/p7.mp3",
+      "textSha256": "352acf3a6084b3a3bfdcd6f07fa99099f355e036237326ec5137e53cc47b9652",
+      "audioSha256": "453722c5f81d5e5f1c17ef35d81a0121c7f5ecbce79d1357b0b40f6d1b854d23"
+    },
+    {
+      "key": "wang-yang/moral",
+      "file": "public/audio/wang-yang/moral.mp3",
+      "textSha256": "ef87fd543af408c92d4f35ab9064da65df60d20cee049b2935356a36260b2907",
+      "audioSha256": "831fa8b6d147eb2e3264e1e1719cdb1edae2c323866aa3229132f2cc477f7912"
+    }
+  ]
+}

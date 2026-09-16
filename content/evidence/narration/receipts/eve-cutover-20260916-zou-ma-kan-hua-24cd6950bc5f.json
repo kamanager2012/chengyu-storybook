@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-cutover-20260916-zou-ma-kan-hua-24cd6950bc5f",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-16T03:01:09.412Z",
+  "inputItemCount": 9,
+  "inputDigestSha256": "24cd6950bc5f95c961165f540947c08e1bc2a258e682ef02753e1de5e0f82b55",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "cutover": {
+      "kind": "eve-product-audio-cutover-binding",
+      "attestation": "content/evidence/narration/eve-cutover-attestation.json"
+    }
+  },
+  "items": [
+    {
+      "key": "zou-ma-kan-hua/p0",
+      "file": "public/audio/zou-ma-kan-hua/p0.mp3",
+      "textSha256": "6ceac5d502f725840e5e53e3f863b22bcb8aafe73d61dee0fe490732b6a86f67",
+      "audioSha256": "3232bc8b5cae5be06cd84a545c1201a2ca64ce74d747c565c7a8f1beb6882d97"
+    },
+    {
+      "key": "zou-ma-kan-hua/p1",
+      "file": "public/audio/zou-ma-kan-hua/p1.mp3",
+      "textSha256": "5aac82313ff741ff87df207b9db66009184b8730950217515799bfb68e32a5f7",
+      "audioSha256": "f9b1de73b8cee41630416bcd9c001c9fcbc6c36690fd2443770118c9bf683f18"
+    },
+    {
+      "key": "zou-ma-kan-hua/p2",
+      "file": "public/audio/zou-ma-kan-hua/p2.mp3",
+      "textSha256": "08e21e3c7f78bdc7beac16d3dc21ce64a2d59c36a41402295a4abd0dd1ca71c2",
+      "audioSha256": "d5135779737aef6589df1e086f3a8c185c9b363063d783a34e1cf88d345c5b5a"
+    },
+    {
+      "key": "zou-ma-kan-hua/p3",
+      "file": "public/audio/zou-ma-kan-hua/p3.mp3",
+      "textSha256": "86ef7bc7373abd1277bde67ac27b6965ca491dc3f106d4970666610b30f0bb26",
+      "audioSha256": "96fdffa5521129b7e17f93caf2f9ce8d7e3cc3573d909402cec46bb35761993c"
+    },
+    {
+      "key": "zou-ma-kan-hua/p4",
+      "file": "public/audio/zou-ma-kan-hua/p4.mp3",
+      "textSha256": "1384a74c2a8f6e9e5c54135a6129b0cfe032f84641d3c19e555ce02cb8e4dc11",
+      "audioSha256": "22093bc81d061ecf8798dff3c61569c0240129a23d048a3ccdde953ebded017d"
+    },
+    {
+      "key": "zou-ma-kan-hua/p5",
+      "file": "public/audio/zou-ma-kan-hua/p5.mp3",
+      "textSha256": "ab1e22eb30167462a7f6028996ac7de42d0231f9da5c5ba11635fcd98379d234",
+      "audioSha256": "e955b46829f7a6479809c571e37e15ca0affa5ea6737169e3081d5c4f20f747a"
+    },
+    {
+      "key": "zou-ma-kan-hua/p6",
+      "file": "public/audio/zou-ma-kan-hua/p6.mp3",
+      "textSha256": "b3a14505c4784a3e7a3d4028e0ebe156877ab9bb5d7c03b1b4ecac403e26e745",
+      "audioSha256": "be9fce8aa2c89802d3d8ad0dbcedd06f3d717e90af66d2c4c0ef91a1c0a08b24"
+    },
+    {
+      "key": "zou-ma-kan-hua/p7",
+      "file": "public/audio/zou-ma-kan-hua/p7.mp3",
+      "textSha256": "36dab3d2ef3a2f37916b85fc6247a41600b5dabcb7ceb058127d0e4177ab444c",
+      "audioSha256": "0f0a9f2e01a44131b7bd84f2739cf7910f36d61892f0c48cb25970a5b0ce361c"
+    },
+    {
+      "key": "zou-ma-kan-hua/moral",
+      "file": "public/audio/zou-ma-kan-hua/moral.mp3",
+      "textSha256": "57c97ba23e7bca65ffb666b5f8d2f11858abc59ae7daadf5f6525443b72845f7",
+      "audioSha256": "da9369554c127327f20c691126b1901e6cd7d14faa1895d6f05a1fabd372ae7c"
+    }
+  ]
+}

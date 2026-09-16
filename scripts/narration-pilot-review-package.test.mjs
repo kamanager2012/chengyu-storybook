@@ -33,7 +33,7 @@ test("installed pilot review manifest binds exactly nine current release MP3 fil
   assert.equal(validation.valid, true, validation.problems.join("; "));
   const manifest = buildPilotReviewManifest({ validation });
   assert.equal(manifest.packageType, "installed-narration-pilot-listening-review");
-  assert.equal(manifest.pilotId, "shou-zhu-kokoro-v1");
+  assert.equal(manifest.pilotId, "shou-zhu-eve-cutover-v1");
   assert.equal(manifest.storyId, "shou-zhu");
   assert.equal(manifest.itemCount, 9);
   assert.deepEqual(manifest.qualityReview, validation.evidence.qualityReview);

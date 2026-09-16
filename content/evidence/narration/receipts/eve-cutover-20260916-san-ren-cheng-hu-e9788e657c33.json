@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-cutover-20260916-san-ren-cheng-hu-e9788e657c33",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-16T03:01:09.412Z",
+  "inputItemCount": 9,
+  "inputDigestSha256": "e9788e657c332a31e7d3840d04e8c301e23e3faf8ae0dd1142b67e0069fe73a3",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "cutover": {
+      "kind": "eve-product-audio-cutover-binding",
+      "attestation": "content/evidence/narration/eve-cutover-attestation.json"
+    }
+  },
+  "items": [
+    {
+      "key": "san-ren-cheng-hu/p0",
+      "file": "public/audio/san-ren-cheng-hu/p0.mp3",
+      "textSha256": "a6cb44b27c8dc0c0b43a082bb38201d51d7ab4ce3e9a1008af9c9617e3c1533b",
+      "audioSha256": "4e2fa7595eda8614b362571c2f851276eca34d4e9b5c3ba1c53a5b99ba60b0f0"
+    },
+    {
+      "key": "san-ren-cheng-hu/p1",
+      "file": "public/audio/san-ren-cheng-hu/p1.mp3",
+      "textSha256": "ef1113952ec61666fc3e8a3532b37077cbc0fd485b374e190944d04f43f51263",
+      "audioSha256": "f8dd00ca62ae90d6033455cf4f4a850d709551f2fb67bc059a4c7bc79b08d455"
+    },
+    {
+      "key": "san-ren-cheng-hu/p2",
+      "file": "public/audio/san-ren-cheng-hu/p2.mp3",
+      "textSha256": "51fac921895ef85e2aaf17df157d4ee1f979f26bf50eee4134cf8201bec9673f",
+      "audioSha256": "e67c9f034c7cec2c4cf13555994ac089a9887b37c0caeadb0292eace5c977cf1"
+    },
+    {
+      "key": "san-ren-cheng-hu/p3",
+      "file": "public/audio/san-ren-cheng-hu/p3.mp3",
+      "textSha256": "d9e8f92b8feb6d3df672ce9e3dd63e5ab996b500124ae6e450d99d0378b4b699",
+      "audioSha256": "9c98dd86f362fef132b806a37baf7c1a682b7f674af3e72c1a0f3ffd53b78528"
+    },
+    {
+      "key": "san-ren-cheng-hu/p4",
+      "file": "public/audio/san-ren-cheng-hu/p4.mp3",
+      "textSha256": "ea99f21bbbbbd99798e49b8f65881a5a07c3e546dce8de5f065d059176daf702",
+      "audioSha256": "8a0a1c1403b7915c1d7b49d0bc583c42aaf9b163a688e08d82800335a7e16f3d"
+    },
+    {
+      "key": "san-ren-cheng-hu/p5",
+      "file": "public/audio/san-ren-cheng-hu/p5.mp3",
+      "textSha256": "912e6fda924051d95c65f6aa114b9d9e4ea394741283991b225a23394ea3c276",
+      "audioSha256": "021d6dca395cafbf4d8ef79d94c24605a17724e0ed1e91959a13ba161b338ec9"
+    },
+    {
+      "key": "san-ren-cheng-hu/p6",
+      "file": "public/audio/san-ren-cheng-hu/p6.mp3",
+      "textSha256": "f42de50e761662b954bbbaef52f143b769dda5cc59bb0a00960c7f078253d8ac",
+      "audioSha256": "26d44457e45f56bf9057ec201e3259d4375ba61271ecd219b450c6b31d69eb6e"
+    },
+    {
+      "key": "san-ren-cheng-hu/p7",
+      "file": "public/audio/san-ren-cheng-hu/p7.mp3",
+      "textSha256": "11d1723b54e4c68e2ccbf2ba72705f1b1f122d85840b01486a1c47edfd64a85d",
+      "audioSha256": "e1b49cd932f81b516d9c6ead387aefad88b8251d990aec0e6790df13f55a5c0c"
+    },
+    {
+      "key": "san-ren-cheng-hu/moral",
+      "file": "public/audio/san-ren-cheng-hu/moral.mp3",
+      "textSha256": "3cc2a99031e6fbd8442c2758143905e748bf172ef262c58e4621de4db9ed4613",
+      "audioSha256": "a8349c3e7ac0f12d33cbd169021dba43a6912efb75817c3c614b0b246b528425"
+    }
+  ]
+}

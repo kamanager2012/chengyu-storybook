@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-cutover-20260916-hou-lai-ju-shang-347fe343ea08",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-16T03:01:09.412Z",
+  "inputItemCount": 9,
+  "inputDigestSha256": "347fe343ea08c0e39e9a68917b396ca9d5e5db378350cb768ffae6aebbda9679",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "cutover": {
+      "kind": "eve-product-audio-cutover-binding",
+      "attestation": "content/evidence/narration/eve-cutover-attestation.json"
+    }
+  },
+  "items": [
+    {
+      "key": "hou-lai-ju-shang/p0",
+      "file": "public/audio/hou-lai-ju-shang/p0.mp3",
+      "textSha256": "afee5400ccf8156e79f4433851e92ac08609acddc28d6b801b686b04e0dbb823",
+      "audioSha256": "4c9d7efb3f4fea2cfe2441be89b993485886d65c0a0bebf97b390d9e99acf86b"
+    },
+    {
+      "key": "hou-lai-ju-shang/p1",
+      "file": "public/audio/hou-lai-ju-shang/p1.mp3",
+      "textSha256": "a896b266ee3467be32644b3e5d1e59f03442a169537ad286de46c0d9a3b1fcda",
+      "audioSha256": "fe77b452504ef24b33caf31eaf459ee030bf3cce66eff2e2075b9487e315572b"
+    },
+    {
+      "key": "hou-lai-ju-shang/p2",
+      "file": "public/audio/hou-lai-ju-shang/p2.mp3",
+      "textSha256": "fb3c895c2f870630939558884d4751ea1ac822e72d72d6913735c3562c643e50",
+      "audioSha256": "48a299c179095d787120a2f188cf174e5344933fc9b26fc0b7cabaeddab97b3a"
+    },
+    {
+      "key": "hou-lai-ju-shang/p3",
+      "file": "public/audio/hou-lai-ju-shang/p3.mp3",
+      "textSha256": "b0f1b20e69ac63489e811276ccb0c946c7289e359a4a200685c8f230f890ebf2",
+      "audioSha256": "d918d5ad98233bfc229835371b726d6796d6dbd347ebc08009ddb73c70306962"
+    },
+    {
+      "key": "hou-lai-ju-shang/p4",
+      "file": "public/audio/hou-lai-ju-shang/p4.mp3",
+      "textSha256": "0f55d0a92b676942ce42d121485b80daba7b6d977cab094582a5f6eb3da82bb1",
+      "audioSha256": "f3ca89d03ca609d3427d1d058f6ec70c3b6dd39500cb363d2b1ecf098f7a4472"
+    },
+    {
+      "key": "hou-lai-ju-shang/p5",
+      "file": "public/audio/hou-lai-ju-shang/p5.mp3",
+      "textSha256": "8f664e7841a5fdfe5f706039ff9bf3bad905980b12c685456c650381ab9a6180",
+      "audioSha256": "2ab2b57fa442915b6a2cf3c33fbd78408d64d11fb78c390f09a7a548d7f96dd9"
+    },
+    {
+      "key": "hou-lai-ju-shang/p6",
+      "file": "public/audio/hou-lai-ju-shang/p6.mp3",
+      "textSha256": "08fc90e1a7e0230044c646cccf58ae5d9fcfc4adfb643c6c21250649b69c41c4",
+      "audioSha256": "4c857b50c77d8b14e4e9b7324adf81820db2b1fd0a0b2499e84588a89e2bffec"
+    },
+    {
+      "key": "hou-lai-ju-shang/p7",
+      "file": "public/audio/hou-lai-ju-shang/p7.mp3",
+      "textSha256": "e7839f24aaffa89b92d00e946b20796b58c8f377be1d9b56008423873f85df8e",
+      "audioSha256": "fc822e73b8c29de591ffd0669d93e493afb3a005788f1af3e268c74441fd977f"
+    },
+    {
+      "key": "hou-lai-ju-shang/moral",
+      "file": "public/audio/hou-lai-ju-shang/moral.mp3",
+      "textSha256": "2110ffe42575f1b9c54d49a95f3b3d06c2ecb133d8ab405ddff3d2dc0bd4df4f",
+      "audioSha256": "f308bd92f7df4d109a283b8d84026d409875400ebaa4c7318feadc4ce2cc7bbf"
+    }
+  ]
+}

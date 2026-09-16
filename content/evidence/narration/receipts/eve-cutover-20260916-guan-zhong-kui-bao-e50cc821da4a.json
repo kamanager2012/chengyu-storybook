@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-cutover-20260916-guan-zhong-kui-bao-e50cc821da4a",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-16T03:01:09.412Z",
+  "inputItemCount": 9,
+  "inputDigestSha256": "e50cc821da4aa2ae592fd6e844f4ac2c072841bdd06044d99351a00bda45d14d",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "cutover": {
+      "kind": "eve-product-audio-cutover-binding",
+      "attestation": "content/evidence/narration/eve-cutover-attestation.json"
+    }
+  },
+  "items": [
+    {
+      "key": "guan-zhong-kui-bao/p0",
+      "file": "public/audio/guan-zhong-kui-bao/p0.mp3",
+      "textSha256": "67a4640db4b2b3d23148335c678cad61b1e6130342807c8c7eb8def99b85c490",
+      "audioSha256": "5214028cb2d387c2569ab17feeb4309c8fb2b85bde63e9cab79e8eef2e30b87e"
+    },
+    {
+      "key": "guan-zhong-kui-bao/p1",
+      "file": "public/audio/guan-zhong-kui-bao/p1.mp3",
+      "textSha256": "405bad6213ea41725f52e9bef2edde27c4b1bdde7c040b2b6bf81af035d9ee7d",
+      "audioSha256": "73c7fc20a3e6933b9f241ee83c188c96e981656ac9ea67a107c76bf8b6f5eb9d"
+    },
+    {
+      "key": "guan-zhong-kui-bao/p2",
+      "file": "public/audio/guan-zhong-kui-bao/p2.mp3",
+      "textSha256": "0123d64e244fadf0a0178232b5aea93d97cf9a10e9328d59f43d8cd28e62e5bd",
+      "audioSha256": "a4d862043ea94c09c3f63fb430e644dd1f530cb4381b6af7aa9c897ff0f767dd"
+    },
+    {
+      "key": "guan-zhong-kui-bao/p3",
+      "file": "public/audio/guan-zhong-kui-bao/p3.mp3",
+      "textSha256": "9efffc3d61976faf2d49546b2c8ff510cf7624cde9aabc43ea9557ea1941045c",
+      "audioSha256": "b71607f446ce72720fe84823fc12c4022cb1221c721fa5a018298afeb455d55a"
+    },
+    {
+      "key": "guan-zhong-kui-bao/p4",
+      "file": "public/audio/guan-zhong-kui-bao/p4.mp3",
+      "textSha256": "075afa39d3eb12c2585c6462953fa56cda7a08ef64916aae447f1f3e31a837b9",
+      "audioSha256": "59bbd420934446009652a0d905b406a25c11af5882e4e10aa39369f31025be0b"
+    },
+    {
+      "key": "guan-zhong-kui-bao/p5",
+      "file": "public/audio/guan-zhong-kui-bao/p5.mp3",
+      "textSha256": "5b0135ecaa6252d39774585a7a85e3586dc342f054ed35b164becb002dba3a42",
+      "audioSha256": "594d65b2dd324197b882679ec19200b904afca6d412e62c9c1962f60abb14eeb"
+    },
+    {
+      "key": "guan-zhong-kui-bao/p6",
+      "file": "public/audio/guan-zhong-kui-bao/p6.mp3",
+      "textSha256": "234e3392163dbcb54962f7734d903ae79c57e31890813382ff1c6b9fee3bbcd5",
+      "audioSha256": "4d0821300c1f67545052ccb821cff71f099a43be267b8994ce0313226cae26ea"
+    },
+    {
+      "key": "guan-zhong-kui-bao/p7",
+      "file": "public/audio/guan-zhong-kui-bao/p7.mp3",
+      "textSha256": "713e59ffd7c42514f08204a9e2e0710c875df697e0dfb75b0736d34e520ce331",
+      "audioSha256": "b46b96b134ea5079808dd81a388a94a0e21189b32e4fb54b3d135be43647d89e"
+    },
+    {
+      "key": "guan-zhong-kui-bao/moral",
+      "file": "public/audio/guan-zhong-kui-bao/moral.mp3",
+      "textSha256": "393eb575949448c36873012458afbcd471c5548ec201ee66db9c5c1216389be5",
+      "audioSha256": "77c40b5199da4a000831a2e4c127682664267ae9f3735062f1ae8c44991e2fe6"
+    }
+  ]
+}

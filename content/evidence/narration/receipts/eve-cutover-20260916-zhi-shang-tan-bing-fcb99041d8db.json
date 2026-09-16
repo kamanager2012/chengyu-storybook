@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-cutover-20260916-zhi-shang-tan-bing-fcb99041d8db",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-16T03:01:09.412Z",
+  "inputItemCount": 9,
+  "inputDigestSha256": "fcb99041d8dbc600ea7216ebf4c29153139bedc618b9e6273a00dc1aba2d45b8",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "cutover": {
+      "kind": "eve-product-audio-cutover-binding",
+      "attestation": "content/evidence/narration/eve-cutover-attestation.json"
+    }
+  },
+  "items": [
+    {
+      "key": "zhi-shang-tan-bing/p0",
+      "file": "public/audio/zhi-shang-tan-bing/p0.mp3",
+      "textSha256": "b68b08a5b88730496759d127943f1bae74cd688bb68007808af38e7ae9828c21",
+      "audioSha256": "a6aef1a77c36cfa8e2ffd733cff6ef3a2087fb03a128016e53c3e6cbfb2b8174"
+    },
+    {
+      "key": "zhi-shang-tan-bing/p1",
+      "file": "public/audio/zhi-shang-tan-bing/p1.mp3",
+      "textSha256": "818f655378e0fb95e4742c93ccb017320b62ba18c8ee219339a5ec1b3ad6ca2b",
+      "audioSha256": "08f0d449e9aeef054d7a1243ba5c5344434181d1fbd23138adc40ec7e2579a7a"
+    },
+    {
+      "key": "zhi-shang-tan-bing/p2",
+      "file": "public/audio/zhi-shang-tan-bing/p2.mp3",
+      "textSha256": "df399d5c0b9dc4f17386ea81df3a4dacc7a8ed0414213696d27799ad1d36f29f",
+      "audioSha256": "97146186e7a7570fe79bcaaf5c47b85361a64444049ec0609bcd13f51356bf3b"
+    },
+    {
+      "key": "zhi-shang-tan-bing/p3",
+      "file": "public/audio/zhi-shang-tan-bing/p3.mp3",
+      "textSha256": "15cef833bf861b9fdae7ccaac5877a97ac2b891df44ed798e2bbfaecc871c3f2",
+      "audioSha256": "13a676b387664539fae08c5379d4317054ad5176e4773daf29e3bd012b47ca9f"
+    },
+    {
+      "key": "zhi-shang-tan-bing/p4",
+      "file": "public/audio/zhi-shang-tan-bing/p4.mp3",
+      "textSha256": "10f0193c4654ab100e65700b64a498f2b4fc2fdb3232f9c8363304afea95bba7",
+      "audioSha256": "b89494a1f313df14f69ee1736350b9d412e95f1d8a0433bf601278c35a655bd1"
+    },
+    {
+      "key": "zhi-shang-tan-bing/p5",
+      "file": "public/audio/zhi-shang-tan-bing/p5.mp3",
+      "textSha256": "3234e53668f7cddc1536f7156067a454dddd39bc2062d87177ef2f92851de9a2",
+      "audioSha256": "affd8f98916698d3de0daf069a32536a74b4e76d0df5de97f2969118cea4fb86"
+    },
+    {
+      "key": "zhi-shang-tan-bing/p6",
+      "file": "public/audio/zhi-shang-tan-bing/p6.mp3",
+      "textSha256": "cab48941bbb93a73558ae3a548714316d8d1ad1a69459d895864c2959cb2bb32",
+      "audioSha256": "6104c175c42b378c85e8d82af25da863847407b440fafda8aef29fc328fa8238"
+    },
+    {
+      "key": "zhi-shang-tan-bing/p7",
+      "file": "public/audio/zhi-shang-tan-bing/p7.mp3",
+      "textSha256": "b6a16bbb2132fca55cf90d0e0b35b39ff9b7f0b89fcf219371d71d697736bbfb",
+      "audioSha256": "fcce8012852aff803b7e99145e7600cc9cae1ba7326ac929460c52a36e1b0a8d"
+    },
+    {
+      "key": "zhi-shang-tan-bing/moral",
+      "file": "public/audio/zhi-shang-tan-bing/moral.mp3",
+      "textSha256": "fddb34b252a003454b9b71754d3975e801204c5f1c77a167da762779e780acc9",
+      "audioSha256": "e773d0615d5aa327aa40eaf02550948fe852e3b2631fba17dc11286edd2ff0aa"
+    }
+  ]
+}

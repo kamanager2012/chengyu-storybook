@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-cutover-20260916-shou-bu-shi-juan-c96511f41932",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-16T03:01:09.412Z",
+  "inputItemCount": 9,
+  "inputDigestSha256": "c96511f4193273f2719c54e296f4fd835a746787b6cda7151c7b0d35f62ee0cc",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "cutover": {
+      "kind": "eve-product-audio-cutover-binding",
+      "attestation": "content/evidence/narration/eve-cutover-attestation.json"
+    }
+  },
+  "items": [
+    {
+      "key": "shou-bu-shi-juan/p0",
+      "file": "public/audio/shou-bu-shi-juan/p0.mp3",
+      "textSha256": "66b1aa7f528ae2e39aab2f27edd67848f4a0e0aeb1525ee395f51fe7595f7e2c",
+      "audioSha256": "8e2d497f486d7629b337be4067483bb7893503da73324beb7bc225fb3d5d3d17"
+    },
+    {
+      "key": "shou-bu-shi-juan/p1",
+      "file": "public/audio/shou-bu-shi-juan/p1.mp3",
+      "textSha256": "f85cdd19ca418c8235ed3a1ffc466023dd3d51c055d026aad0aa7c683eadf62a",
+      "audioSha256": "161a00f6424543b538cf37a9e4928895091ae765499f23dd6cfef278f63ba52f"
+    },
+    {
+      "key": "shou-bu-shi-juan/p2",
+      "file": "public/audio/shou-bu-shi-juan/p2.mp3",
+      "textSha256": "72f70ae48958e27da37aa5486a7e9a140e41ce10c72b1c61e56890669ee22221",
+      "audioSha256": "70f77b4bb90f0251845d2a84204f83b89e7a30218430406d8ef7f9c722493605"
+    },
+    {
+      "key": "shou-bu-shi-juan/p3",
+      "file": "public/audio/shou-bu-shi-juan/p3.mp3",
+      "textSha256": "b92072e2090703a717e0fe90511c245bb20f07181f14cbe0facce2f96aec1f10",
+      "audioSha256": "f6d12325af66f1f7b3a6d12ac0ef4c4a7b71634522194177ef29de0949fda887"
+    },
+    {
+      "key": "shou-bu-shi-juan/p4",
+      "file": "public/audio/shou-bu-shi-juan/p4.mp3",
+      "textSha256": "23bef1d574fa5acea7bf24dbba75efc7f53b69318c23825bf63b200d2d7f771e",
+      "audioSha256": "21aa91a94d55408c4d605ce6b835448c68b2a1a50ad6295b5843e2b189a0eb7d"
+    },
+    {
+      "key": "shou-bu-shi-juan/p5",
+      "file": "public/audio/shou-bu-shi-juan/p5.mp3",
+      "textSha256": "7bb2fab4f31c59cc1a01082e0bb03168bf2a11722c082f4d6f22b9282a1f65ef",
+      "audioSha256": "c95c285c16008457ad42611401d908a076b82562ad9fb92a32988716abf64b42"
+    },
+    {
+      "key": "shou-bu-shi-juan/p6",
+      "file": "public/audio/shou-bu-shi-juan/p6.mp3",
+      "textSha256": "2e91bbff886ce451c581703a08ad1c93c52ae242763bdd3850de1a853cf57733",
+      "audioSha256": "9b875d78df1279632429ee4ccb50b6d81c8cfb9aa76c39bca2124d943b509b93"
+    },
+    {
+      "key": "shou-bu-shi-juan/p7",
+      "file": "public/audio/shou-bu-shi-juan/p7.mp3",
+      "textSha256": "bd8bb1dde7601c5cfea77a74b47e2e1fec0db06112244dad8ee71dc5a93ba922",
+      "audioSha256": "be8590fa1b8aefbdef47c0b3b0fb33c4228637b65722423ecf75062ceb6f7309"
+    },
+    {
+      "key": "shou-bu-shi-juan/moral",
+      "file": "public/audio/shou-bu-shi-juan/moral.mp3",
+      "textSha256": "aa0497aad1db471a359dcb793eb7bb372c8da206e82e38fb52979545d6d2e65a",
+      "audioSha256": "e2454585f05033ab54da6bf07d3921652e92c18179fd14e2a8c42139fdd20540"
+    }
+  ]
+}
