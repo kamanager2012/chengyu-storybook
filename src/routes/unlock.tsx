@@ -150,10 +150,10 @@ function UnlockPage() {
         <Link to="/" className="text-sm text-muted">
           回书架
         </Link>
-        <p className="mt-6 text-sm tracking-[0.35em] text-muted">成语绘本全年册</p>
+        <p className="mt-6 text-sm tracking-[0.35em] text-muted">双馆 · 翻页有声 · 全年册</p>
         <h1 className="mt-1 font-display text-4xl text-cinnabar">开通全部 {COMMERCE.catalogCount} 本</h1>
         <p className="mt-3 text-sm leading-6 text-ink-soft">
-          免费可看 {COMMERCE.freeCount} 本经典故事。其余绘本开通后阅读，有效期 {COMMERCE.durationDays} 天。
+          先免费试看 {COMMERCE.freeCount} 本。开通后儿童馆与古风馆全部可翻，有效期 {COMMERCE.durationDays} 天，不用跟大平台比集数。
         </p>
 
         {payReady ? (
@@ -226,8 +226,8 @@ function UnlockPage() {
             <span className="ml-1 text-xl text-ink-soft">元 / 年</span>
           </p>
           <ul className="mt-5 space-y-2 text-sm text-ink-soft">
-            <li>100 本有声绘本，单页翻看、点播旁白</li>
-            <li>开通后一年内可反复阅读</li>
+            <li>{COMMERCE.catalogCount} 本翻页有声绘本，童书＋古风两套图</li>
+            <li>开通后一年内可反复阅读，约一杯奶茶的年价</li>
             <li>建议先登录再付款，换设备也能读</li>
           </ul>
           {active ? (

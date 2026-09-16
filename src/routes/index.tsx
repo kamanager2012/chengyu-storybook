@@ -47,9 +47,12 @@ function Home() {
       <Petals />
       <div className="relative mx-auto w-full max-w-3xl px-4 pb-8 pt-[max(1rem,env(safe-area-inset-top))] sm:px-6">
         <header className="mb-6">
-          <p className="text-sm tracking-[0.35em] text-muted">3–8 岁亲子有声绘本</p>
+          <p className="text-sm tracking-[0.35em] text-muted">3–8 岁 · 翻页有声绘本</p>
           <h1 className="mt-1 font-display text-5xl text-cinnabar sm:text-6xl">成语故事</h1>
-          <p className="mt-2 max-w-md text-sm leading-6 text-ink-soft">先选一座馆，再慢慢翻。</p>
+          <p className="mt-2 max-w-lg text-sm leading-6 text-ink-soft">
+            {COMMERCE.catalogCount} 本成语成册，儿童馆与古风馆两套画风。免费试看 {COMMERCE.freeCount} 本，全年册{" "}
+            {COMMERCE.priceYuan} 元。
+          </p>
         </header>
 
         <section className="relative mb-6 overflow-hidden rounded-[28px] book-spine">
@@ -63,12 +66,12 @@ function Home() {
           <div className="absolute inset-0 bg-linear-to-r from-ink/65 via-ink/30 to-transparent" />
           <div className="absolute inset-0 flex flex-col justify-end p-5 sm:p-6">
             <p className="font-display text-2xl text-panel sm:text-3xl">先走进一座馆</p>
-            <p className="mt-1 text-sm text-panel/90">看图听故事，馆不同，画风不同。</p>
+            <p className="mt-1 text-sm text-panel/90">同一百个成语，童书水彩或国风工笔，一页一页翻完。</p>
           </div>
         </section>
 
         <div className="mb-6 flex items-center justify-between gap-3">
-          <p className="text-xs text-muted">免费可看 {COMMERCE.freeCount} 本经典成语</p>
+          <p className="text-xs text-muted">试看 {COMMERCE.freeCount} 本 · 余下开全年册</p>
           <Link
             to="/unlock"
             search={{}}
@@ -97,7 +100,7 @@ function Home() {
           />
         </div>
 
-        <SiteFooter attribution="100 个成语 · 两座馆 · 各自独立书架" />
+        <SiteFooter attribution={`${COMMERCE.catalogCount} 本成语 · 双馆 · ${COMMERCE.priceYuan} 元 / 年`} />
       </div>
     </main>
   );
