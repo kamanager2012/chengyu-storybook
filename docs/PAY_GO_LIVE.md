@@ -131,12 +131,31 @@ Pages workflow 已从 `vars.VITE_PAY_API` 注入；变量未配置时构建出�
 
 ## 数据备份（.pay-data）
 
-订单与账号默认在 `server/pay/.pay-data/`（Docker volume `pay-data`）。上线后请每日备份该目录或卷，例如：
+订单与账号默认在 `server/pay/.pay-data/`（Docker volume `pay-data`，见 `server/pay/deploy/docker-compose.yml`）。丢失该目录等于丢订单与邮箱权益绑定。
+
+### 生产检查勾选（上线前／上线后）
+
+- [ ] 已确认 `.pay-data` 或 Docker `pay-data` 卷挂在持久磁盘（非临时容器层）
+- [ ] 已配置**每日**备份（cron／快照），保留至少 7 天
+- [ ] 已做一次**恢复演练**：从备份还原到空目录后，账号 entitlement 与订单可查
+- [ ] 备份路径与密钥不进 git
+
+示例：
 
 ```bash
-# 主机 cron 示例：把 volume 挂载点打成 tar
+# 主机 cron：把 volume 挂载点打成 tar（路径按机器调整）
 tar -czf /backup/chengyu-pay-$(date +%F).tgz /var/lib/docker/volumes/<project>_pay-data/_data
 ```
 
-丢失该目录等于丢订单与邮箱权益绑定。
+## Nginx 反向代理（上线必须套用）
+
+上线 **必须** 以 `server/pay/deploy/nginx-pay.conf.example` 为底稿套用（或等价配置），至少包含：
+
+- TLS 终止与 `NOTIFY_BASE_URL` 同 host
+- `limit_req`（`/auth/` 与通用 API 分区限流）
+- **阻挡** `location ^~ /dev/`（即使误开 `PAY_DEV_SIMULATE` 也不要从公网打到 simulate）
+
+不要用「裸 `proxy_pass` 到 Node、无限流、不挡 `/dev/`」的临时 nginx 当生产。
+
+本地 `grantAnnual` 仅存在于 `src/lib/entitlement.dev.ts`（开发构建）；生产构建不应依赖本地伪造年卡，真开通走 `/claim`。
 
