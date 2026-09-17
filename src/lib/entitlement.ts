@@ -52,24 +52,17 @@ export function canReadStory(storyId: string, now = Date.now()): boolean {
   return isFreeStory(storyId) || isEntitlementActive(now);
 }
 
-export function grantAnnual(now = Date.now()): Entitlement {
-  const grantedAt = new Date(now).toISOString();
-  const expiresAt = new Date(now + COMMERCE.durationDays * 24 * 60 * 60 * 1000).toISOString();
-  return writeEntitlement({
-    schemaVersion: 1,
-    productId: COMMERCE.productId,
-    grantedAt,
-    expiresAt,
-    source: "local-grant",
-  });
-}
-
+/** Local annual grant lives only in `entitlement.dev.ts` (DEV builds / tests). */
 export function applyClaimedEntitlement(value: unknown): Entitlement {
   if (!isEntitlement(value)) {
     throw new Error("收款服务返回的权益无效");
   }
   if (value.productId !== COMMERCE.productId) {
     throw new Error("权益商品不匹配");
+  }
+  // Production builds must not accept forged local-grant payloads via this path.
+  if (value.source === "local-grant" && import.meta.env.PROD) {
+    throw new Error("本地开通仅开发构建可用，请通过付款领取");
   }
   const source =
     value.source === "account-bound" || value.source === "account-sync" || value.source === "local-grant"

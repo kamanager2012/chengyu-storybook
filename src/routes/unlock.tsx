@@ -163,7 +163,8 @@ function UnlockPage() {
         <p className="mt-6 text-sm tracking-[0.35em] text-muted">双馆 · 翻页有声 · 全年册</p>
         <h1 className="mt-1 font-display text-4xl text-cinnabar">开通全部 {COMMERCE.catalogCount} 本</h1>
         <p className="mt-3 text-sm leading-6 text-ink-soft">
-          先免费试看 {COMMERCE.freeCount} 本。开通后儿童馆与古风馆全部可翻，有效期 {COMMERCE.durationDays} 天，不用跟大平台比集数。
+          先免费试看 {COMMERCE.freeCount} 本。开通后儿童馆与古风馆全部可翻，有效期 {COMMERCE.durationDays}{" "}
+          天，不用跟大平台比集数。阅读门是产品门禁，不是防下载／防直链的硬 DRM。
         </p>
 
         {payReady ? (
