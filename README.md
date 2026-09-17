@@ -84,6 +84,9 @@ npm run deps:inventory
 npm run typecheck
 npm run lint -- --max-warnings=0
 npm test
+# Optional legacy Kokoro narration pipeline (not the live Eve voice gate):
+# npm run test:kokoro
+# child-draft inventory asserts only when local content/imagine-child-drafts/logs exists (gitignored).
 npm run content:check
 npm run source:check
 npm run provenance:check
@@ -103,6 +106,8 @@ npm run test:e2e
 E2E 会在桌面与移动 Chromium 上验证真实书架链接、故事深链、媒体请求边界、阅读行为、离线 shell、浏览器错误以及基础横向溢出。旁白只在用户点击播放后加载；E2E 也会防止旧 listening 状态或旧播放器绕过发布边界。
 
 ## CI 边界
+
+默认 `npm test` 对齐现网旁白口径（Eve／Grok TTS）。历史 Kokoro 生成／provenance 合同在 `npm run test:kokoro`，不作为干净树默认门禁，避免假绿。
 
 同仓库的 `main`、`feat/**`、`fix/**`、`chore/**`、`perf/**`、`generated/**` push 由 `.github/workflows/exact-head-ci.yml` 作为权威 gate：
 

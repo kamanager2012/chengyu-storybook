@@ -11,7 +11,7 @@ import {
 } from "./narration-pilot-review.mjs";
 import { repoRoot } from "./story-model.mjs";
 
-const REVIEWED_AT = "2026-08-27T17:00:00.000Z";
+const REVIEWED_AT = "2026-09-16T12:00:00.000Z";
 const APPROVE_NOTE = "Human listening review confirmed pronunciation, pacing, intelligibility, and overall narration quality for controlled expansion.";
 const REJECT_NOTE = "Human listening review found pronunciation or pacing issues that must be corrected before narration generation is expanded.";
 const WAIVE_NOTE = "Project owner explicitly waived human listening and authorized controlled narration expansion without representing that listening occurred.";

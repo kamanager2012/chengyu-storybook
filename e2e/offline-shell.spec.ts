@@ -1,5 +1,5 @@
 import { expect, test } from "@playwright/test";
-import { STORY_HREF_RE, storyIdFromHref } from "./story-href";
+import { STORY_HREF_RE } from "./story-href";
 
 test("installed app shell and a visited illustrated story remain readable offline", async ({ page, context }) => {
   await page.goto("/", { waitUntil: "networkidle" });
@@ -26,8 +26,6 @@ test("installed app shell and a visited illustrated story remain readable offlin
   const href = await firstStory.getAttribute("href");
   const title = (await firstStory.locator("h3").innerText()).trim();
   expect(href).toMatch(STORY_HREF_RE);
-  const storyId = storyIdFromHref(href!);
-
   await firstStory.click();
   await expect(page).toHaveURL(/\/story\/.+/);
   await expect(page.locator('[data-illustrated-story="true"]')).toBeVisible();
