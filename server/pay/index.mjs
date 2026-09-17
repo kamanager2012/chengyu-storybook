@@ -3,7 +3,7 @@ import { pathToFileURL } from "node:url";
 import { accountsPathFromOrders, createAccountStore } from "./accounts.mjs";
 import { loadConfig } from "./config.mjs";
 import { createChannelCheckout, queryChannelPayment, verifyAlipayNotify } from "./channels.mjs";
-import { createOrderId, createStore, publicOrder } from "./store.mjs";
+import { createOrderId, createStore, publicOrder, publicOrderStatus } from "./store.mjs";
 import { decryptWechatResource, readWechatNotifyHeaders, verifyWechatNotifySignature } from "./wechat-notify.mjs";
 
 function sendJson(res, status, payload) {
@@ -452,7 +452,7 @@ export function startPayServer(options = {}) {
               // Keep pending; client continues polling. Notify remains primary.
             }
           }
-          sendJson(res, 200, publicOrder(order));
+          sendJson(res, 200, publicOrderStatus(order));
           return;
         }
         if (req.method === "POST" && pathname === "/notify/wechat") {

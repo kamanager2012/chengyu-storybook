@@ -76,6 +76,14 @@ test("create + simulate-paid marks annual order paid", async () => {
     assert.equal(got.status, 200);
     const body = await got.json();
     assert.equal(body.status, "paid");
+    assert.equal(body.orderId, order.orderId);
+    assert.equal(body.channel, "wechat");
+    assert.equal(body.qrCode, undefined);
+    assert.equal(body.payUrl, undefined);
+    assert.equal(body.qrImageDataUrl, undefined);
+    assert.equal(body.amountFen, undefined);
+    assert.equal(body.productId, undefined);
+    assert.equal(body.paidAt, undefined);
   });
 });
 
@@ -173,6 +181,34 @@ test("production claim requires login", async () => {
     rmSync(dir, { recursive: true, force: true });
     process.env.PAY_DEV_SIMULATE = "1";
   }
+});
+
+
+test("GET /order returns status-only fields (no QR/amount oracle)", async () => {
+  await withServer(async (base) => {
+    const created = await fetch(`${base}/create`, {
+      method: "POST",
+      headers: { "content-type": "application/json", origin: "http://127.0.0.1:8080" },
+      body: JSON.stringify({
+        productId: "chengyu-storybook-annual-v1",
+        channel: "alipay",
+        amountFen: 1990,
+      }),
+    });
+    assert.equal(created.status, 200);
+    const order = await created.json();
+    assert.ok(order.qrCode);
+    assert.ok(order.amountFen === 1990 || order.productId);
+
+    const got = await fetch(`${base}/order/${order.orderId}`);
+    assert.equal(got.status, 200);
+    const body = await got.json();
+    assert.equal(body.status, "pending");
+    assert.equal(body.orderId, order.orderId);
+    assert.equal(body.channel, "alipay");
+    assert.ok(typeof body.message === "string");
+    assert.deepEqual(Object.keys(body).sort(), ["channel", "message", "orderId", "status"]);
+  });
 });
 
 test("rejects mismatched amountFen", async () => {
