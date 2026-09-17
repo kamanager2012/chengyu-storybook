@@ -14,7 +14,7 @@ import {
   renameSync,
   writeFileSync,
 } from "node:fs";
-import { dirname, join, relative, resolve } from "node:path";
+import { dirname, join, relative } from "node:path";
 import { homedir } from "node:os";
 import { buildNarrationGenerationSet } from "./narration-generation-set.mjs";
 import { validateApprovedGenerationSet } from "./kokoro-generation-contract.mjs";

@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { Petals } from "@/components/petals";
 import { SiteFooter } from "@/components/site-footer";
 import { COMMERCE, type PayChannel } from "@/data/commerce";
@@ -41,7 +41,7 @@ function UnlockPage() {
     setDays(remainingDays());
   }
 
-  async function activateFromPaidOrder(orderId: string) {
+  const activateFromPaidOrder = useCallback(async (orderId: string) => {
     const entitlement = await claimPayEntitlement(orderId);
     applyClaimedEntitlement(entitlement);
     refreshEntitlementUi();
@@ -50,7 +50,7 @@ function UnlockPage() {
       if (profile?.loginId) setSignedInAs(profile.loginId);
       refreshEntitlementUi();
     }
-  }
+  }, []);
 
   useEffect(() => {
     let cancelled = false;
@@ -100,7 +100,7 @@ function UnlockPage() {
       cancelled = true;
       window.clearInterval(timer);
     };
-  }, [order?.orderId, order?.status, order?.channel]);
+  }, [order?.orderId, order?.status, order?.channel, activateFromPaidOrder]);
 
   async function pay(channel: PayChannel) {
     if (!payReady) return;

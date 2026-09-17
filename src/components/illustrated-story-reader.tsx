@@ -20,7 +20,7 @@ import { cn } from "@/lib/utils";
 
 const MOTION = ["in", "left", "right", "up"] as const;
 const TAP_LIMIT = 24;
-/** Native rate for Grok voice pilot; verified Kokoro stories still use availability src as-is. */
+/** Native playback rate for current Grok Eve narration pilot. */
 const NARRATION_PLAYBACK_RATE = 1;
 
 function releaseAudio(audio: HTMLAudioElement | null) {

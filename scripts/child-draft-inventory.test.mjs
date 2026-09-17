@@ -43,7 +43,12 @@ function assertCompleteSet(id, hallById) {
   assert.equal(hallById.get(id), "classic", `${id}: child draft must belong to the live 古风馆 id`);
 }
 
-test("child-draft complete-8 inventory matches on-disk JPEGs for required classic-hall titles", () => {
+test("child-draft complete-8 inventory matches on-disk JPEGs for required classic-hall titles", (t) => {
+  const logDir = join(draftsRoot, "logs");
+  if (!existsSync(logDir)) {
+    t.skip("content/imagine-child-drafts/logs is gitignored; generate local complete-8 logs before asserting inventory");
+    return;
+  }
   const publishedIds = loadStoryModel().stories.map((story) => story.id);
   const editions = loadStoryEditions({ publishedIds });
   for (const id of EXPECTED_CHILD_OVERLAY_IDS) {
@@ -51,8 +56,12 @@ test("child-draft complete-8 inventory matches on-disk JPEGs for required classi
   }
 });
 
-test("child-draft logs never mark a partial folder complete-8", () => {
+test("child-draft logs never mark a partial folder complete-8", (t) => {
   const logDir = join(draftsRoot, "logs");
+  if (!existsSync(logDir)) {
+    t.skip("content/imagine-child-drafts/logs is gitignored; nothing to audit without local logs");
+    return;
+  }
   for (const name of readdirSync(logDir).filter((file) => file.endsWith(".json"))) {
     const log = JSON.parse(readFileSync(join(logDir, name), "utf8"));
     if (log.status !== "complete-8") continue;
