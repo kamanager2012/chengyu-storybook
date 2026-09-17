@@ -12,6 +12,7 @@
     "dev": "vite dev --host 0.0.0.0 --port 8080",
     "pay:dev": "PAY_DEV_SIMULATE=1 PAY_HOST=127.0.0.1 PAY_PORT=8787 PAY_CORS_ORIGINS=http://127.0.0.1:8080,http://localhost:8080 NOTIFY_BASE_URL=http://127.0.0.1:8787 node server/pay/index.mjs",
     "pay:test": "node --test server/pay/pay.test.mjs server/pay/wechat-notify.test.mjs server/pay/alipay-notify.test.mjs server/pay/account.test.mjs",
+    "pay:prod-health": "node scripts/pay-prod-health-check.mjs",
     "build": "vite build",
     "build:dev": "vite build --mode development",
     "preview": "vite preview",
