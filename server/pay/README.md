@@ -19,7 +19,7 @@
 | POST | `/auth/logout` | Bearer 注销 |
 | GET | `/auth/me` | Bearer → 账号 + 云端 entitlement |
 | POST | `/create` | body: `{ productId, channel, amountFen }`；可带 Bearer 预绑账号 |
-| GET | `/order/:orderId` | 查单；pending 时会顺带向微信/支付宝主动查询是否已付 |
+| GET | `/order/:orderId` | 查单（仅 status 等最小字段）；pending 时会顺带向微信/支付宝主动查询是否已付 |
 | POST | `/notify/wechat` | 微信异步通知（平台证书验签 + APIv3 解密） |
 | POST | `/notify/alipay` | 支付宝异步通知（RSA2 验签） |
 | POST | `/claim` | body: `{ orderId }`；带 Bearer 时把权益绑到账号（一单一账号） |

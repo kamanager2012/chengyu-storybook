@@ -94,3 +94,13 @@ export function publicOrder(order) {
     paidAt: order.paidAt,
   };
 }
+
+/** Poll/lookup view: no QR / amount / product — reduces orderId oracle surface. */
+export function publicOrderStatus(order) {
+  return {
+    orderId: order.orderId,
+    channel: order.channel,
+    status: order.status,
+    message: order.message,
+  };
+}

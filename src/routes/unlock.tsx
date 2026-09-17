@@ -77,7 +77,13 @@ function UnlockPage() {
       void (async () => {
         const next = await fetchPayOrder(order.orderId, order.channel);
         if (cancelled) return;
-        setOrder(next);
+        // GET /order returns status-only; keep QR from create so the pending UI stays usable.
+        setOrder((prev) => ({
+          ...next,
+          qrCode: next.qrCode ?? prev?.qrCode,
+          payUrl: next.payUrl ?? prev?.payUrl,
+          qrImageDataUrl: next.qrImageDataUrl ?? prev?.qrImageDataUrl,
+        }));
         if (next.status === "paid") {
           try {
             await activateFromPaidOrder(next.orderId);
