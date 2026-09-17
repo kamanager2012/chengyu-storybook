@@ -1,6 +1,13 @@
 # Terminate TLS in front of the pay API. Point WeChat/Alipay notify at
 # https://pay.example.com/notify/wechat and .../notify/alipay
 # Set NOTIFY_BASE_URL=https://pay.example.com (no trailing slash).
+#
+# Align PAY_CORS_ORIGINS with the static site origin(s), e.g.
+#   PAY_CORS_ORIGINS=https://stories.example.com,https://kamanager2012.github.io
+
+# Shared rate-limit zones (tune to taste; protects /create /auth /claim abuse).
+limit_req_zone $binary_remote_addr zone=pay_api:10m rate=10r/s;
+limit_req_zone $binary_remote_addr zone=pay_auth:10m rate=3r/s;
 
 server {
   listen 443 ssl http2;
@@ -9,7 +16,23 @@ server {
   # ssl_certificate /etc/letsencrypt/live/pay.example.com/fullchain.pem;
   # ssl_certificate_key /etc/letsencrypt/live/pay.example.com/privkey.pem;
 
+  # Block simulate endpoint at the edge even if someone mis-sets PAY_DEV_SIMULATE.
+  location ^~ /dev/ {
+    return 404;
+  }
+
+  location /auth/ {
+    limit_req zone=pay_auth burst=10 nodelay;
+    proxy_pass http://127.0.0.1:8787;
+    proxy_http_version 1.1;
+    proxy_set_header Host $host;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header X-Forwarded-Proto $scheme;
+  }
+
   location / {
+    limit_req zone=pay_api burst=40 nodelay;
     proxy_pass http://127.0.0.1:8787;
     proxy_http_version 1.1;
     proxy_set_header Host $host;

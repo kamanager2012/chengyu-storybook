@@ -163,9 +163,7 @@ export function startPayServer(options = {}) {
       return;
     }
 
-    const trustUnsigned =
-      config.devSimulate ||
-      ["1", "true", "yes"].includes(String(process.env.WECHAT_NOTIFY_TRUST_UNSIGNED || "").toLowerCase());
+    const trustUnsigned = config.devSimulate || config.wechatTrustUnsigned;
 
     let resourcePlain = null;
     if (trustUnsigned) {
@@ -229,9 +227,7 @@ export function startPayServer(options = {}) {
 
   async function handleAlipayNotify(req, res) {
     const params = readForm(await readBody(req));
-    const trustUnsigned =
-      config.devSimulate ||
-      ["1", "true", "yes"].includes(String(process.env.ALIPAY_NOTIFY_TRUST_UNSIGNED || "").toLowerCase());
+    const trustUnsigned = config.devSimulate || config.alipayTrustUnsigned;
     if (!trustUnsigned) {
       if (!config.alipay.publicKey) {
         sendText(res, 501, "fail");
@@ -296,8 +292,14 @@ export function startPayServer(options = {}) {
       return;
     }
 
-    const entitlement = buildEntitlementFromOrder(order);
     const session = authFromReq(req);
+    // Production: claim must bind to a logged-in account (closes orderId wash).
+    if (config.claimRequiresAuth && !session) {
+      sendJson(res, 401, { error: "请先登录邮箱账号后再领取权益（换设备也靠同一邮箱）" });
+      return;
+    }
+
+    const entitlement = buildEntitlementFromOrder(order);
     let account = session?.account ?? null;
 
     if (session) {
@@ -312,12 +314,24 @@ export function startPayServer(options = {}) {
       store.update(orderId, {
         claimedAccountId: session.account.accountId,
         accountId: order.accountId || session.account.accountId,
+        claimedAt: order.claimedAt || new Date().toISOString(),
+        claimedAnonymous: false,
       });
       if (account?.entitlement) {
         entitlement.grantedAt = account.entitlement.grantedAt;
         entitlement.expiresAt = account.entitlement.expiresAt;
         entitlement.source = account.entitlement.source || "account-bound";
       }
+    } else {
+      // Dev-simulate only: anonymous claim is one-shot, then void for further claims.
+      if (order.claimedAccountId || order.claimedAnonymous || order.claimedAt) {
+        sendJson(res, 409, { error: "该订单已领取，不能再次匿名开通" });
+        return;
+      }
+      store.update(orderId, {
+        claimedAnonymous: true,
+        claimedAt: new Date().toISOString(),
+      });
     }
 
     sendJson(res, 200, {
@@ -392,6 +406,13 @@ export function startPayServer(options = {}) {
             alipayReady: config.alipay.ready,
             accountsEnabled: true,
             devSimulate: config.devSimulate,
+            claimRequiresAuth: config.claimRequiresAuth,
+            wechatTrustUnsigned: config.wechatTrustUnsigned,
+            alipayTrustUnsigned: config.alipayTrustUnsigned,
+            // true = unsafe for real money (TRUST_UNSIGNED while not in simulate)
+            productionUnsafe: config.productionUnsafe,
+            // Acceptance: real money only when this is true
+            productionGuardsOk: !config.devSimulate && !config.productionUnsafe,
           });
           return;
         }

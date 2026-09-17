@@ -98,6 +98,10 @@ function UnlockPage() {
 
   async function pay(channel: PayChannel) {
     if (!payReady) return;
+    if (!readSessionToken()) {
+      setAuthMessage("请先用邮箱注册或登录，再付款。权益挂在账号上，换设备登录同一邮箱即可继续读。");
+      return;
+    }
     setBusy(channel);
     try {
       const next = await createPayOrder(channel);
@@ -158,8 +162,10 @@ function UnlockPage() {
 
         {payReady ? (
           <section className="mt-6 rounded-[32px] bg-panel p-6 shadow-panel ring-1 ring-line/70">
-            <p className="text-sm text-muted">账号（换设备同步）</p>
-            <p className="mt-1 text-sm leading-6 text-ink-soft">用邮箱注册后，付款权益会挂在账号上，换设备登录同一邮箱即可继续读。</p>
+            <p className="text-sm text-muted">账号（付款前必填）</p>
+            <p className="mt-1 text-sm leading-6 text-ink-soft">
+              必须先用邮箱注册或登录再付款。全年册挂在该邮箱账号上；换手机、清缓存后，登录同一邮箱即可恢复，不要只靠本机开通状态。
+            </p>
             {signedInAs ? (
               <div className="mt-4 space-y-3">
                 <p className="rounded-2xl bg-bamboo/20 px-4 py-3 text-sm text-ink">已登录：{signedInAs}</p>
@@ -228,15 +234,20 @@ function UnlockPage() {
           <ul className="mt-5 space-y-2 text-sm text-ink-soft">
             <li>{COMMERCE.catalogCount} 本翻页有声绘本，童书＋古风两套图</li>
             <li>开通后一年内可反复阅读，约一杯奶茶的年价</li>
-            <li>建议先登录再付款，换设备也能读</li>
+            <li>须先登录邮箱再付款；换设备靠同一邮箱登录，不是靠本机缓存</li>
           </ul>
           {active ? (
             <p className="mt-6 rounded-2xl bg-bamboo/20 px-4 py-3 text-sm text-ink">已开通，还剩 {days} 天。</p>
           ) : payReady ? (
             <div className="mt-6 grid gap-3">
+              {!signedInAs ? (
+                <p className="rounded-2xl bg-paper px-4 py-3 text-sm leading-6 text-cinnabar">
+                  请先在上方用邮箱注册或登录，然后才能扫码付款。换设备继续阅读也靠同一邮箱。
+                </p>
+              ) : null}
               <button
                 type="button"
-                disabled={busy !== null}
+                disabled={busy !== null || !signedInAs}
                 onClick={() => void pay("wechat")}
                 className="inline-flex h-12 items-center justify-center rounded-full bg-cinnabar px-6 text-panel disabled:opacity-60"
               >
@@ -244,7 +255,7 @@ function UnlockPage() {
               </button>
               <button
                 type="button"
-                disabled={busy !== null}
+                disabled={busy !== null || !signedInAs}
                 onClick={() => void pay("alipay")}
                 className="inline-flex h-12 items-center justify-center rounded-full bg-ink px-6 text-panel disabled:opacity-60"
               >
@@ -312,7 +323,7 @@ function UnlockPage() {
                         重新领取权益
                       </button>
                       {!signedInAs ? (
-                        <p className="text-xs text-muted">上方注册/登录后点「重新领取」，权益会绑到账号，换设备也能用。</p>
+                        <p className="text-xs text-cinnabar">生产环境必须登录后才能领取。请先在上方注册/登录，再点「重新领取」；换设备也靠同一邮箱。</p>
                       ) : null}
                     </div>
                   ) : null}

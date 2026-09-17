@@ -82,3 +82,10 @@ curl -X POST http://127.0.0.1:8787/dev/simulate-paid/<orderId>
 npm run pay:dev    # PAY_DEV_SIMULATE=1 启动
 npm run pay:test   # 契约 + 验签测试
 ```
+
+## 生产门禁速查
+
+- `/health.productionGuardsOk === true` 才可收真钱（`devSimulate=false` 且未开 `*_TRUST_UNSIGNED`）。
+- 生产 `/claim` 必须登录；开发模拟匿名 claim 仅一次。
+- 详见仓库 `docs/PAY_GO_LIVE.md`。
+

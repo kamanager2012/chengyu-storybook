@@ -60,6 +60,13 @@ export function loadConfig() {
   const wechatNotifyReady = Boolean(wechatReady && wechatPlatformCert && env("WECHAT_APIV3_KEY").length === 32);
   const alipayReady = Boolean(env("ALIPAY_APP_ID") && alipayPrivateKey && alipayPublicKey && notifyBase);
 
+  const wechatTrustUnsigned = envFlag("WECHAT_NOTIFY_TRUST_UNSIGNED");
+  const alipayTrustUnsigned = envFlag("ALIPAY_NOTIFY_TRUST_UNSIGNED");
+  const devSimulate = envFlag("PAY_DEV_SIMULATE");
+  // Production is unsafe if simulate is on, or notify skips signature verify.
+  const productionUnsafe = !devSimulate && (wechatTrustUnsigned || alipayTrustUnsigned);
+  const claimRequiresAuth = !devSimulate;
+
   return {
     commerce,
     host: env("PAY_HOST", "127.0.0.1"),
@@ -67,7 +74,12 @@ export function loadConfig() {
     notifyBase,
     corsOrigins: splitOrigins(env("PAY_CORS_ORIGINS", "http://127.0.0.1:8080,http://localhost:8080")),
     storePath: env("PAY_STORE_PATH", join(here, ".pay-data", "orders.json")),
-    devSimulate: envFlag("PAY_DEV_SIMULATE"),
+    devSimulate,
+    wechatTrustUnsigned,
+    alipayTrustUnsigned,
+    productionUnsafe,
+    productionGuardsOk: !devSimulate && !productionUnsafe,
+    claimRequiresAuth,
     wechat: {
       ready: wechatReady,
       notifyReady: wechatNotifyReady,

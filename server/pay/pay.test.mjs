@@ -40,6 +40,11 @@ test("pay health reports product pricing", async () => {
     assert.equal(body.productId, "chengyu-storybook-annual-v1");
     assert.equal(body.amountFen, 1990);
     assert.equal(body.devSimulate, true);
+    assert.equal(body.claimRequiresAuth, false);
+    assert.equal(body.wechatTrustUnsigned, false);
+    assert.equal(body.alipayTrustUnsigned, false);
+    assert.equal(body.productionUnsafe, false);
+    assert.equal(body.productionGuardsOk, false);
   });
 });
 
@@ -107,7 +112,67 @@ test("claim returns entitlement only after paid", async () => {
     assert.equal(body.entitlement.orderId, order.orderId);
     assert.equal(body.entitlement.source, "pay-claim");
     assert.ok(Date.parse(body.entitlement.expiresAt) > Date.parse(body.entitlement.grantedAt));
+
+    // Dev anonymous claim is one-shot — blocks orderId wash.
+    const again = await fetch(`${base}/claim`, {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ orderId: order.orderId }),
+    });
+    assert.equal(again.status, 409);
   });
+});
+
+test("production claim requires login", async () => {
+  const dir = mkdtempSync(join(tmpdir(), "chengyu-pay-prod-"));
+  process.env.PAY_DEV_SIMULATE = "0";
+  process.env.PAY_STORE_PATH = join(dir, "orders.json");
+  process.env.PAY_CORS_ORIGINS = "http://127.0.0.1:8080";
+  process.env.NOTIFY_BASE_URL = "https://pay.example.com";
+  process.env.WECHAT_APPID = "";
+  process.env.WECHAT_MCHID = "";
+  process.env.ALIPAY_APP_ID = "";
+  process.env.WECHAT_NOTIFY_TRUST_UNSIGNED = "0";
+  process.env.ALIPAY_NOTIFY_TRUST_UNSIGNED = "0";
+
+  const config = loadConfig();
+  assert.equal(config.claimRequiresAuth, true);
+  assert.equal(config.productionGuardsOk, true);
+  const store = createStore(config.storePath);
+  const now = new Date().toISOString();
+  store.save({
+    orderId: "cy-prod-claim-1",
+    productId: config.commerce.productId,
+    channel: "wechat",
+    amountFen: config.commerce.amountFen,
+    status: "paid",
+    message: "fixture",
+    createdAt: now,
+    updatedAt: now,
+    paidAt: now,
+  });
+  const server = await startPayServer({ config, store, host: "127.0.0.1", port: 0 });
+  const address = server.address();
+  assert.ok(address && typeof address === "object");
+  const base = `http://127.0.0.1:${address.port}`;
+  try {
+    const health = await (await fetch(`${base}/health`)).json();
+    assert.equal(health.devSimulate, false);
+    assert.equal(health.claimRequiresAuth, true);
+    assert.equal(health.productionGuardsOk, true);
+    assert.equal(health.productionUnsafe, false);
+
+    const anon = await fetch(`${base}/claim`, {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ orderId: "cy-prod-claim-1" }),
+    });
+    assert.equal(anon.status, 401);
+  } finally {
+    await new Promise((resolve) => server.close(resolve));
+    rmSync(dir, { recursive: true, force: true });
+    process.env.PAY_DEV_SIMULATE = "1";
+  }
 });
 
 test("rejects mismatched amountFen", async () => {

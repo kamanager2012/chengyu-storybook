@@ -28,6 +28,9 @@ jobs:
       - name: Build static site for GitHub Pages
         env:
           GITHUB_PAGES: "1"
+          # Repo variable (Settings → Variables): public pay API origin, no trailing slash.
+          # Do NOT put merchant secrets here — only VITE_PAY_API (e.g. https://pay.example.com).
+          VITE_PAY_API: ${{ vars.VITE_PAY_API }}
         run: npm run build
       - uses: actions/upload-pages-artifact@v3
         with:

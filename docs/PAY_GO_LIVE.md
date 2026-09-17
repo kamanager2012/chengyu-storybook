@@ -65,3 +65,53 @@ npm run pay:smoke
 - 不把商户密钥写进仓库或 GitHub Secrets（除非你另开私密托管并明确授权）。
 - 不在 Actions 额度用尽时依赖 CI 部署支付。
 - 静态站挂载另议；支付可先独立上线。
+
+## 生产门禁（验收必过）
+
+`GET /health` 在收真钱前必须同时满足：
+
+| 字段 | 要求 |
+|---|---|
+| `devSimulate` | `false` |
+| `claimRequiresAuth` | `true` |
+| `wechatTrustUnsigned` / `alipayTrustUnsigned` | `false` |
+| `productionUnsafe` | `false` |
+| `productionGuardsOk` | `true` |
+
+任一不满足：**不要**开放扫码收款。`PAY_DEV_SIMULATE=1` 或 `*_NOTIFY_TRUST_UNSIGNED=1` 等于可伪造到账。
+
+## Claim／换设备
+
+- 生产：`POST /claim` **必须**带邮箱登录后的 `Authorization: Bearer …`；匿名 claim 返回 401。
+- 开发模拟：允许匿名 claim **一次**，再次匿名领取 409（防 orderId 洗权益）；登录后仍可把该单绑到账号。
+- 静态站解锁页：须先注册／登录再付款；文案写明换设备靠同一邮箱，不靠本机缓存。
+
+## CORS 与静态 origin
+
+`PAY_CORS_ORIGINS` 必须写成**最终静态站真实 origin**（含预览站），与浏览器地址栏一致、无尾斜杠，逗号分隔。例：
+
+```bash
+PAY_CORS_ORIGINS=https://stories.example.com,https://kamanager2012.github.io
+```
+
+前端构建变量（**不要**把商户密钥写进 Actions）：
+
+```bash
+# GitHub Actions: Settings → Secrets and variables → Actions → Variables
+# 名称 VITE_PAY_API，值 https://pay.example.com（与 NOTIFY_BASE_URL 同 origin）
+VITE_PAY_API=https://pay.example.com
+```
+
+Pages workflow 已从 `vars.VITE_PAY_API` 注入；变量未配置时构建出的站无法下单（解锁页提示通道未开放），属预期。
+
+## 数据备份（.pay-data）
+
+订单与账号默认在 `server/pay/.pay-data/`（Docker volume `pay-data`）。上线后请每日备份该目录或卷，例如：
+
+```bash
+# 主机 cron 示例：把 volume 挂载点打成 tar
+tar -czf /backup/chengyu-pay-$(date +%F).tgz /var/lib/docker/volumes/<project>_pay-data/_data
+```
+
+丢失该目录等于丢订单与邮箱权益绑定。
+
