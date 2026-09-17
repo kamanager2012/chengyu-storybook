@@ -1,4 +1,6 @@
 # Example: docker compose -f server/pay/deploy/docker-compose.yml --env-file server/pay/.env up -d
+# Persist and back up volume `pay-data` (orders + accounts). Losing it drops entitlements.
+# Ensure PAY_DEV_SIMULATE=0 and no *_NOTIFY_TRUST_UNSIGNED in the env file.
 services:
   pay:
     build:
