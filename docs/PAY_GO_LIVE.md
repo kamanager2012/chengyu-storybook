@@ -80,6 +80,31 @@ npm run pay:smoke
 
 任一不满足：**不要**开放扫码收款。`PAY_DEV_SIMULATE=1` 或 `*_NOTIFY_TRUST_UNSIGNED=1` 等于可伪造到账。
 
+### 生产 health 验收脚本（防误判）
+
+只看 `productionGuardsOk` **不够**：还必须有公网 `notifyBaseConfigured` 与业务通道 ready。用脚本一次断言：
+
+```bash
+# 指向真实 pay 源（HTTPS）
+PAY_API=https://pay.example.com npm run pay:prod-health
+
+# 只要微信或只要支付宝时：
+PAY_API=https://pay.example.com PAY_REQUIRE_CHANNELS=wechat npm run pay:prod-health
+PAY_API=https://pay.example.com PAY_REQUIRE_CHANNELS=alipay npm run pay:prod-health
+```
+
+脚本会检查：`devSimulate=false`、`productionUnsafe=false`、`productionGuardsOk=true`、`claimRequiresAuth=true`、未开 `*TrustUnsigned`、`notifyBaseConfigured=true`，以及所选通道的 `wechatReady`∧`wechatNotifyReady` 和／或 `alipayReady`。缺任一项非 0 退出并打印缺项。
+
+**本机模拟态应故意 FAIL**（不要当成生产 PASS）：
+
+```bash
+npm run pay:dev   # 终端1：PAY_DEV_SIMULATE=1
+PAY_API=http://127.0.0.1:8787 npm run pay:prod-health   # 终端2：期望失败
+```
+
+该脚本是**代码侧防误判门禁**，通过 ≠ 宣称「真收款生产级＝是」（仍需真商户、公网回调与人工试单）。
+
+
 ## Claim／换设备
 
 - 生产：`POST /claim` **必须**带邮箱登录后的 `Authorization: Bearer …`；匿名 claim 返回 401。
