@@ -159,3 +159,13 @@ tar -czf /backup/chengyu-pay-$(date +%F).tgz /var/lib/docker/volumes/<project>_p
 
 本地 `grantAnnual` 仅存在于 `src/lib/entitlement.dev.ts`（开发构建）；生产构建不应依赖本地伪造年卡，真开通走 `/claim`。
 
+### CI 已挂 entitlement-dev-gate（防回退）
+
+`scripts/entitlement-dev-gate.test.mjs` 已列入 `npm test`，因此：
+
+- `npm run check:fast`（含 `npm test`）会跑该门禁
+- `.github/workflows/storybook-ci.yml` → `npm run check:fast`
+- `.github/workflows/exact-head-ci.yml` → `npm run check`（同样含 `npm test`）
+
+本条只确认路径；**不**因此宣称真收款生产级＝是。
+
