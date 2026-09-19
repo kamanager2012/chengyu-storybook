@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-classic-20260919t065216837z-jing-gong-zhi-niao-cc8a04468a52",
+  "canonicalSource": "content/classic-hall-sections.json",
+  "createdAt": "2026-09-19T06:52:16.837Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "cc8a04468a526e34414cbea3c205ff91c5f9542f3f54263abf60622ee150bada",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/classic-eve-generation-set.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "classic-hall-body",
+      "storyId": "jing-gong-zhi-niao",
+      "pages": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6",
+        "p7"
+      ]
+    },
+    "synthesizedKeys": [
+      "jing-gong-zhi-niao/p1",
+      "jing-gong-zhi-niao/p2",
+      "jing-gong-zhi-niao/p3",
+      "jing-gong-zhi-niao/p4",
+      "jing-gong-zhi-niao/p5",
+      "jing-gong-zhi-niao/p6",
+      "jing-gong-zhi-niao/p7"
+    ],
+    "publicAudioWrite": false,
+    "childNarrationStateUpdated": false
+  },
+  "items": [
+    {
+      "key": "jing-gong-zhi-niao/p1",
+      "file": "public/audio-classic/jing-gong-zhi-niao/p1.mp3",
+      "textSha256": "80c3ab29332c26ffd1748c413afc73269e05fecd9a7ea6eb2742a1c24f15caac",
+      "audioSha256": "642a531f6385d412bd72f9c28251025102cc2f01aff42e8911948149b11e4dce"
+    },
+    {
+      "key": "jing-gong-zhi-niao/p2",
+      "file": "public/audio-classic/jing-gong-zhi-niao/p2.mp3",
+      "textSha256": "f79a4b175f60c80e5819f037e5235d0d67ab4ae053134663244d5f5762d2c23b",
+      "audioSha256": "53b24a5192c0deabf3d838acf70f7b45fe3108c21209e07ebcf8139dc4865a02"
+    },
+    {
+      "key": "jing-gong-zhi-niao/p3",
+      "file": "public/audio-classic/jing-gong-zhi-niao/p3.mp3",
+      "textSha256": "73a8bdc70a68d418ffb35efae0b5bef4b5cfaf4b222aa77242ed14521f67108a",
+      "audioSha256": "3a1ac517093305ce09f36aeb860a4a31b951716f5122b0bdd5defca8d24bd216"
+    },
+    {
+      "key": "jing-gong-zhi-niao/p4",
+      "file": "public/audio-classic/jing-gong-zhi-niao/p4.mp3",
+      "textSha256": "a1c4de93e47ed00196c3f6a8f7b1cb1ea772186fa87eabd35e5d3bfb7410171c",
+      "audioSha256": "d5551cf45d833bbb1a6a2b4ee07ca36216c89b9826810007ad37d7c2bfa152b6"
+    },
+    {
+      "key": "jing-gong-zhi-niao/p5",
+      "file": "public/audio-classic/jing-gong-zhi-niao/p5.mp3",
+      "textSha256": "009953c1c518644d15c9a9876a9fbcc94b5ea7345f12eed698db7d37c0148493",
+      "audioSha256": "83657bc66b558817836b63c70b8ddab842b350dfe8d28adf06f73a2896c0b100"
+    },
+    {
+      "key": "jing-gong-zhi-niao/p6",
+      "file": "public/audio-classic/jing-gong-zhi-niao/p6.mp3",
+      "textSha256": "0919887f6fdc529d2989df2c7002e6b7f80eac15722791b0649db13b76c8388a",
+      "audioSha256": "47920b27c48e5e3154b23edaf6ffbf9ab9906492746a0b47b1c9e0f730c7db95"
+    },
+    {
+      "key": "jing-gong-zhi-niao/p7",
+      "file": "public/audio-classic/jing-gong-zhi-niao/p7.mp3",
+      "textSha256": "703aab1f5983ab853e49e753f0ea5ef4f586f756914f21e0cd14feff6113a9b1",
+      "audioSha256": "297116f88370b1685cde88c43f35ef67d7a9519d39d6a00675fd1a1dcb998676"
+    }
+  ]
+}

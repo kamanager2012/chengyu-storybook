@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-classic-20260919t065107544z-dui-niu-f01e9a8481d0",
+  "canonicalSource": "content/classic-hall-sections.json",
+  "createdAt": "2026-09-19T06:51:07.544Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "f01e9a8481d0361dad40fdd541bad54350bfcdec471ef185fa9c3591ff7b086d",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/classic-eve-generation-set.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "classic-hall-body",
+      "storyId": "dui-niu",
+      "pages": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6",
+        "p7"
+      ]
+    },
+    "synthesizedKeys": [
+      "dui-niu/p1",
+      "dui-niu/p2",
+      "dui-niu/p3",
+      "dui-niu/p4",
+      "dui-niu/p5",
+      "dui-niu/p6",
+      "dui-niu/p7"
+    ],
+    "publicAudioWrite": false,
+    "childNarrationStateUpdated": false
+  },
+  "items": [
+    {
+      "key": "dui-niu/p1",
+      "file": "public/audio-classic/dui-niu/p1.mp3",
+      "textSha256": "9729d737be9bd0fe991782bdf9026656f88f17f84a19f9a20d7ce2d651b41da8",
+      "audioSha256": "1f4096e63f0db9f38c20706082c29d5fbcf757d9d92e72ee550f1d48261f58c1"
+    },
+    {
+      "key": "dui-niu/p2",
+      "file": "public/audio-classic/dui-niu/p2.mp3",
+      "textSha256": "dce5c955482481e92b512d00045e084853d7b8d58470ce4a67140e1ea35bdc0c",
+      "audioSha256": "ebd200eed6808e5a2273f5ca2f412a218a0e454ef7bb5d74d742cb31bcdeb92d"
+    },
+    {
+      "key": "dui-niu/p3",
+      "file": "public/audio-classic/dui-niu/p3.mp3",
+      "textSha256": "e4c83c8a85d57848d803cea0c4030a07813ab7e18da5de9c6bd878b830e76400",
+      "audioSha256": "54b85ccc655df1d8e7547d1160458ea8532c7d94eda12bc80048aca3923ac6bd"
+    },
+    {
+      "key": "dui-niu/p4",
+      "file": "public/audio-classic/dui-niu/p4.mp3",
+      "textSha256": "dbbb6b7dd1d7922ddf1c03abcbf66f0a805e79735eb6e214503d9f6445ad18cd",
+      "audioSha256": "80673444a209a38461b16fa2837e736ebf47ecea8a527b247453f4dbee4b9518"
+    },
+    {
+      "key": "dui-niu/p5",
+      "file": "public/audio-classic/dui-niu/p5.mp3",
+      "textSha256": "4f5c86d6fdebc6bd9162e38b2838f45a4ba1b240454989c007820d977219c9d0",
+      "audioSha256": "61360f018dfb8fb367ffcfefa6e55ab73956bb05b90018b7f99593293a76001b"
+    },
+    {
+      "key": "dui-niu/p6",
+      "file": "public/audio-classic/dui-niu/p6.mp3",
+      "textSha256": "30e07bc285344ee4ca605dd1cb5954b5b8c7e4f5c671c06e347d5fe8b294629a",
+      "audioSha256": "9d4179166cec8fc321613802b7423a141189e36c619ac5eceab973fb00524634"
+    },
+    {
+      "key": "dui-niu/p7",
+      "file": "public/audio-classic/dui-niu/p7.mp3",
+      "textSha256": "4b94c3bacd2f426c9b20aa3961f2996ca412585326b405bcc1b9bd88bad00ff2",
+      "audioSha256": "18d1c22eb7510d403d389b7dd9fa1885299f8fc06c0bf6c4ee2cbe850ae805bd"
+    }
+  ]
+}

@@ -1,0 +1,1920 @@
+{
+  "schemaVersion": 1,
+  "evidenceType": "classic-eve-refresh",
+  "canonicalSource": "content/classic-hall-sections.json",
+  "audioRoot": "public/audio-classic",
+  "provider": "xai-grok-tts",
+  "voice": "eve",
+  "pages": [
+    "p1",
+    "p2",
+    "p3",
+    "p4",
+    "p5",
+    "p6",
+    "p7"
+  ],
+  "inputItemCount": 700,
+  "inputDigestSha256": "9bfbb5e96e3155997d9b034cf68a54642dafa54efaefad8d93b5fc35455900ba",
+  "generatedStoryCount": 100,
+  "generatedItemCount": 700,
+  "thisRunStoryCount": 99,
+  "thisRunItemCount": 693,
+  "remainingStoryCount": 0,
+  "remainingItemCount": 0,
+  "childProtectedItemCount": 900,
+  "childAudioUnchanged": true,
+  "childNarrationStateUpdated": false,
+  "publicAudioWrite": false,
+  "completed": [
+    {
+      "storyId": "ba-miao",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t064943701z-ba-miao-d20c2de9765f.json"
+    },
+    {
+      "storyId": "bai-bu-chuan-yang",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t064947606z-bai-bu-chuan-yang-af56f89f5b07.json"
+    },
+    {
+      "storyId": "ban-men-nong-fu",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t064952070z-ban-men-nong-fu-25a54c9b547a.json"
+    },
+    {
+      "storyId": "ban-tu-er-fei",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t064956335z-ban-tu-er-fei-847f254f2bc4.json"
+    },
+    {
+      "storyId": "bei-gong-she-ying",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t064959799z-bei-gong-she-ying-d4dc36abd715.json"
+    },
+    {
+      "storyId": "bei-shui-che-xin",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065004600z-bei-shui-che-xin-5ef62650912e.json"
+    },
+    {
+      "storyId": "bei-shui-yi-zhan",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065009653z-bei-shui-yi-zhan-470b3ca7d20e.json"
+    },
+    {
+      "storyId": "bu-chi-xia-wen",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065014162z-bu-chi-xia-wen-92a867f15e4d.json"
+    },
+    {
+      "storyId": "bu-feng-zhuo-ying",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065020777z-bu-feng-zhuo-ying-1248a49245f5.json"
+    },
+    {
+      "storyId": "cai-gao-ba-dou",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065024354z-cai-gao-ba-dou-f3b8bf00017d.json"
+    },
+    {
+      "storyId": "cao-chuan-jie-jian",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065029173z-cao-chuan-jie-jian-c9d2621a9400.json"
+    },
+    {
+      "storyId": "cao-mu-jie-bing",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065034442z-cao-mu-jie-bing-990c92fb84fd.json"
+    },
+    {
+      "storyId": "cheng-men-li-xue",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065039532z-cheng-men-li-xue-37f0fc916cbc.json"
+    },
+    {
+      "storyId": "chun-wang-chi-han",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065043789z-chun-wang-chi-han-5dd36180d33e.json"
+    },
+    {
+      "storyId": "da-qi-wan-cheng",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065047675z-da-qi-wan-cheng-0c16ada7643d.json"
+    },
+    {
+      "storyId": "de-long-wang-shu",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065052086z-de-long-wang-shu-69abae575d80.json"
+    },
+    {
+      "storyId": "dong-shi-xiao-pin",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065057868z-dong-shi-xiao-pin-addf6916e7dd.json"
+    },
+    {
+      "storyId": "dui-da-ru-liu",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065102127z-dui-da-ru-liu-8094ef37a0da.json"
+    },
+    {
+      "storyId": "dui-niu",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065107544z-dui-niu-f01e9a8481d0.json"
+    },
+    {
+      "storyId": "feng-sheng-he-li",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065110886z-feng-sheng-he-li-8e5f49d56370.json"
+    },
+    {
+      "storyId": "fu-jing-qing-zui",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065116199z-fu-jing-qing-zui-d73a2cf052c0.json"
+    },
+    {
+      "storyId": "gong-kui-yi-kui",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065121052z-gong-kui-yi-kui-99b2e3b402cf.json"
+    },
+    {
+      "storyId": "guan-zhong-kui-bao",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065125203z-guan-zhong-kui-bao-8fbf8a0ea3a7.json"
+    },
+    {
+      "storyId": "han-dan-xue-bu",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065129837z-han-dan-xue-bu-7b6c21e0fd31.json"
+    },
+    {
+      "storyId": "hou-lai-ju-shang",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065133923z-hou-lai-ju-shang-e1beb6abbd52.json"
+    },
+    {
+      "storyId": "hou-sheng-ke-wei",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065138050z-hou-sheng-ke-wei-dbaa5655b1f3.json"
+    },
+    {
+      "storyId": "hu-jia",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065142434z-hu-jia-445eca945cd5.json"
+    },
+    {
+      "storyId": "hua-long",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065147829z-hua-long-5f746c5cbf91.json"
+    },
+    {
+      "storyId": "hua-she",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065153834z-hua-she-eb8637bc1373.json"
+    },
+    {
+      "storyId": "huang-liang-yi-meng",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065158096z-huang-liang-yi-meng-f3198d4378b7.json"
+    },
+    {
+      "storyId": "jiang-lang-cai-jin",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065203485z-jiang-lang-cai-jin-adf8a6fd55a8.json"
+    },
+    {
+      "storyId": "jin-shang-tian-hua",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065207473z-jin-shang-tian-hua-3a7bf7eeb338.json"
+    },
+    {
+      "storyId": "jing-di",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065212921z-jing-di-7dbb8f9a1f06.json"
+    },
+    {
+      "storyId": "jing-gong-zhi-niao",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065216837z-jing-gong-zhi-niao-cc8a04468a52.json"
+    },
+    {
+      "storyId": "jing-wei",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065222025z-jing-wei-fc56deb97510.json"
+    },
+    {
+      "storyId": "ju-yi-fan-san",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065226445z-ju-yi-fan-san-ab72173b7590.json"
+    },
+    {
+      "storyId": "kai-juan-you-yi",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065230441z-kai-juan-you-yi-12f65237df39.json"
+    },
+    {
+      "storyId": "ke-zhou",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065235260z-ke-zhou-e28ba5cfe8ae.json"
+    },
+    {
+      "storyId": "kong-rong-rang-li",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065239050z-kong-rong-rang-li-5f29a8e4eb94.json"
+    },
+    {
+      "storyId": "kou-ruo-xuan-he",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065243023z-kou-ruo-xuan-he-3132d1fe9056.json"
+    },
+    {
+      "storyId": "lan-yu",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065247716z-lan-yu-5ff9e82cd550.json"
+    },
+    {
+      "storyId": "lao-dang-yi-zhuang",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065252573z-lao-dang-yi-zhuang-ec6054abff03.json"
+    },
+    {
+      "storyId": "lao-ma-shi-tu",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065256993z-lao-ma-shi-tu-15e097156e81.json"
+    },
+    {
+      "storyId": "lao-sheng-chang-tan",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065301900z-lao-sheng-chang-tan-5365cfbedcf4.json"
+    },
+    {
+      "storyId": "le-bu-si-shu",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065306350z-le-bu-si-shu-b56e7446032e.json"
+    },
+    {
+      "storyId": "luo-yang-zhi-gui",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065310576z-luo-yang-zhi-gui-a26062970fcb.json"
+    },
+    {
+      "storyId": "mai-du",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065316925z-mai-du-d24914bef266.json"
+    },
+    {
+      "storyId": "mang-ren",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065321614z-mang-ren-8e79119ed968.json"
+    },
+    {
+      "storyId": "mao-sui-zi-jian",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065325825z-mao-sui-zi-jian-e089392f4bf7.json"
+    },
+    {
+      "storyId": "meng-mu-san-qian",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065329979z-meng-mu-san-qian-b57e1f54794b.json"
+    },
+    {
+      "storyId": "miao-bi-sheng-hua",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065333798z-miao-bi-sheng-hua-3fb0516cad9a.json"
+    },
+    {
+      "storyId": "ming-luo-sun-shan",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065338032z-ming-luo-sun-shan-61f0f44ae422.json"
+    },
+    {
+      "storyId": "nan-yuan",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065342973z-nan-yuan-a2d460001d5e.json"
+    },
+    {
+      "storyId": "nang-ying-ying-xue",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065348133z-nang-ying-ying-xue-9c0de237ae14.json"
+    },
+    {
+      "storyId": "peng-cheng-wan-li",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065352579z-peng-cheng-wan-li-7d634e132813.json"
+    },
+    {
+      "storyId": "po-fu-chen-zhou",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065357031z-po-fu-chen-zhou-3094e0cf1eb8.json"
+    },
+    {
+      "storyId": "qi-bu-cheng-shi",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065400781z-qi-bu-cheng-shi-0b1b2eebadc0.json"
+    },
+    {
+      "storyId": "qi-ren",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065405945z-qi-ren-1b26d1f6b539.json"
+    },
+    {
+      "storyId": "qian-lv-ji-qiong",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065410522z-qian-lv-ji-qiong-8cb380a02ccd.json"
+    },
+    {
+      "storyId": "qing-chu-yu-lan",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065415062z-qing-chu-yu-lan-2b9bd0e75184.json"
+    },
+    {
+      "storyId": "ru-mu-san-fen",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065419072z-ru-mu-san-fen-c69a9bc367d6.json"
+    },
+    {
+      "storyId": "sai-weng",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065424779z-sai-weng-65ac60c75b17.json"
+    },
+    {
+      "storyId": "san-gu-mao-lu",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065429395z-san-gu-mao-lu-086fe8bc3038.json"
+    },
+    {
+      "storyId": "san-ren-cheng-hu",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065433282z-san-ren-cheng-hu-07e62c752d4b.json"
+    },
+    {
+      "storyId": "shou-bu-shi-juan",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065437446z-shou-bu-shi-juan-64c61774ce59.json"
+    },
+    {
+      "storyId": "shou-zhu",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t064832048z-shou-zhu-9c71a8e80a70.json"
+    },
+    {
+      "storyId": "shu-neng-sheng-qiao",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065441508z-shu-neng-sheng-qiao-b0244a981f86.json"
+    },
+    {
+      "storyId": "shui-di-shi-chuan",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065446454z-shui-di-shi-chuan-f029c0bdb4a4.json"
+    },
+    {
+      "storyId": "si-mian-chu-ge",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065451000z-si-mian-chu-ge-419cad358548.json"
+    },
+    {
+      "storyId": "tang-bi-dang-che",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065455561z-tang-bi-dang-che-72f93af6019a.json"
+    },
+    {
+      "storyId": "tie-chu-cheng-zhen",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065500447z-tie-chu-cheng-zhen-152d11f45be2.json"
+    },
+    {
+      "storyId": "tou-bi-cong-rong",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065505170z-tou-bi-cong-rong-96c92230dd1b.json"
+    },
+    {
+      "storyId": "tui-bi-san-she",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065511167z-tui-bi-san-she-7514b8dfcc63.json"
+    },
+    {
+      "storyId": "wan-bi-gui-zhao",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065517707z-wan-bi-gui-zhao-695c94f90a30.json"
+    },
+    {
+      "storyId": "wang-mei",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065523202z-wang-mei-9bd229d415c3.json"
+    },
+    {
+      "storyId": "wang-yang",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065528799z-wang-yang-a1cbeb07f733.json"
+    },
+    {
+      "storyId": "wang-yang-xing-tan",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065534202z-wang-yang-xing-tan-006140b9122e.json"
+    },
+    {
+      "storyId": "wei-bian-san-jue",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065538010z-wei-bian-san-jue-756b7e2a926b.json"
+    },
+    {
+      "storyId": "wei-wei-jiu-zhao",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065545660z-wei-wei-jiu-zhao-d37b6c2d5fa1.json"
+    },
+    {
+      "storyId": "wen-gu-zhi-xin",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065550126z-wen-gu-zhi-xin-01f9c9c6c125.json"
+    },
+    {
+      "storyId": "wen-ji-qi-wu",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065554499z-wen-ji-qi-wu-42446db8ab42.json"
+    },
+    {
+      "storyId": "xiong-you-cheng-zhu",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065559795z-xiong-you-cheng-zhu-a8be863fa751.json"
+    },
+    {
+      "storyId": "xue-zhong-song-tan",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065603653z-xue-zhong-song-tan-52d9b56bd46f.json"
+    },
+    {
+      "storyId": "yan-er",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065609382z-yan-er-3d2f4ef520c2.json"
+    },
+    {
+      "storyId": "ye-gong",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065614710z-ye-gong-27b7a944fc92.json"
+    },
+    {
+      "storyId": "ye-lang-zi-da",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065619366z-ye-lang-zi-da-580ab58cda0e.json"
+    },
+    {
+      "storyId": "yi-luan-ji-shi",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065623779z-yi-luan-ji-shi-f51485dd47c1.json"
+    },
+    {
+      "storyId": "yi-ming",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065628924z-yi-ming-26b8c1474752.json"
+    },
+    {
+      "storyId": "yi-nuo-qian-jin",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065633161z-yi-nuo-qian-jin-422619c6f93b.json"
+    },
+    {
+      "storyId": "yi-ye-zhang-mu",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065638372z-yi-ye-zhang-mu-9248e3c11a4b.json"
+    },
+    {
+      "storyId": "yi-zi-qian-jin",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065643275z-yi-zi-qian-jin-a9691c0dbe80.json"
+    },
+    {
+      "storyId": "yin-cai-shi-jiao",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065649079z-yin-cai-shi-jiao-6f37a12f30db.json"
+    },
+    {
+      "storyId": "yu-bang",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065653847z-yu-bang-735a7728c3b0.json"
+    },
+    {
+      "storyId": "yu-gong",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065659460z-yu-gong-31ebc24c0ab8.json"
+    },
+    {
+      "storyId": "zao-bi-tou-guang",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065704303z-zao-bi-tou-guang-c1dd6f13e814.json"
+    },
+    {
+      "storyId": "zhao-san",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065709567z-zhao-san-691b9a39664a.json"
+    },
+    {
+      "storyId": "zhi-lu-wei-ma",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065713451z-zhi-lu-wei-ma-011a77fb44c9.json"
+    },
+    {
+      "storyId": "zhi-shang-tan-bing",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065718928z-zhi-shang-tan-bing-69976ac2a806.json"
+    },
+    {
+      "storyId": "zi-xiang",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065723828z-zi-xiang-4bd5320e489e.json"
+    },
+    {
+      "storyId": "zou-ma-kan-hua",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065728065z-zou-ma-kan-hua-63a0a39afc7e.json"
+    }
+  ],
+  "thisRun": [
+    {
+      "storyId": "ba-miao",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t064943701z-ba-miao-d20c2de9765f.json",
+      "durations": {
+        "p1": 8.04,
+        "p2": 6.696,
+        "p3": 7.248,
+        "p4": 6.288,
+        "p5": 7.8,
+        "p6": 12.048,
+        "p7": 8.76
+      }
+    },
+    {
+      "storyId": "bai-bu-chuan-yang",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t064947606z-bai-bu-chuan-yang-af56f89f5b07.json",
+      "durations": {
+        "p1": 3.816,
+        "p2": 4.368,
+        "p3": 5.088,
+        "p4": 5.808,
+        "p5": 4.296,
+        "p6": 9.888,
+        "p7": 4.608
+      }
+    },
+    {
+      "storyId": "ban-men-nong-fu",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t064952070z-ban-men-nong-fu-25a54c9b547a.json",
+      "durations": {
+        "p1": 3.408,
+        "p2": 4.92,
+        "p3": 5.952,
+        "p4": 3.576,
+        "p5": 4.704,
+        "p6": 9.888,
+        "p7": 5.736
+      }
+    },
+    {
+      "storyId": "ban-tu-er-fei",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t064956335z-ban-tu-er-fei-847f254f2bc4.json",
+      "durations": {
+        "p1": 3,
+        "p2": 4.224,
+        "p3": 9,
+        "p4": 3.168,
+        "p5": 5.016,
+        "p6": 11.16,
+        "p7": 5.328
+      }
+    },
+    {
+      "storyId": "bei-gong-she-ying",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t064959799z-bei-gong-she-ying-d4dc36abd715.json",
+      "durations": {
+        "p1": 5.16,
+        "p2": 4.68,
+        "p3": 5.808,
+        "p4": 3.72,
+        "p5": 5.16,
+        "p6": 9.96,
+        "p7": 5.088
+      }
+    },
+    {
+      "storyId": "bei-shui-che-xin",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065004600z-bei-shui-che-xin-5ef62650912e.json",
+      "durations": {
+        "p1": 4.44,
+        "p2": 3.888,
+        "p3": 5.736,
+        "p4": 4.056,
+        "p5": 2.856,
+        "p6": 10.944,
+        "p7": 3.576
+      }
+    },
+    {
+      "storyId": "bei-shui-yi-zhan",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065009653z-bei-shui-yi-zhan-470b3ca7d20e.json",
+      "durations": {
+        "p1": 5.016,
+        "p2": 4.776,
+        "p3": 4.776,
+        "p4": 4.536,
+        "p5": 4.776,
+        "p6": 11.88,
+        "p7": 5.736
+      }
+    },
+    {
+      "storyId": "bu-chi-xia-wen",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065014162z-bu-chi-xia-wen-92a867f15e4d.json",
+      "durations": {
+        "p1": 4.368,
+        "p2": 4.68,
+        "p3": 2.52,
+        "p4": 5.328,
+        "p5": 4.224,
+        "p6": 11.256,
+        "p7": 4.992
+      }
+    },
+    {
+      "storyId": "bu-feng-zhuo-ying",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065020777z-bu-feng-zhuo-ying-1248a49245f5.json",
+      "durations": {
+        "p1": 3.24,
+        "p2": 3.888,
+        "p3": 6.528,
+        "p4": 5.568,
+        "p5": 3.648,
+        "p6": 10.92,
+        "p7": 4.44
+      }
+    },
+    {
+      "storyId": "cai-gao-ba-dou",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065024354z-cai-gao-ba-dou-f3b8bf00017d.json",
+      "durations": {
+        "p1": 5.568,
+        "p2": 3.24,
+        "p3": 5.328,
+        "p4": 4.2,
+        "p5": 2.928,
+        "p6": 10.536,
+        "p7": 5.4
+      }
+    },
+    {
+      "storyId": "cao-chuan-jie-jian",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065029173z-cao-chuan-jie-jian-c9d2621a9400.json",
+      "durations": {
+        "p1": 7.104,
+        "p2": 6.6,
+        "p3": 6.048,
+        "p4": 5.256,
+        "p5": 6.36,
+        "p6": 13.488,
+        "p7": 6.6
+      }
+    },
+    {
+      "storyId": "cao-mu-jie-bing",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065034442z-cao-mu-jie-bing-990c92fb84fd.json",
+      "durations": {
+        "p1": 4.536,
+        "p2": 3.504,
+        "p3": 3.888,
+        "p4": 3.72,
+        "p5": 2.784,
+        "p6": 11.64,
+        "p7": 3.888
+      }
+    },
+    {
+      "storyId": "cheng-men-li-xue",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065039532z-cheng-men-li-xue-37f0fc916cbc.json",
+      "durations": {
+        "p1": 5.256,
+        "p2": 6.36,
+        "p3": 5.496,
+        "p4": 4.608,
+        "p5": 4.44,
+        "p6": 11.328,
+        "p7": 7.416
+      }
+    },
+    {
+      "storyId": "chun-wang-chi-han",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065043789z-chun-wang-chi-han-5dd36180d33e.json",
+      "durations": {
+        "p1": 4.464,
+        "p2": 4.44,
+        "p3": 6.36,
+        "p4": 3.744,
+        "p5": 4.44,
+        "p6": 10.848,
+        "p7": 6.288
+      }
+    },
+    {
+      "storyId": "da-qi-wan-cheng",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065047675z-da-qi-wan-cheng-0c16ada7643d.json",
+      "durations": {
+        "p1": 4.368,
+        "p2": 3.648,
+        "p3": 3.24,
+        "p4": 4.296,
+        "p5": 7.32,
+        "p6": 12.696,
+        "p7": 4.92
+      }
+    },
+    {
+      "storyId": "de-long-wang-shu",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065052086z-de-long-wang-shu-69abae575d80.json",
+      "durations": {
+        "p1": 6.288,
+        "p2": 4.224,
+        "p3": 3.984,
+        "p4": 3.408,
+        "p5": 2.376,
+        "p6": 11.496,
+        "p7": 4.776
+      }
+    },
+    {
+      "storyId": "dong-shi-xiao-pin",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065057868z-dong-shi-xiao-pin-addf6916e7dd.json",
+      "durations": {
+        "p1": 5.328,
+        "p2": 4.2,
+        "p3": 5.328,
+        "p4": 3.888,
+        "p5": 6.288,
+        "p6": 12.456,
+        "p7": 5.496
+      }
+    },
+    {
+      "storyId": "dui-da-ru-liu",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065102127z-dui-da-ru-liu-8094ef37a0da.json",
+      "durations": {
+        "p1": 3.576,
+        "p2": 3.576,
+        "p3": 5.256,
+        "p4": 3.072,
+        "p5": 4.296,
+        "p6": 9.984,
+        "p7": 3.408
+      }
+    },
+    {
+      "storyId": "dui-niu",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065107544z-dui-niu-f01e9a8481d0.json",
+      "durations": {
+        "p1": 7.248,
+        "p2": 6.936,
+        "p3": 7.488,
+        "p4": 7.08,
+        "p5": 7.08,
+        "p6": 10.752,
+        "p7": 9.264
+      }
+    },
+    {
+      "storyId": "feng-sheng-he-li",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065110886z-feng-sheng-he-li-8e5f49d56370.json",
+      "durations": {
+        "p1": 4.2,
+        "p2": 3.48,
+        "p3": 6.288,
+        "p4": 2.52,
+        "p5": 6.048,
+        "p6": 11.736,
+        "p7": 3.96
+      }
+    },
+    {
+      "storyId": "fu-jing-qing-zui",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065116199z-fu-jing-qing-zui-d73a2cf052c0.json",
+      "durations": {
+        "p1": 7.008,
+        "p2": 5.328,
+        "p3": 4.128,
+        "p4": 5.808,
+        "p5": 5.496,
+        "p6": 10.848,
+        "p7": 6.36
+      }
+    },
+    {
+      "storyId": "gong-kui-yi-kui",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065121052z-gong-kui-yi-kui-99b2e3b402cf.json",
+      "durations": {
+        "p1": 5.952,
+        "p2": 3.888,
+        "p3": 7.656,
+        "p4": 6.456,
+        "p5": 5.088,
+        "p6": 14.856,
+        "p7": 3.72
+      }
+    },
+    {
+      "storyId": "guan-zhong-kui-bao",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065125203z-guan-zhong-kui-bao-8fbf8a0ea3a7.json",
+      "durations": {
+        "p1": 5.4,
+        "p2": 2.76,
+        "p3": 4.296,
+        "p4": 3.816,
+        "p5": 4.056,
+        "p6": 11.496,
+        "p7": 3.648
+      }
+    },
+    {
+      "storyId": "han-dan-xue-bu",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065129837z-han-dan-xue-bu-7b6c21e0fd31.json",
+      "durations": {
+        "p1": 6.528,
+        "p2": 3.888,
+        "p3": 5.16,
+        "p4": 3.96,
+        "p5": 4.056,
+        "p6": 12.6,
+        "p7": 5.64
+      }
+    },
+    {
+      "storyId": "hou-lai-ju-shang",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065133923z-hou-lai-ju-shang-e1beb6abbd52.json",
+      "durations": {
+        "p1": 5.568,
+        "p2": 4.368,
+        "p3": 3.888,
+        "p4": 5.328,
+        "p5": 2.856,
+        "p6": 11.496,
+        "p7": 4.536
+      }
+    },
+    {
+      "storyId": "hou-sheng-ke-wei",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065138050z-hou-sheng-ke-wei-dbaa5655b1f3.json",
+      "durations": {
+        "p1": 6.528,
+        "p2": 3.552,
+        "p3": 3.72,
+        "p4": 5.328,
+        "p5": 3.48,
+        "p6": 10.44,
+        "p7": 3.336
+      }
+    },
+    {
+      "storyId": "hu-jia",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065142434z-hu-jia-445eca945cd5.json",
+      "durations": {
+        "p1": 7.56,
+        "p2": 7.488,
+        "p3": 6.048,
+        "p4": 8.208,
+        "p5": 6.36,
+        "p6": 10.296,
+        "p7": 7.728
+      }
+    },
+    {
+      "storyId": "hua-long",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065147829z-hua-long-5f746c5cbf91.json",
+      "durations": {
+        "p1": 6.768,
+        "p2": 6.696,
+        "p3": 7.248,
+        "p4": 6.6,
+        "p5": 8.76,
+        "p6": 11.64,
+        "p7": 8.856
+      }
+    },
+    {
+      "storyId": "hua-she",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065153834z-hua-she-eb8637bc1373.json",
+      "durations": {
+        "p1": 5.808,
+        "p2": 5.496,
+        "p3": 6.12,
+        "p4": 6.36,
+        "p5": 8.52,
+        "p6": 11.664,
+        "p7": 6.528
+      }
+    },
+    {
+      "storyId": "huang-liang-yi-meng",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065158096z-huang-liang-yi-meng-f3198d4378b7.json",
+      "durations": {
+        "p1": 6.216,
+        "p2": 4.536,
+        "p3": 6.12,
+        "p4": 5.088,
+        "p5": 4.68,
+        "p6": 13.728,
+        "p7": 5.088
+      }
+    },
+    {
+      "storyId": "jiang-lang-cai-jin",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065203485z-jiang-lang-cai-jin-adf8a6fd55a8.json",
+      "durations": {
+        "p1": 5.88,
+        "p2": 3.24,
+        "p3": 5.496,
+        "p4": 2.856,
+        "p5": 4.776,
+        "p6": 12.072,
+        "p7": 5.424
+      }
+    },
+    {
+      "storyId": "jin-shang-tian-hua",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065207473z-jin-shang-tian-hua-3a7bf7eeb338.json",
+      "durations": {
+        "p1": 5.568,
+        "p2": 4.2,
+        "p3": 3.336,
+        "p4": 5.496,
+        "p5": 4.848,
+        "p6": 11.328,
+        "p7": 3.72
+      }
+    },
+    {
+      "storyId": "jing-di",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065212921z-jing-di-7dbb8f9a1f06.json",
+      "durations": {
+        "p1": 7.32,
+        "p2": 7.632,
+        "p3": 6.936,
+        "p4": 7.488,
+        "p5": 7.968,
+        "p6": 11.4,
+        "p7": 8.76
+      }
+    },
+    {
+      "storyId": "jing-gong-zhi-niao",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065216837z-jing-gong-zhi-niao-cc8a04468a52.json",
+      "durations": {
+        "p1": 5.088,
+        "p2": 3.96,
+        "p3": 5.4,
+        "p4": 2.856,
+        "p5": 3.72,
+        "p6": 11.88,
+        "p7": 3.096
+      }
+    },
+    {
+      "storyId": "jing-wei",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065222025z-jing-wei-fc56deb97510.json",
+      "durations": {
+        "p1": 7.896,
+        "p2": 7.872,
+        "p3": 5.976,
+        "p4": 7.416,
+        "p5": 7.56,
+        "p6": 12.528,
+        "p7": 7.824
+      }
+    },
+    {
+      "storyId": "ju-yi-fan-san",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065226445z-ju-yi-fan-san-ab72173b7590.json",
+      "durations": {
+        "p1": 4.68,
+        "p2": 2.928,
+        "p3": 5.496,
+        "p4": 3.888,
+        "p5": 2.856,
+        "p6": 10.68,
+        "p7": 5.424
+      }
+    },
+    {
+      "storyId": "kai-juan-you-yi",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065230441z-kai-juan-you-yi-12f65237df39.json",
+      "durations": {
+        "p1": 6.384,
+        "p2": 4.056,
+        "p3": 4.2,
+        "p4": 3.168,
+        "p5": 3.72,
+        "p6": 9.48,
+        "p7": 6.216
+      }
+    },
+    {
+      "storyId": "ke-zhou",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065235260z-ke-zhou-e28ba5cfe8ae.json",
+      "durations": {
+        "p1": 8.448,
+        "p2": 7.08,
+        "p3": 6.768,
+        "p4": 7.968,
+        "p5": 6.216,
+        "p6": 12.12,
+        "p7": 7.104
+      }
+    },
+    {
+      "storyId": "kong-rong-rang-li",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065239050z-kong-rong-rang-li-5f29a8e4eb94.json",
+      "durations": {
+        "p1": 5.4,
+        "p2": 3.336,
+        "p3": 4.776,
+        "p4": 4.056,
+        "p5": 4.056,
+        "p6": 12.072,
+        "p7": 5.016
+      }
+    },
+    {
+      "storyId": "kou-ruo-xuan-he",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065243023z-kou-ruo-xuan-he-3132d1fe9056.json",
+      "durations": {
+        "p1": 3.408,
+        "p2": 4.68,
+        "p3": 5.4,
+        "p4": 3.48,
+        "p5": 5.568,
+        "p6": 10.368,
+        "p7": 2.304
+      }
+    },
+    {
+      "storyId": "lan-yu",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065247716z-lan-yu-5ff9e82cd550.json",
+      "durations": {
+        "p1": 8.136,
+        "p2": 7.488,
+        "p3": 6.456,
+        "p4": 6.84,
+        "p5": 7.008,
+        "p6": 11.736,
+        "p7": 8.544
+      }
+    },
+    {
+      "storyId": "lao-dang-yi-zhuang",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065252573z-lao-dang-yi-zhuang-ec6054abff03.json",
+      "durations": {
+        "p1": 3.408,
+        "p2": 3.888,
+        "p3": 4.128,
+        "p4": 2.688,
+        "p5": 3.744,
+        "p6": 11.88,
+        "p7": 6.6
+      }
+    },
+    {
+      "storyId": "lao-ma-shi-tu",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065256993z-lao-ma-shi-tu-15e097156e81.json",
+      "durations": {
+        "p1": 5.808,
+        "p2": 5.088,
+        "p3": 5.328,
+        "p4": 4.776,
+        "p5": 5.088,
+        "p6": 10.776,
+        "p7": 5.496
+      }
+    },
+    {
+      "storyId": "lao-sheng-chang-tan",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065301900z-lao-sheng-chang-tan-5365cfbedcf4.json",
+      "durations": {
+        "p1": 5.736,
+        "p2": 4.608,
+        "p3": 3.96,
+        "p4": 3.888,
+        "p5": 5.088,
+        "p6": 10.608,
+        "p7": 3.48
+      }
+    },
+    {
+      "storyId": "le-bu-si-shu",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065306350z-le-bu-si-shu-b56e7446032e.json",
+      "durations": {
+        "p1": 3.408,
+        "p2": 4.128,
+        "p3": 6.216,
+        "p4": 6.216,
+        "p5": 2.52,
+        "p6": 14.616,
+        "p7": 3.48
+      }
+    },
+    {
+      "storyId": "luo-yang-zhi-gui",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065310576z-luo-yang-zhi-gui-a26062970fcb.json",
+      "durations": {
+        "p1": 5.976,
+        "p2": 3.48,
+        "p3": 5.4,
+        "p4": 3.816,
+        "p5": 2.856,
+        "p6": 12.936,
+        "p7": 5.184
+      }
+    },
+    {
+      "storyId": "mai-du",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065316925z-mai-du-d24914bef266.json",
+      "durations": {
+        "p1": 7.08,
+        "p2": 7.968,
+        "p3": 6.696,
+        "p4": 7.56,
+        "p5": 7.248,
+        "p6": 12.36,
+        "p7": 8.856
+      }
+    },
+    {
+      "storyId": "mang-ren",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065321614z-mang-ren-8e79119ed968.json",
+      "durations": {
+        "p1": 6.864,
+        "p2": 5.64,
+        "p3": 6.936,
+        "p4": 6.696,
+        "p5": 5.256,
+        "p6": 12.936,
+        "p7": 9.888
+      }
+    },
+    {
+      "storyId": "mao-sui-zi-jian",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065325825z-mao-sui-zi-jian-e089392f4bf7.json",
+      "durations": {
+        "p1": 5.4,
+        "p2": 5.568,
+        "p3": 3.816,
+        "p4": 4.512,
+        "p5": 5.328,
+        "p6": 11.4,
+        "p7": 6.456
+      }
+    },
+    {
+      "storyId": "meng-mu-san-qian",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065329979z-meng-mu-san-qian-b57e1f54794b.json",
+      "durations": {
+        "p1": 3.168,
+        "p2": 4.296,
+        "p3": 4.608,
+        "p4": 4.92,
+        "p5": 6.456,
+        "p6": 9.96,
+        "p7": 4.92
+      }
+    },
+    {
+      "storyId": "miao-bi-sheng-hua",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065333798z-miao-bi-sheng-hua-3fb0516cad9a.json",
+      "durations": {
+        "p1": 4.608,
+        "p2": 3.096,
+        "p3": 5.736,
+        "p4": 3.336,
+        "p5": 5.568,
+        "p6": 11.496,
+        "p7": 4.368
+      }
+    },
+    {
+      "storyId": "ming-luo-sun-shan",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065338032z-ming-luo-sun-shan-61f0f44ae422.json",
+      "durations": {
+        "p1": 4.536,
+        "p2": 3.408,
+        "p3": 4.368,
+        "p4": 2.52,
+        "p5": 6.936,
+        "p6": 14.04,
+        "p7": 4.608
+      }
+    },
+    {
+      "storyId": "nan-yuan",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065342973z-nan-yuan-a2d460001d5e.json",
+      "durations": {
+        "p1": 8.28,
+        "p2": 6.456,
+        "p3": 6.12,
+        "p4": 6.768,
+        "p5": 7.008,
+        "p6": 12.936,
+        "p7": 7.872
+      }
+    },
+    {
+      "storyId": "nang-ying-ying-xue",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065348133z-nang-ying-ying-xue-9c0de237ae14.json",
+      "durations": {
+        "p1": 4.608,
+        "p2": 5.664,
+        "p3": 4.92,
+        "p4": 6.696,
+        "p5": 5.808,
+        "p6": 11.712,
+        "p7": 5.64
+      }
+    },
+    {
+      "storyId": "peng-cheng-wan-li",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065352579z-peng-cheng-wan-li-7d634e132813.json",
+      "durations": {
+        "p1": 4.68,
+        "p2": 3.096,
+        "p3": 6.936,
+        "p4": 5.496,
+        "p5": 2.04,
+        "p6": 8.688,
+        "p7": 5.016
+      }
+    },
+    {
+      "storyId": "po-fu-chen-zhou",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065357031z-po-fu-chen-zhou-3094e0cf1eb8.json",
+      "durations": {
+        "p1": 4.296,
+        "p2": 5.976,
+        "p3": 4.536,
+        "p4": 4.368,
+        "p5": 6.36,
+        "p6": 11.568,
+        "p7": 5.4
+      }
+    },
+    {
+      "storyId": "qi-bu-cheng-shi",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065400781z-qi-bu-cheng-shi-0b1b2eebadc0.json",
+      "durations": {
+        "p1": 6.36,
+        "p2": 3.96,
+        "p3": 4.44,
+        "p4": 6.6,
+        "p5": 3.336,
+        "p6": 10.776,
+        "p7": 4.128
+      }
+    },
+    {
+      "storyId": "qi-ren",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065405945z-qi-ren-1b26d1f6b539.json",
+      "durations": {
+        "p1": 8.208,
+        "p2": 7.176,
+        "p3": 6.696,
+        "p4": 6.36,
+        "p5": 8.208,
+        "p6": 12.552,
+        "p7": 7.008
+      }
+    },
+    {
+      "storyId": "qian-lv-ji-qiong",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065410522z-qian-lv-ji-qiong-8cb380a02ccd.json",
+      "durations": {
+        "p1": 5.328,
+        "p2": 4.776,
+        "p3": 4.128,
+        "p4": 4.128,
+        "p5": 4.296,
+        "p6": 12.12,
+        "p7": 5.568
+      }
+    },
+    {
+      "storyId": "qing-chu-yu-lan",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065415062z-qing-chu-yu-lan-2b9bd0e75184.json",
+      "durations": {
+        "p1": 4.536,
+        "p2": 4.056,
+        "p3": 3.168,
+        "p4": 4.44,
+        "p5": 7.08,
+        "p6": 12.768,
+        "p7": 4.92
+      }
+    },
+    {
+      "storyId": "ru-mu-san-fen",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065419072z-ru-mu-san-fen-c69a9bc367d6.json",
+      "durations": {
+        "p1": 5.496,
+        "p2": 6.048,
+        "p3": 3.408,
+        "p4": 6.456,
+        "p5": 4.464,
+        "p6": 13.176,
+        "p7": 5.16
+      }
+    },
+    {
+      "storyId": "sai-weng",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065424779z-sai-weng-65ac60c75b17.json",
+      "durations": {
+        "p1": 7.896,
+        "p2": 6.936,
+        "p3": 7.248,
+        "p4": 7.968,
+        "p5": 7.248,
+        "p6": 13.08,
+        "p7": 7.32
+      }
+    },
+    {
+      "storyId": "san-gu-mao-lu",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065429395z-san-gu-mao-lu-086fe8bc3038.json",
+      "durations": {
+        "p1": 6.36,
+        "p2": 5.736,
+        "p3": 5.4,
+        "p4": 5.16,
+        "p5": 7.008,
+        "p6": 10.68,
+        "p7": 6.288
+      }
+    },
+    {
+      "storyId": "san-ren-cheng-hu",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065433282z-san-ren-cheng-hu-07e62c752d4b.json",
+      "durations": {
+        "p1": 7.176,
+        "p2": 4.2,
+        "p3": 4.464,
+        "p4": 3.48,
+        "p5": 6.384,
+        "p6": 12.6,
+        "p7": 3.888
+      }
+    },
+    {
+      "storyId": "shou-bu-shi-juan",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065437446z-shou-bu-shi-juan-64c61774ce59.json",
+      "durations": {
+        "p1": 6.528,
+        "p2": 5.016,
+        "p3": 2.688,
+        "p4": 2.856,
+        "p5": 7.008,
+        "p6": 9.576,
+        "p7": 2.616
+      }
+    },
+    {
+      "storyId": "shu-neng-sheng-qiao",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065441508z-shu-neng-sheng-qiao-b0244a981f86.json",
+      "durations": {
+        "p1": 5.568,
+        "p2": 5.664,
+        "p3": 5.88,
+        "p4": 5.016,
+        "p5": 3.816,
+        "p6": 9.096,
+        "p7": 3.48
+      }
+    },
+    {
+      "storyId": "shui-di-shi-chuan",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065446454z-shui-di-shi-chuan-f029c0bdb4a4.json",
+      "durations": {
+        "p1": 5.16,
+        "p2": 4.368,
+        "p3": 4.68,
+        "p4": 5.184,
+        "p5": 3.72,
+        "p6": 11.664,
+        "p7": 4.776
+      }
+    },
+    {
+      "storyId": "si-mian-chu-ge",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065451000z-si-mian-chu-ge-419cad358548.json",
+      "durations": {
+        "p1": 5.088,
+        "p2": 4.296,
+        "p3": 5.256,
+        "p4": 5.256,
+        "p5": 6.048,
+        "p6": 11.808,
+        "p7": 5.88
+      }
+    },
+    {
+      "storyId": "tang-bi-dang-che",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065455561z-tang-bi-dang-che-72f93af6019a.json",
+      "durations": {
+        "p1": 3.984,
+        "p2": 4.368,
+        "p3": 2.616,
+        "p4": 4.128,
+        "p5": 6.456,
+        "p6": 11.256,
+        "p7": 5.16
+      }
+    },
+    {
+      "storyId": "tie-chu-cheng-zhen",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065500447z-tie-chu-cheng-zhen-152d11f45be2.json",
+      "durations": {
+        "p1": 5.808,
+        "p2": 6.12,
+        "p3": 6.12,
+        "p4": 7.008,
+        "p5": 6.6,
+        "p6": 12.84,
+        "p7": 6.768
+      }
+    },
+    {
+      "storyId": "tou-bi-cong-rong",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065505170z-tou-bi-cong-rong-96c92230dd1b.json",
+      "durations": {
+        "p1": 3.888,
+        "p2": 4.056,
+        "p3": 3.48,
+        "p4": 3.096,
+        "p5": 4.608,
+        "p6": 12.528,
+        "p7": 8.928
+      }
+    },
+    {
+      "storyId": "tui-bi-san-she",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065511167z-tui-bi-san-she-7514b8dfcc63.json",
+      "durations": {
+        "p1": 4.2,
+        "p2": 4.848,
+        "p3": 3.24,
+        "p4": 4.2,
+        "p5": 4.92,
+        "p6": 12.84,
+        "p7": 4.92
+      }
+    },
+    {
+      "storyId": "wan-bi-gui-zhao",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065517707z-wan-bi-gui-zhao-695c94f90a30.json",
+      "durations": {
+        "p1": 5.88,
+        "p2": 5.328,
+        "p3": 5.88,
+        "p4": 5.016,
+        "p5": 5.088,
+        "p6": 10.68,
+        "p7": 7.008
+      }
+    },
+    {
+      "storyId": "wang-mei",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065523202z-wang-mei-9bd229d415c3.json",
+      "durations": {
+        "p1": 7.488,
+        "p2": 5.64,
+        "p3": 8.76,
+        "p4": 6.456,
+        "p5": 7.416,
+        "p6": 12.456,
+        "p7": 8.616
+      }
+    },
+    {
+      "storyId": "wang-yang",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065528799z-wang-yang-a1cbeb07f733.json",
+      "durations": {
+        "p1": 7.248,
+        "p2": 7.08,
+        "p3": 6.624,
+        "p4": 7.08,
+        "p5": 7.08,
+        "p6": 11.496,
+        "p7": 7.56
+      }
+    },
+    {
+      "storyId": "wang-yang-xing-tan",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065534202z-wang-yang-xing-tan-006140b9122e.json",
+      "durations": {
+        "p1": 5.4,
+        "p2": 4.368,
+        "p3": 5.256,
+        "p4": 5.184,
+        "p5": 4.44,
+        "p6": 13.488,
+        "p7": 6.216
+      }
+    },
+    {
+      "storyId": "wei-bian-san-jue",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065538010z-wei-bian-san-jue-756b7e2a926b.json",
+      "durations": {
+        "p1": 3.48,
+        "p2": 3.648,
+        "p3": 6.36,
+        "p4": 5.496,
+        "p5": 4.296,
+        "p6": 12.384,
+        "p7": 4.944
+      }
+    },
+    {
+      "storyId": "wei-wei-jiu-zhao",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065545660z-wei-wei-jiu-zhao-d37b6c2d5fa1.json",
+      "durations": {
+        "p1": 5.88,
+        "p2": 4.2,
+        "p3": 4.68,
+        "p4": 5.016,
+        "p5": 5.256,
+        "p6": 14.04,
+        "p7": 4.296
+      }
+    },
+    {
+      "storyId": "wen-gu-zhi-xin",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065550126z-wen-gu-zhi-xin-01f9c9c6c125.json",
+      "durations": {
+        "p1": 5.088,
+        "p2": 6.528,
+        "p3": 4.2,
+        "p4": 3.888,
+        "p5": 3.648,
+        "p6": 9.576,
+        "p7": 7.176
+      }
+    },
+    {
+      "storyId": "wen-ji-qi-wu",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065554499z-wen-ji-qi-wu-42446db8ab42.json",
+      "durations": {
+        "p1": 7.008,
+        "p2": 5.904,
+        "p3": 7.8,
+        "p4": 4.44,
+        "p5": 6.048,
+        "p6": 10.92,
+        "p7": 7.728
+      }
+    },
+    {
+      "storyId": "xiong-you-cheng-zhu",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065559795z-xiong-you-cheng-zhu-a8be863fa751.json",
+      "durations": {
+        "p1": 6.048,
+        "p2": 6.12,
+        "p3": 4.536,
+        "p4": 5.256,
+        "p5": 5.088,
+        "p6": 11.256,
+        "p7": 7.344
+      }
+    },
+    {
+      "storyId": "xue-zhong-song-tan",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065603653z-xue-zhong-song-tan-52d9b56bd46f.json",
+      "durations": {
+        "p1": 4.464,
+        "p2": 3.576,
+        "p3": 3.336,
+        "p4": 3.24,
+        "p5": 4.776,
+        "p6": 11.088,
+        "p7": 3.816
+      }
+    },
+    {
+      "storyId": "yan-er",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065609382z-yan-er-3d2f4ef520c2.json",
+      "durations": {
+        "p1": 6.456,
+        "p2": 6.6,
+        "p3": 6.36,
+        "p4": 7.488,
+        "p5": 5.016,
+        "p6": 12.048,
+        "p7": 8.04
+      }
+    },
+    {
+      "storyId": "ye-gong",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065614710z-ye-gong-27b7a944fc92.json",
+      "durations": {
+        "p1": 7.728,
+        "p2": 7.008,
+        "p3": 7.176,
+        "p4": 6.288,
+        "p5": 6.528,
+        "p6": 13.008,
+        "p7": 7.968
+      }
+    },
+    {
+      "storyId": "ye-lang-zi-da",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065619366z-ye-lang-zi-da-580ab58cda0e.json",
+      "durations": {
+        "p1": 2.52,
+        "p2": 4.2,
+        "p3": 6.36,
+        "p4": 4.056,
+        "p5": 4.296,
+        "p6": 9.744,
+        "p7": 5.4
+      }
+    },
+    {
+      "storyId": "yi-luan-ji-shi",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065623779z-yi-luan-ji-shi-f51485dd47c1.json",
+      "durations": {
+        "p1": 3.72,
+        "p2": 4.296,
+        "p3": 4.848,
+        "p4": 3.816,
+        "p5": 6.936,
+        "p6": 12.936,
+        "p7": 3.648
+      }
+    },
+    {
+      "storyId": "yi-ming",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065628924z-yi-ming-26b8c1474752.json",
+      "durations": {
+        "p1": 7.8,
+        "p2": 7.728,
+        "p3": 9.408,
+        "p4": 7.656,
+        "p5": 6.528,
+        "p6": 11.64,
+        "p7": 8.52
+      }
+    },
+    {
+      "storyId": "yi-nuo-qian-jin",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065633161z-yi-nuo-qian-jin-422619c6f93b.json",
+      "durations": {
+        "p1": 3.888,
+        "p2": 4.128,
+        "p3": 6.36,
+        "p4": 5.328,
+        "p5": 4.296,
+        "p6": 11.016,
+        "p7": 4.368
+      }
+    },
+    {
+      "storyId": "yi-ye-zhang-mu",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065638372z-yi-ye-zhang-mu-9248e3c11a4b.json",
+      "durations": {
+        "p1": 4.68,
+        "p2": 5.328,
+        "p3": 2.448,
+        "p4": 3.816,
+        "p5": 4.92,
+        "p6": 11.232,
+        "p7": 4.056
+      }
+    },
+    {
+      "storyId": "yi-zi-qian-jin",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065643275z-yi-zi-qian-jin-a9691c0dbe80.json",
+      "durations": {
+        "p1": 6.456,
+        "p2": 4.128,
+        "p3": 4.2,
+        "p4": 4.368,
+        "p5": 5.256,
+        "p6": 13.08,
+        "p7": 6.936
+      }
+    },
+    {
+      "storyId": "yin-cai-shi-jiao",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065649079z-yin-cai-shi-jiao-6f37a12f30db.json",
+      "durations": {
+        "p1": 5.16,
+        "p2": 4.368,
+        "p3": 5.088,
+        "p4": 4.2,
+        "p5": 5.088,
+        "p6": 11.16,
+        "p7": 5.4
+      }
+    },
+    {
+      "storyId": "yu-bang",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065653847z-yu-bang-735a7728c3b0.json",
+      "durations": {
+        "p1": 8.136,
+        "p2": 5.952,
+        "p3": 7.56,
+        "p4": 5.976,
+        "p5": 5.88,
+        "p6": 12.528,
+        "p7": 6.936
+      }
+    },
+    {
+      "storyId": "yu-gong",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065659460z-yu-gong-31ebc24c0ab8.json",
+      "durations": {
+        "p1": 5.568,
+        "p2": 8.76,
+        "p3": 7.8,
+        "p4": 5.496,
+        "p5": 7.968,
+        "p6": 10.944,
+        "p7": 9
+      }
+    },
+    {
+      "storyId": "zao-bi-tou-guang",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065704303z-zao-bi-tou-guang-c1dd6f13e814.json",
+      "durations": {
+        "p1": 5.496,
+        "p2": 6.456,
+        "p3": 6.12,
+        "p4": 5.736,
+        "p5": 6.288,
+        "p6": 11.088,
+        "p7": 6.696
+      }
+    },
+    {
+      "storyId": "zhao-san",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065709567z-zhao-san-691b9a39664a.json",
+      "durations": {
+        "p1": 7.416,
+        "p2": 7.968,
+        "p3": 5.088,
+        "p4": 4.032,
+        "p5": 8.928,
+        "p6": 11.64,
+        "p7": 8.28
+      }
+    },
+    {
+      "storyId": "zhi-lu-wei-ma",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065713451z-zhi-lu-wei-ma-011a77fb44c9.json",
+      "durations": {
+        "p1": 6.048,
+        "p2": 5.568,
+        "p3": 5.976,
+        "p4": 5.424,
+        "p5": 4.2,
+        "p6": 11.016,
+        "p7": 4.056
+      }
+    },
+    {
+      "storyId": "zhi-shang-tan-bing",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065718928z-zhi-shang-tan-bing-69976ac2a806.json",
+      "durations": {
+        "p1": 5.016,
+        "p2": 5.736,
+        "p3": 4.848,
+        "p4": 5.4,
+        "p5": 5.328,
+        "p6": 11.664,
+        "p7": 7.176
+      }
+    },
+    {
+      "storyId": "zi-xiang",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065723828z-zi-xiang-4bd5320e489e.json",
+      "durations": {
+        "p1": 7.968,
+        "p2": 6.864,
+        "p3": 6.624,
+        "p4": 4.776,
+        "p5": 5.976,
+        "p6": 12.288,
+        "p7": 8.448
+      }
+    },
+    {
+      "storyId": "zou-ma-kan-hua",
+      "generated": 7,
+      "receiptPath": "content/evidence/narration/classic-receipts/eve-classic-20260919t065728065z-zou-ma-kan-hua-63a0a39afc7e.json",
+      "durations": {
+        "p1": 5.496,
+        "p2": 5.256,
+        "p3": 3.96,
+        "p4": 3.816,
+        "p5": 3.888,
+        "p6": 12.288,
+        "p7": 3.48
+      }
+    }
+  ],
+  "createdAt": "2026-09-19T06:57:28.298Z"
+}

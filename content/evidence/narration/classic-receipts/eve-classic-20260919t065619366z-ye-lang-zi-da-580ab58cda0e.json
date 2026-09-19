@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-classic-20260919t065619366z-ye-lang-zi-da-580ab58cda0e",
+  "canonicalSource": "content/classic-hall-sections.json",
+  "createdAt": "2026-09-19T06:56:19.366Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "580ab58cda0ea52744575cad9ac50d7b902e55afb7990d2be7d204a9d4ceeb17",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/classic-eve-generation-set.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "classic-hall-body",
+      "storyId": "ye-lang-zi-da",
+      "pages": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6",
+        "p7"
+      ]
+    },
+    "synthesizedKeys": [
+      "ye-lang-zi-da/p1",
+      "ye-lang-zi-da/p2",
+      "ye-lang-zi-da/p3",
+      "ye-lang-zi-da/p4",
+      "ye-lang-zi-da/p5",
+      "ye-lang-zi-da/p6",
+      "ye-lang-zi-da/p7"
+    ],
+    "publicAudioWrite": false,
+    "childNarrationStateUpdated": false
+  },
+  "items": [
+    {
+      "key": "ye-lang-zi-da/p1",
+      "file": "public/audio-classic/ye-lang-zi-da/p1.mp3",
+      "textSha256": "bb9342ce084053afe9abc664fdb863220b553cc6c3133d7949938b0e107b9375",
+      "audioSha256": "c35f3eec1664fb52c4e310ffa3cb76066216e6dc2cc77fc1f89f166e0bf23d80"
+    },
+    {
+      "key": "ye-lang-zi-da/p2",
+      "file": "public/audio-classic/ye-lang-zi-da/p2.mp3",
+      "textSha256": "d3b4f9303884a3553f131bb1f8b76e9bbcbbaa3f85c99ad1130a838d515c2c87",
+      "audioSha256": "fcede0b5a98ecd92c041680369811e84e8676821247f23ecbd1933402e12550f"
+    },
+    {
+      "key": "ye-lang-zi-da/p3",
+      "file": "public/audio-classic/ye-lang-zi-da/p3.mp3",
+      "textSha256": "21a41490a20d049dc1730efcf2069824ca8bf0de760e2094d44817205508d656",
+      "audioSha256": "c21234460697b03db371c79368b47b1becd13894c78a906f59c5668beb3557f1"
+    },
+    {
+      "key": "ye-lang-zi-da/p4",
+      "file": "public/audio-classic/ye-lang-zi-da/p4.mp3",
+      "textSha256": "6509a7b8bfb7b3992477d1a7e4e9e61a5d65029f05d6142e05645f974f9548ea",
+      "audioSha256": "f6697dad32f33ee134a589b30c4a40bf42e602ac3812cb49c4a85b79eeab1053"
+    },
+    {
+      "key": "ye-lang-zi-da/p5",
+      "file": "public/audio-classic/ye-lang-zi-da/p5.mp3",
+      "textSha256": "66ab016b5ceaf67de73e264ed0aeb5971d989182970703433365c59539eaf70a",
+      "audioSha256": "295b002711dfd33003bae6cec4c6b167a7c64055ceb582cab5d684dec03a154f"
+    },
+    {
+      "key": "ye-lang-zi-da/p6",
+      "file": "public/audio-classic/ye-lang-zi-da/p6.mp3",
+      "textSha256": "6406b7363ef95c3019f2a76c6a5d27d1a401b16b8c02548dfe02b78968c4174d",
+      "audioSha256": "71d4176121535062ab9ea040e9f36f8762e27f0c92558b7e127e71d157b8a5c9"
+    },
+    {
+      "key": "ye-lang-zi-da/p7",
+      "file": "public/audio-classic/ye-lang-zi-da/p7.mp3",
+      "textSha256": "8f4c48adc35cbd111743d328a7710675437d59d277ba140f5de80fc62c4830c5",
+      "audioSha256": "453f90a19a744bc040161d8a205a465d98d795591c02140386c971bca1aa2f96"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-classic-20260919t065256993z-lao-ma-shi-tu-15e097156e81",
+  "canonicalSource": "content/classic-hall-sections.json",
+  "createdAt": "2026-09-19T06:52:56.993Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "15e097156e818d63671fc2fae7ba2c1be64de0272612aaf72ba40e03677aaee5",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/classic-eve-generation-set.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "classic-hall-body",
+      "storyId": "lao-ma-shi-tu",
+      "pages": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6",
+        "p7"
+      ]
+    },
+    "synthesizedKeys": [
+      "lao-ma-shi-tu/p1",
+      "lao-ma-shi-tu/p2",
+      "lao-ma-shi-tu/p3",
+      "lao-ma-shi-tu/p4",
+      "lao-ma-shi-tu/p5",
+      "lao-ma-shi-tu/p6",
+      "lao-ma-shi-tu/p7"
+    ],
+    "publicAudioWrite": false,
+    "childNarrationStateUpdated": false
+  },
+  "items": [
+    {
+      "key": "lao-ma-shi-tu/p1",
+      "file": "public/audio-classic/lao-ma-shi-tu/p1.mp3",
+      "textSha256": "87cce7737581a4a976b3edeb6386dfa67dc43545e79ca348968098611f1c9e77",
+      "audioSha256": "88bdacbbd52e54956d77c931365b742db5b46c6b2ca0673b1d9594f20ede83a2"
+    },
+    {
+      "key": "lao-ma-shi-tu/p2",
+      "file": "public/audio-classic/lao-ma-shi-tu/p2.mp3",
+      "textSha256": "3ce1281fd77332abbf2d1f52826bd0bb7044379b54db08843aa92f0c636f8e9e",
+      "audioSha256": "df542750046358ecdde51ed138415e4448cbca5331cd948e71c59a416dc610c8"
+    },
+    {
+      "key": "lao-ma-shi-tu/p3",
+      "file": "public/audio-classic/lao-ma-shi-tu/p3.mp3",
+      "textSha256": "15eab187a6f059a6b6261c8b7fe598d7455c803e7ebb50227a2d4fe4e6568cc2",
+      "audioSha256": "10dc67107fd3ad45058408e8924270c73045bbb2699e9b6bd643a8e5cab47b8e"
+    },
+    {
+      "key": "lao-ma-shi-tu/p4",
+      "file": "public/audio-classic/lao-ma-shi-tu/p4.mp3",
+      "textSha256": "48cbfd8819d85daaad5804b2a2d9a5ced3d4c57c813408c46da22ee3269e84f4",
+      "audioSha256": "abccff5724b50ff0fbc39ca17d33d604a773d1a14aff269c43916f500b18793f"
+    },
+    {
+      "key": "lao-ma-shi-tu/p5",
+      "file": "public/audio-classic/lao-ma-shi-tu/p5.mp3",
+      "textSha256": "bd1d8f81e8bc740d958b649d030cb542a660556be3cb4da0f5167c33538c83f9",
+      "audioSha256": "a0496ab6cd1a540dc54e29ff5153bc8b12aad587a28b6c3792979e94372d4061"
+    },
+    {
+      "key": "lao-ma-shi-tu/p6",
+      "file": "public/audio-classic/lao-ma-shi-tu/p6.mp3",
+      "textSha256": "99affb387d65997f1c100c2f3dd7359575a8d95647dbe09bc12820fae991c069",
+      "audioSha256": "c34fa765c94b3f34094dcfde03a8e000d5a1975932c3f1d256738d9e9ebb26dc"
+    },
+    {
+      "key": "lao-ma-shi-tu/p7",
+      "file": "public/audio-classic/lao-ma-shi-tu/p7.mp3",
+      "textSha256": "21a675d0aed92c00b0aad5425057005d158ca336874a4384595cd5773ad21d50",
+      "audioSha256": "6e3fe83d73bc556954b2a03f0331a7dadcec1c8c0a56ffa74270ee92717b4ca4"
+    }
+  ]
+}

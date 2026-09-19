@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-classic-20260919t065057868z-dong-shi-xiao-pin-addf6916e7dd",
+  "canonicalSource": "content/classic-hall-sections.json",
+  "createdAt": "2026-09-19T06:50:57.868Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "addf6916e7ddb0600008abec2e541ea2e2111cea68ce9953292232d22a8cbe01",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/classic-eve-generation-set.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "classic-hall-body",
+      "storyId": "dong-shi-xiao-pin",
+      "pages": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6",
+        "p7"
+      ]
+    },
+    "synthesizedKeys": [
+      "dong-shi-xiao-pin/p1",
+      "dong-shi-xiao-pin/p2",
+      "dong-shi-xiao-pin/p3",
+      "dong-shi-xiao-pin/p4",
+      "dong-shi-xiao-pin/p5",
+      "dong-shi-xiao-pin/p6",
+      "dong-shi-xiao-pin/p7"
+    ],
+    "publicAudioWrite": false,
+    "childNarrationStateUpdated": false
+  },
+  "items": [
+    {
+      "key": "dong-shi-xiao-pin/p1",
+      "file": "public/audio-classic/dong-shi-xiao-pin/p1.mp3",
+      "textSha256": "1aab941fd34643daa7e29995191fcb4e7c2b8c83fc46f1a0eca9c363c301feab",
+      "audioSha256": "4afc115961adc75a6dac1d8d59e3a1380843803def8816c1fcdd5be1bfa354e1"
+    },
+    {
+      "key": "dong-shi-xiao-pin/p2",
+      "file": "public/audio-classic/dong-shi-xiao-pin/p2.mp3",
+      "textSha256": "f281e1a0645ec248abeee2657e86f17129cc14d160336bf9eab51bdb2f634094",
+      "audioSha256": "2679e81ac4bdbf87ceac1015ed40a888e61948e2c911f5b5181ab792dd1b0567"
+    },
+    {
+      "key": "dong-shi-xiao-pin/p3",
+      "file": "public/audio-classic/dong-shi-xiao-pin/p3.mp3",
+      "textSha256": "e66d177736b1666cb3d11ca53cc9a1b927ac58d72560e78ebcc01e7399d281e0",
+      "audioSha256": "06f4a0df7b2446b961decbb96ee31b463727dd1504a51c5265b1573937a00686"
+    },
+    {
+      "key": "dong-shi-xiao-pin/p4",
+      "file": "public/audio-classic/dong-shi-xiao-pin/p4.mp3",
+      "textSha256": "605c66dfdd56bff3f93da45db40a5fef008824097483808f8db91662a55b3aa9",
+      "audioSha256": "04d4e908b02a70529182d9d1be14923642aa23532020af9b423a64b28cfa2e54"
+    },
+    {
+      "key": "dong-shi-xiao-pin/p5",
+      "file": "public/audio-classic/dong-shi-xiao-pin/p5.mp3",
+      "textSha256": "2f386cd794ce94724eeb3367dd33a19cd1f5437be8751e1defc899d0ea278397",
+      "audioSha256": "dc8edb1ac9c5d8ee5d920facda3a25246ef3c03e753c6099b118189aba424335"
+    },
+    {
+      "key": "dong-shi-xiao-pin/p6",
+      "file": "public/audio-classic/dong-shi-xiao-pin/p6.mp3",
+      "textSha256": "38b24e22b4987f0144fe90481e1df009a03b26eac53931cd79acee2322c333a2",
+      "audioSha256": "6375ad60632e113731b2ed191347374574d9286c57326fdc09edaccdb00ff066"
+    },
+    {
+      "key": "dong-shi-xiao-pin/p7",
+      "file": "public/audio-classic/dong-shi-xiao-pin/p7.mp3",
+      "textSha256": "5ed3f45233be5b4f8c3371a5044af89a455c9ae0263c01aa88404f0e0f4eb598",
+      "audioSha256": "814402c9a4763d465585d268110ad0dfb89f0281668a05e27b9d0e08ab301d09"
+    }
+  ]
+}

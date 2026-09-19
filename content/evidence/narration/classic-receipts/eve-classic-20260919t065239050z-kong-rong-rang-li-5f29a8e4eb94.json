@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-classic-20260919t065239050z-kong-rong-rang-li-5f29a8e4eb94",
+  "canonicalSource": "content/classic-hall-sections.json",
+  "createdAt": "2026-09-19T06:52:39.050Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "5f29a8e4eb94b35835a49beb752d9c25b3d7f8cf5906791b22f410b6a9c63b15",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/classic-eve-generation-set.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "classic-hall-body",
+      "storyId": "kong-rong-rang-li",
+      "pages": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6",
+        "p7"
+      ]
+    },
+    "synthesizedKeys": [
+      "kong-rong-rang-li/p1",
+      "kong-rong-rang-li/p2",
+      "kong-rong-rang-li/p3",
+      "kong-rong-rang-li/p4",
+      "kong-rong-rang-li/p5",
+      "kong-rong-rang-li/p6",
+      "kong-rong-rang-li/p7"
+    ],
+    "publicAudioWrite": false,
+    "childNarrationStateUpdated": false
+  },
+  "items": [
+    {
+      "key": "kong-rong-rang-li/p1",
+      "file": "public/audio-classic/kong-rong-rang-li/p1.mp3",
+      "textSha256": "23a5045e60fc0ac8eb4dcfc1f17fe6a1d538eb7462967fe711ba76c98fd58b4b",
+      "audioSha256": "3b5ba6e24c1226df48aac62f051d180bd5efa7ef92e5363a255b8078cbefd354"
+    },
+    {
+      "key": "kong-rong-rang-li/p2",
+      "file": "public/audio-classic/kong-rong-rang-li/p2.mp3",
+      "textSha256": "80f10e5381c7dd884836024ed97c7e6c421105eddd627b01eeab58912213a521",
+      "audioSha256": "98b6f305466a684188d689407baf2b48989bf407598c6f5fdace876b1c790608"
+    },
+    {
+      "key": "kong-rong-rang-li/p3",
+      "file": "public/audio-classic/kong-rong-rang-li/p3.mp3",
+      "textSha256": "550d8565aa6c74bf9006e20e0c3189b0c265263f6b9eb869fa018319f0c53839",
+      "audioSha256": "fe9f8bc321bf8997c6bb49e13332a6e42db95b5037c6f17af65c956ffc974d64"
+    },
+    {
+      "key": "kong-rong-rang-li/p4",
+      "file": "public/audio-classic/kong-rong-rang-li/p4.mp3",
+      "textSha256": "861ff31a2fefcba4570a4ed6b6c2bdaa620ee2c4a09cad61041640221d55bc70",
+      "audioSha256": "b28e1c3eaf31fb19d94709f09e571ba37e7e79eb6f7b9098aba93ea4a78824c1"
+    },
+    {
+      "key": "kong-rong-rang-li/p5",
+      "file": "public/audio-classic/kong-rong-rang-li/p5.mp3",
+      "textSha256": "28d38e3f589a41dd2d22c31746fd33996ab7a6402c394694689853e9f6495d3e",
+      "audioSha256": "1ee836fc679fd01f37302d63a074cad9419bddd7194b2f32417bb10acdb48084"
+    },
+    {
+      "key": "kong-rong-rang-li/p6",
+      "file": "public/audio-classic/kong-rong-rang-li/p6.mp3",
+      "textSha256": "3d2dd96d751378df7b4c891713b4db44c443e519a5c7abe8a925cb4e5f58fed8",
+      "audioSha256": "374d75ffedbc5350da2cf1e3eda70c041e51457740b2f3d4e49de9ed56473266"
+    },
+    {
+      "key": "kong-rong-rang-li/p7",
+      "file": "public/audio-classic/kong-rong-rang-li/p7.mp3",
+      "textSha256": "3ec37c7fa666999629f8b095ebf70c77d7030a39b55ccc2acc3d19cf5b6982eb",
+      "audioSha256": "948f2f4cfe4bb4630d04d880387761ea54d59a12e727284a53303fb02aa4be1e"
+    }
+  ]
+}

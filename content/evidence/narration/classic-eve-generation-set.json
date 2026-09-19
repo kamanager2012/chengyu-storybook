@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "evidenceType": "classic-hall-narration-generation-input-set",
+  "canonicalSource": "content/classic-hall-sections.json",
+  "scope": "all-classic-hall-body-pages-p1-p7",
+  "audioRoot": "public/audio-classic",
+  "inputItemCount": 700,
+  "inputDigestSha256": "9bfbb5e96e3155997d9b034cf68a54642dafa54efaefad8d93b5fc35455900ba",
+  "digestProjection": [
+    "key",
+    "file",
+    "textSha256"
+  ],
+  "ordering": "ascending key via localeCompare",
+  "pages": [
+    "p1",
+    "p2",
+    "p3",
+    "p4",
+    "p5",
+    "p6",
+    "p7"
+  ],
+  "generatedBy": "scripts/classic-hall-narration.mjs",
+  "purpose": "Pin the exact classic-hall p1-p7 narration inputs before Eve audio is written to public/audio-classic. Cover and moral stay on children's /audio/ because remapOverlayClassicCopy only rewrites pages with classicText. Children's public/audio and content/narration-state.json are out of scope."
+}

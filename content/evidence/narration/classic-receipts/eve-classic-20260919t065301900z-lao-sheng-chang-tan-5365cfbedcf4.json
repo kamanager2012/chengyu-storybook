@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-classic-20260919t065301900z-lao-sheng-chang-tan-5365cfbedcf4",
+  "canonicalSource": "content/classic-hall-sections.json",
+  "createdAt": "2026-09-19T06:53:01.900Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "5365cfbedcf485ed61ffc366d801ebe712dff63d96eca0fa0c9c5ef707dbef43",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/classic-eve-generation-set.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "classic-hall-body",
+      "storyId": "lao-sheng-chang-tan",
+      "pages": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6",
+        "p7"
+      ]
+    },
+    "synthesizedKeys": [
+      "lao-sheng-chang-tan/p1",
+      "lao-sheng-chang-tan/p2",
+      "lao-sheng-chang-tan/p3",
+      "lao-sheng-chang-tan/p4",
+      "lao-sheng-chang-tan/p5",
+      "lao-sheng-chang-tan/p6",
+      "lao-sheng-chang-tan/p7"
+    ],
+    "publicAudioWrite": false,
+    "childNarrationStateUpdated": false
+  },
+  "items": [
+    {
+      "key": "lao-sheng-chang-tan/p1",
+      "file": "public/audio-classic/lao-sheng-chang-tan/p1.mp3",
+      "textSha256": "4968bf58b2be8571938ba4001563c53895cf52328451e95b0e475a0529cae62d",
+      "audioSha256": "f720b4c791168c39db9939e58292990237c0bcf88161ce71487dbe18d0e8706e"
+    },
+    {
+      "key": "lao-sheng-chang-tan/p2",
+      "file": "public/audio-classic/lao-sheng-chang-tan/p2.mp3",
+      "textSha256": "7df2c831f43638fe5fc58cb5ab4bee99a44f9b68f3a3eebd61bdc7cd556e2f52",
+      "audioSha256": "a9f0f5586911dbcaf159a997e61b985e0b4aa7ddd740aababc75c8eab825bb16"
+    },
+    {
+      "key": "lao-sheng-chang-tan/p3",
+      "file": "public/audio-classic/lao-sheng-chang-tan/p3.mp3",
+      "textSha256": "4637d4de3562a2a87506e34fdc50b2ad81245312d7e0f02a18531b0cbfc1c212",
+      "audioSha256": "683aa1d2a310ee53d5424a87fb0a965415e43254377b93877d4770a77411a16a"
+    },
+    {
+      "key": "lao-sheng-chang-tan/p4",
+      "file": "public/audio-classic/lao-sheng-chang-tan/p4.mp3",
+      "textSha256": "156af14136d6f79c99b5f054aa8c1e21391b56516736c844898cca3d3ed5099f",
+      "audioSha256": "e6c69d1c679cf2a8bf40570c290192de8a8ba621f096878eb9d3fb1571eacceb"
+    },
+    {
+      "key": "lao-sheng-chang-tan/p5",
+      "file": "public/audio-classic/lao-sheng-chang-tan/p5.mp3",
+      "textSha256": "5d1b6a30d21d392d356ecf50f8aea7766443f5c39c6487d0b2ea5fd48ee379c9",
+      "audioSha256": "68089c3c5ca751d534a8dfd85715a03886d957e454f61d53def1b9c10af56172"
+    },
+    {
+      "key": "lao-sheng-chang-tan/p6",
+      "file": "public/audio-classic/lao-sheng-chang-tan/p6.mp3",
+      "textSha256": "56750640f01d436c905ddc9a5bd91644aca4c965a347319618972875f1a4fb68",
+      "audioSha256": "e91c2b834ad9c72d7ab92699d518ab7b568558284ae6c9e952fac9bd29051c30"
+    },
+    {
+      "key": "lao-sheng-chang-tan/p7",
+      "file": "public/audio-classic/lao-sheng-chang-tan/p7.mp3",
+      "textSha256": "cd2d066798e77796f8f269dd8477fa9ac6cbe753902b2b855a626b4ae4d6ceef",
+      "audioSha256": "7854d43ccc5016d6d38ca47f5c42fe7207fb617628863a838941fb8668a92c9f"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-classic-20260919t065534202z-wang-yang-xing-tan-006140b9122e",
+  "canonicalSource": "content/classic-hall-sections.json",
+  "createdAt": "2026-09-19T06:55:34.202Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "006140b9122ecc989e56ebd662fe68de05b11e50c45d573adef95da4b860f9ff",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/classic-eve-generation-set.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "classic-hall-body",
+      "storyId": "wang-yang-xing-tan",
+      "pages": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6",
+        "p7"
+      ]
+    },
+    "synthesizedKeys": [
+      "wang-yang-xing-tan/p1",
+      "wang-yang-xing-tan/p2",
+      "wang-yang-xing-tan/p3",
+      "wang-yang-xing-tan/p4",
+      "wang-yang-xing-tan/p5",
+      "wang-yang-xing-tan/p6",
+      "wang-yang-xing-tan/p7"
+    ],
+    "publicAudioWrite": false,
+    "childNarrationStateUpdated": false
+  },
+  "items": [
+    {
+      "key": "wang-yang-xing-tan/p1",
+      "file": "public/audio-classic/wang-yang-xing-tan/p1.mp3",
+      "textSha256": "77457c28ca362456bbf080e11fe760faebe7fe72de75bd8cc93b0f58a30472f7",
+      "audioSha256": "5922713ef9c2be6ffdd189955cde18858a3b2bc3cd0fd001e1a95b668d2b924e"
+    },
+    {
+      "key": "wang-yang-xing-tan/p2",
+      "file": "public/audio-classic/wang-yang-xing-tan/p2.mp3",
+      "textSha256": "b6d3599de1e00f8632a6659952af88ca20474e8d3c926b40ff5a9fbd6f5186c7",
+      "audioSha256": "000b5c21f6070db11729220a86e878f55f9d66f5c53608110ca624a4a001548d"
+    },
+    {
+      "key": "wang-yang-xing-tan/p3",
+      "file": "public/audio-classic/wang-yang-xing-tan/p3.mp3",
+      "textSha256": "e3ea396164fc6e75edb9eebe53a20742b655dc0216262c671ff750ad7652eb22",
+      "audioSha256": "cb5e232bfa1fc3a78bf4dd63c5a40e1ea1ac2c5482dd1ad5cc2954db84cf33c3"
+    },
+    {
+      "key": "wang-yang-xing-tan/p4",
+      "file": "public/audio-classic/wang-yang-xing-tan/p4.mp3",
+      "textSha256": "d8d46895c1da53f6eec99497569bcf9b95086db8f5cf4a8cab406aa88ccfd1bb",
+      "audioSha256": "d6ecb092cc3c4e2a50697936981b0d80bf53b63d582f91d14263970304d5081e"
+    },
+    {
+      "key": "wang-yang-xing-tan/p5",
+      "file": "public/audio-classic/wang-yang-xing-tan/p5.mp3",
+      "textSha256": "58215eb2b3bb808abf24cafb328d79a7da541a4ab2870389046e7cb8e60a029a",
+      "audioSha256": "857689eb85358becce10871b13d20ce5d63dd9abd0442fbbc81622e3ad5cf423"
+    },
+    {
+      "key": "wang-yang-xing-tan/p6",
+      "file": "public/audio-classic/wang-yang-xing-tan/p6.mp3",
+      "textSha256": "d49529d842496316df58470474b0bcf1580dc6a5161602a0590a48148d8bb908",
+      "audioSha256": "098e38601381b2e25f2f0e9051004a920708d68ab89e38aac8c5c2cad549d3ce"
+    },
+    {
+      "key": "wang-yang-xing-tan/p7",
+      "file": "public/audio-classic/wang-yang-xing-tan/p7.mp3",
+      "textSha256": "0b9ba089b1a067e8dec2664d120889589bd3c9ce660db9bb114f5c3747480ef5",
+      "audioSha256": "e294c58eff2c85944b55d621e9bbdc8a524924479a0b8a73711dfba3eb94bf5b"
+    }
+  ]
+}

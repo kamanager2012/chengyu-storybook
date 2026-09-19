@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-classic-20260919t065014162z-bu-chi-xia-wen-92a867f15e4d",
+  "canonicalSource": "content/classic-hall-sections.json",
+  "createdAt": "2026-09-19T06:50:14.162Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "92a867f15e4d926ff2e0808c363fc32a2dac402fc5d3f678bf71750483f62f48",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/classic-eve-generation-set.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "classic-hall-body",
+      "storyId": "bu-chi-xia-wen",
+      "pages": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6",
+        "p7"
+      ]
+    },
+    "synthesizedKeys": [
+      "bu-chi-xia-wen/p1",
+      "bu-chi-xia-wen/p2",
+      "bu-chi-xia-wen/p3",
+      "bu-chi-xia-wen/p4",
+      "bu-chi-xia-wen/p5",
+      "bu-chi-xia-wen/p6",
+      "bu-chi-xia-wen/p7"
+    ],
+    "publicAudioWrite": false,
+    "childNarrationStateUpdated": false
+  },
+  "items": [
+    {
+      "key": "bu-chi-xia-wen/p1",
+      "file": "public/audio-classic/bu-chi-xia-wen/p1.mp3",
+      "textSha256": "0f44591954d954e8388ad5e5d17f1a872a54dbd8c3923fdb1611f0c6a5dfc49f",
+      "audioSha256": "3c07e7f00633bb4755b5355915ee69335c5c984ce7eae85b03320f293f975919"
+    },
+    {
+      "key": "bu-chi-xia-wen/p2",
+      "file": "public/audio-classic/bu-chi-xia-wen/p2.mp3",
+      "textSha256": "bc1cc5821af863492a46399e33a7087c2f85c57c995c368900c86cdbc6c0803d",
+      "audioSha256": "3ab7cae10b47bb4ad9bc93f2fb5e556ce42795486c21dea025dc5cbff56d6930"
+    },
+    {
+      "key": "bu-chi-xia-wen/p3",
+      "file": "public/audio-classic/bu-chi-xia-wen/p3.mp3",
+      "textSha256": "49c06b8c39545426e6c89ee43b4ae60581fa329d57cc485c0b2a9098598667f8",
+      "audioSha256": "94e7d6f9c604aed286c345367207cff4342415ba6b2fdb55e5c3a915352af4b5"
+    },
+    {
+      "key": "bu-chi-xia-wen/p4",
+      "file": "public/audio-classic/bu-chi-xia-wen/p4.mp3",
+      "textSha256": "c575642f4fc70b3ab25acec2bedf8e1a98290b91da8d9d671e3c3f1a13f0a2f7",
+      "audioSha256": "136b106810a49ed330f4104b11ad0216ec39c40777c6521621b1d18a5ce8ffe1"
+    },
+    {
+      "key": "bu-chi-xia-wen/p5",
+      "file": "public/audio-classic/bu-chi-xia-wen/p5.mp3",
+      "textSha256": "22658abbdceb74471263fe9021fb281549e67b3fcfae32e4a8bed893e9462cd9",
+      "audioSha256": "30813ba8d2f572b520cd8ae2531cae56b57e9a24631463fe606ab170c081c81a"
+    },
+    {
+      "key": "bu-chi-xia-wen/p6",
+      "file": "public/audio-classic/bu-chi-xia-wen/p6.mp3",
+      "textSha256": "0e6ac8ddcf51dae402e706ab52bfbabbbcbc273305ab198424b97c9b9a350b69",
+      "audioSha256": "d97f3a94de5f4370cd3799b3391641a3a28e0fc3b97866e0b4a2b12b9dfbe84a"
+    },
+    {
+      "key": "bu-chi-xia-wen/p7",
+      "file": "public/audio-classic/bu-chi-xia-wen/p7.mp3",
+      "textSha256": "19102169deefc42654e3cdf008dadf577bf35c383b0bfca4b0f3b10aa0cf56af",
+      "audioSha256": "619a2946c2594acdb7bd2d750dca5d7400b23e160d72df8c2aaf286c7d52d2b5"
+    }
+  ]
+}

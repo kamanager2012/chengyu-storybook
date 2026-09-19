@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-classic-20260919t065009653z-bei-shui-yi-zhan-470b3ca7d20e",
+  "canonicalSource": "content/classic-hall-sections.json",
+  "createdAt": "2026-09-19T06:50:09.653Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "470b3ca7d20ecaaaa6845c167bcc9fe678d3721a1c7ae24ddabff329dacea1d7",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/classic-eve-generation-set.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "classic-hall-body",
+      "storyId": "bei-shui-yi-zhan",
+      "pages": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6",
+        "p7"
+      ]
+    },
+    "synthesizedKeys": [
+      "bei-shui-yi-zhan/p1",
+      "bei-shui-yi-zhan/p2",
+      "bei-shui-yi-zhan/p3",
+      "bei-shui-yi-zhan/p4",
+      "bei-shui-yi-zhan/p5",
+      "bei-shui-yi-zhan/p6",
+      "bei-shui-yi-zhan/p7"
+    ],
+    "publicAudioWrite": false,
+    "childNarrationStateUpdated": false
+  },
+  "items": [
+    {
+      "key": "bei-shui-yi-zhan/p1",
+      "file": "public/audio-classic/bei-shui-yi-zhan/p1.mp3",
+      "textSha256": "6a4ec14d38153f246aca25ef0cc95865093738d220964a59704da4eb0b8d545f",
+      "audioSha256": "8c9634adb7abbf9b85a98b02436083eb43f7529358a45d5d951220625802b5aa"
+    },
+    {
+      "key": "bei-shui-yi-zhan/p2",
+      "file": "public/audio-classic/bei-shui-yi-zhan/p2.mp3",
+      "textSha256": "c2dcde45897ca25d605c7e7f6460db0921a8bf7bca27adc86c8aef6eaddb8b6b",
+      "audioSha256": "60f10908548c4796f8331a7c2ee3323f38c28f6ab03f4bd6f5b15a0a9a637b00"
+    },
+    {
+      "key": "bei-shui-yi-zhan/p3",
+      "file": "public/audio-classic/bei-shui-yi-zhan/p3.mp3",
+      "textSha256": "0cf4f6d88c8fc5c359139861c4b25942ecd601e4388209ba30714fe8f44c87a3",
+      "audioSha256": "9e21f7da6c57772d261c97a0caa4c5ae007f57be7e4be5806b8b03be594375b5"
+    },
+    {
+      "key": "bei-shui-yi-zhan/p4",
+      "file": "public/audio-classic/bei-shui-yi-zhan/p4.mp3",
+      "textSha256": "102ab6094389cf0490b77534b1341d5ddfb73421532203541bb81159fb312c5f",
+      "audioSha256": "c8d3c2714d966b83421b9adadab65a86c190d040946a465a3be35054379a80b0"
+    },
+    {
+      "key": "bei-shui-yi-zhan/p5",
+      "file": "public/audio-classic/bei-shui-yi-zhan/p5.mp3",
+      "textSha256": "5b2321537faea58d29f6fcfa37877f0e24cd6307e635c9dd30e9e8b732abf3fb",
+      "audioSha256": "d707d784fcabb853e94e8938c386383daba511e8b78ad596257246cbb517c9f6"
+    },
+    {
+      "key": "bei-shui-yi-zhan/p6",
+      "file": "public/audio-classic/bei-shui-yi-zhan/p6.mp3",
+      "textSha256": "37a903222686c013e7323a4956273e128cf28fd4fac53fe63ccc708d70f2ad97",
+      "audioSha256": "e7a2f9d197cf8f8b93dcdad5a485bfa5c970c2bd818a32b8c87a1e0473cab6e4"
+    },
+    {
+      "key": "bei-shui-yi-zhan/p7",
+      "file": "public/audio-classic/bei-shui-yi-zhan/p7.mp3",
+      "textSha256": "68694150ec96704fe5deb53a334eb9c23fe21cbbeab51f33a8a8b51b18beb1e6",
+      "audioSha256": "4186dda40ca6b6a030fe3046dd105f1952b4e70dfa6c7eee719af4337d9c8815"
+    }
+  ]
+}

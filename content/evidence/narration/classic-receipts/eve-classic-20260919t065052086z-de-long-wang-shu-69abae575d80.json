@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-classic-20260919t065052086z-de-long-wang-shu-69abae575d80",
+  "canonicalSource": "content/classic-hall-sections.json",
+  "createdAt": "2026-09-19T06:50:52.086Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "69abae575d807d2bf3d03e77d536a15b32b3b7630769ba9c75b580a72d637dd0",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/classic-eve-generation-set.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "classic-hall-body",
+      "storyId": "de-long-wang-shu",
+      "pages": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6",
+        "p7"
+      ]
+    },
+    "synthesizedKeys": [
+      "de-long-wang-shu/p1",
+      "de-long-wang-shu/p2",
+      "de-long-wang-shu/p3",
+      "de-long-wang-shu/p4",
+      "de-long-wang-shu/p5",
+      "de-long-wang-shu/p6",
+      "de-long-wang-shu/p7"
+    ],
+    "publicAudioWrite": false,
+    "childNarrationStateUpdated": false
+  },
+  "items": [
+    {
+      "key": "de-long-wang-shu/p1",
+      "file": "public/audio-classic/de-long-wang-shu/p1.mp3",
+      "textSha256": "588654dcef49b1f44daee62a93d3913a72fbf670d475be92107d15209a4749f6",
+      "audioSha256": "59f8606d9c7962f6e8e1808acf9f96c3f60dd61a7dd7c9dab46ee38228453efd"
+    },
+    {
+      "key": "de-long-wang-shu/p2",
+      "file": "public/audio-classic/de-long-wang-shu/p2.mp3",
+      "textSha256": "2156e9d4798a386ff9b1b6ae80c749f858cb87f54bffd3038011273a9eb16a93",
+      "audioSha256": "d48023b2fad41676dd4a74b314abbb642e732e1800d6dd74d162b863b8b2a262"
+    },
+    {
+      "key": "de-long-wang-shu/p3",
+      "file": "public/audio-classic/de-long-wang-shu/p3.mp3",
+      "textSha256": "739db3b72ca810a75171a637d9246cb2bb30bb5354f830df1b8cdfe4658e1192",
+      "audioSha256": "28e1a485df27fc28b112a12800a68e741921bda7ec0db42fb1c3a84135fe3e56"
+    },
+    {
+      "key": "de-long-wang-shu/p4",
+      "file": "public/audio-classic/de-long-wang-shu/p4.mp3",
+      "textSha256": "c1bc864c3aaa689686b7b8a6d26e774da3889a494e18585a953da858a7d2e6db",
+      "audioSha256": "33cdffcb251cdf42330b52059613afb8df361a6374669205d156b3a93f81eba9"
+    },
+    {
+      "key": "de-long-wang-shu/p5",
+      "file": "public/audio-classic/de-long-wang-shu/p5.mp3",
+      "textSha256": "50eac6aa4e7f531b84983961a29fff814d03795c993bedf399150bb4c1083bea",
+      "audioSha256": "8d0be750affc80bcf8cc1e396226d8401184a0e71ed127e4b0057ddb2cd29aad"
+    },
+    {
+      "key": "de-long-wang-shu/p6",
+      "file": "public/audio-classic/de-long-wang-shu/p6.mp3",
+      "textSha256": "1096c80271ce5dba3a9a63ac17092359735324ee7225a2ad2fe9cd4af9b66bc2",
+      "audioSha256": "f81a01ed5a45921bf20cd4a445a0a1c4145879ee82d21aff9c7ca0398aca41cf"
+    },
+    {
+      "key": "de-long-wang-shu/p7",
+      "file": "public/audio-classic/de-long-wang-shu/p7.mp3",
+      "textSha256": "6c260a7bc93653ad9ce9c2cf5b7b48d68a5b378af61a43deafa100175f964b4a",
+      "audioSha256": "3246a12f8ade5df050a015dd41fdb28b6b8c7d2c162ec3100c5a62ee490079f1"
+    }
+  ]
+}

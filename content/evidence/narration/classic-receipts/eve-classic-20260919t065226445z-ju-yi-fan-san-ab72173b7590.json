@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-classic-20260919t065226445z-ju-yi-fan-san-ab72173b7590",
+  "canonicalSource": "content/classic-hall-sections.json",
+  "createdAt": "2026-09-19T06:52:26.445Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "ab72173b75906a9f9c81ec4429021f58e15326ca89119b17eaa16a7f2020535c",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/classic-eve-generation-set.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "classic-hall-body",
+      "storyId": "ju-yi-fan-san",
+      "pages": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6",
+        "p7"
+      ]
+    },
+    "synthesizedKeys": [
+      "ju-yi-fan-san/p1",
+      "ju-yi-fan-san/p2",
+      "ju-yi-fan-san/p3",
+      "ju-yi-fan-san/p4",
+      "ju-yi-fan-san/p5",
+      "ju-yi-fan-san/p6",
+      "ju-yi-fan-san/p7"
+    ],
+    "publicAudioWrite": false,
+    "childNarrationStateUpdated": false
+  },
+  "items": [
+    {
+      "key": "ju-yi-fan-san/p1",
+      "file": "public/audio-classic/ju-yi-fan-san/p1.mp3",
+      "textSha256": "34bff37a44ab64aed9e6588330d0ed5d5741cd76e76e4382b8ef02c055fe9d29",
+      "audioSha256": "c20bb6307f7c3cd83cf0c83c3e99c8886e1431928a6b9b39cfa051a5257a9a0e"
+    },
+    {
+      "key": "ju-yi-fan-san/p2",
+      "file": "public/audio-classic/ju-yi-fan-san/p2.mp3",
+      "textSha256": "8245c07e8c7f57bbed72ccbcacc7bd56592dd88fa3bedbfcb8053d4378526905",
+      "audioSha256": "91fde2c08070a3f60d35c72fda59c0b6ea13230b8deb21b2bcaa40a22dc09bef"
+    },
+    {
+      "key": "ju-yi-fan-san/p3",
+      "file": "public/audio-classic/ju-yi-fan-san/p3.mp3",
+      "textSha256": "bb8777e2e2fdb4566dd0cf6e9bb9f324c9a9ced4394fe1355301d3d7d12394f2",
+      "audioSha256": "1033eb96424d85d66bc9b4bab1c2f431fcbf7c7bf78142eb3836f28ea9192d63"
+    },
+    {
+      "key": "ju-yi-fan-san/p4",
+      "file": "public/audio-classic/ju-yi-fan-san/p4.mp3",
+      "textSha256": "a416ae417e4d6961272b05114dc20db7f85a40766ba61b828800e475c205deb5",
+      "audioSha256": "2824835ca42c1ecf1acf1b4931d508791ef114583ac6fe359b7c9938a7d8a3f1"
+    },
+    {
+      "key": "ju-yi-fan-san/p5",
+      "file": "public/audio-classic/ju-yi-fan-san/p5.mp3",
+      "textSha256": "abdd40bfd1f59b2e2379b531aaeee403d0f746564c3993ad63273481d7ad1ffe",
+      "audioSha256": "a2dde6c9f7bf7a6b7f64b52e3bea08b6d0aee3364614c375603c76e5ae924932"
+    },
+    {
+      "key": "ju-yi-fan-san/p6",
+      "file": "public/audio-classic/ju-yi-fan-san/p6.mp3",
+      "textSha256": "e039805815ebfaf81588bc528572c5d46cb61201abb58d83b3b77cbce44ccd98",
+      "audioSha256": "e704cf5867a7ac67be9bdf8aceca01b5059264383ac3855c52a94ec77625e556"
+    },
+    {
+      "key": "ju-yi-fan-san/p7",
+      "file": "public/audio-classic/ju-yi-fan-san/p7.mp3",
+      "textSha256": "846244c82645765729606e5e95d7c05c5f1f7f77811174be84f15cc3e3a40fb6",
+      "audioSha256": "c13f427223d7312d9e4ae48cc501356f3d06ade053dd3f0c2fb606bc61fc588c"
+    }
+  ]
+}

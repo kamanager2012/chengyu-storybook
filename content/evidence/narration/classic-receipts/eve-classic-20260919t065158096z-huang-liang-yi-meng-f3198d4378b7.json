@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-classic-20260919t065158096z-huang-liang-yi-meng-f3198d4378b7",
+  "canonicalSource": "content/classic-hall-sections.json",
+  "createdAt": "2026-09-19T06:51:58.096Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "f3198d4378b7e7e8bf160254d1a7c131ea7b30bb6d8398b20779b6d5fe03722b",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/classic-eve-generation-set.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "classic-hall-body",
+      "storyId": "huang-liang-yi-meng",
+      "pages": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6",
+        "p7"
+      ]
+    },
+    "synthesizedKeys": [
+      "huang-liang-yi-meng/p1",
+      "huang-liang-yi-meng/p2",
+      "huang-liang-yi-meng/p3",
+      "huang-liang-yi-meng/p4",
+      "huang-liang-yi-meng/p5",
+      "huang-liang-yi-meng/p6",
+      "huang-liang-yi-meng/p7"
+    ],
+    "publicAudioWrite": false,
+    "childNarrationStateUpdated": false
+  },
+  "items": [
+    {
+      "key": "huang-liang-yi-meng/p1",
+      "file": "public/audio-classic/huang-liang-yi-meng/p1.mp3",
+      "textSha256": "06a2405f3cf8a8b5ae58058db8517097e9ef9cbf8d86150ddc2d6170e80401d3",
+      "audioSha256": "55df970aeabdade01fd7dd73a9e78b33764be23f50d1fba54a8e2441a900e335"
+    },
+    {
+      "key": "huang-liang-yi-meng/p2",
+      "file": "public/audio-classic/huang-liang-yi-meng/p2.mp3",
+      "textSha256": "fa29d5b4a8e7be4778ecfe5e8a0a29d235c0c0fdba9c6fa31f10386e8e3e5660",
+      "audioSha256": "f2241418be6c2974057e8450c13c5fdd5c2bb25dd49aff6ee4b8b292b46d5f26"
+    },
+    {
+      "key": "huang-liang-yi-meng/p3",
+      "file": "public/audio-classic/huang-liang-yi-meng/p3.mp3",
+      "textSha256": "572fcd5fd3d66c65e031eac278c82e04f28ff1b2f1b947ff9cf2d23662dc4aed",
+      "audioSha256": "d1934f195a1e0a4e3b035be4f511b8d2cc779997af1a090d4d6fbd31f73a459a"
+    },
+    {
+      "key": "huang-liang-yi-meng/p4",
+      "file": "public/audio-classic/huang-liang-yi-meng/p4.mp3",
+      "textSha256": "f41df1ccb414bfc6bfc917df74e47639a71d3e8db12a80c7fee501e453143dca",
+      "audioSha256": "099b558bfd191b3834473dd9c444ad5d9d3423d8847ed622ee46b0f4ca2229e1"
+    },
+    {
+      "key": "huang-liang-yi-meng/p5",
+      "file": "public/audio-classic/huang-liang-yi-meng/p5.mp3",
+      "textSha256": "d50f05392be5e64172b5b79eaa2da031449e2d8c62a89da1f8cb7a4f4d587e0f",
+      "audioSha256": "a7f33493a0652db25d39cbe5db4c63d769164065e26068f25b95df237d92ade9"
+    },
+    {
+      "key": "huang-liang-yi-meng/p6",
+      "file": "public/audio-classic/huang-liang-yi-meng/p6.mp3",
+      "textSha256": "7e8c6ae17cd64eec399e8d69f15cc33492dd5725375575dc102fb378acef2f10",
+      "audioSha256": "0b685df308fbd5b853f96fe54134e122e9073e5e28a79d137dc49dc6acf4f22b"
+    },
+    {
+      "key": "huang-liang-yi-meng/p7",
+      "file": "public/audio-classic/huang-liang-yi-meng/p7.mp3",
+      "textSha256": "0153eb14c1c3ff2a5340d8defcbf058e887a150ed5788b6c11ebdec93cd1c943",
+      "audioSha256": "465fa0e0ccf482b398f1b4c6c34162e0c9e4f94cc1a783320b4abdd2b08373d5"
+    }
+  ]
+}

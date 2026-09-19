@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-classic-20260919t065446454z-shui-di-shi-chuan-f029c0bdb4a4",
+  "canonicalSource": "content/classic-hall-sections.json",
+  "createdAt": "2026-09-19T06:54:46.454Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "f029c0bdb4a4d70ca3884db1c1198117b27e09799c48101021aea8b0b2d69072",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/classic-eve-generation-set.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "classic-hall-body",
+      "storyId": "shui-di-shi-chuan",
+      "pages": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6",
+        "p7"
+      ]
+    },
+    "synthesizedKeys": [
+      "shui-di-shi-chuan/p1",
+      "shui-di-shi-chuan/p2",
+      "shui-di-shi-chuan/p3",
+      "shui-di-shi-chuan/p4",
+      "shui-di-shi-chuan/p5",
+      "shui-di-shi-chuan/p6",
+      "shui-di-shi-chuan/p7"
+    ],
+    "publicAudioWrite": false,
+    "childNarrationStateUpdated": false
+  },
+  "items": [
+    {
+      "key": "shui-di-shi-chuan/p1",
+      "file": "public/audio-classic/shui-di-shi-chuan/p1.mp3",
+      "textSha256": "9f690541e38f10d392f6f82ffaaca7402bb0fd85803b89079077ad76093b81af",
+      "audioSha256": "eb4af3a642594371c51c98615c8468e155ca5c6ceff933c206d2e022477569c3"
+    },
+    {
+      "key": "shui-di-shi-chuan/p2",
+      "file": "public/audio-classic/shui-di-shi-chuan/p2.mp3",
+      "textSha256": "9353aa7df9a642c71e41395d6a782c46268958416bca02c975a6612910f8827c",
+      "audioSha256": "2636a17e1f087f0cd2c90a35738628cbbb07e9b7ad787ebce362d61da2ca3ecc"
+    },
+    {
+      "key": "shui-di-shi-chuan/p3",
+      "file": "public/audio-classic/shui-di-shi-chuan/p3.mp3",
+      "textSha256": "f669d945ae895061073750c1cff93acac10f967a5a9b95dcc5042afb30b7f852",
+      "audioSha256": "b9d1825e498910e5250c9ddab42ca0384fa2e59e72462d7400ff8e0667438e99"
+    },
+    {
+      "key": "shui-di-shi-chuan/p4",
+      "file": "public/audio-classic/shui-di-shi-chuan/p4.mp3",
+      "textSha256": "96d19450247f4a5d56375cec9f9657112263d4eebc10323529e96b955686e3f9",
+      "audioSha256": "6dc5ccf943d9cd32c0810adbff47561acc8b4dbbf4b895af17bad57e7f60672d"
+    },
+    {
+      "key": "shui-di-shi-chuan/p5",
+      "file": "public/audio-classic/shui-di-shi-chuan/p5.mp3",
+      "textSha256": "a06f95dd0466cd29d7a15feb05b535854ddb3df8c9351c67da233c42f97bc5b9",
+      "audioSha256": "46ef86597b5d6a9ba678b5606a136728f22ac8491c2597ed83ae1f5f36575a4a"
+    },
+    {
+      "key": "shui-di-shi-chuan/p6",
+      "file": "public/audio-classic/shui-di-shi-chuan/p6.mp3",
+      "textSha256": "c99bd1a728113166e5f6ac8f6287b291b1df3db2758a0b88ef718fc943eb0f18",
+      "audioSha256": "9f72510c2451fadccbe5204fff180b94e0fe4fee9897d886cf5b2504fa756dbd"
+    },
+    {
+      "key": "shui-di-shi-chuan/p7",
+      "file": "public/audio-classic/shui-di-shi-chuan/p7.mp3",
+      "textSha256": "e2c79a8220fa66833d92bcea7d9c2d391c9f48c6cc0efd3e66f8e82defee9627",
+      "audioSha256": "8996b63354b48896d4921874b78ed477b547533d5e61066eda5e3086d814ea95"
+    }
+  ]
+}

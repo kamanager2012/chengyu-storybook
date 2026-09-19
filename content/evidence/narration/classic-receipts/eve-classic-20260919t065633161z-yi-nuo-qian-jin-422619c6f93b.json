@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-classic-20260919t065633161z-yi-nuo-qian-jin-422619c6f93b",
+  "canonicalSource": "content/classic-hall-sections.json",
+  "createdAt": "2026-09-19T06:56:33.161Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "422619c6f93bf983d57e2e115ae7c0a272ba740cfb15ffb38f6db9350487b97c",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/classic-eve-generation-set.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "classic-hall-body",
+      "storyId": "yi-nuo-qian-jin",
+      "pages": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6",
+        "p7"
+      ]
+    },
+    "synthesizedKeys": [
+      "yi-nuo-qian-jin/p1",
+      "yi-nuo-qian-jin/p2",
+      "yi-nuo-qian-jin/p3",
+      "yi-nuo-qian-jin/p4",
+      "yi-nuo-qian-jin/p5",
+      "yi-nuo-qian-jin/p6",
+      "yi-nuo-qian-jin/p7"
+    ],
+    "publicAudioWrite": false,
+    "childNarrationStateUpdated": false
+  },
+  "items": [
+    {
+      "key": "yi-nuo-qian-jin/p1",
+      "file": "public/audio-classic/yi-nuo-qian-jin/p1.mp3",
+      "textSha256": "30f59df0ba2cf178aac154b6163f2367a801b7ac0ae26def3f467113828307c0",
+      "audioSha256": "3f9c5472f153cd60d8269fb836c0bdc2e72e5a907fbc23c2178502b28f5fd4a6"
+    },
+    {
+      "key": "yi-nuo-qian-jin/p2",
+      "file": "public/audio-classic/yi-nuo-qian-jin/p2.mp3",
+      "textSha256": "6e9f5932adb5f54f2e9a923e56ec0d29901cb9c358402f3fd60f3187b178fe42",
+      "audioSha256": "d9027766b27d611a760b4b56ebfeee46599fbd60179795d1860568d0f7aedadd"
+    },
+    {
+      "key": "yi-nuo-qian-jin/p3",
+      "file": "public/audio-classic/yi-nuo-qian-jin/p3.mp3",
+      "textSha256": "4a35bc00319e68d2e7f0bcad7bceef45f0a0e8af1fd93dbd1c040ebf5b848059",
+      "audioSha256": "eeafae63a498bc3e9ccee64ae490b7b5c9ec18e001ea59035327e7ee51d95433"
+    },
+    {
+      "key": "yi-nuo-qian-jin/p4",
+      "file": "public/audio-classic/yi-nuo-qian-jin/p4.mp3",
+      "textSha256": "ea3340cc6a49b5a0597741d1aac630670c2cabcc7558ada1aee1df856a2ab260",
+      "audioSha256": "0d0fd5e2585e7133f0388d709b0018d63fd2b65f7133578d091446dd1cd59f40"
+    },
+    {
+      "key": "yi-nuo-qian-jin/p5",
+      "file": "public/audio-classic/yi-nuo-qian-jin/p5.mp3",
+      "textSha256": "2900e64ce5377ff2c0923eb50ce574ef25b6f23330b134faeb4546573e60ef8d",
+      "audioSha256": "09ef836ae4246cbcec7b3343c5494ae55dfef262a56f278c3a2aec4986891a76"
+    },
+    {
+      "key": "yi-nuo-qian-jin/p6",
+      "file": "public/audio-classic/yi-nuo-qian-jin/p6.mp3",
+      "textSha256": "e1be61dc2cb3ccd9af2926afb1defc788bab15aa98e6e5d9da6ba0493451ed6a",
+      "audioSha256": "357abb03aa05bb31b9771bc2d6999c48f45972f7e0ec603b5731bfd5dbcdabd8"
+    },
+    {
+      "key": "yi-nuo-qian-jin/p7",
+      "file": "public/audio-classic/yi-nuo-qian-jin/p7.mp3",
+      "textSha256": "6fdbe68099385869b4916f3a6a5c471a3f6ab320c9499c4f281fe6b8587e7052",
+      "audioSha256": "644ba091b32731494e190c99420fc3c536108409ae5e1b6082690c443f43a8f6"
+    }
+  ]
+}

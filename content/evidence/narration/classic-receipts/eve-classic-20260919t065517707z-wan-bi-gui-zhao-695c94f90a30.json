@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-classic-20260919t065517707z-wan-bi-gui-zhao-695c94f90a30",
+  "canonicalSource": "content/classic-hall-sections.json",
+  "createdAt": "2026-09-19T06:55:17.707Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "695c94f90a304312ba3e9027180d11420ed7923ffd67db4a1bfea96a9aaf534e",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/classic-eve-generation-set.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "classic-hall-body",
+      "storyId": "wan-bi-gui-zhao",
+      "pages": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6",
+        "p7"
+      ]
+    },
+    "synthesizedKeys": [
+      "wan-bi-gui-zhao/p1",
+      "wan-bi-gui-zhao/p2",
+      "wan-bi-gui-zhao/p3",
+      "wan-bi-gui-zhao/p4",
+      "wan-bi-gui-zhao/p5",
+      "wan-bi-gui-zhao/p6",
+      "wan-bi-gui-zhao/p7"
+    ],
+    "publicAudioWrite": false,
+    "childNarrationStateUpdated": false
+  },
+  "items": [
+    {
+      "key": "wan-bi-gui-zhao/p1",
+      "file": "public/audio-classic/wan-bi-gui-zhao/p1.mp3",
+      "textSha256": "64bdc2cccb5c053297dacf4325b395f0b79ba7ff444e2e171790dc5ec0ff1bff",
+      "audioSha256": "681c0ecc8932d683465c57659adefa4b2cbe7a91c788da01c8bbfdefe9c8fa8a"
+    },
+    {
+      "key": "wan-bi-gui-zhao/p2",
+      "file": "public/audio-classic/wan-bi-gui-zhao/p2.mp3",
+      "textSha256": "5c74e24c5a1a1a990aa23783fdec1c8cd5d824c4ed70f9dff73d6d01d682ac97",
+      "audioSha256": "f63b6fd5da92fc65dd04b5e2fc43ea801b3c2d9cb443abb9469f3e90a73aef36"
+    },
+    {
+      "key": "wan-bi-gui-zhao/p3",
+      "file": "public/audio-classic/wan-bi-gui-zhao/p3.mp3",
+      "textSha256": "e3d014c041a4c620bf1a0b4bea05acd83615a62d4078c368f2c94dc4154a5f9a",
+      "audioSha256": "e228e7902088b4ef864ae41469c4bae31fe8f32cc0575ed10b3f6dc52609e5e9"
+    },
+    {
+      "key": "wan-bi-gui-zhao/p4",
+      "file": "public/audio-classic/wan-bi-gui-zhao/p4.mp3",
+      "textSha256": "2e5be6ab24f9668230f0feb4e3d518c21bc8994f6796f5ecb35e92b94b8f9ca5",
+      "audioSha256": "df209a90e9639def01d5da2c53426d45c6c499db7e042994e93758d0e5d6ad9f"
+    },
+    {
+      "key": "wan-bi-gui-zhao/p5",
+      "file": "public/audio-classic/wan-bi-gui-zhao/p5.mp3",
+      "textSha256": "7bb2b80efcaf511293b1276599a75f1c37e8a55eb91dc4f3b434c96aed09ca6b",
+      "audioSha256": "e8b8076b281acc88342f03eae5223a8d1c2e795e1fd2701305899d36b0402b73"
+    },
+    {
+      "key": "wan-bi-gui-zhao/p6",
+      "file": "public/audio-classic/wan-bi-gui-zhao/p6.mp3",
+      "textSha256": "f831176cf6297c5b7d347b4e9f866b71fc235b3c4c55fa5da1b20c5692256d85",
+      "audioSha256": "efc1d69126c89decc220580850e0c3bf5e582116e66d32fc52cefb1536479fcc"
+    },
+    {
+      "key": "wan-bi-gui-zhao/p7",
+      "file": "public/audio-classic/wan-bi-gui-zhao/p7.mp3",
+      "textSha256": "14d33e645e66995305ab4d5e536bc09b202a240efd5e280cd2f2c93d0e878ccc",
+      "audioSha256": "6d38f96c90070a4a076db483bdc8021508400e5d32e5caa7c4dbcd7a22239074"
+    }
+  ]
+}

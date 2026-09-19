@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-classic-20260919t065029173z-cao-chuan-jie-jian-c9d2621a9400",
+  "canonicalSource": "content/classic-hall-sections.json",
+  "createdAt": "2026-09-19T06:50:29.173Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "c9d2621a9400f5a663bd46f70807ac6510f299f4760e3675c9cc3f09f08eb183",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/classic-eve-generation-set.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "classic-hall-body",
+      "storyId": "cao-chuan-jie-jian",
+      "pages": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6",
+        "p7"
+      ]
+    },
+    "synthesizedKeys": [
+      "cao-chuan-jie-jian/p1",
+      "cao-chuan-jie-jian/p2",
+      "cao-chuan-jie-jian/p3",
+      "cao-chuan-jie-jian/p4",
+      "cao-chuan-jie-jian/p5",
+      "cao-chuan-jie-jian/p6",
+      "cao-chuan-jie-jian/p7"
+    ],
+    "publicAudioWrite": false,
+    "childNarrationStateUpdated": false
+  },
+  "items": [
+    {
+      "key": "cao-chuan-jie-jian/p1",
+      "file": "public/audio-classic/cao-chuan-jie-jian/p1.mp3",
+      "textSha256": "8829fae281633391ef0f561c3b86316b5373108cff70c9b27efdfc33e3c75a0c",
+      "audioSha256": "39ec078f97af28cc48f3321f6b0715e3728cfa02e1ebf5ea1893459df8688896"
+    },
+    {
+      "key": "cao-chuan-jie-jian/p2",
+      "file": "public/audio-classic/cao-chuan-jie-jian/p2.mp3",
+      "textSha256": "a32dfdfae782feaba1d8e929966bc8298691dc99e34b5f59f577b3e525c63c72",
+      "audioSha256": "89258d771e0e150c39af5e4fd663296e3e21730f28a01cb8d706a6e3b49a708e"
+    },
+    {
+      "key": "cao-chuan-jie-jian/p3",
+      "file": "public/audio-classic/cao-chuan-jie-jian/p3.mp3",
+      "textSha256": "9681700ba942d022f47351e57eabbbd6b83da0bfd3018b54a30be256723fef73",
+      "audioSha256": "faef07590c8b27307b3eb153f02e73edd0a2ee470e614b934b26c093af50b334"
+    },
+    {
+      "key": "cao-chuan-jie-jian/p4",
+      "file": "public/audio-classic/cao-chuan-jie-jian/p4.mp3",
+      "textSha256": "13765555956aa2c6f3afc21e180a5d9f70a6285ff39f39530c3f92affafa1b81",
+      "audioSha256": "9bee25ebf77645adf2597b955891ce341d0dd9cae19883fd40225ffa6d960a37"
+    },
+    {
+      "key": "cao-chuan-jie-jian/p5",
+      "file": "public/audio-classic/cao-chuan-jie-jian/p5.mp3",
+      "textSha256": "9a96be524ef360ccd0421f52b1cecd95c019c243e3091f399fc371f76ed610da",
+      "audioSha256": "814eaa799e6de7453407e7dba4e61d7aa41a2dae894640de84470439a41433ec"
+    },
+    {
+      "key": "cao-chuan-jie-jian/p6",
+      "file": "public/audio-classic/cao-chuan-jie-jian/p6.mp3",
+      "textSha256": "8a46767fcd7828d7584d8499bbebe394b6a93df79e7d5f89473371bc3cba9f55",
+      "audioSha256": "c6da19f946c28979266e0bd1ef260e1e1f01aaed2053b91ef5eb9eaeb3fe3beb"
+    },
+    {
+      "key": "cao-chuan-jie-jian/p7",
+      "file": "public/audio-classic/cao-chuan-jie-jian/p7.mp3",
+      "textSha256": "e2576a98608ecad186872f7b6f8ffe0bbe734cced4f6998e8c373ec2f080fc4b",
+      "audioSha256": "3a3998f5f4cd524a055679dad39e82744969ee94fbc0046447ad50bb011377c3"
+    }
+  ]
+}

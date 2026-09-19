@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-classic-20260919t065559795z-xiong-you-cheng-zhu-a8be863fa751",
+  "canonicalSource": "content/classic-hall-sections.json",
+  "createdAt": "2026-09-19T06:55:59.795Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "a8be863fa75157619d21cec26600038c56e7c0a0cf13d82d5c7794a900202edc",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/classic-eve-generation-set.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "classic-hall-body",
+      "storyId": "xiong-you-cheng-zhu",
+      "pages": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6",
+        "p7"
+      ]
+    },
+    "synthesizedKeys": [
+      "xiong-you-cheng-zhu/p1",
+      "xiong-you-cheng-zhu/p2",
+      "xiong-you-cheng-zhu/p3",
+      "xiong-you-cheng-zhu/p4",
+      "xiong-you-cheng-zhu/p5",
+      "xiong-you-cheng-zhu/p6",
+      "xiong-you-cheng-zhu/p7"
+    ],
+    "publicAudioWrite": false,
+    "childNarrationStateUpdated": false
+  },
+  "items": [
+    {
+      "key": "xiong-you-cheng-zhu/p1",
+      "file": "public/audio-classic/xiong-you-cheng-zhu/p1.mp3",
+      "textSha256": "6c41c26cbdf2ede6a94a40731d9e96108b28774b5075e0efc56cc352e43616ad",
+      "audioSha256": "371c56f05a9be104b371a55842ab581d2bd286b51031a1b9115a30ad59957dbf"
+    },
+    {
+      "key": "xiong-you-cheng-zhu/p2",
+      "file": "public/audio-classic/xiong-you-cheng-zhu/p2.mp3",
+      "textSha256": "c70b5ccfcc55f31fbda2964e64cce11c07ff9242a2f46aa1be0dc757b9de6ae8",
+      "audioSha256": "53f1dc539bd944ff42dd5909cc40f768b40ef85cf94e88e584e40e03c98798a0"
+    },
+    {
+      "key": "xiong-you-cheng-zhu/p3",
+      "file": "public/audio-classic/xiong-you-cheng-zhu/p3.mp3",
+      "textSha256": "de91dec1850115108e2e73dcaead9a3c6c0bd76e15c01612616233a3c784ce94",
+      "audioSha256": "d8d11f3631a476cb9149badc0d497de5c5153f5e22080b42ca82e0806554a939"
+    },
+    {
+      "key": "xiong-you-cheng-zhu/p4",
+      "file": "public/audio-classic/xiong-you-cheng-zhu/p4.mp3",
+      "textSha256": "67b7855f56c2d20d1637942573cf1715eedc8899cef17bc77643994b3c178315",
+      "audioSha256": "3db0663bea4f05e7380e3343902fdc7036d8b28ab00816c16c8780c17d2fa9be"
+    },
+    {
+      "key": "xiong-you-cheng-zhu/p5",
+      "file": "public/audio-classic/xiong-you-cheng-zhu/p5.mp3",
+      "textSha256": "ba9caffaa5c126ba185da439d507999286dd41337233be3e0fd8301b181b69c2",
+      "audioSha256": "27bb3da0f77277d64b7442d60d26feba5a7f33b3f3a22841072d44cd2f69f53a"
+    },
+    {
+      "key": "xiong-you-cheng-zhu/p6",
+      "file": "public/audio-classic/xiong-you-cheng-zhu/p6.mp3",
+      "textSha256": "bc7e083fbebc64ae9736e68f2b0385593685e6b7eb9def4f759e330f18986409",
+      "audioSha256": "623b8d2358d59b3298e329ef5ab74b87a39828ff265c3a1899e28d9fa2a9a585"
+    },
+    {
+      "key": "xiong-you-cheng-zhu/p7",
+      "file": "public/audio-classic/xiong-you-cheng-zhu/p7.mp3",
+      "textSha256": "fab298865f741b784dec85da54804cc19c177961846e0b45c8c2e319098b98ed",
+      "audioSha256": "58c20f9a9005341e0715ba5164370d84d12e772fa00909643625197e98915580"
+    }
+  ]
+}

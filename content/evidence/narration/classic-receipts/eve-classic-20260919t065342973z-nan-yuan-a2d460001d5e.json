@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-classic-20260919t065342973z-nan-yuan-a2d460001d5e",
+  "canonicalSource": "content/classic-hall-sections.json",
+  "createdAt": "2026-09-19T06:53:42.973Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "a2d460001d5e6d3807b9b88428871014f6a5f4f45aebf9901a0c671d0aa710b5",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/classic-eve-generation-set.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "classic-hall-body",
+      "storyId": "nan-yuan",
+      "pages": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6",
+        "p7"
+      ]
+    },
+    "synthesizedKeys": [
+      "nan-yuan/p1",
+      "nan-yuan/p2",
+      "nan-yuan/p3",
+      "nan-yuan/p4",
+      "nan-yuan/p5",
+      "nan-yuan/p6",
+      "nan-yuan/p7"
+    ],
+    "publicAudioWrite": false,
+    "childNarrationStateUpdated": false
+  },
+  "items": [
+    {
+      "key": "nan-yuan/p1",
+      "file": "public/audio-classic/nan-yuan/p1.mp3",
+      "textSha256": "a636fa4523a8e3cb8cd8c516a63bddf53563feea9614f4bdc2c7c0216ae42e82",
+      "audioSha256": "5f67c6aef7972109bd1aa8179f7f04585aeec7025da581c9d0679359fc63aa09"
+    },
+    {
+      "key": "nan-yuan/p2",
+      "file": "public/audio-classic/nan-yuan/p2.mp3",
+      "textSha256": "fe439969f16a24d252e22a8b3759f4a8de243e519962e19d07aa7ec31761bf95",
+      "audioSha256": "142cb492d4b2e2a350c1767f18ddd7a40207192cb088d6e5f76525769ac90d7a"
+    },
+    {
+      "key": "nan-yuan/p3",
+      "file": "public/audio-classic/nan-yuan/p3.mp3",
+      "textSha256": "f4551b29edd5eb68b92425dbcb35ae357a9af4ff55a8b4467c673934489a8451",
+      "audioSha256": "8b49f38a12ddaea1fab631ab8c4625ec12d21706c741af395c864568d3a7df60"
+    },
+    {
+      "key": "nan-yuan/p4",
+      "file": "public/audio-classic/nan-yuan/p4.mp3",
+      "textSha256": "71e487dfd791fe7ca5ef8c9a62b6e72949168f26d5e1f4999ff7d53d5e0611c7",
+      "audioSha256": "96e42e46c390772045b7e696d30c7503440b6804296369137f6402d8f7814a4e"
+    },
+    {
+      "key": "nan-yuan/p5",
+      "file": "public/audio-classic/nan-yuan/p5.mp3",
+      "textSha256": "569b7b060423941ebae804390e857ba5ba2d16fc708ff6a291ede1dd04525a9a",
+      "audioSha256": "40ba1115928ab8e37d614795c9077674ed215934603e375e5b05f87ba89e1c4e"
+    },
+    {
+      "key": "nan-yuan/p6",
+      "file": "public/audio-classic/nan-yuan/p6.mp3",
+      "textSha256": "55f5fb5a333edaebbf7cca98c583471d45bb311ec633b7850f63edcaef15f14b",
+      "audioSha256": "2fa1292d16abe4fe4477359719ee021b58d49a5f83bfe950d2ec0393d64a9b9c"
+    },
+    {
+      "key": "nan-yuan/p7",
+      "file": "public/audio-classic/nan-yuan/p7.mp3",
+      "textSha256": "75205dd92a643db9e259638b0c8388b6931f3fd358642a9ff8df57e149bdb8b9",
+      "audioSha256": "7913be8e1fe03a520fadf841c88bd89c986bf671e2271bc1f39663d5a244c224"
+    }
+  ]
+}

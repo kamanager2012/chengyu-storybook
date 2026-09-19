@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-classic-20260919t065441508z-shu-neng-sheng-qiao-b0244a981f86",
+  "canonicalSource": "content/classic-hall-sections.json",
+  "createdAt": "2026-09-19T06:54:41.508Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "b0244a981f866fb1e37983784f6646ecb57f7b838f1c7faafa61a4c58682718c",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/classic-eve-generation-set.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "classic-hall-body",
+      "storyId": "shu-neng-sheng-qiao",
+      "pages": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6",
+        "p7"
+      ]
+    },
+    "synthesizedKeys": [
+      "shu-neng-sheng-qiao/p1",
+      "shu-neng-sheng-qiao/p2",
+      "shu-neng-sheng-qiao/p3",
+      "shu-neng-sheng-qiao/p4",
+      "shu-neng-sheng-qiao/p5",
+      "shu-neng-sheng-qiao/p6",
+      "shu-neng-sheng-qiao/p7"
+    ],
+    "publicAudioWrite": false,
+    "childNarrationStateUpdated": false
+  },
+  "items": [
+    {
+      "key": "shu-neng-sheng-qiao/p1",
+      "file": "public/audio-classic/shu-neng-sheng-qiao/p1.mp3",
+      "textSha256": "44b4fed82eaa263445251a67a36a4887d11762b50a24c32fe8a2734d69d105b8",
+      "audioSha256": "7024e7e42f241b111db42213426948e1b92f5bec28bddaf9a4efffe52e3810ce"
+    },
+    {
+      "key": "shu-neng-sheng-qiao/p2",
+      "file": "public/audio-classic/shu-neng-sheng-qiao/p2.mp3",
+      "textSha256": "86d548bd5b244c2e70615c675b719132e0ee8e469b2a4fd3158a0a86d6f2e608",
+      "audioSha256": "b33262c6f55ccbafd16df1f4553e1d1f41f8cddb2c0e52a1b704d6a10773bb73"
+    },
+    {
+      "key": "shu-neng-sheng-qiao/p3",
+      "file": "public/audio-classic/shu-neng-sheng-qiao/p3.mp3",
+      "textSha256": "ddc4eeebfb50428d0a5ca9177e4543c9661f697481848ad5adb817eee1d014c5",
+      "audioSha256": "5b00c2341de05de785497faf58e3914d16ff85aa87f272408c19ea51d271cfbf"
+    },
+    {
+      "key": "shu-neng-sheng-qiao/p4",
+      "file": "public/audio-classic/shu-neng-sheng-qiao/p4.mp3",
+      "textSha256": "181c3cab7ad5d23129d35193fadad6ddc7515b89a5065b2a767e614f1459ffc3",
+      "audioSha256": "3e3c3f2cf1f7df562e1ba4235b852c1d7dc45be600c9c91a4e0c65eb42f4f8aa"
+    },
+    {
+      "key": "shu-neng-sheng-qiao/p5",
+      "file": "public/audio-classic/shu-neng-sheng-qiao/p5.mp3",
+      "textSha256": "d45448e6c74615aaa21a24f558bc445a8e5519f7cf76a4983c1c609b45d0141b",
+      "audioSha256": "c7d1c1bc090bf717c1642746e5c8a41253e389be627b0fc118385af816726a1a"
+    },
+    {
+      "key": "shu-neng-sheng-qiao/p6",
+      "file": "public/audio-classic/shu-neng-sheng-qiao/p6.mp3",
+      "textSha256": "f8fb60f4781bd5850db70fead985a6897806f22fd77a65e0c3c9dde873d37da6",
+      "audioSha256": "c807c1d8c96cc9f6487d2ea250418765f10faa54f70a6dae9c277fe7697dd49d"
+    },
+    {
+      "key": "shu-neng-sheng-qiao/p7",
+      "file": "public/audio-classic/shu-neng-sheng-qiao/p7.mp3",
+      "textSha256": "dca7833b75084dd3e8e3f998ce77b4c67eb4dda9905e86a72b86f21c54f8a1ce",
+      "audioSha256": "7811178f6fb5e596975cc284db30840661b59893566512fa0c675cd9dcac2875"
+    }
+  ]
+}
