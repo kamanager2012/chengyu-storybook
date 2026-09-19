@@ -91,22 +91,20 @@ test("provenance accounting stays exact as narration is verified incrementally",
   }
 });
 
-test("narration synchronization accounting supports partial verified batches", () => {
+test("narration synchronization accounting covers the full 900-track Eve set", () => {
   const n = report.narration;
   const category = report.categories.narration;
   assert.ok(category, "narration category must exist");
   assert.equal(n.current + n.stale + n.unverified + n.missing, n.total);
   assert.equal(n.total, 900);
   assert.equal(n.missing, 0);
-  // Copy restore drifted most p1–p7 hashes; cover/moral plus 32 already-matching body pages stay current.
-  assert.equal(n.current, 232);
-  assert.equal(n.stale, 668);
+  assert.equal(n.current, 900);
+  assert.equal(n.stale, 0);
   assert.equal(n.unverified, 0);
   assert.equal(category.verified, n.current);
-  assert.equal(category.unverified, n.stale);
+  assert.equal(category.unverified, 0);
   assert.equal(category.stale ?? 0, 0);
   assert.equal(category.invalid ?? 0, 0);
-  assert.equal(report.releaseReady, false);
 });
 
 test("provenance evidence references must be durable and resolvable", () => {

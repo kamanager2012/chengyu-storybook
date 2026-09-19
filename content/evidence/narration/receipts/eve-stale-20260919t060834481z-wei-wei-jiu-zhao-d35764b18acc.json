@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-stale-20260919t060834481z-wei-wei-jiu-zhao-d35764b18acc",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-19T06:08:34.481Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "d35764b18acc2cf3c0100645aa0acacf20ee042ec35d7548f23aa24800a0d28f",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "stale-items",
+      "storyId": "wei-wei-jiu-zhao"
+    },
+    "synthesizedKeys": [
+      "wei-wei-jiu-zhao/p1",
+      "wei-wei-jiu-zhao/p2",
+      "wei-wei-jiu-zhao/p3",
+      "wei-wei-jiu-zhao/p4",
+      "wei-wei-jiu-zhao/p5",
+      "wei-wei-jiu-zhao/p6",
+      "wei-wei-jiu-zhao/p7"
+    ],
+    "preservedKeys": []
+  },
+  "items": [
+    {
+      "key": "wei-wei-jiu-zhao/p1",
+      "file": "public/audio/wei-wei-jiu-zhao/p1.mp3",
+      "textSha256": "74f98dbcb0e1ea00d40079d0f6de5da13be5d162d9db04f5438faaef9e882237",
+      "audioSha256": "a9b8dc6aae6a0d0360bf3e5be79004ed7c73971d6e4e0d8799c4431c5f2f1af8"
+    },
+    {
+      "key": "wei-wei-jiu-zhao/p2",
+      "file": "public/audio/wei-wei-jiu-zhao/p2.mp3",
+      "textSha256": "9e0a45123f23776fb494ac5833471e0e0a17ea892234994e95bdd37b5acb22d0",
+      "audioSha256": "2e155f41ab484d4dc34a65d32c804f553bb32dd7f0a0cfcf001d34d97409734d"
+    },
+    {
+      "key": "wei-wei-jiu-zhao/p3",
+      "file": "public/audio/wei-wei-jiu-zhao/p3.mp3",
+      "textSha256": "13a7340722de8ebd87ad72165b98e9a93a88ef7da44df582eb487fd165a5a876",
+      "audioSha256": "83c9fde7668c6a248d89f4aedad1cac186ca02f42bff1ab37c864369cc5ec89a"
+    },
+    {
+      "key": "wei-wei-jiu-zhao/p4",
+      "file": "public/audio/wei-wei-jiu-zhao/p4.mp3",
+      "textSha256": "8079e82f5ff5c236d20a2f783604638b929f682b5c26b48e3e794b1402558773",
+      "audioSha256": "01a92ea9f7d8575e17333e2b7083a8ecf67bd60093ac14c89861cc202ba7c301"
+    },
+    {
+      "key": "wei-wei-jiu-zhao/p5",
+      "file": "public/audio/wei-wei-jiu-zhao/p5.mp3",
+      "textSha256": "777e4d8a9c2b611ae7174d3f52b09359fcc4120ba5c393a02a4cd01b91d0db7d",
+      "audioSha256": "2902616c60d1bc21bc78df042403eff0d5a3776c6b7ac75ff7586784cffd1527"
+    },
+    {
+      "key": "wei-wei-jiu-zhao/p6",
+      "file": "public/audio/wei-wei-jiu-zhao/p6.mp3",
+      "textSha256": "3f61cc52c7d73b48a8b2b29bf4b2c2ba918ad3c54ef60f7cb97b757cacad2f86",
+      "audioSha256": "6100591c24909e34e0de6dbc8fcf24f5ee61ff563361f7ef4d4ea3e4ce0152c0"
+    },
+    {
+      "key": "wei-wei-jiu-zhao/p7",
+      "file": "public/audio/wei-wei-jiu-zhao/p7.mp3",
+      "textSha256": "1b31690d8ff803b8eb1765f6b2ee0544371ea00154b733c196b852fe8c79d1f2",
+      "audioSha256": "710716bbe87da3e5bf9fa1b9c6286451c7097d898b83b358d0ded8fb8cd4b210"
+    }
+  ]
+}

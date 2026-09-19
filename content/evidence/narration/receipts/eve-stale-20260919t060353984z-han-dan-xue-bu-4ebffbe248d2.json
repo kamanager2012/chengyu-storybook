@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-stale-20260919t060353984z-han-dan-xue-bu-4ebffbe248d2",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-19T06:03:53.984Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "4ebffbe248d202138cf86b0a319fde2b6d966df4416369ddd58b8d3a4e073eec",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "stale-items",
+      "storyId": "han-dan-xue-bu"
+    },
+    "synthesizedKeys": [
+      "han-dan-xue-bu/p1",
+      "han-dan-xue-bu/p2",
+      "han-dan-xue-bu/p3",
+      "han-dan-xue-bu/p4",
+      "han-dan-xue-bu/p5",
+      "han-dan-xue-bu/p6",
+      "han-dan-xue-bu/p7"
+    ],
+    "preservedKeys": []
+  },
+  "items": [
+    {
+      "key": "han-dan-xue-bu/p1",
+      "file": "public/audio/han-dan-xue-bu/p1.mp3",
+      "textSha256": "038294cd307cc38c73d35e3ba30eafb3d63530de5c967ce6ec40da2514ae49cb",
+      "audioSha256": "905a3c530adb670f865b0f4c6df63cd5c8bc5ff261af35338cf2b82689dbf132"
+    },
+    {
+      "key": "han-dan-xue-bu/p2",
+      "file": "public/audio/han-dan-xue-bu/p2.mp3",
+      "textSha256": "86a3a27a2309244cb3f358afc9f634a6cb8b6db951907bd827a73ea788549df3",
+      "audioSha256": "ccd4f397a9e26c6eba756a28b2edcafe4e7d69e9b56a9c99a565ccd89d4679a3"
+    },
+    {
+      "key": "han-dan-xue-bu/p3",
+      "file": "public/audio/han-dan-xue-bu/p3.mp3",
+      "textSha256": "a5928a97ca5371c385521aaa408beed5246bf36c8fdb7f00976357348cf29cc3",
+      "audioSha256": "dd15e28781a6aae255a7627246949e5312e07cf4be6c8eed7d4d2cffd81b29e3"
+    },
+    {
+      "key": "han-dan-xue-bu/p4",
+      "file": "public/audio/han-dan-xue-bu/p4.mp3",
+      "textSha256": "2459fcf0226d700a1374f504b27a004df7ee7f1a9dd9330077403b543b094ef5",
+      "audioSha256": "5bf2a41da7f161ddba22afa9228e33f3e81212cd508d19633566f6e3a739c2bc"
+    },
+    {
+      "key": "han-dan-xue-bu/p5",
+      "file": "public/audio/han-dan-xue-bu/p5.mp3",
+      "textSha256": "b4fece64da90bacedc7db18bf3414fdf70f667c40903a16fd35c1d7f4ca7bec9",
+      "audioSha256": "025c914c2a7c5a2c1e5bd9f1ca978d81d263195319f48a2c7a302a486df63e5d"
+    },
+    {
+      "key": "han-dan-xue-bu/p6",
+      "file": "public/audio/han-dan-xue-bu/p6.mp3",
+      "textSha256": "540fe0635478bd3cff8361647a9a7d16fcfaa1aab78405ea3b2ce75ec7a59558",
+      "audioSha256": "609d258b9dec542aaddac9fa21d45b91c0d05eb3bffddfd019fc60889e1f698b"
+    },
+    {
+      "key": "han-dan-xue-bu/p7",
+      "file": "public/audio/han-dan-xue-bu/p7.mp3",
+      "textSha256": "66af6866a0f6b167b9f832d2834e5ee017b3c762510e7b1576ff0fa26eadcf47",
+      "audioSha256": "7dcd7e86ea33a5d7f0de016abcfafe59b5e4d9f3ea48298001a11a49c3c833d8"
+    }
+  ]
+}

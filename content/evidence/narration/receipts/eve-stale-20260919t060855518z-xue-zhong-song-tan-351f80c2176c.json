@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-stale-20260919t060855518z-xue-zhong-song-tan-351f80c2176c",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-19T06:08:55.518Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "351f80c2176c95400aa4005932cb9d5d12905a24b18c0d2570168483144032c4",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "stale-items",
+      "storyId": "xue-zhong-song-tan"
+    },
+    "synthesizedKeys": [
+      "xue-zhong-song-tan/p1",
+      "xue-zhong-song-tan/p2",
+      "xue-zhong-song-tan/p3",
+      "xue-zhong-song-tan/p4",
+      "xue-zhong-song-tan/p5",
+      "xue-zhong-song-tan/p6",
+      "xue-zhong-song-tan/p7"
+    ],
+    "preservedKeys": []
+  },
+  "items": [
+    {
+      "key": "xue-zhong-song-tan/p1",
+      "file": "public/audio/xue-zhong-song-tan/p1.mp3",
+      "textSha256": "7b76d0510fb7cb3b050bd8931cc6841de102d35b18bd0be1cbe1a905fffb5580",
+      "audioSha256": "771e6648e91f279cb1bdca1f58b0651db7c71e2e2874e210f273d18b0774d058"
+    },
+    {
+      "key": "xue-zhong-song-tan/p2",
+      "file": "public/audio/xue-zhong-song-tan/p2.mp3",
+      "textSha256": "14efed641e3595523576743d2c048c2c17d8ff79fd999c35f0e59f763e85d821",
+      "audioSha256": "b27a4d3319ee0d5e5f9037c82cbe0c37e5b3dfc421e32d52cb8311d95e4cbbe3"
+    },
+    {
+      "key": "xue-zhong-song-tan/p3",
+      "file": "public/audio/xue-zhong-song-tan/p3.mp3",
+      "textSha256": "a61970c0c51bc4f3c44cf3ed2d2e83707a62524b600e3a21b21ae0703598f977",
+      "audioSha256": "a61c3484cd1cdd53503ccef0f82dae8a10672bba0bfcc3f5e384946615c8721c"
+    },
+    {
+      "key": "xue-zhong-song-tan/p4",
+      "file": "public/audio/xue-zhong-song-tan/p4.mp3",
+      "textSha256": "94c806774b32c6fd7f86a7ef519006075123e40c3ed268240698e1e87587c4fd",
+      "audioSha256": "7e3b7cfc395576d4f15ea2e57dde19e2711fa61e6bb40b9e14b657d9c6f830c2"
+    },
+    {
+      "key": "xue-zhong-song-tan/p5",
+      "file": "public/audio/xue-zhong-song-tan/p5.mp3",
+      "textSha256": "85190108797acea26c14cca489279cc98b7b1f8a0ba46b9f3ecae9341f7c9850",
+      "audioSha256": "e18894db6357dd5c30c4d52d53dea795c3ea1bd4f4b7ca76875fb900fdca7755"
+    },
+    {
+      "key": "xue-zhong-song-tan/p6",
+      "file": "public/audio/xue-zhong-song-tan/p6.mp3",
+      "textSha256": "e9b35f5e914214c79c11a34105ccc36ae07913b040da6d18168add961eec0211",
+      "audioSha256": "9225ad851e22796ca0478b423466ccbbfc735c6a7e8a345f7e13ef5f2a55fc50"
+    },
+    {
+      "key": "xue-zhong-song-tan/p7",
+      "file": "public/audio/xue-zhong-song-tan/p7.mp3",
+      "textSha256": "45663e2ef25402d70bff9f192acefc71c5b169d92118c0000789a564dadead74",
+      "audioSha256": "46964a28ffa7b6f766037a7477de6e5f1a0329b0df11d35dbc9172a541f6cf78"
+    }
+  ]
+}

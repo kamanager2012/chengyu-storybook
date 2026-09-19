@@ -61,10 +61,10 @@ function waivedEvidence() {
   return evidence;
 }
 
-test("copy restore leaves shou-zhu body narration stale while Eve MP3 evidence stays byte-pinned", () => {
+test("Eve stale refresh restores shou-zhu pilot current while preserving cover and moral bytes", () => {
   const live = validateCurrentNarrationPilot();
-  assert.equal(live.valid, false);
-  assert.ok(live.problems.some((problem) => /no longer current/.test(problem)));
+  assert.equal(live.valid, true, live.problems.join("; "));
+  assert.equal(live.expansionApproved, true);
   const evidence = readNarrationPilotEvidence();
   assert.equal(evidence.storyId, NARRATION_PILOT_STORY_ID);
   const structure = validateNarrationPilotEvidence(evidence, { plan: pairingAsCurrent() });

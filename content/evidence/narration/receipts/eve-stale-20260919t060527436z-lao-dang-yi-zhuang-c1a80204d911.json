@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-stale-20260919t060527436z-lao-dang-yi-zhuang-c1a80204d911",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-19T06:05:27.436Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "c1a80204d91127bafd1076aad83aa47c20907182e735eb52e3a0d1ea3852d9f9",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "stale-items",
+      "storyId": "lao-dang-yi-zhuang"
+    },
+    "synthesizedKeys": [
+      "lao-dang-yi-zhuang/p1",
+      "lao-dang-yi-zhuang/p2",
+      "lao-dang-yi-zhuang/p3",
+      "lao-dang-yi-zhuang/p4",
+      "lao-dang-yi-zhuang/p5",
+      "lao-dang-yi-zhuang/p6",
+      "lao-dang-yi-zhuang/p7"
+    ],
+    "preservedKeys": []
+  },
+  "items": [
+    {
+      "key": "lao-dang-yi-zhuang/p1",
+      "file": "public/audio/lao-dang-yi-zhuang/p1.mp3",
+      "textSha256": "33ef5d764ef47dd2af75f064af7670b0cdac59e76d95c69c17595ce13594afa4",
+      "audioSha256": "098b3c82f83d945ef2b0c82c74d886aa2e235969eb1340b717083ba1a08a4913"
+    },
+    {
+      "key": "lao-dang-yi-zhuang/p2",
+      "file": "public/audio/lao-dang-yi-zhuang/p2.mp3",
+      "textSha256": "2fe2258a8a4e64714a3ec8aba1a3816e9248634b7e934b8a78eaff88b3f1efb2",
+      "audioSha256": "883a07dd958bc5be0d0ee74f0a7e82d7f51b6e67e186988f46625236a0f1e2f2"
+    },
+    {
+      "key": "lao-dang-yi-zhuang/p3",
+      "file": "public/audio/lao-dang-yi-zhuang/p3.mp3",
+      "textSha256": "36a161a43f6db24b90a1a7ba80b3cc89494f750d4c3b3d3df3a32c32183085bd",
+      "audioSha256": "c9dba0a8f6ca31b32cdac19e69e8af677e19ede413511e3d7f93321f29450f73"
+    },
+    {
+      "key": "lao-dang-yi-zhuang/p4",
+      "file": "public/audio/lao-dang-yi-zhuang/p4.mp3",
+      "textSha256": "f723c581c13f150f4f736647c48c09a7f84c1870403d1bce27d13f8b9980f95a",
+      "audioSha256": "df141fe6f3e1e0709540e50838813bca54f1ba62786690d84d2df626939f230a"
+    },
+    {
+      "key": "lao-dang-yi-zhuang/p5",
+      "file": "public/audio/lao-dang-yi-zhuang/p5.mp3",
+      "textSha256": "ae39cbddbb0a07e9b3748c2935a58bc048bd1a530c2bb6db95aebf89b7ae02a4",
+      "audioSha256": "7d48329856bb407db8b6057c40ce8b2b13ab03a06dab949693f6c328e7bc2af2"
+    },
+    {
+      "key": "lao-dang-yi-zhuang/p6",
+      "file": "public/audio/lao-dang-yi-zhuang/p6.mp3",
+      "textSha256": "3c2e1de4c12374216055e7625055a5f73c55c6b9fd391bb12826e4387b2b03e4",
+      "audioSha256": "c43471ee5331626a3767cdd5c3564d80ea729e2c898cbdb49803c5a2b00c5d7d"
+    },
+    {
+      "key": "lao-dang-yi-zhuang/p7",
+      "file": "public/audio/lao-dang-yi-zhuang/p7.mp3",
+      "textSha256": "9654f1e98e9582553057c53293641f3f1a603692a933eac0d6f9017046d9f36f",
+      "audioSha256": "20346a27b6711f9bf8aeb77ab9b846488a748a362a77252eb8c87be5472b6b23"
+    }
+  ]
+}

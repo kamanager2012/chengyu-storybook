@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-stale-20260919t060157911z-bai-bu-chuan-yang-479194260c95",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-19T06:01:57.911Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "479194260c95987c8b5aa013479112c865933b9541234071ce21b3d32858a05b",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "stale-items",
+      "storyId": "bai-bu-chuan-yang"
+    },
+    "synthesizedKeys": [
+      "bai-bu-chuan-yang/p1",
+      "bai-bu-chuan-yang/p2",
+      "bai-bu-chuan-yang/p3",
+      "bai-bu-chuan-yang/p4",
+      "bai-bu-chuan-yang/p5",
+      "bai-bu-chuan-yang/p6",
+      "bai-bu-chuan-yang/p7"
+    ],
+    "preservedKeys": []
+  },
+  "items": [
+    {
+      "key": "bai-bu-chuan-yang/p1",
+      "file": "public/audio/bai-bu-chuan-yang/p1.mp3",
+      "textSha256": "8ae26286b790eace531b799f912382fc13569732c80afd7fa4ce095616cb3efe",
+      "audioSha256": "13ffbad675eaa9cc695158bc98863931445b734fbe2f8a46b580e243fdd23423"
+    },
+    {
+      "key": "bai-bu-chuan-yang/p2",
+      "file": "public/audio/bai-bu-chuan-yang/p2.mp3",
+      "textSha256": "501c89a261adffa2a9d9a558a46f7ba6ffb5dda71410e8a42e1b414ca3e2f58f",
+      "audioSha256": "fda96fb02da22e6eaac3618d8a24272f42552d2f4d49a5666c461e08fdaf5f55"
+    },
+    {
+      "key": "bai-bu-chuan-yang/p3",
+      "file": "public/audio/bai-bu-chuan-yang/p3.mp3",
+      "textSha256": "da595f3b8be10bce5f22ab0695a718ec299e8cc240f8224ffff43b43287278ee",
+      "audioSha256": "007f93731add7af7b20958e30ef0294383f329b9e28c141df3733305ba71dafc"
+    },
+    {
+      "key": "bai-bu-chuan-yang/p4",
+      "file": "public/audio/bai-bu-chuan-yang/p4.mp3",
+      "textSha256": "9d7d52dca0e10a3f26741f1593ef5da88a80d2029ab1a208c53542bed523a8b6",
+      "audioSha256": "b9103d5e623ea3d8a2de00e22287c7b2c10220f26a7373d0d17526d2de82419c"
+    },
+    {
+      "key": "bai-bu-chuan-yang/p5",
+      "file": "public/audio/bai-bu-chuan-yang/p5.mp3",
+      "textSha256": "075143f5ee51b4012d57d78f1f3fe31194d0e9c3072ac71e2c0c9fe6599e5201",
+      "audioSha256": "44a107473c3b8bf1767e567b0c3ca946bff241780c8faa5fddd3f55a2a94fdbe"
+    },
+    {
+      "key": "bai-bu-chuan-yang/p6",
+      "file": "public/audio/bai-bu-chuan-yang/p6.mp3",
+      "textSha256": "7ee6a51dc8ec909f8316140ecd5f294474b6b4298fda99dfb446107e8b069cae",
+      "audioSha256": "1466ac9aef7ba51f5ccfeda220334e04b2b562a2c2c06b0dc60c92d64ea2923b"
+    },
+    {
+      "key": "bai-bu-chuan-yang/p7",
+      "file": "public/audio/bai-bu-chuan-yang/p7.mp3",
+      "textSha256": "86a5ca481593f6050df18ede718f7830138368af0839125cbf5ffe4a49705cf7",
+      "audioSha256": "99f59475a91a8db834b51bf642b72cf68dfb2a204dab11b0e0ca8413b86f1507"
+    }
+  ]
+}

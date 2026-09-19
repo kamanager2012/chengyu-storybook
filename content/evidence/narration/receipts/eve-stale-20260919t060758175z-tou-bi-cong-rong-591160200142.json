@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-stale-20260919t060758175z-tou-bi-cong-rong-591160200142",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-19T06:07:58.175Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "5911602001428558c711fa1e2ac10866897bd2558fd311e8a7b15b4309b33323",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "stale-items",
+      "storyId": "tou-bi-cong-rong"
+    },
+    "synthesizedKeys": [
+      "tou-bi-cong-rong/p1",
+      "tou-bi-cong-rong/p2",
+      "tou-bi-cong-rong/p3",
+      "tou-bi-cong-rong/p4",
+      "tou-bi-cong-rong/p5",
+      "tou-bi-cong-rong/p6",
+      "tou-bi-cong-rong/p7"
+    ],
+    "preservedKeys": []
+  },
+  "items": [
+    {
+      "key": "tou-bi-cong-rong/p1",
+      "file": "public/audio/tou-bi-cong-rong/p1.mp3",
+      "textSha256": "6533f12fb91ef2ffea2222a92229cf4b38ed10bfceabf544e390e54a6b4de473",
+      "audioSha256": "073f9743c04ef4818d3b8d740db93af25e540c8ffbac79bedfa53fbe9eb7efcb"
+    },
+    {
+      "key": "tou-bi-cong-rong/p2",
+      "file": "public/audio/tou-bi-cong-rong/p2.mp3",
+      "textSha256": "abea05561f12752b0491ae07b59af099f4e883bcd6ed5183b0fe97344055636f",
+      "audioSha256": "fa9d2ddd6edaa3f2e7548f850d93dcbbf5ab411ddf295db01df8986330f3c2a1"
+    },
+    {
+      "key": "tou-bi-cong-rong/p3",
+      "file": "public/audio/tou-bi-cong-rong/p3.mp3",
+      "textSha256": "7ddb4f3e49e1603d4b55048b127bfbad809e659c9ac8fc7fc07a8085295ea243",
+      "audioSha256": "f63a9e7aa33a3453d3cd3d76fab74c5859ec2718ee9551171f63269f5188619b"
+    },
+    {
+      "key": "tou-bi-cong-rong/p4",
+      "file": "public/audio/tou-bi-cong-rong/p4.mp3",
+      "textSha256": "dfb53b25d02d6a3cd0b8884808df6a1e355fcd802aa514171eadb9d81ca5d9c8",
+      "audioSha256": "ac53347d9881ad5f2530c3b996e96386b11d37c2b21d24427827ba53607d0170"
+    },
+    {
+      "key": "tou-bi-cong-rong/p5",
+      "file": "public/audio/tou-bi-cong-rong/p5.mp3",
+      "textSha256": "6fe4485a906043a1fa6778ca0ea83186fed5d6f415b6b6f0a13096ff88bd2ead",
+      "audioSha256": "e16ae6c171e9b7eb546f2b6b81374fe0e6fa2dffdd108f948ff6be7e10e96433"
+    },
+    {
+      "key": "tou-bi-cong-rong/p6",
+      "file": "public/audio/tou-bi-cong-rong/p6.mp3",
+      "textSha256": "27fe7bf5abb550c7eb23fdc0bc30acca5af72e9ca4b35ccc59dd9104f45df13b",
+      "audioSha256": "abad3f87a945ca4ea366814621425fdc1f6958b41d69486d8ee16ce950457b9c"
+    },
+    {
+      "key": "tou-bi-cong-rong/p7",
+      "file": "public/audio/tou-bi-cong-rong/p7.mp3",
+      "textSha256": "343aacd82ddeb3a0eaf9c7f042aa4f7d7a0c6f95d7ec01881142b2e126d3935c",
+      "audioSha256": "a0d385aa60f8f529bda46caa57c4107cefbc0736504dccacede6e53d60ee5785"
+    }
+  ]
+}

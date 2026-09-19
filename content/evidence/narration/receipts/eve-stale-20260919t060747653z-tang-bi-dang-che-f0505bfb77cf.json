@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-stale-20260919t060747653z-tang-bi-dang-che-f0505bfb77cf",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-19T06:07:47.653Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "f0505bfb77cfb0e08273374529600d8e66727e7724b2d403a5b755b0035fb9cd",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "stale-items",
+      "storyId": "tang-bi-dang-che"
+    },
+    "synthesizedKeys": [
+      "tang-bi-dang-che/p1",
+      "tang-bi-dang-che/p2",
+      "tang-bi-dang-che/p3",
+      "tang-bi-dang-che/p4",
+      "tang-bi-dang-che/p5",
+      "tang-bi-dang-che/p6",
+      "tang-bi-dang-che/p7"
+    ],
+    "preservedKeys": []
+  },
+  "items": [
+    {
+      "key": "tang-bi-dang-che/p1",
+      "file": "public/audio/tang-bi-dang-che/p1.mp3",
+      "textSha256": "4737cb57a32f3d0f127d19a043cb5e71375107814aff2a439c4bc11e2f53f51a",
+      "audioSha256": "faf853e0c3545835a32683534061a5dd36c7557d7f535432d8ffec5e342a74a5"
+    },
+    {
+      "key": "tang-bi-dang-che/p2",
+      "file": "public/audio/tang-bi-dang-che/p2.mp3",
+      "textSha256": "926b0659c2f97896967110ceb1e7e34f650b49ad417314ce5fd0ffd6402726d2",
+      "audioSha256": "c6ac9866b4957c00eba6682f62272d48eba5c87d89da28eb6496bded16d10b53"
+    },
+    {
+      "key": "tang-bi-dang-che/p3",
+      "file": "public/audio/tang-bi-dang-che/p3.mp3",
+      "textSha256": "75d2a278f69f75bea3c9cff76fb56f9c834a779c0532f8431c6ba4e3827ad54b",
+      "audioSha256": "681f8e2eec6228ab3d5b31bbfa4805e5e315a94735d3cf897f397aa1984d8343"
+    },
+    {
+      "key": "tang-bi-dang-che/p4",
+      "file": "public/audio/tang-bi-dang-che/p4.mp3",
+      "textSha256": "171479a432f03ff7148f7744b7a118dfd63471e259328f97b083bf77859f3e5c",
+      "audioSha256": "4f768369a68afae8ff31ff04f64c3dd9f383b56bcdacc4afd871438f400a96df"
+    },
+    {
+      "key": "tang-bi-dang-che/p5",
+      "file": "public/audio/tang-bi-dang-che/p5.mp3",
+      "textSha256": "b19a2aaae13aee712483362ce006a4aa2d0e4f90b1cf5b14ccac64ea91a46710",
+      "audioSha256": "81927244dd85ce635090623eb35dae8de465296348bf9aea873c326edbd1d223"
+    },
+    {
+      "key": "tang-bi-dang-che/p6",
+      "file": "public/audio/tang-bi-dang-che/p6.mp3",
+      "textSha256": "c1e898a8dc577d75636085df1f1267176af94641445f2ab48c8d6de139cc581e",
+      "audioSha256": "60e940466c57425a0ccc94a61a049e18818d2c7acee81724225a2feb5bf97ba1"
+    },
+    {
+      "key": "tang-bi-dang-che/p7",
+      "file": "public/audio/tang-bi-dang-che/p7.mp3",
+      "textSha256": "b596d48f09d77293feceb7680f1e7b03a74c6f6f761770fb714ac16dbe570eec",
+      "audioSha256": "0526695d2db80c76b1e614027d7fe51504e23dc6f890eaefd15f33926f1d66cd"
+    }
+  ]
+}

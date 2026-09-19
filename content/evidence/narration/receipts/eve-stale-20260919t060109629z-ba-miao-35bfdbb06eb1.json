@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-stale-20260919t060109629z-ba-miao-35bfdbb06eb1",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-19T06:01:09.629Z",
+  "inputItemCount": 6,
+  "inputDigestSha256": "35bfdbb06eb1b94996f59baecff6910c2c7fd7ba913b80d7a0cd454c84784e38",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "stale-items",
+      "storyId": "ba-miao"
+    },
+    "synthesizedKeys": [
+      "ba-miao/p1",
+      "ba-miao/p2",
+      "ba-miao/p4",
+      "ba-miao/p5",
+      "ba-miao/p6",
+      "ba-miao/p7"
+    ],
+    "preservedKeys": []
+  },
+  "items": [
+    {
+      "key": "ba-miao/p1",
+      "file": "public/audio/ba-miao/p1.mp3",
+      "textSha256": "e05daf661c5a2d17fa9f56653fb348d41236e1a09a5f7440d76cc7fcec8bac52",
+      "audioSha256": "9c1171113d25687fe90fbc7f5c2a23e4d4cbedc2a6424b0bc0cfa6ff97c099a3"
+    },
+    {
+      "key": "ba-miao/p2",
+      "file": "public/audio/ba-miao/p2.mp3",
+      "textSha256": "069c080f606c552f07b4972e07917347b5e2ad39f520ac382eebac8164679907",
+      "audioSha256": "8257a0202905ddb4fc50a3642683964b87f8aed095bf78e5416efab32c3d8353"
+    },
+    {
+      "key": "ba-miao/p4",
+      "file": "public/audio/ba-miao/p4.mp3",
+      "textSha256": "8fe6ab5c4f8a7707a6b1fb3944589f1531186b81e447dced2e1cd010a9db407d",
+      "audioSha256": "58d38d058853b82f115ef4f30293b52f91901c2fdbbc2b7e85d95fb5e6cf3f7f"
+    },
+    {
+      "key": "ba-miao/p5",
+      "file": "public/audio/ba-miao/p5.mp3",
+      "textSha256": "2e2b1c1bf071aa72e99f375f264ca60b85af9aa61e82145ff3d87996bee97ba5",
+      "audioSha256": "57c7d9d569ae8c30b4abd1bc20a43d05eacfcb70bdbf6a4149246e3a905742da"
+    },
+    {
+      "key": "ba-miao/p6",
+      "file": "public/audio/ba-miao/p6.mp3",
+      "textSha256": "d0b4cf6425186ca21030f630fe39149d3c081449f75d3822f98d39f65185ccad",
+      "audioSha256": "9b22d2a736524e0373681b461e99771058b552b2b0f665cd69216f3afc08173d"
+    },
+    {
+      "key": "ba-miao/p7",
+      "file": "public/audio/ba-miao/p7.mp3",
+      "textSha256": "96720a645a1f6e6ccdb95fc795a159a123f526806402f658490e88849789368a",
+      "audioSha256": "1a8d2a8610269043158f98e2881818e09ea10c0da5313016b8a399bfde88cd37"
+    }
+  ]
+}

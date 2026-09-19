@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-stale-20260919t060332471z-feng-sheng-he-li-e4a90bd9770d",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-19T06:03:32.471Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "e4a90bd9770d148e9f840a974c3c059f38c2e1ca47763153fec6aaf3b35b899d",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "stale-items",
+      "storyId": "feng-sheng-he-li"
+    },
+    "synthesizedKeys": [
+      "feng-sheng-he-li/p1",
+      "feng-sheng-he-li/p2",
+      "feng-sheng-he-li/p3",
+      "feng-sheng-he-li/p4",
+      "feng-sheng-he-li/p5",
+      "feng-sheng-he-li/p6",
+      "feng-sheng-he-li/p7"
+    ],
+    "preservedKeys": []
+  },
+  "items": [
+    {
+      "key": "feng-sheng-he-li/p1",
+      "file": "public/audio/feng-sheng-he-li/p1.mp3",
+      "textSha256": "6466e5f059822b8875c2eb923baf4cb6342a656b84c5f28668af84ac51cca784",
+      "audioSha256": "ef728c3514b929823e88d9801f882a0ae540fe010d6f4b2b576d1291f6fac190"
+    },
+    {
+      "key": "feng-sheng-he-li/p2",
+      "file": "public/audio/feng-sheng-he-li/p2.mp3",
+      "textSha256": "4346ead29e2cdd8625c204574fc0101a7a27f17b37e98584ac54aa2d635c3ff5",
+      "audioSha256": "34ecf69c8d9333ebe9a57480f149e5af0a94be2f2f5ff10f2d25143b042cb8c6"
+    },
+    {
+      "key": "feng-sheng-he-li/p3",
+      "file": "public/audio/feng-sheng-he-li/p3.mp3",
+      "textSha256": "676b127bd8bd8363657a1cde5aadf0986e834ebc3891e33bc6fed4c2fb678e8d",
+      "audioSha256": "b40fd6cb30350d151cc8939263c18b178875070b06525f92c7d6cdbe85ea1400"
+    },
+    {
+      "key": "feng-sheng-he-li/p4",
+      "file": "public/audio/feng-sheng-he-li/p4.mp3",
+      "textSha256": "68029ee2f262ee01dc9503c99a54515b88b8b86209d721bbd7f50ac39da4c2f2",
+      "audioSha256": "2fd03b71d0d33759e11ede6c26b6bc50b47991a38e94933a34d7c8684daea339"
+    },
+    {
+      "key": "feng-sheng-he-li/p5",
+      "file": "public/audio/feng-sheng-he-li/p5.mp3",
+      "textSha256": "30d862704f9f79965495f81345f5914cf5487c274528e820e25a1d971ac237fd",
+      "audioSha256": "b4858bc1a5f1c310940a49646b894b2d1c54bb35f0e77efc832b46d442ca7065"
+    },
+    {
+      "key": "feng-sheng-he-li/p6",
+      "file": "public/audio/feng-sheng-he-li/p6.mp3",
+      "textSha256": "117fb4f61e3a378213d8f97b448ed7bb53f1b2b522d88b859cbc0c0b650d1572",
+      "audioSha256": "b949d76d63e80085cc9b91c72fd77aa2574b40a394a6b5d6b39055dc5c72bfd0"
+    },
+    {
+      "key": "feng-sheng-he-li/p7",
+      "file": "public/audio/feng-sheng-he-li/p7.mp3",
+      "textSha256": "6bbb9f204d6295b8b345755d49b5765adcf7c8d0b26ade7416b7f6fb29dd5b84",
+      "audioSha256": "2098401b06da45e6a55902fba37d5dfaa70244c8bd4c2bdb017b49cc1d2e1eaf"
+    }
+  ]
+}

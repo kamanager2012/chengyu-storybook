@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-stale-20260919t060642417z-po-fu-chen-zhou-6ab71480b88b",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-19T06:06:42.417Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "6ab71480b88b7eedce4dcc464bc817876b10adc42b63a47c09f3ddb2433e6d93",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "stale-items",
+      "storyId": "po-fu-chen-zhou"
+    },
+    "synthesizedKeys": [
+      "po-fu-chen-zhou/p1",
+      "po-fu-chen-zhou/p2",
+      "po-fu-chen-zhou/p3",
+      "po-fu-chen-zhou/p4",
+      "po-fu-chen-zhou/p5",
+      "po-fu-chen-zhou/p6",
+      "po-fu-chen-zhou/p7"
+    ],
+    "preservedKeys": []
+  },
+  "items": [
+    {
+      "key": "po-fu-chen-zhou/p1",
+      "file": "public/audio/po-fu-chen-zhou/p1.mp3",
+      "textSha256": "ec447881ec81fac945607b0bba0ca57e52eac1dcbab4aa545033d3c6b9ee594b",
+      "audioSha256": "327e805f3a853e8b304c2ac751c9f18738da96fd013ffabf3cee6d758be54367"
+    },
+    {
+      "key": "po-fu-chen-zhou/p2",
+      "file": "public/audio/po-fu-chen-zhou/p2.mp3",
+      "textSha256": "35e0d0354918325d8513dc45db840f2111179f47dc66835e6902444b5c202efa",
+      "audioSha256": "2ed58cc5b34d7a9f4552a83b98eabbcdf366b7f89da163a815baf7f4bc4b09e7"
+    },
+    {
+      "key": "po-fu-chen-zhou/p3",
+      "file": "public/audio/po-fu-chen-zhou/p3.mp3",
+      "textSha256": "bfdd12205581eab5c8277b740965ed58be86a981e87756bf18c6bbbc445f855f",
+      "audioSha256": "99cfc1706810a7e64a14f3259f8f26b4d322c5390f96ddbe0ac4fb143be0f4e4"
+    },
+    {
+      "key": "po-fu-chen-zhou/p4",
+      "file": "public/audio/po-fu-chen-zhou/p4.mp3",
+      "textSha256": "94ee5ff0fb84fcc52e9ad6723c8b1f6c6d693d829b6753a42af3a96a9e7ef27a",
+      "audioSha256": "cc73ddfd4ca93ee601c07d4f0f1303354f09a2e7f93cf7d585ba89a5419dac23"
+    },
+    {
+      "key": "po-fu-chen-zhou/p5",
+      "file": "public/audio/po-fu-chen-zhou/p5.mp3",
+      "textSha256": "a5f5c0ac5885242d55128a0cb7d9a6c7d7afda07940f9700e90c61aa524464e4",
+      "audioSha256": "2a8b09bf7e3c5906a5e295583861e4add84402bccee2e3d4336b06373b49e46d"
+    },
+    {
+      "key": "po-fu-chen-zhou/p6",
+      "file": "public/audio/po-fu-chen-zhou/p6.mp3",
+      "textSha256": "16ea5c4b872126aa8493516ec5cb0e02fc241a28c5c7e90630ec0aa2a3bcc560",
+      "audioSha256": "10eb6a96e06f99970d633e7e8df1ae04446e7d77a4e2a7ac01b5c9913bfb687b"
+    },
+    {
+      "key": "po-fu-chen-zhou/p7",
+      "file": "public/audio/po-fu-chen-zhou/p7.mp3",
+      "textSha256": "0cb659144a0309098d6570edf6b64a154f8af60fc0fc016b6a39be6ed155eb53",
+      "audioSha256": "f4b2dacf7cebc8bca4517dd7a9001c06eca80eb9e1f0ae6526ed1e3dee73816f"
+    }
+  ]
+}

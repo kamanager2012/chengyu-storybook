@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-stale-20260919t060923486z-yi-ming-68e6a42c7248",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-19T06:09:23.486Z",
+  "inputItemCount": 4,
+  "inputDigestSha256": "68e6a42c7248bf3d93426f1fcdb91434d5b5d63fd5b4a0b8a6752ed45a57a579",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "stale-items",
+      "storyId": "yi-ming"
+    },
+    "synthesizedKeys": [
+      "yi-ming/p1",
+      "yi-ming/p4",
+      "yi-ming/p5",
+      "yi-ming/p6"
+    ],
+    "preservedKeys": []
+  },
+  "items": [
+    {
+      "key": "yi-ming/p1",
+      "file": "public/audio/yi-ming/p1.mp3",
+      "textSha256": "2aead17f4d73641051937649afb101b443580d1e707e8fc2a1cf05c2dfd689c7",
+      "audioSha256": "72229f9c3f43fb71650f67502f4508e7fb12c127e0fe48c5b2f243053d1446fc"
+    },
+    {
+      "key": "yi-ming/p4",
+      "file": "public/audio/yi-ming/p4.mp3",
+      "textSha256": "3da5a90dba835296f9d55a540f01efd66f1da3904d2072bd90b80ccbdcdc4327",
+      "audioSha256": "93deb80ee14a787bc9f18f14d0d837b1936a32890fb0de9cd62d30c02f6fa011"
+    },
+    {
+      "key": "yi-ming/p5",
+      "file": "public/audio/yi-ming/p5.mp3",
+      "textSha256": "6417045f2ff03cd8e833fcccf7a03c0b2396eec3568e36ecf4faf8a9f9e106f6",
+      "audioSha256": "1ff54d3169730fc8f75513f327d08c1412efa06910ec9ed40bdefa19e0748cdb"
+    },
+    {
+      "key": "yi-ming/p6",
+      "file": "public/audio/yi-ming/p6.mp3",
+      "textSha256": "ffdf5c0fe2fa1acb3b8ebc957f2cc9cfe1ee3d01e70630d7e8c9bedf6508d6ed",
+      "audioSha256": "e1bf957f642c55f0bfde5914b811cb91b359dea59ed2b6cbccf846b467c4b10c"
+    }
+  ]
+}

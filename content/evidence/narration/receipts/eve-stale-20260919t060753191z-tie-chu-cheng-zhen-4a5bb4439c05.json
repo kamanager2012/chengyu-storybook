@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-stale-20260919t060753191z-tie-chu-cheng-zhen-4a5bb4439c05",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-19T06:07:53.191Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "4a5bb4439c052dbaf1631b86ed4a120b762da0763dcbba5a124f6284445adb85",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "stale-items",
+      "storyId": "tie-chu-cheng-zhen"
+    },
+    "synthesizedKeys": [
+      "tie-chu-cheng-zhen/p1",
+      "tie-chu-cheng-zhen/p2",
+      "tie-chu-cheng-zhen/p3",
+      "tie-chu-cheng-zhen/p4",
+      "tie-chu-cheng-zhen/p5",
+      "tie-chu-cheng-zhen/p6",
+      "tie-chu-cheng-zhen/p7"
+    ],
+    "preservedKeys": []
+  },
+  "items": [
+    {
+      "key": "tie-chu-cheng-zhen/p1",
+      "file": "public/audio/tie-chu-cheng-zhen/p1.mp3",
+      "textSha256": "3b36dd81f59b7dcc37ff672ad90c5bfd585d1e6bfee6e64a3330d3d28413321c",
+      "audioSha256": "ae200f836e6b2e166ff7f2fd21359c953f5de464600104ca87b604ed41942d89"
+    },
+    {
+      "key": "tie-chu-cheng-zhen/p2",
+      "file": "public/audio/tie-chu-cheng-zhen/p2.mp3",
+      "textSha256": "e215772635aed81a4cd0b1bea4abaa02ece1be8cafbcf7664bec700cd00b349a",
+      "audioSha256": "662a2c68f9dcf126a38fb02531085b63afbd7182ac0e6c6e0975b7103186c7d6"
+    },
+    {
+      "key": "tie-chu-cheng-zhen/p3",
+      "file": "public/audio/tie-chu-cheng-zhen/p3.mp3",
+      "textSha256": "09768accfe75b2fbde39ba5314c205db3239cc9327345c2dd04d2a805b44c797",
+      "audioSha256": "590f8fa2085d38b13350ba4635687a1c19ab9ab9197273432735055bf0471793"
+    },
+    {
+      "key": "tie-chu-cheng-zhen/p4",
+      "file": "public/audio/tie-chu-cheng-zhen/p4.mp3",
+      "textSha256": "0c9747492c7d93b88c1976004e13a5d567e04a82ce5e33923eea14f448ec66d1",
+      "audioSha256": "e8a09058582b24d3a445fbe401f8862ddb983dc48f97e6cd12b0249cdfe291a0"
+    },
+    {
+      "key": "tie-chu-cheng-zhen/p5",
+      "file": "public/audio/tie-chu-cheng-zhen/p5.mp3",
+      "textSha256": "18be8e2044f8e54d335076c947e060720978ff59c0428898a1badcf55ae704a7",
+      "audioSha256": "827ffa1bb82fdcacd5213db0217418d05ad7240ab5e645a5e328d076f062caf0"
+    },
+    {
+      "key": "tie-chu-cheng-zhen/p6",
+      "file": "public/audio/tie-chu-cheng-zhen/p6.mp3",
+      "textSha256": "5a434481874cc5108d8d114c01efdb3b4eb0c93feaf551042e4f4b355f11944f",
+      "audioSha256": "f230560a08c4308844b0bd59e3f44d6ba2ce8cb912b9e69f314b006d5e8d5432"
+    },
+    {
+      "key": "tie-chu-cheng-zhen/p7",
+      "file": "public/audio/tie-chu-cheng-zhen/p7.mp3",
+      "textSha256": "6df1c0dc98e4869e7224735e377d6570fc589faa81001dad40bd07a106d576ef",
+      "audioSha256": "1c4552fa47b091b42323a05017e2b9a329844b63e5dd40b6c0f93250c916ad04"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-stale-20260919t060500511z-kai-juan-you-yi-748a216a6f0e",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-19T06:05:00.511Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "748a216a6f0efdf6433895f8bd82d136b6d6c31dbed4d7545145289b4d39d878",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "stale-items",
+      "storyId": "kai-juan-you-yi"
+    },
+    "synthesizedKeys": [
+      "kai-juan-you-yi/p1",
+      "kai-juan-you-yi/p2",
+      "kai-juan-you-yi/p3",
+      "kai-juan-you-yi/p4",
+      "kai-juan-you-yi/p5",
+      "kai-juan-you-yi/p6",
+      "kai-juan-you-yi/p7"
+    ],
+    "preservedKeys": []
+  },
+  "items": [
+    {
+      "key": "kai-juan-you-yi/p1",
+      "file": "public/audio/kai-juan-you-yi/p1.mp3",
+      "textSha256": "419c52da0dc4af17e670312f3195d09cad1ead7d87ff9d96a1b0430190ae702a",
+      "audioSha256": "78c4531e8c7c4945f9e674cb52787f8a7f439710462d8c8143bd02d7b0782c68"
+    },
+    {
+      "key": "kai-juan-you-yi/p2",
+      "file": "public/audio/kai-juan-you-yi/p2.mp3",
+      "textSha256": "03884d21c4acc6a5078222a7ac232dfe42f92e9b08e38bbed44ef911de1a4ba4",
+      "audioSha256": "86ff4689f9d78c0bc83a10273ef98241282daa14930642c3afa3a91efa51309d"
+    },
+    {
+      "key": "kai-juan-you-yi/p3",
+      "file": "public/audio/kai-juan-you-yi/p3.mp3",
+      "textSha256": "c3b08a8d7347944a3175aa5a4e6a08bd7fb6b6f84d9738cf37fc096d183a992f",
+      "audioSha256": "89f4f6ea22e53ad979244aaf5971ddf1058cc4144a5854dde7ef5f34dd796768"
+    },
+    {
+      "key": "kai-juan-you-yi/p4",
+      "file": "public/audio/kai-juan-you-yi/p4.mp3",
+      "textSha256": "3d911814db95cabcbb8f08a92dbf05e88266a8bd0f4dfda8a9630bc413db0aa2",
+      "audioSha256": "908b934df4b988f7758ed194e014c5abd8cb8595bdb23eb34da6b074107a2b81"
+    },
+    {
+      "key": "kai-juan-you-yi/p5",
+      "file": "public/audio/kai-juan-you-yi/p5.mp3",
+      "textSha256": "6dae8ce7a2b7fa15d6503c7613bab34f9c20bccff0c7d633642856a4779daff7",
+      "audioSha256": "f6eb1a72555ef5a8952a8c206fe44d4888ebace9149c76f606dce1d08366575d"
+    },
+    {
+      "key": "kai-juan-you-yi/p6",
+      "file": "public/audio/kai-juan-you-yi/p6.mp3",
+      "textSha256": "b1b516099bbce2ad95eb33127b5fee608bb6db75da22b931af24903931028be7",
+      "audioSha256": "c391a0e238834e55494b4b5fbc8829ef0a5651c19e52b480cb3a601c1b81e876"
+    },
+    {
+      "key": "kai-juan-you-yi/p7",
+      "file": "public/audio/kai-juan-you-yi/p7.mp3",
+      "textSha256": "17d77d75c66d4c1662099dbeadcb46cd45624992e3bf1269d34242c4fc173c20",
+      "audioSha256": "f88f06d03c7f382dc256f10268aa4a684a8378459e1b91d118c802718e8a1c48"
+    }
+  ]
+}

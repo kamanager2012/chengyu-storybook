@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-stale-20260919t060214319z-bei-gong-she-ying-ffc034d0a23f",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-19T06:02:14.319Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "ffc034d0a23fc29a1db93c5a75f198edf165625fed87efe8416cb718598d336c",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "stale-items",
+      "storyId": "bei-gong-she-ying"
+    },
+    "synthesizedKeys": [
+      "bei-gong-she-ying/p1",
+      "bei-gong-she-ying/p2",
+      "bei-gong-she-ying/p3",
+      "bei-gong-she-ying/p4",
+      "bei-gong-she-ying/p5",
+      "bei-gong-she-ying/p6",
+      "bei-gong-she-ying/p7"
+    ],
+    "preservedKeys": []
+  },
+  "items": [
+    {
+      "key": "bei-gong-she-ying/p1",
+      "file": "public/audio/bei-gong-she-ying/p1.mp3",
+      "textSha256": "2b4b480e1d086413d782b7c439e6b710b583a5eb8e69b2c03e386b5baa8ba238",
+      "audioSha256": "48b071dfa02dcb4626403573668b85ad111a8a537f6d190378b47a67f8e4629d"
+    },
+    {
+      "key": "bei-gong-she-ying/p2",
+      "file": "public/audio/bei-gong-she-ying/p2.mp3",
+      "textSha256": "4968c16d30557fade798f50a9cf25d96741dba063d94174c5a60fe7354c04b7d",
+      "audioSha256": "5590e44369840e58552b50dacb8509bd5540d91c71fbb65aee514919ff90c38e"
+    },
+    {
+      "key": "bei-gong-she-ying/p3",
+      "file": "public/audio/bei-gong-she-ying/p3.mp3",
+      "textSha256": "fa434c6ef71c7784756bc0d929bdc59bee25ad3f1585a4a22d4712fdfebac7db",
+      "audioSha256": "39e247a557337a44d4845fc9ba5e6086255383a43d138a636ffadf0c767db187"
+    },
+    {
+      "key": "bei-gong-she-ying/p4",
+      "file": "public/audio/bei-gong-she-ying/p4.mp3",
+      "textSha256": "10118934c9e3aeb0908f666f83ffef15be55a31233fb4e6ec43ac0b5e37a7a97",
+      "audioSha256": "0cfa1061ebe329547c79dfa35fce42f726259d6e4a29fbc30837dc78a34fee8b"
+    },
+    {
+      "key": "bei-gong-she-ying/p5",
+      "file": "public/audio/bei-gong-she-ying/p5.mp3",
+      "textSha256": "2b5aed7195352c7e4d9e2a63f90c024c8fbbb3e53104276259a586cbc65a5ce6",
+      "audioSha256": "2ce180aab630fd2d96f7a1d6e3533752c94a67a120762f2e071cbb8677d409f9"
+    },
+    {
+      "key": "bei-gong-she-ying/p6",
+      "file": "public/audio/bei-gong-she-ying/p6.mp3",
+      "textSha256": "e9354481658089c63d72a244e63db2f57dbd17a38e7752071eb87f4902169342",
+      "audioSha256": "9437b851ae65990a4a80be44d5d45c4883888567c1d517fb922d85767b723844"
+    },
+    {
+      "key": "bei-gong-she-ying/p7",
+      "file": "public/audio/bei-gong-she-ying/p7.mp3",
+      "textSha256": "a60c605a9328288639de55c9bbb96ea560027d75dcbe0f226cd8d519d798845f",
+      "audioSha256": "a21122926f58638da90a51dcad9d597b0a1256fd5790dbb02b21b9f098757a79"
+    }
+  ]
+}

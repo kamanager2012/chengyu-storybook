@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-stale-20260919t060219156z-bei-shui-che-xin-7bdb1afaad59",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-19T06:02:19.156Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "7bdb1afaad59b1590ff47f6b882a67b4285f8fce52346c0b9a0ab0c80c04dd72",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "stale-items",
+      "storyId": "bei-shui-che-xin"
+    },
+    "synthesizedKeys": [
+      "bei-shui-che-xin/p1",
+      "bei-shui-che-xin/p2",
+      "bei-shui-che-xin/p3",
+      "bei-shui-che-xin/p4",
+      "bei-shui-che-xin/p5",
+      "bei-shui-che-xin/p6",
+      "bei-shui-che-xin/p7"
+    ],
+    "preservedKeys": []
+  },
+  "items": [
+    {
+      "key": "bei-shui-che-xin/p1",
+      "file": "public/audio/bei-shui-che-xin/p1.mp3",
+      "textSha256": "2c62c4cb02da064a5b10d0341b3d9a65af952f83762d33492676da11819524c4",
+      "audioSha256": "65a7b95069a870aa61ca5ae5d196c25a7eb9a5e39c1671a3f4be98713cf52ac8"
+    },
+    {
+      "key": "bei-shui-che-xin/p2",
+      "file": "public/audio/bei-shui-che-xin/p2.mp3",
+      "textSha256": "815084667a87eb5d7c65c67d0fdc3d1ce0b481280d9cbf014cd6442a69cbead6",
+      "audioSha256": "59bbab12156cee2d85a4f82667c2598ee6646bec9fa8bbc84e13c6edea27c2e4"
+    },
+    {
+      "key": "bei-shui-che-xin/p3",
+      "file": "public/audio/bei-shui-che-xin/p3.mp3",
+      "textSha256": "4b5853777816e61e1b7208c7f4b81395d58d5a3cd19d80d2dfe7acda9cfd7492",
+      "audioSha256": "4ff8f2ea3453bfdee897c43fb5adb23266a517761918283b8a53091d486e511d"
+    },
+    {
+      "key": "bei-shui-che-xin/p4",
+      "file": "public/audio/bei-shui-che-xin/p4.mp3",
+      "textSha256": "7950eb469d5eaf1cd8c22b2b305a9f7cd2cdd395d54d6fd663e35c31d21c4d62",
+      "audioSha256": "522c71a95802012c61f335d1e697c369921ec3aed6cd3b2f642bdea7b9510b82"
+    },
+    {
+      "key": "bei-shui-che-xin/p5",
+      "file": "public/audio/bei-shui-che-xin/p5.mp3",
+      "textSha256": "ab21c194f72b8895fbc5eb3d3350428ee7b29e005398037194884693404c9804",
+      "audioSha256": "c113f579e0ecfd444b13b241f208c86bdf5e6ff75664719615b74ca910293bbe"
+    },
+    {
+      "key": "bei-shui-che-xin/p6",
+      "file": "public/audio/bei-shui-che-xin/p6.mp3",
+      "textSha256": "881c38aec69b3bf7962b0062e8762b5ac3e69ba3560f3f38403ad0cda2939f54",
+      "audioSha256": "65675b6d5f8dc70b8543b41e9d16a68cffdb938318f670aab199ae3e2083ea90"
+    },
+    {
+      "key": "bei-shui-che-xin/p7",
+      "file": "public/audio/bei-shui-che-xin/p7.mp3",
+      "textSha256": "f660520e48d864e9f09ec50a227340470fe895460d5339d44daa3e68955ff35a",
+      "audioSha256": "3c76e6ceb1ffe5f0a32e0c62d9ccf7a3052c500c204144721194828edecf3e75"
+    }
+  ]
+}

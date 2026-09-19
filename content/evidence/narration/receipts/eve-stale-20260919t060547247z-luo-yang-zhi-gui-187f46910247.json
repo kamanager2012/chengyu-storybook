@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-stale-20260919t060547247z-luo-yang-zhi-gui-187f46910247",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-19T06:05:47.247Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "187f4691024781f83d61f68fb1cad6d4c827430e9b68c29125bac41de545cdab",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "stale-items",
+      "storyId": "luo-yang-zhi-gui"
+    },
+    "synthesizedKeys": [
+      "luo-yang-zhi-gui/p1",
+      "luo-yang-zhi-gui/p2",
+      "luo-yang-zhi-gui/p3",
+      "luo-yang-zhi-gui/p4",
+      "luo-yang-zhi-gui/p5",
+      "luo-yang-zhi-gui/p6",
+      "luo-yang-zhi-gui/p7"
+    ],
+    "preservedKeys": []
+  },
+  "items": [
+    {
+      "key": "luo-yang-zhi-gui/p1",
+      "file": "public/audio/luo-yang-zhi-gui/p1.mp3",
+      "textSha256": "60996edb63a3d8305f9693d7c367662bcc817e49c3ca16f0e5b26f38e7879200",
+      "audioSha256": "a0f4cce91eb7ec1b850fb91070aa4412a2377cab6f06ebc168fe6a9144ec958b"
+    },
+    {
+      "key": "luo-yang-zhi-gui/p2",
+      "file": "public/audio/luo-yang-zhi-gui/p2.mp3",
+      "textSha256": "ad6493c13bcb7da3e6a82ecb8ce2f9ab6a3e7e3be83cb0ae296312f8790d351d",
+      "audioSha256": "95fe903f42b467516aa9bc6991703e2a2ed1cf6e39670d4bea03f2fe2d0b67c2"
+    },
+    {
+      "key": "luo-yang-zhi-gui/p3",
+      "file": "public/audio/luo-yang-zhi-gui/p3.mp3",
+      "textSha256": "543d3a7545ec816592dbab13c85e52569a9e23f2e59daae9d9a1180e3e263f96",
+      "audioSha256": "57cc6fdc3d9b3ba769ce4c4d1cdc8b7eb6fd8afca90e82ae8825d59dcbcce3f7"
+    },
+    {
+      "key": "luo-yang-zhi-gui/p4",
+      "file": "public/audio/luo-yang-zhi-gui/p4.mp3",
+      "textSha256": "542d0617eca8aff35d94342695120db779fd4010bd52d156cf2d4c3271747b5e",
+      "audioSha256": "894e404cd2ea3efba0c33136349e764d6ca8f492fb5f7bff8c50b62f888d80b3"
+    },
+    {
+      "key": "luo-yang-zhi-gui/p5",
+      "file": "public/audio/luo-yang-zhi-gui/p5.mp3",
+      "textSha256": "aa95d93b14cb82fabf04c45149924c21808d1c615d34887af588777290434993",
+      "audioSha256": "1b06ef24efc4f61156029a88fe3bdd5046caafeef3adb9a5ce0a3e8db0312ef0"
+    },
+    {
+      "key": "luo-yang-zhi-gui/p6",
+      "file": "public/audio/luo-yang-zhi-gui/p6.mp3",
+      "textSha256": "57dfc5e160eac10285778b74c1db34afb6b5d065b557eff444d5482bc2f17bf9",
+      "audioSha256": "f708083f91aa6f4f15ba501d3dfcac6f4f48840e19d3000c25fc2ff4ed66881a"
+    },
+    {
+      "key": "luo-yang-zhi-gui/p7",
+      "file": "public/audio/luo-yang-zhi-gui/p7.mp3",
+      "textSha256": "2a5ed3a367ee73f71d0a4c60dbee53a66fcd250bd0c31bad7d732f827d7e0377",
+      "audioSha256": "dfe11b9f56abb096517b8938f0722789bef7eb9c8a7ddb3dbf0edc49d7e33f37"
+    }
+  ]
+}

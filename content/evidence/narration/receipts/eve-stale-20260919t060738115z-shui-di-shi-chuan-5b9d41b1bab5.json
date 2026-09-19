@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-stale-20260919t060738115z-shui-di-shi-chuan-5b9d41b1bab5",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-19T06:07:38.115Z",
+  "inputItemCount": 5,
+  "inputDigestSha256": "5b9d41b1bab5be661c0f7ed35902ad635e61282edbef53f56d92d37b2eaa780c",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "stale-items",
+      "storyId": "shui-di-shi-chuan"
+    },
+    "synthesizedKeys": [
+      "shui-di-shi-chuan/p2",
+      "shui-di-shi-chuan/p3",
+      "shui-di-shi-chuan/p5",
+      "shui-di-shi-chuan/p6",
+      "shui-di-shi-chuan/p7"
+    ],
+    "preservedKeys": []
+  },
+  "items": [
+    {
+      "key": "shui-di-shi-chuan/p2",
+      "file": "public/audio/shui-di-shi-chuan/p2.mp3",
+      "textSha256": "9353aa7df9a642c71e41395d6a782c46268958416bca02c975a6612910f8827c",
+      "audioSha256": "65dc0645b1c2f332ddffc44f353af85e161038c9b2a13d04a0eef4f60cfbdae3"
+    },
+    {
+      "key": "shui-di-shi-chuan/p3",
+      "file": "public/audio/shui-di-shi-chuan/p3.mp3",
+      "textSha256": "f669d945ae895061073750c1cff93acac10f967a5a9b95dcc5042afb30b7f852",
+      "audioSha256": "382c9b371815cc5c9348e41ba8dd24bc3b18f35f3b259f21d8da38e60e345d7c"
+    },
+    {
+      "key": "shui-di-shi-chuan/p5",
+      "file": "public/audio/shui-di-shi-chuan/p5.mp3",
+      "textSha256": "a06f95dd0466cd29d7a15feb05b535854ddb3df8c9351c67da233c42f97bc5b9",
+      "audioSha256": "cb68ee389df6995b4a7fe27cb11ebf80a3f82cfe0625987073e718622a8aeaee"
+    },
+    {
+      "key": "shui-di-shi-chuan/p6",
+      "file": "public/audio/shui-di-shi-chuan/p6.mp3",
+      "textSha256": "6c51830b86baba8c9b4c902e028ff7e7ce4ea6b7d86280ca58bfd83cfe7e25fb",
+      "audioSha256": "60a4581c90f9370aba028c894d58784b6b5a1627b29eceb203f4ec7e0962323a"
+    },
+    {
+      "key": "shui-di-shi-chuan/p7",
+      "file": "public/audio/shui-di-shi-chuan/p7.mp3",
+      "textSha256": "e2c79a8220fa66833d92bcea7d9c2d391c9f48c6cc0efd3e66f8e82defee9627",
+      "audioSha256": "cee1fd21528edb427d8371574ab3a9593fb5a59aa015ee9203d084c2e85365e8"
+    }
+  ]
+}

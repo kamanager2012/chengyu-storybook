@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-stale-20260919t060208623z-ban-tu-er-fei-1f33a72a4ebb",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-19T06:02:08.623Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "1f33a72a4ebb791a5f21ba1d9cb20cd1693f71bd94e5eafe93bce9f2cdb65b8a",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "stale-items",
+      "storyId": "ban-tu-er-fei"
+    },
+    "synthesizedKeys": [
+      "ban-tu-er-fei/p1",
+      "ban-tu-er-fei/p2",
+      "ban-tu-er-fei/p3",
+      "ban-tu-er-fei/p4",
+      "ban-tu-er-fei/p5",
+      "ban-tu-er-fei/p6",
+      "ban-tu-er-fei/p7"
+    ],
+    "preservedKeys": []
+  },
+  "items": [
+    {
+      "key": "ban-tu-er-fei/p1",
+      "file": "public/audio/ban-tu-er-fei/p1.mp3",
+      "textSha256": "f58138cc25d11959a7e852cc9cc129d25c4729ff41037fbc15cc82b6741688bd",
+      "audioSha256": "7227396f366610575f829f38a4683f0e0655b42677e0a479eefa41391e99c951"
+    },
+    {
+      "key": "ban-tu-er-fei/p2",
+      "file": "public/audio/ban-tu-er-fei/p2.mp3",
+      "textSha256": "f575053f1113a0ef869a99f74da68c853d89c6af224d805e3f9b5451408baaba",
+      "audioSha256": "70a41e0ae427ee1c5182ab4a869084b714d85d93cb6f1fa569e27d274085d999"
+    },
+    {
+      "key": "ban-tu-er-fei/p3",
+      "file": "public/audio/ban-tu-er-fei/p3.mp3",
+      "textSha256": "b4d4b666fd9fd071649310b1c386a491ccbe86f58174fa91c865e1d810cfdea4",
+      "audioSha256": "cff60e4165df9d8d400835669ecf1f7c1ec6d3032d620357d375acab22a4c8d4"
+    },
+    {
+      "key": "ban-tu-er-fei/p4",
+      "file": "public/audio/ban-tu-er-fei/p4.mp3",
+      "textSha256": "b0f2b6deb57f3febec4224bb21a978f573e11967502bee44e522eba420e6b650",
+      "audioSha256": "325b58da6f22eb93addca6c50f2a6ec4eaabfc2999aaec4755201f9b0229ef96"
+    },
+    {
+      "key": "ban-tu-er-fei/p5",
+      "file": "public/audio/ban-tu-er-fei/p5.mp3",
+      "textSha256": "00087d635d83f9da1dca12e89253307306c8d0adc2c4eef7f51a34d48b826e36",
+      "audioSha256": "45631bf6b9b9aa908dca03afbe7aea28179aa779787cb0eefb0787c867fc532a"
+    },
+    {
+      "key": "ban-tu-er-fei/p6",
+      "file": "public/audio/ban-tu-er-fei/p6.mp3",
+      "textSha256": "e661fc8fc8ee230d9411a997caded1f63364b21ed5772e3d9ecd5609e3207bd0",
+      "audioSha256": "7c9adafa4b9813f64a3b3e9d0e005238c09a00cb6a9a5e6d5b9b9815cf20ccf6"
+    },
+    {
+      "key": "ban-tu-er-fei/p7",
+      "file": "public/audio/ban-tu-er-fei/p7.mp3",
+      "textSha256": "af2d9fc112d9af831b66ba3d05b96350b0f7fc2c3f41b2514f1a9b5a14da0443",
+      "audioSha256": "834b3d5ee3d6bfa959e4a8f3ded907b528408bc0906f36dd1d270c1189c3b93d"
+    }
+  ]
+}

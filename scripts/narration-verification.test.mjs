@@ -235,7 +235,7 @@ test("narration state input digest drift revokes generated provenance", () => {
 
 test("runtime narration availability is the complete current receipt-backed release set", () => {
   const availability = buildNarrationRuntimeAvailability();
-  assert.equal(availability.length, 232);
+  assert.equal(availability.length, 900);
   const byStory = new Map();
   for (const item of availability) {
     assert.match(item.audioSha256, /^[a-f0-9]{64}$/);
@@ -244,7 +244,7 @@ test("runtime narration availability is the complete current receipt-backed rele
   }
   assert.equal(byStory.size, 100);
   for (const [storyId, count] of byStory) {
-    assert.ok(count >= 2, `${storyId}: cover and moral remain current after copy restore`);
+    assert.equal(count, 9, `${storyId}: all nine Eve tracks are current`);
   }
 });
 

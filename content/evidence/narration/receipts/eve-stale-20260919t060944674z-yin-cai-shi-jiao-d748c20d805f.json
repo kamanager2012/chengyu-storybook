@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-stale-20260919t060944674z-yin-cai-shi-jiao-d748c20d805f",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-19T06:09:44.674Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "d748c20d805f9b5c277a66dc5acd5004d1c8f16e47cef450e599eb2aabeb6c6f",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "stale-items",
+      "storyId": "yin-cai-shi-jiao"
+    },
+    "synthesizedKeys": [
+      "yin-cai-shi-jiao/p1",
+      "yin-cai-shi-jiao/p2",
+      "yin-cai-shi-jiao/p3",
+      "yin-cai-shi-jiao/p4",
+      "yin-cai-shi-jiao/p5",
+      "yin-cai-shi-jiao/p6",
+      "yin-cai-shi-jiao/p7"
+    ],
+    "preservedKeys": []
+  },
+  "items": [
+    {
+      "key": "yin-cai-shi-jiao/p1",
+      "file": "public/audio/yin-cai-shi-jiao/p1.mp3",
+      "textSha256": "552349ae8edfc47648ce5a473b0a6d055ccfc31caf19c6e5c4d672b98346529a",
+      "audioSha256": "5f4884b5d54103d7ff2469026815f6475e1e31d4a30c0c23eeb48ab6fababa1b"
+    },
+    {
+      "key": "yin-cai-shi-jiao/p2",
+      "file": "public/audio/yin-cai-shi-jiao/p2.mp3",
+      "textSha256": "014766b93bc0a1491f3743961350fce71689ad0a79943fb01031bbcae750dc3f",
+      "audioSha256": "54967c0297c95d383ef00ef07f8f0f9544d8284cae0688d9f101cd386af608f5"
+    },
+    {
+      "key": "yin-cai-shi-jiao/p3",
+      "file": "public/audio/yin-cai-shi-jiao/p3.mp3",
+      "textSha256": "8a047ea0a11cb9e47e5d99fe9ca8960bf46866d8e414449d61dfd2ab53258739",
+      "audioSha256": "e6d91fc3a69de582b3efc0bf9ebf7c6c2e10bae1685cde1dd9d483a9fab53b47"
+    },
+    {
+      "key": "yin-cai-shi-jiao/p4",
+      "file": "public/audio/yin-cai-shi-jiao/p4.mp3",
+      "textSha256": "6f8b3e1a0cc23208109552f115adb4e7734c2f0736fbe4b6e1a3e76b5f9b906c",
+      "audioSha256": "1910a7f57cc885578e354ae985102fe33beaa2501742edd0c78515c9e900d2c0"
+    },
+    {
+      "key": "yin-cai-shi-jiao/p5",
+      "file": "public/audio/yin-cai-shi-jiao/p5.mp3",
+      "textSha256": "e30c9aa2d6a1af015d44c207b8dfe7321139ab5b3a98224d762a3f11b859599d",
+      "audioSha256": "a3323e126814847bc2ac001eaeb8f1b8ad67736cffaa16be2060a7283d9d6452"
+    },
+    {
+      "key": "yin-cai-shi-jiao/p6",
+      "file": "public/audio/yin-cai-shi-jiao/p6.mp3",
+      "textSha256": "59f3447d1388579bbff54908da1b2a4f1ca2a4a7822c9c29210025c19e830350",
+      "audioSha256": "685e9fcf996448e4297c2d975d3dff09b36fd35621232009eddf8de56fe3939f"
+    },
+    {
+      "key": "yin-cai-shi-jiao/p7",
+      "file": "public/audio/yin-cai-shi-jiao/p7.mp3",
+      "textSha256": "45e16b022c815349a900f6dc13986acf39aca7efcc48fe9b04fc0c2c1ad89841",
+      "audioSha256": "c20c679acf9054fb744e12e7361332183d701e5d1faee41566b1d22a7cfb548e"
+    }
+  ]
+}

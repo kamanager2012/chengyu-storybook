@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-stale-20260919t060728948z-shou-bu-shi-juan-3b23f8e1596b",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-19T06:07:28.948Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "3b23f8e1596b681404ab7909a4345f677aaaa1d868408a5d7614878182e9badd",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "stale-items",
+      "storyId": "shou-bu-shi-juan"
+    },
+    "synthesizedKeys": [
+      "shou-bu-shi-juan/p1",
+      "shou-bu-shi-juan/p2",
+      "shou-bu-shi-juan/p3",
+      "shou-bu-shi-juan/p4",
+      "shou-bu-shi-juan/p5",
+      "shou-bu-shi-juan/p6",
+      "shou-bu-shi-juan/p7"
+    ],
+    "preservedKeys": []
+  },
+  "items": [
+    {
+      "key": "shou-bu-shi-juan/p1",
+      "file": "public/audio/shou-bu-shi-juan/p1.mp3",
+      "textSha256": "1d3b2331b7d882c4701769e6e0759c6de7cba1bfa079c9d9c9a5817ee6433241",
+      "audioSha256": "437c17a4025d22f49271789d0918b5303d253c19d04690270af1210ff4a42b29"
+    },
+    {
+      "key": "shou-bu-shi-juan/p2",
+      "file": "public/audio/shou-bu-shi-juan/p2.mp3",
+      "textSha256": "a7eed3ccb027cd3fd265a1bd81cd59307fcd6e4d58ad19dbf2d0d79b361e9d7c",
+      "audioSha256": "ebaf338e7e6e0c60893abe24d91d52222b43ccb80aeb438f4b4bf2651c143684"
+    },
+    {
+      "key": "shou-bu-shi-juan/p3",
+      "file": "public/audio/shou-bu-shi-juan/p3.mp3",
+      "textSha256": "59a7f3c46ae6cb8ad753853a82585c577a2814b63ae2feecf3007347a65cac98",
+      "audioSha256": "c5a2a161805e082b4424bede53aed6b47013d8a02306a46527b0f4c3f5bf2428"
+    },
+    {
+      "key": "shou-bu-shi-juan/p4",
+      "file": "public/audio/shou-bu-shi-juan/p4.mp3",
+      "textSha256": "073f0629ca7b098cd0319935a423fb1d0193cef1fbdf8f815169df8c5f336354",
+      "audioSha256": "9134073c67ee0c3b01101d72eade472120af89a6292134cbaf635249a20d2599"
+    },
+    {
+      "key": "shou-bu-shi-juan/p5",
+      "file": "public/audio/shou-bu-shi-juan/p5.mp3",
+      "textSha256": "71990afcf9b45a670a9020ab6d6a35f5f138bff085d56ffe0aa4199ec6de0c58",
+      "audioSha256": "58f91cc02b259d5065bdbecaaacac68dc0f115abf3a1ad69357fd6dd2cd6a70b"
+    },
+    {
+      "key": "shou-bu-shi-juan/p6",
+      "file": "public/audio/shou-bu-shi-juan/p6.mp3",
+      "textSha256": "5c8298d9321372786880f57941a123a3849e370327c6aae8fb2ce91adcb66555",
+      "audioSha256": "5a9fc5d168224e8886920a752e1816b2a098d2eafe20b9172cb30aef66095c89"
+    },
+    {
+      "key": "shou-bu-shi-juan/p7",
+      "file": "public/audio/shou-bu-shi-juan/p7.mp3",
+      "textSha256": "9fd5dc87a1eb83d24e9eee3eea6c9aa9649c8bd33c4cee0471705a7143d11bde",
+      "audioSha256": "3d99f42d728c3f317a87c2c2a20313fba53df7227d9fd2141c975752963763c8"
+    }
+  ]
+}

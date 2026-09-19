@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-stale-20260919t060342347z-gong-kui-yi-kui-6a2587c7e0a4",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-19T06:03:42.347Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "6a2587c7e0a43ebb3bc29febeaa4de8213c31ce3d5e0100b674e02379873a5fd",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "stale-items",
+      "storyId": "gong-kui-yi-kui"
+    },
+    "synthesizedKeys": [
+      "gong-kui-yi-kui/p1",
+      "gong-kui-yi-kui/p2",
+      "gong-kui-yi-kui/p3",
+      "gong-kui-yi-kui/p4",
+      "gong-kui-yi-kui/p5",
+      "gong-kui-yi-kui/p6",
+      "gong-kui-yi-kui/p7"
+    ],
+    "preservedKeys": []
+  },
+  "items": [
+    {
+      "key": "gong-kui-yi-kui/p1",
+      "file": "public/audio/gong-kui-yi-kui/p1.mp3",
+      "textSha256": "88c61865338df4b2313a6cb1703508150a34aa5472c30e0b851909634e215fae",
+      "audioSha256": "7af524c50a9cf1934b3619feb4a909c7ad8199dcd911e5942cb8f2d260030267"
+    },
+    {
+      "key": "gong-kui-yi-kui/p2",
+      "file": "public/audio/gong-kui-yi-kui/p2.mp3",
+      "textSha256": "48c07ee7707fa2fc5617370e6c98a714c437b829c024b66bf616ddc79002a205",
+      "audioSha256": "f32589e2697a4909079a16073be181bf70286d33ed8a5ec38791f005af007510"
+    },
+    {
+      "key": "gong-kui-yi-kui/p3",
+      "file": "public/audio/gong-kui-yi-kui/p3.mp3",
+      "textSha256": "9fd4daf9719d4d901a4728eaf6bb266b72a16facfb67fa78f223840397419ae1",
+      "audioSha256": "ffa32fcf5cfaf4f10928289857be4fffaab21fe6cd20b7da77d6052ea2e42a2c"
+    },
+    {
+      "key": "gong-kui-yi-kui/p4",
+      "file": "public/audio/gong-kui-yi-kui/p4.mp3",
+      "textSha256": "d3e56aa88a4e5f7e8010e03da288f1dc957c981d061c7fa4dcf2d3cf1ea76e59",
+      "audioSha256": "8cf580a8b7edbb3fa097c08d063102c2db4279bdf3aee43861096c4872fc3f3a"
+    },
+    {
+      "key": "gong-kui-yi-kui/p5",
+      "file": "public/audio/gong-kui-yi-kui/p5.mp3",
+      "textSha256": "001f1fb5c57f1b95bbb8615002440b36718ae872a64543e98d5a78f19b91318b",
+      "audioSha256": "28028242ca480f4f25b46601d915dbd2649561e62976b4dae23050fe360c3b49"
+    },
+    {
+      "key": "gong-kui-yi-kui/p6",
+      "file": "public/audio/gong-kui-yi-kui/p6.mp3",
+      "textSha256": "adcbc871a1c7ddf21f9d0864c1971d7766158624f85c442972465b2f056a8f88",
+      "audioSha256": "8283cf036b7fd23f80f63fcd261256df19e908092edc5aa928e4c5b7b3b11f02"
+    },
+    {
+      "key": "gong-kui-yi-kui/p7",
+      "file": "public/audio/gong-kui-yi-kui/p7.mp3",
+      "textSha256": "72f7ff9fb9ab40a5aee9d3f607539c4a40377aa1d837be8864a021815702827a",
+      "audioSha256": "2479c01be46b012cdc6f332c7dbbbffe3c72b257681a14b8561b9939e1ef4c5a"
+    }
+  ]
+}

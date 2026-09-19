@@ -35,19 +35,18 @@ test("production algorithm expands exactly 23 whole-story batches / 207 items wh
   assert.ok(plan.pendingStories.every((story) => story.statuses.every((status) => ["missing", "stale", "unverified"].includes(status))));
 });
 
-test("live repository after copy restore has stale body pages and is unsafe for whole-story expansion", () => {
+test("live repository after Eve stale refresh is fully current and has no pending story batches", () => {
   const live = realPlan();
   const current = live.items.filter((item) => item.status === "current");
   const stale = live.items.filter((item) => item.status === "stale");
   assert.equal(live.items.length, 900);
-  assert.equal(current.length, 232);
-  assert.equal(stale.length, 668);
-  assert.equal(current.filter((item) => item.pageId === "p0" || item.pageId === "moral").length, 200);
-  assert.ok(stale.every((item) => /^p[1-7]$/.test(item.pageId)));
-  assert.throws(
-    () => buildPendingStoryBatchPlan({ plan: live }),
-    /mixed current\/non-current story is unsafe/,
-  );
+  assert.equal(current.length, 900);
+  assert.equal(stale.length, 0);
+  const plan = buildPendingStoryBatchPlan({ plan: live });
+  assert.equal(plan.currentStoryCount, 100);
+  assert.equal(plan.currentItemCount, 900);
+  assert.equal(plan.pendingStoryCount, 0);
+  assert.equal(plan.pendingItemCount, 0);
 });
 
 test("mixed current/non-current story fails closed instead of replacing a partial story", () => {

@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-stale-20260919t060658591z-qian-lv-ji-qiong-d73c2b583b7d",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-19T06:06:58.591Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "d73c2b583b7d43ae6b149e5fdec1deec10b0b0b82ab5c278b669c7010d9cbc7c",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "stale-items",
+      "storyId": "qian-lv-ji-qiong"
+    },
+    "synthesizedKeys": [
+      "qian-lv-ji-qiong/p1",
+      "qian-lv-ji-qiong/p2",
+      "qian-lv-ji-qiong/p3",
+      "qian-lv-ji-qiong/p4",
+      "qian-lv-ji-qiong/p5",
+      "qian-lv-ji-qiong/p6",
+      "qian-lv-ji-qiong/p7"
+    ],
+    "preservedKeys": []
+  },
+  "items": [
+    {
+      "key": "qian-lv-ji-qiong/p1",
+      "file": "public/audio/qian-lv-ji-qiong/p1.mp3",
+      "textSha256": "962da0f79ae5b5d02ab24148919dcc581927aeead3811fdac09f23ec635c6212",
+      "audioSha256": "4b80c7fc6e1cb265c50fce9537eca2b91b1831224944bbec03437739447ccf21"
+    },
+    {
+      "key": "qian-lv-ji-qiong/p2",
+      "file": "public/audio/qian-lv-ji-qiong/p2.mp3",
+      "textSha256": "a94e91475a007e867087758293ff79145329e5842de4cd1e8d3f37fc0cf515fb",
+      "audioSha256": "8a18b7c2514173db6fc46f30c7285c79eafeb4607634ec39067752501a17d305"
+    },
+    {
+      "key": "qian-lv-ji-qiong/p3",
+      "file": "public/audio/qian-lv-ji-qiong/p3.mp3",
+      "textSha256": "032db3bbcb10d99e8abd0930a53e56f382adc4a425b4b918eefcf9d12bd618c0",
+      "audioSha256": "efd68bd3f5f67114475f50e1b6ef10dce1a25c26f27789b055c0e0399953566e"
+    },
+    {
+      "key": "qian-lv-ji-qiong/p4",
+      "file": "public/audio/qian-lv-ji-qiong/p4.mp3",
+      "textSha256": "deaaa0cfbbdf200d8061752a90b221a481de530cff5b6e9d8bf3e4cdd3d4eac4",
+      "audioSha256": "180bd9dd68c1146852f3091dc7d25b1b0ce89e813a4c576d25787f3dea4b0cc4"
+    },
+    {
+      "key": "qian-lv-ji-qiong/p5",
+      "file": "public/audio/qian-lv-ji-qiong/p5.mp3",
+      "textSha256": "ddbcdb6f97d8e27bfc9e7d3b4bb4ddd56af719c7a40211aa6173b7d593bdb8c2",
+      "audioSha256": "c6a5f7b517a50bcb0518ed105a11ff2e2e31d5edbfa37cf6fd3941f20a938184"
+    },
+    {
+      "key": "qian-lv-ji-qiong/p6",
+      "file": "public/audio/qian-lv-ji-qiong/p6.mp3",
+      "textSha256": "777bd8b2e8fcfd8c657c709fe7f1a81f85fca286cc0deb4d1cb120b514f29f4f",
+      "audioSha256": "919cc3540446d01f2a5f59ccb7752f519505182823c4aaac274419288ec97c98"
+    },
+    {
+      "key": "qian-lv-ji-qiong/p7",
+      "file": "public/audio/qian-lv-ji-qiong/p7.mp3",
+      "textSha256": "23d8d3696d7119809fa3402b8aa8d73ff66b820f702603043e9c4879db256e6e",
+      "audioSha256": "fa1df688c507588b161f04a29ef73d0f3b76c22ca383149b20bbdb295793ee0b"
+    }
+  ]
+}

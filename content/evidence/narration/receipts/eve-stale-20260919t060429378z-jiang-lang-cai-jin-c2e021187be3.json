@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-stale-20260919t060429378z-jiang-lang-cai-jin-c2e021187be3",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-19T06:04:29.378Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "c2e021187be3a483d6be9e7c6a094c50b76c4adb210fc37885ade12aee28ecf6",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "stale-items",
+      "storyId": "jiang-lang-cai-jin"
+    },
+    "synthesizedKeys": [
+      "jiang-lang-cai-jin/p1",
+      "jiang-lang-cai-jin/p2",
+      "jiang-lang-cai-jin/p3",
+      "jiang-lang-cai-jin/p4",
+      "jiang-lang-cai-jin/p5",
+      "jiang-lang-cai-jin/p6",
+      "jiang-lang-cai-jin/p7"
+    ],
+    "preservedKeys": []
+  },
+  "items": [
+    {
+      "key": "jiang-lang-cai-jin/p1",
+      "file": "public/audio/jiang-lang-cai-jin/p1.mp3",
+      "textSha256": "6c142c88ca74a2740ec0a8a6554cc7e52be6b41e7e3030783ba30e347f698c67",
+      "audioSha256": "8ac70902c1c7cfd13668f3315c5e2bb8c54f48b4ddfbf75e8e36055225dd8dcc"
+    },
+    {
+      "key": "jiang-lang-cai-jin/p2",
+      "file": "public/audio/jiang-lang-cai-jin/p2.mp3",
+      "textSha256": "6dde483ac5264ef5b9f72fa603afd8cf0d1254eab40e5f2481ae2dbc2c8706b9",
+      "audioSha256": "a3e6b95dea4db620d980635472d8b3c25a7ced9a2072ca311cd15939394394fe"
+    },
+    {
+      "key": "jiang-lang-cai-jin/p3",
+      "file": "public/audio/jiang-lang-cai-jin/p3.mp3",
+      "textSha256": "be78137070077b1329b9c0f3029d7acd44dbabf523e4c5d32e4529e8d768d13c",
+      "audioSha256": "cdc7200804ad3600ffbde95010ab3fefdf34a7fd28cfa07599e0068b3b4d7bd8"
+    },
+    {
+      "key": "jiang-lang-cai-jin/p4",
+      "file": "public/audio/jiang-lang-cai-jin/p4.mp3",
+      "textSha256": "f2885322f56bec48667c2b562db68b58e48ca5a3de38d8d3078e0af863de58c4",
+      "audioSha256": "d2775465bad245186864e1b15f1ab5e05f4230b7b3d1ae6cb8399ce512b6caee"
+    },
+    {
+      "key": "jiang-lang-cai-jin/p5",
+      "file": "public/audio/jiang-lang-cai-jin/p5.mp3",
+      "textSha256": "5fc9d2c315a7d8e941d072c5aced5661d9624f60c8d11034b340a669d009260f",
+      "audioSha256": "0f31778aeea1942bd960069b5915fc6f19a81dd1103f7097109a151caab657b3"
+    },
+    {
+      "key": "jiang-lang-cai-jin/p6",
+      "file": "public/audio/jiang-lang-cai-jin/p6.mp3",
+      "textSha256": "4b44b4e783d219504e22043ced23771b3744a78dfcb434cb519921fec60ad74e",
+      "audioSha256": "2d7f38799f96a7e2755a705e18da44751d13de7f7804d4c4945bef0bde1e252d"
+    },
+    {
+      "key": "jiang-lang-cai-jin/p7",
+      "file": "public/audio/jiang-lang-cai-jin/p7.mp3",
+      "textSha256": "cf8d8bde4936c1f2fe12d9fdfeec30ba48136d9895f8ea15fbc5a57ba0d751ed",
+      "audioSha256": "3d5f98ebf1afdcd50144386f87a1b5c6b3f43695c02dbdb353c4bb8dd2820bd9"
+    }
+  ]
+}

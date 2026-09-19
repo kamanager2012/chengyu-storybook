@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-stale-20260919t060203207z-ban-men-nong-fu-1d879017db75",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-19T06:02:03.207Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "1d879017db752627f15e80ad85c3db0503b66066919cf70c98dcedbc06647c66",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "stale-items",
+      "storyId": "ban-men-nong-fu"
+    },
+    "synthesizedKeys": [
+      "ban-men-nong-fu/p1",
+      "ban-men-nong-fu/p2",
+      "ban-men-nong-fu/p3",
+      "ban-men-nong-fu/p4",
+      "ban-men-nong-fu/p5",
+      "ban-men-nong-fu/p6",
+      "ban-men-nong-fu/p7"
+    ],
+    "preservedKeys": []
+  },
+  "items": [
+    {
+      "key": "ban-men-nong-fu/p1",
+      "file": "public/audio/ban-men-nong-fu/p1.mp3",
+      "textSha256": "cfc0c9110c17539ddaf175f2ab7cb835b767ab2404847bab3b3678fb35fbe9ec",
+      "audioSha256": "8b78901f99785fd82047b316e16e62571652f00e62c2c545deeff96e1168b142"
+    },
+    {
+      "key": "ban-men-nong-fu/p2",
+      "file": "public/audio/ban-men-nong-fu/p2.mp3",
+      "textSha256": "c20dd4e8638211412383bb73dad8f7ef052a603afbba4d72f903ebe924270ef3",
+      "audioSha256": "b9dd0aa384cf088a8251a6bd4f15de49e6349d57ac3c56db3175ce18af7cb2ad"
+    },
+    {
+      "key": "ban-men-nong-fu/p3",
+      "file": "public/audio/ban-men-nong-fu/p3.mp3",
+      "textSha256": "f9c34c31cf566cc0bd81d3dded2290e0b52c19350cdb126336d7d370475c4dc2",
+      "audioSha256": "61b1b60514f7f73bb7aaac0b3304a1ab587b5998ca2f45cebef01113accfd504"
+    },
+    {
+      "key": "ban-men-nong-fu/p4",
+      "file": "public/audio/ban-men-nong-fu/p4.mp3",
+      "textSha256": "b07e82b37ba6eef491f159110c35cb5d339d7d68deaecdf46e2fa795af2245ce",
+      "audioSha256": "1e7c56c3a1067f35581518b7a4d4c527eb1ba77942e1e6bbdfeb3b9048af1b6d"
+    },
+    {
+      "key": "ban-men-nong-fu/p5",
+      "file": "public/audio/ban-men-nong-fu/p5.mp3",
+      "textSha256": "1e7b5998fe57a326edc02f8d184e2084cb7175e37c5478a3244f084a5a28e13a",
+      "audioSha256": "c5b27ae43363878510421be11d8820f7d19fe5d6619eb3b1ffcd2674274c971d"
+    },
+    {
+      "key": "ban-men-nong-fu/p6",
+      "file": "public/audio/ban-men-nong-fu/p6.mp3",
+      "textSha256": "186ce29c2a957160cdcb7bf93cc0ecd8b94bf04ca5f5ea1fcd153ad013237360",
+      "audioSha256": "b0d800931b2fd94d78f060cdae66af9da95b6face65d1d3fc0336864e174a01d"
+    },
+    {
+      "key": "ban-men-nong-fu/p7",
+      "file": "public/audio/ban-men-nong-fu/p7.mp3",
+      "textSha256": "6746d4cb2a5538976faa2d324865fe3f761138af70f61d2eced9e5dd4296fb4a",
+      "audioSha256": "e7b42b75291adc94c40f822263b6c6ea9b3aa2b3e51b55a8d5c40401574bc753"
+    }
+  ]
+}

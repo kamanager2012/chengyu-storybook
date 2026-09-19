@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-stale-20260919t060239389z-cai-gao-ba-dou-c4a1c360483c",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-19T06:02:39.389Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "c4a1c360483cb8a9e42785727439890b75b5b905c4b83b08cc662a1aedfe84a1",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "stale-items",
+      "storyId": "cai-gao-ba-dou"
+    },
+    "synthesizedKeys": [
+      "cai-gao-ba-dou/p1",
+      "cai-gao-ba-dou/p2",
+      "cai-gao-ba-dou/p3",
+      "cai-gao-ba-dou/p4",
+      "cai-gao-ba-dou/p5",
+      "cai-gao-ba-dou/p6",
+      "cai-gao-ba-dou/p7"
+    ],
+    "preservedKeys": []
+  },
+  "items": [
+    {
+      "key": "cai-gao-ba-dou/p1",
+      "file": "public/audio/cai-gao-ba-dou/p1.mp3",
+      "textSha256": "b034604c3c0eafa707ddb748f18ecc63976fbefb740d08e3188fdd25aeb0dc88",
+      "audioSha256": "0e15b32405deffe1e4cdde575a14f4a22a16b02498830fa0ad78ed95f29f3e27"
+    },
+    {
+      "key": "cai-gao-ba-dou/p2",
+      "file": "public/audio/cai-gao-ba-dou/p2.mp3",
+      "textSha256": "1d409ab413d53de78b04f0bda173d995011554e09bde7aba8b5883aaabf77709",
+      "audioSha256": "6cdaddfc2cc0065e70b969b52234979ce9d0c90e3f8f95aea0b3e3db4c8f2d3f"
+    },
+    {
+      "key": "cai-gao-ba-dou/p3",
+      "file": "public/audio/cai-gao-ba-dou/p3.mp3",
+      "textSha256": "ac745a6b529532b479d033cf7539c957a9cc87a4901f87f913653b6abc187e8c",
+      "audioSha256": "b63f624f555123d95f447fb5b90d833c767bea570a64a784d67d44ff56ecd08e"
+    },
+    {
+      "key": "cai-gao-ba-dou/p4",
+      "file": "public/audio/cai-gao-ba-dou/p4.mp3",
+      "textSha256": "14abab8366f035ea98656e08e0f36665fcab494239cc53152a8365ca0582d6f1",
+      "audioSha256": "ffc417a06fa1a7229244d627a652d250c92bfb533c2690bb9de4c4ba1eaae0af"
+    },
+    {
+      "key": "cai-gao-ba-dou/p5",
+      "file": "public/audio/cai-gao-ba-dou/p5.mp3",
+      "textSha256": "5ba473a223920b51a9222007fbb946cb09cc8d835a33c8f18f19f179a0a7ee34",
+      "audioSha256": "1e9672b2c42ed6d4afb6df8ba2d181a628c78f3e420bb5f9a680facb482cc838"
+    },
+    {
+      "key": "cai-gao-ba-dou/p6",
+      "file": "public/audio/cai-gao-ba-dou/p6.mp3",
+      "textSha256": "41f69315d09c2675aa690d396287cf87e627859d02b613e4a4fe120ed7132946",
+      "audioSha256": "576fa8e217554dccf890c0d89376c653e9f1985e456f7ea6e787b080623e8b4d"
+    },
+    {
+      "key": "cai-gao-ba-dou/p7",
+      "file": "public/audio/cai-gao-ba-dou/p7.mp3",
+      "textSha256": "39fe64500c8304fd7a79a979374286226b8e0c2a497f44c635909dfc30144c02",
+      "audioSha256": "173751952ec3ddec32e9f8da6b2a136694d71476beed4f14ed0b0f7e32c9f7ad"
+    }
+  ]
+}

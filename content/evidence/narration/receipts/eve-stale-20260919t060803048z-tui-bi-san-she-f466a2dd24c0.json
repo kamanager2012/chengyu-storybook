@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-stale-20260919t060803048z-tui-bi-san-she-f466a2dd24c0",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-19T06:08:03.048Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "f466a2dd24c08db0b3347e7511c09c84ad3767a5f70fd4ceadeca891a03fa89a",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "stale-items",
+      "storyId": "tui-bi-san-she"
+    },
+    "synthesizedKeys": [
+      "tui-bi-san-she/p1",
+      "tui-bi-san-she/p2",
+      "tui-bi-san-she/p3",
+      "tui-bi-san-she/p4",
+      "tui-bi-san-she/p5",
+      "tui-bi-san-she/p6",
+      "tui-bi-san-she/p7"
+    ],
+    "preservedKeys": []
+  },
+  "items": [
+    {
+      "key": "tui-bi-san-she/p1",
+      "file": "public/audio/tui-bi-san-she/p1.mp3",
+      "textSha256": "b27d5369f28cf774e4f2f2b57e6673f3412b2dee71789a530eca733b79c1a564",
+      "audioSha256": "a4570942ff1b50296872194276d0b7f3c4bd8f5adb7dd5b89adc84c041024a49"
+    },
+    {
+      "key": "tui-bi-san-she/p2",
+      "file": "public/audio/tui-bi-san-she/p2.mp3",
+      "textSha256": "a4a1f02c0cff85f8cbb57988a09ed9140806c01ae981c484164cfc9d77eb118f",
+      "audioSha256": "8f49d5506c95f32574bba09571f66bf9cb34a24b0d82ebef261d6e8dcf246d7e"
+    },
+    {
+      "key": "tui-bi-san-she/p3",
+      "file": "public/audio/tui-bi-san-she/p3.mp3",
+      "textSha256": "655788e29791dad13ab906e90b4dccbf9d437f4beb60a7b028087c8ecc50eb16",
+      "audioSha256": "d68a0bd23b2a9752bc310f3176c6c7544d702928e9aa0885319f106562bd0cce"
+    },
+    {
+      "key": "tui-bi-san-she/p4",
+      "file": "public/audio/tui-bi-san-she/p4.mp3",
+      "textSha256": "19f1aa73a9c0d8f9117a1518caf6b63f71fcd7b19b3360540d09f037d382eaf5",
+      "audioSha256": "f98e39ee0d99ecc8a34c1c47cc212776a035643d7113620ca833afac8c8b8e08"
+    },
+    {
+      "key": "tui-bi-san-she/p5",
+      "file": "public/audio/tui-bi-san-she/p5.mp3",
+      "textSha256": "ce3370e53fa6d8011b439ff91dc7e71b00bd998399423080fdac883223b2d045",
+      "audioSha256": "ff3523e2ba142d9cc8f2723e399264a4322970c8cfb74ddd3788d6324c23ecea"
+    },
+    {
+      "key": "tui-bi-san-she/p6",
+      "file": "public/audio/tui-bi-san-she/p6.mp3",
+      "textSha256": "ff61645d29be586e7cc01447cd62d31db77b81ed652339cb8d1d0e9156ee3a89",
+      "audioSha256": "eacda8d225bd6d957fc01696e4c5fbf7b1c91c562d002c68dfd17e3d5151cecb"
+    },
+    {
+      "key": "tui-bi-san-she/p7",
+      "file": "public/audio/tui-bi-san-she/p7.mp3",
+      "textSha256": "e675f134fb9ff82dd8b0245e94183c06f99a9fc8ae45fc4fcc6d39bf19737b69",
+      "audioSha256": "827e8a4f0e5a2b4e9ed82b1dcd70ceedaada3604e33c1f2d10b33192b907b3e7"
+    }
+  ]
+}

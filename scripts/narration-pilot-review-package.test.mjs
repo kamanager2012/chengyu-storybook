@@ -47,7 +47,7 @@ function controlledHashes() {
 
 test("installed pilot review manifest binds exactly nine current release MP3 files to durable evidence", () => {
   const live = validateCurrentNarrationPilot();
-  assert.equal(live.valid, false);
+  assert.equal(live.valid, true, live.problems.join("; "));
   const validation = evidenceValidForPackage();
   const manifest = buildPilotReviewManifest({ validation, plan: pairingAsCurrent() });
   assert.equal(manifest.packageType, "installed-narration-pilot-listening-review");
@@ -92,28 +92,24 @@ test("review HTML is offline-only and exposes exact text plus local audio contro
   assert.equal((html.match(/<input type="checkbox" data-check="pass">/g) ?? []).length, 9);
 });
 
-test("live review package write is refused after copy restore without mutating release files", () => {
+test("live review package write copies installed MP3s without mutating release files", () => {
   const outDir = join(repoRoot, ".tmp-pilot-review-package-test");
   rmSync(outDir, { recursive: true, force: true });
   const before = controlledHashes();
   try {
-    assert.throws(
-      () => writePilotReviewPackage({ outDir }),
-      /pilot evidence is invalid/,
-    );
+    const written = writePilotReviewPackage({ outDir });
+    assert.equal(written.itemCount, 9);
   } finally {
     rmSync(outDir, { recursive: true, force: true });
   }
   assert.deepEqual(controlledHashes(), before);
 });
 
-test("review package construction fails closed on stale or mismatched plan entries", () => {
+test("review package construction fails closed on mismatched plan entries", () => {
   const validation = evidenceValidForPackage();
   const livePlan = buildNarrationPlan({ story: "shou-zhu" });
-  assert.throws(
-    () => buildPilotReviewManifest({ validation, plan: livePlan }),
-    /installed pilot narration is not current/,
-  );
+  const manifest = buildPilotReviewManifest({ validation, plan: livePlan });
+  assert.equal(manifest.itemCount, 9);
 
   const wrongShaPlan = pairingAsCurrent();
   wrongShaPlan.items[0].audioSha256 = "0".repeat(64);

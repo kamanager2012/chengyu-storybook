@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-stale-20260919t061011749z-zhi-lu-wei-ma-e65bc2b6bdb9",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-19T06:10:11.749Z",
+  "inputItemCount": 6,
+  "inputDigestSha256": "e65bc2b6bdb9a267cdbd10f87b69ea4f8970cd706f841c3126e72a425d914144",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "stale-items",
+      "storyId": "zhi-lu-wei-ma"
+    },
+    "synthesizedKeys": [
+      "zhi-lu-wei-ma/p1",
+      "zhi-lu-wei-ma/p2",
+      "zhi-lu-wei-ma/p3",
+      "zhi-lu-wei-ma/p4",
+      "zhi-lu-wei-ma/p6",
+      "zhi-lu-wei-ma/p7"
+    ],
+    "preservedKeys": []
+  },
+  "items": [
+    {
+      "key": "zhi-lu-wei-ma/p1",
+      "file": "public/audio/zhi-lu-wei-ma/p1.mp3",
+      "textSha256": "2329804b830be212ff72ba3508c5d33b39c925e2e05ee170f6ec71cabf94b673",
+      "audioSha256": "37a9b585ebc45002de63be49f4ecb77b1cfbcb3b4d5d2034e05435ba095d3c10"
+    },
+    {
+      "key": "zhi-lu-wei-ma/p2",
+      "file": "public/audio/zhi-lu-wei-ma/p2.mp3",
+      "textSha256": "68484981953d30ec282e80d581ee7fd2bb6590dca08bd0f7b098c735a2482ffb",
+      "audioSha256": "b9cce70a0209b03702c421687dc4ce1444c147e40c283fd48010e3a76b9d9b7d"
+    },
+    {
+      "key": "zhi-lu-wei-ma/p3",
+      "file": "public/audio/zhi-lu-wei-ma/p3.mp3",
+      "textSha256": "02f87d0f16a022b83d25441ff043beaf404c3dee1a23ee87f04df05715cf81a3",
+      "audioSha256": "d01d3c5289365e36960a252cf8781ef0bf2a71f0b8a83a4fefe80c203e1bb6b6"
+    },
+    {
+      "key": "zhi-lu-wei-ma/p4",
+      "file": "public/audio/zhi-lu-wei-ma/p4.mp3",
+      "textSha256": "57d3c2ec14d6e3642b6a396182df5276df71d144b1fc02e4a1426276b5b98487",
+      "audioSha256": "c37694ae75580dd6571e42269869f2ce9203e876b4a2d3f0419b644a222c93f8"
+    },
+    {
+      "key": "zhi-lu-wei-ma/p6",
+      "file": "public/audio/zhi-lu-wei-ma/p6.mp3",
+      "textSha256": "adbdb1a3baf611735a56fd4f4d973f02b98a719ad4b6f05829bd19b4bf8b7bf8",
+      "audioSha256": "f8688f4a3e85abc2509a981a69d95df347c344c35eabbc429947d7e383f34020"
+    },
+    {
+      "key": "zhi-lu-wei-ma/p7",
+      "file": "public/audio/zhi-lu-wei-ma/p7.mp3",
+      "textSha256": "d4306307ca66a1e2957ae38238762e803bcc2772d4a6dd09d3300ab54163aa35",
+      "audioSha256": "d6857a380c6f235c172fcaaf3f059b4fdfbd6d345fdc16918d371f2b12882351"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-stale-20260919t060304668z-da-qi-wan-cheng-3d1741429c59",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-19T06:03:04.668Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "3d1741429c596ca3badeb877e88e6422d4d263d90e65a08c4b3542fca8c36779",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "stale-items",
+      "storyId": "da-qi-wan-cheng"
+    },
+    "synthesizedKeys": [
+      "da-qi-wan-cheng/p1",
+      "da-qi-wan-cheng/p2",
+      "da-qi-wan-cheng/p3",
+      "da-qi-wan-cheng/p4",
+      "da-qi-wan-cheng/p5",
+      "da-qi-wan-cheng/p6",
+      "da-qi-wan-cheng/p7"
+    ],
+    "preservedKeys": []
+  },
+  "items": [
+    {
+      "key": "da-qi-wan-cheng/p1",
+      "file": "public/audio/da-qi-wan-cheng/p1.mp3",
+      "textSha256": "80bcab4ae643eb2002823493719b58f683bb4a4f7fe31dbfbe7fe421a67e6165",
+      "audioSha256": "7512e68b7e675abc56e0a2258d5872a9f41f6f3bf3cc5c2edde5316248402aa0"
+    },
+    {
+      "key": "da-qi-wan-cheng/p2",
+      "file": "public/audio/da-qi-wan-cheng/p2.mp3",
+      "textSha256": "0a1b3dd4853ed3d1d4512bda456a882bdc86a162ef0a5d792b95963abdeb0fc0",
+      "audioSha256": "68fcbbaa895bae8de2ac969f8b98d26ade39be25f92dca68132d26bf75386929"
+    },
+    {
+      "key": "da-qi-wan-cheng/p3",
+      "file": "public/audio/da-qi-wan-cheng/p3.mp3",
+      "textSha256": "ded0822f28f63d7d7d59c3c64908cd504905ea0188fe865c5c067eb94cecf149",
+      "audioSha256": "75d8b18955e3346c21e3a55475364b3b20efac73f2d0d3d484c1b53729b2e5dc"
+    },
+    {
+      "key": "da-qi-wan-cheng/p4",
+      "file": "public/audio/da-qi-wan-cheng/p4.mp3",
+      "textSha256": "ea6c8c31d385329840b76409c734c09effe09af0df9e954d12e589b09ae0f179",
+      "audioSha256": "2c1fa96b005e22253a81b10b3a3d58205a3e2b29b8a26e8dba7483a66b00f41b"
+    },
+    {
+      "key": "da-qi-wan-cheng/p5",
+      "file": "public/audio/da-qi-wan-cheng/p5.mp3",
+      "textSha256": "7ec1a4158c6625202c37431fcaa1c7310bedbf06b45f9de43c468995b2cfead7",
+      "audioSha256": "ccdc6670a64b39195c353b0fe3a684fc7cc0c50385dc4dfec9eb52af8a9e9dd7"
+    },
+    {
+      "key": "da-qi-wan-cheng/p6",
+      "file": "public/audio/da-qi-wan-cheng/p6.mp3",
+      "textSha256": "f1dedaaa540a4e7d6bd5233723abba9bd13c5e712e3a2db0242273afe587cba6",
+      "audioSha256": "43e47e33386fb0f0acd121b012e76919c3ac8d5915d63eee11bf9afd5c6e4105"
+    },
+    {
+      "key": "da-qi-wan-cheng/p7",
+      "file": "public/audio/da-qi-wan-cheng/p7.mp3",
+      "textSha256": "b2019ada15bc015f6485ebb16d02ed4dabecd374e4b1b1b0cd6dc43c0493f481",
+      "audioSha256": "cdece642d34aab41b25eb43f73888461f56b51fe91d6e0e9febb26982e1d9eb7"
+    }
+  ]
+}

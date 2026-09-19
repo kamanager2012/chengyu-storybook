@@ -3,11 +3,11 @@
   "pilotId": "shou-zhu-eve-cutover-v1",
   "storyId": "shou-zhu",
   "installedBatch": {
-    "batchId": "eve-cutover-20260916-shou-zhu-c64ba3b04d15",
-    "receiptPath": "content/evidence/narration/receipts/eve-cutover-20260916-shou-zhu-c64ba3b04d15.json",
-    "receiptSha256": "4b14e7af2151f47ebc3bcc3af55071c029cfff8e651870fb12a41ca8aef0f29f",
+    "batchId": "eve-stale-20260919t060152131z-shou-zhu-106ebc53267a",
+    "receiptPath": "content/evidence/narration/receipts/eve-stale-20260919t060152131z-shou-zhu-106ebc53267a.json",
+    "receiptSha256": "896accdf6019adf4f667a2b39749a7f5caa8ab41089b312cc0736b6df390bd6d",
     "inputItemCount": 9,
-    "inputDigestSha256": "c64ba3b04d157b26fb7de32489bcab59b28fb701a7494f0df0d97b8019cb8f9b"
+    "inputDigestSha256": "106ebc53267a9e52a254663dcff7d2e79017b4e26b30eb7d3a16c20257c8598c"
   },
   "technicalQc": {
     "status": "passed",
@@ -15,33 +15,33 @@
     "sampleRateHz": 24000,
     "channels": 1,
     "bitrateKbps": 128,
-    "totalDurationSeconds": 73.296,
-    "averageDurationSeconds": 8.144,
-    "minimumDurationSeconds": 6.36,
-    "maximumDurationSeconds": 12.36,
-    "totalBytes": 1172736,
-    "averageBytes": 130304,
-    "minimumBytes": 101760,
-    "maximumBytes": 197760,
+    "totalDurationSeconds": 71.472,
+    "averageDurationSeconds": 7.941,
+    "minimumDurationSeconds": 6.53,
+    "maximumDurationSeconds": 8.93,
+    "totalBytes": 1143552,
+    "averageBytes": 127061,
+    "minimumBytes": 104448,
+    "maximumBytes": 142848,
     "nonSilenceCheck": "passed",
     "productionBundleModelLeakCheck": "passed"
   },
   "audioSha256": {
     "shou-zhu/p0": "b52a42a3f82b2d9202513da4b1804783c77b2f1ab8956e626bd65e378124321b",
-    "shou-zhu/p1": "308484433af2d78acc1cdea833a9c3054552cd3793b8bd97fcc76f5f3d62b76a",
-    "shou-zhu/p2": "8fe281a536f5cf0faa21541d9697a2a7821abf8a62eb9e2bad6e0f58bfc2e221",
-    "shou-zhu/p3": "fd75f1d25dacd57960c5b582235ed0c066d752eb40dadc5c332a898a331464ae",
-    "shou-zhu/p4": "bd6d98d0369b772be2c276861221e8e7f87afbe99ba0311cc99399b21ea2cf86",
-    "shou-zhu/p5": "19fb0688110c3fe0c71febd947291eff0aa705c235934584cea66a39720ce436",
-    "shou-zhu/p6": "6381e49ebc5e14fc200580414fcbc8472fa3bd1571f21504d797ce6171c65cb2",
-    "shou-zhu/p7": "e8cce9728777ca609c942758c9ebbefcbb848d3822664dd4610d6d1d456b3e23",
+    "shou-zhu/p1": "83bc2b2e93795d56a8df73886f2450edae507b8874077a30bb05f9cac8b00544",
+    "shou-zhu/p2": "0fe28e624ab36d90a6d5743e7539d2278c931caf5b5d6235e1d84435f5bcb290",
+    "shou-zhu/p3": "fd3bed65ade9f20fd43b89848cf6185d2a7b37abb079017662a1ad4504e49fd4",
+    "shou-zhu/p4": "10755b2c2c5b0fca816c45df26c4999734a06317136ed037eb27758676b78bf0",
+    "shou-zhu/p5": "1c1c3178cde3905a1932e982277fada917dc5258cfd87ee5ce7d6b6dced68014",
+    "shou-zhu/p6": "996d9c50d3bed0832195f488079e1b2ff20755a1cfb62342721cf8e99392022d",
+    "shou-zhu/p7": "331884297642f3aab791456ccbbc95223ae4af682714105939870abace4d93aa",
     "shou-zhu/moral": "a0053029116d56e7c06f5030504c0fd978cb14f9dbb42027b50df00a46f8e652"
   },
   "qualityReview": {
     "listeningStatus": "waived",
     "expansionApproved": true,
-    "reviewedAt": "2026-09-16T03:06:09.412Z",
+    "reviewedAt": "2026-09-19T06:01:52.880Z",
     "reviewerRole": "project-owner",
-    "decisionNote": "Product default is Grok eve under public/audio. Owner directed Eve provenance cutover binding without regenerating MP3s; human listening waiver carries prior Eve cutover acceptance."
+    "decisionNote": "Owner directed Eve stale-body refresh after copy restore. Cover and moral MP3s stayed byte-identical; p1-p7 were resynthesized with xAI Eve and bound by a new nine-item receipt. Expansion waiver continues for remaining catalog refresh."
   }
 }

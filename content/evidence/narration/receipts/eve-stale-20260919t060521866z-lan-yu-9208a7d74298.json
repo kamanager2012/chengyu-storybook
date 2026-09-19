@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-stale-20260919t060521866z-lan-yu-9208a7d74298",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-19T06:05:21.866Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "9208a7d7429849d948ff358f96010b77662eb90a27cddf4e89b956f3439821e6",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "stale-items",
+      "storyId": "lan-yu"
+    },
+    "synthesizedKeys": [
+      "lan-yu/p1",
+      "lan-yu/p2",
+      "lan-yu/p3",
+      "lan-yu/p4",
+      "lan-yu/p5",
+      "lan-yu/p6",
+      "lan-yu/p7"
+    ],
+    "preservedKeys": []
+  },
+  "items": [
+    {
+      "key": "lan-yu/p1",
+      "file": "public/audio/lan-yu/p1.mp3",
+      "textSha256": "71f224bb6aceaa6a0503212ed4214ac3382ce6178f0924fd0ae652722990f6c3",
+      "audioSha256": "594be25256798887a1c4715d5ed442e85c5124098eb92cb1c8ef1723f89b743f"
+    },
+    {
+      "key": "lan-yu/p2",
+      "file": "public/audio/lan-yu/p2.mp3",
+      "textSha256": "bd37792437d9fa3f4d392a338b222b032b30de7f9087ef5e13181caf588a8b1f",
+      "audioSha256": "176438a1f542ec37801466d7e8568684b9c4c415bb183d07766db4a7dde03760"
+    },
+    {
+      "key": "lan-yu/p3",
+      "file": "public/audio/lan-yu/p3.mp3",
+      "textSha256": "3c1d7d648d6139f27a0f5343c0e1a91c26859fc756650a90ed20bbc73c2934f3",
+      "audioSha256": "e8802cf952871e2f5c7b84344a22573ce050a030bea09f556c2c770754d626d9"
+    },
+    {
+      "key": "lan-yu/p4",
+      "file": "public/audio/lan-yu/p4.mp3",
+      "textSha256": "dc17639998d5540b9c22d57373b2afccd3a99e0f8f90bbc526b69462db8495b1",
+      "audioSha256": "ff642b8e02f720b06774ac8f21a85b44b6caad17a990b493dcf58bbbe06eaac3"
+    },
+    {
+      "key": "lan-yu/p5",
+      "file": "public/audio/lan-yu/p5.mp3",
+      "textSha256": "91c0defb68717497759b69222f5fe15988e3dc01ce2093a668828a111b39ed87",
+      "audioSha256": "db7910f3e1a090414a7a0f4f88cd5fd65fab24ac7c9c899a9b68195b03f2d779"
+    },
+    {
+      "key": "lan-yu/p6",
+      "file": "public/audio/lan-yu/p6.mp3",
+      "textSha256": "5363115f9a213258ffe22a15dd5123e0d0da0ebf10cf187419ab65d3cdcca6fc",
+      "audioSha256": "907fc10fbc21a94ea50563793f1bdebf6e4030a17fd4f795ede034e81c07dc6e"
+    },
+    {
+      "key": "lan-yu/p7",
+      "file": "public/audio/lan-yu/p7.mp3",
+      "textSha256": "1bee0fde4eff7f8bab78d5f271f2ed55391b6f31375742c40312e0561e23d170",
+      "audioSha256": "61e350810505e916f8b53d71869adf908b4a2a6150d1125b670305d956d0569e"
+    }
+  ]
+}

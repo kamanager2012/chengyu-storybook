@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "batchId": "eve-stale-20260919t060647419z-qi-bu-cheng-shi-f02b1e745aa5",
+  "canonicalSource": "content/published-stories.json",
+  "createdAt": "2026-09-19T06:06:47.419Z",
+  "inputItemCount": 7,
+  "inputDigestSha256": "f02b1e745aa5bed55f6b011d4117400e482e10a90a920913a11d5f5968e393da",
+  "provider": {
+    "name": "xai-grok-tts",
+    "voice": "eve",
+    "language": "zh",
+    "generator": "xai-grok-tts-batch-v1",
+    "profile": {
+      "id": "xai-grok-tts-eve-v1",
+      "evidence": "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "sha256": "f2efa6d1a5ed298fdecd023705039fd3707e41ef5bc08c11374c10fe8610e2b9"
+    }
+  },
+  "rights": {
+    "claim": "permission",
+    "evidence": [
+      "content/evidence/narration/providers/xai-grok-tts-eve.json",
+      "content/evidence/narration/eve-cutover-attestation.json",
+      "content/narration-voice-pilot.json"
+    ]
+  },
+  "execution": {
+    "api": {
+      "endpoint": "https://api.x.ai/v1/tts",
+      "voiceId": "eve",
+      "language": "zh"
+    },
+    "scope": {
+      "type": "stale-items",
+      "storyId": "qi-bu-cheng-shi"
+    },
+    "synthesizedKeys": [
+      "qi-bu-cheng-shi/p1",
+      "qi-bu-cheng-shi/p2",
+      "qi-bu-cheng-shi/p3",
+      "qi-bu-cheng-shi/p4",
+      "qi-bu-cheng-shi/p5",
+      "qi-bu-cheng-shi/p6",
+      "qi-bu-cheng-shi/p7"
+    ],
+    "preservedKeys": []
+  },
+  "items": [
+    {
+      "key": "qi-bu-cheng-shi/p1",
+      "file": "public/audio/qi-bu-cheng-shi/p1.mp3",
+      "textSha256": "f8a1cd185c2987d074851a69fb677c9eafa56f13ee665d8b1ebdb2a287e0fadb",
+      "audioSha256": "507bf09e1c977bcc2b3214ab45eea5ff3ef3043ca0bf37b885f687a23b6b3ec1"
+    },
+    {
+      "key": "qi-bu-cheng-shi/p2",
+      "file": "public/audio/qi-bu-cheng-shi/p2.mp3",
+      "textSha256": "3bd0a949b38e019a8480737083bbbdbf9fc87c404abf7f3d7cb157ababf3de38",
+      "audioSha256": "fac00542d4dcffe2191821c66d9680b792399c2a38c6f9a61f91e63664be3cf8"
+    },
+    {
+      "key": "qi-bu-cheng-shi/p3",
+      "file": "public/audio/qi-bu-cheng-shi/p3.mp3",
+      "textSha256": "d66e1eb999374323ca43ca7e7bacfb6a7c4152d3b0a0e17352bfe8ade32ea83b",
+      "audioSha256": "ddfa9ac966d2569f885e493941df625489ba1b0d789e023ca44ea956fcc3bc98"
+    },
+    {
+      "key": "qi-bu-cheng-shi/p4",
+      "file": "public/audio/qi-bu-cheng-shi/p4.mp3",
+      "textSha256": "b5d852063f19f54779f159acd104189976be9863ec481033359ace331d588025",
+      "audioSha256": "06eaecee9e69d178598e66e095ce730e3f0fed465ddf579c086c603bf7b98d5f"
+    },
+    {
+      "key": "qi-bu-cheng-shi/p5",
+      "file": "public/audio/qi-bu-cheng-shi/p5.mp3",
+      "textSha256": "d09c7c677d7d3fd40cfd3806e7311c7a5f7cb37f2e432bb07a0fa9a278b4521d",
+      "audioSha256": "829d2afa0de2abd9341fbfab7e0b2616a5ff7a046980749fb68766081aa3a6d7"
+    },
+    {
+      "key": "qi-bu-cheng-shi/p6",
+      "file": "public/audio/qi-bu-cheng-shi/p6.mp3",
+      "textSha256": "2bef9b1a68a52d7fdd3976768adcca293938c5e2bfcf16073fe73efcc57bbeaf",
+      "audioSha256": "cf81688a35b4dbd3f67a77698ff94e97c60e1eb230e0fbe5bed526a1a8e146f9"
+    },
+    {
+      "key": "qi-bu-cheng-shi/p7",
+      "file": "public/audio/qi-bu-cheng-shi/p7.mp3",
+      "textSha256": "2def76ed5a8a96c37a45eb1ecc7a61cf5a1a8de0931a4be0e19733f84e0364df",
+      "audioSha256": "cd853272537c3984c23f17696e4357e47e2fa3da449b0cc0f957d63c8ae10950"
+    }
+  ]
+}
