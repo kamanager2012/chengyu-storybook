@@ -4,7 +4,7 @@
   "canonicalSource": "content/published-stories.json",
   "scope": "all-published-story-pages",
   "inputItemCount": 900,
-  "inputDigestSha256": "a690fe7620249bad69beb64c4f1c2d6da3f0e2d8c5917e146b6a0b4b12dabdda",
+  "inputDigestSha256": "2232621cc097c0ec03b23df0f82d9d6ff2062eba878a94db68b309a98054ab56",
   "digestProjection": [
     "key",
     "file",

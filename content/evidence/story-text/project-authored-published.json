@@ -5,7 +5,7 @@
   "description": "The 100 media-ready idiom story texts were freshly rewritten for this project in content/published-stories.json. The claim covers the project-authored wording and structure, not the underlying traditional idioms or historical/mythic plots. This record does not make a jurisdiction-specific assertion about copyrightability of AI-assisted text.",
   "source": {
     "path": "content/published-stories.json",
-    "gitBlob": "023640f348bf12082438258b846587429308dee9",
+    "gitBlob": "c0e6dfaac0433ad6ed1c27a7600b487ec13dfa00",
     "stories": 100
   },
   "externalTextSources": [],

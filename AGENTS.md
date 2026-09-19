@@ -102,10 +102,10 @@ There is one live canonical content tier; browser/runtime adapters are **not** c
 
 ## CI boundary
 
-- Same-repository pushes on `main`, `feat/**`, `fix/**`, `chore/**`, `perf/**`, and `generated/**` are governed by `.github/workflows/exact-head-ci.yml`.
+- `.github/workflows/exact-head-ci.yml` is the observable gate for **pull requests targeting `main`** and **manual `workflow_dispatch`**. It does not run on `push` to `main` (the pack is large; do not re-add a same-repository main-push trigger).
 - The exact-head gate runs Node 20/22, zero-warning lint, the complete project check, dependency audit, and Chromium desktop/mobile E2E before publishing the machine-readable `exact-head-ci` commit status.
 - Playwright diagnostics are uploaded only on E2E failure; diagnostic artifacts must not change success semantics.
-- Same-branch stale exact-head runs are canceled; do not add parallel workflows that duplicate the same push gate.
+- Same-branch stale exact-head runs are canceled; do not add parallel workflows that duplicate the same PR/dispatch gate.
 - `storybook-ci.yml` and `storybook-e2e.yml` exist only as read-only fork-PR validation. Do not re-add same-repository push triggers to them.
 - Third-party GitHub Actions must be pinned to immutable commit SHAs, not floating tags.
 

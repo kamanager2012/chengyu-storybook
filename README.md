@@ -109,7 +109,7 @@ E2E 会在桌面与移动 Chromium 上验证真实书架链接、故事深链、
 
 默认 `npm test` 对齐现网旁白口径（Eve／Grok TTS）。历史 Kokoro 生成／provenance 合同在 `npm run test:kokoro`，不作为干净树默认门禁，避免假绿。
 
-同仓库的 `main`、`feat/**`、`fix/**`、`chore/**`、`perf/**`、`generated/**` push 由 `.github/workflows/exact-head-ci.yml` 作为权威 gate：
+同仓库 **指向 `main` 的 pull request** 与 **手动 `workflow_dispatch`** 由 `.github/workflows/exact-head-ci.yml` 作为权威 gate。它**不**在 `main` push 上跑（pack 很大，不要重开同仓库 main push CI）：
 
 - Node 20 / Node 22；
 - zero-warning lint；
@@ -120,7 +120,7 @@ E2E 会在桌面与移动 Chromium 上验证真实书架链接、故事深链、
 
 Chromium E2E 失败时，CI 只在失败路径上传 `test-results/`，用于保留 Playwright trace、截图和 video 诊断证据。第三方 Actions 必须固定到 immutable commit SHA。
 
-同一分支的新 SHA 会取消旧的 exact-head run，减少过期状态和重复执行。`storybook-ci.yml` 与 `storybook-e2e.yml` 只保留为 **fork pull request 的只读验证**，避免同仓库 PR 在 push gate 之外再重复跑一套相同 CI。
+同一 PR/dispatch 的新 SHA 会取消旧的 exact-head run，减少过期状态和重复执行。`storybook-ci.yml` 与 `storybook-e2e.yml` 只保留为 **fork pull request 的只读验证**，避免同仓库 PR 在 exact-head gate 之外再重复跑一套相同 CI。
 
 ## 静态部署
 

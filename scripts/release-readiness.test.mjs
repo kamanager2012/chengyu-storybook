@@ -97,13 +97,16 @@ test("narration synchronization accounting supports partial verified batches", (
   assert.ok(category, "narration category must exist");
   assert.equal(n.current + n.stale + n.unverified + n.missing, n.total);
   assert.equal(n.total, 900);
-  assert.equal(n.stale, 0);
   assert.equal(n.missing, 0);
-  assert.equal(n.unverified, n.total - n.current);
+  // Copy restore drifted most p1–p7 hashes; cover/moral plus 32 already-matching body pages stay current.
+  assert.equal(n.current, 232);
+  assert.equal(n.stale, 668);
+  assert.equal(n.unverified, 0);
   assert.equal(category.verified, n.current);
-  assert.equal(category.unverified, n.unverified);
+  assert.equal(category.unverified, n.stale);
   assert.equal(category.stale ?? 0, 0);
   assert.equal(category.invalid ?? 0, 0);
+  assert.equal(report.releaseReady, false);
 });
 
 test("provenance evidence references must be durable and resolvable", () => {

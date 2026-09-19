@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { createHash } from "node:crypto";
-import { existsSync, readFileSync, rmSync } from "node:fs";
+import { readFileSync, rmSync } from "node:fs";
 import { join } from "node:path";
 import test from "node:test";
 import {
@@ -8,9 +8,26 @@ import {
   renderPilotReviewHtml,
   writePilotReviewPackage,
 } from "./narration-pilot-review-package.mjs";
-import { validateCurrentNarrationPilot } from "./narration-pilot-approval.mjs";
+import { readNarrationPilotEvidence, validateCurrentNarrationPilot } from "./narration-pilot-approval.mjs";
 import { buildNarrationPlan } from "./narration-plan.mjs";
 import { repoRoot } from "./story-model.mjs";
+
+function pairingAsCurrent() {
+  const plan = structuredClone(buildNarrationPlan({ story: "shou-zhu" }));
+  for (const item of plan.items) item.status = "current";
+  return plan;
+}
+
+function evidenceValidForPackage() {
+  const evidence = readNarrationPilotEvidence();
+  return {
+    valid: true,
+    evidence,
+    expansionApproved: evidence.qualityReview?.expansionApproved === true,
+    listeningStatus: evidence.qualityReview?.listeningStatus ?? null,
+    problems: [],
+  };
+}
 
 function sha256File(path) {
   return createHash("sha256").update(readFileSync(path)).digest("hex");
@@ -29,9 +46,10 @@ function controlledHashes() {
 }
 
 test("installed pilot review manifest binds exactly nine current release MP3 files to durable evidence", () => {
-  const validation = validateCurrentNarrationPilot();
-  assert.equal(validation.valid, true, validation.problems.join("; "));
-  const manifest = buildPilotReviewManifest({ validation });
+  const live = validateCurrentNarrationPilot();
+  assert.equal(live.valid, false);
+  const validation = evidenceValidForPackage();
+  const manifest = buildPilotReviewManifest({ validation, plan: pairingAsCurrent() });
   assert.equal(manifest.packageType, "installed-narration-pilot-listening-review");
   assert.equal(manifest.pilotId, "shou-zhu-eve-cutover-v1");
   assert.equal(manifest.storyId, "shou-zhu");
@@ -58,7 +76,7 @@ test("installed pilot review manifest binds exactly nine current release MP3 fil
 });
 
 test("review HTML is offline-only and exposes exact text plus local audio controls", () => {
-  const manifest = buildPilotReviewManifest();
+  const manifest = buildPilotReviewManifest({ validation: evidenceValidForPackage(), plan: pairingAsCurrent() });
   const html = renderPilotReviewHtml(manifest);
   assert.equal(/https?:\/\//i.test(html), false, "review HTML must not depend on remote resources");
   assert.match(html, /本包只复制仓库当前已安装的 release MP3/);
@@ -74,29 +92,15 @@ test("review HTML is offline-only and exposes exact text plus local audio contro
   assert.equal((html.match(/<input type="checkbox" data-check="pass">/g) ?? []).length, 9);
 });
 
-test("review package copies installed evidence-bound audio without mutating controlled release files", () => {
+test("live review package write is refused after copy restore without mutating release files", () => {
   const outDir = join(repoRoot, ".tmp-pilot-review-package-test");
   rmSync(outDir, { recursive: true, force: true });
   const before = controlledHashes();
-  const validation = validateCurrentNarrationPilot();
   try {
-    const result = writePilotReviewPackage({ outDir });
-    assert.equal(result.itemCount, 9);
-    assert.equal(result.listeningStatus, validation.listeningStatus);
-    assert.equal(result.expansionApproved, validation.expansionApproved);
-
-    for (const name of ["manifest.json", "review.html", "README.txt", "evidence/pilot.json", "evidence/receipt.json"]) {
-      assert.equal(existsSync(join(outDir, name)), true, `${name} must exist`);
-    }
-
-    const manifest = JSON.parse(readFileSync(join(outDir, "manifest.json"), "utf8"));
-    assert.equal(manifest.itemCount, 9);
-    for (const item of manifest.items) {
-      const copied = join(outDir, item.reviewFile);
-      assert.equal(existsSync(copied), true);
-      assert.equal(sha256File(copied), item.audioSha256);
-    }
-    assert.equal(sha256File(join(outDir, "evidence/receipt.json")), manifest.installedBatch.receiptSha256);
+    assert.throws(
+      () => writePilotReviewPackage({ outDir }),
+      /pilot evidence is invalid/,
+    );
   } finally {
     rmSync(outDir, { recursive: true, force: true });
   }
@@ -104,17 +108,14 @@ test("review package copies installed evidence-bound audio without mutating cont
 });
 
 test("review package construction fails closed on stale or mismatched plan entries", () => {
-  const validation = validateCurrentNarrationPilot();
-  const realPlan = buildNarrationPlan({ story: "shou-zhu" });
-
-  const stalePlan = structuredClone(realPlan);
-  stalePlan.items[0].status = "stale";
+  const validation = evidenceValidForPackage();
+  const livePlan = buildNarrationPlan({ story: "shou-zhu" });
   assert.throws(
-    () => buildPilotReviewManifest({ validation, plan: stalePlan }),
+    () => buildPilotReviewManifest({ validation, plan: livePlan }),
     /installed pilot narration is not current/,
   );
 
-  const wrongShaPlan = structuredClone(realPlan);
+  const wrongShaPlan = pairingAsCurrent();
   wrongShaPlan.items[0].audioSha256 = "0".repeat(64);
   assert.throws(
     () => buildPilotReviewManifest({ validation, plan: wrongShaPlan }),

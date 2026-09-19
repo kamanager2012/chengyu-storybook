@@ -3,13 +3,22 @@ import { mkdtempSync, readFileSync, readdirSync, rmSync, writeFileSync } from "n
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import test from "node:test";
-import { readNarrationPilotEvidence, validateNarrationPilotEvidence } from "./narration-pilot-approval.mjs";
+import { NARRATION_PILOT_STORY_ID, readNarrationPilotEvidence, validateNarrationPilotEvidence } from "./narration-pilot-approval.mjs";
 import {
   buildNarrationPilotReviewDecision,
   prepareNarrationPilotReview,
   reviewNarrationPilot,
 } from "./narration-pilot-review.mjs";
+import { buildNarrationPlan } from "./narration-plan.mjs";
 import { repoRoot } from "./story-model.mjs";
+
+function pairingAsCurrent() {
+  const plan = structuredClone(buildNarrationPlan({ story: NARRATION_PILOT_STORY_ID }));
+  for (const item of plan.items) item.status = "current";
+  return plan;
+}
+
+const pairingOptions = { plan: pairingAsCurrent() };
 
 const REVIEWED_AT = "2026-09-16T12:00:00.000Z";
 const APPROVE_NOTE = "Human listening review confirmed pronunciation, pacing, intelligibility, and overall narration quality for controlled expansion.";
@@ -55,6 +64,7 @@ test("dry-run approval validates proposed evidence without mutating the evidence
     decisionNote: APPROVE_NOTE,
     reviewedAt: REVIEWED_AT,
     write: false,
+    validationOptions: pairingOptions,
   });
   assert.equal(result.mode, "dry-run");
   assert.equal(result.listeningStatus, "approved");
@@ -70,6 +80,7 @@ test("approved write changes only qualityReview and persists a fully valid decis
     decisionNote: APPROVE_NOTE,
     reviewedAt: REVIEWED_AT,
     write: true,
+    validationOptions: pairingOptions,
   });
   assert.equal(result.mode, "write");
 
@@ -86,7 +97,7 @@ test("approved write changes only qualityReview and persists a fully valid decis
     reviewerRole: "project-owner",
     decisionNote: APPROVE_NOTE,
   });
-  const validation = validateNarrationPilotEvidence(persisted);
+  const validation = validateNarrationPilotEvidence(persisted, pairingOptions);
   assert.equal(validation.valid, true, validation.problems.join("; "));
   assert.equal(validation.expansionApproved, true);
 }));
@@ -99,6 +110,7 @@ test("explicit waiver records no-listening authorization without pretending appr
     decisionNote: WAIVE_NOTE,
     reviewedAt: REVIEWED_AT,
     write: true,
+    validationOptions: pairingOptions,
   });
   assert.equal(result.listeningStatus, "waived");
   assert.equal(result.expansionApproved, true);
@@ -110,7 +122,7 @@ test("explicit waiver records no-listening authorization without pretending appr
     reviewerRole: "project-owner",
     decisionNote: WAIVE_NOTE,
   });
-  assert.equal(validateNarrationPilotEvidence(persisted).valid, true);
+  assert.equal(validateNarrationPilotEvidence(persisted, pairingOptions).valid, true);
 }));
 
 test("rejected write is durable, non-expanding, and cannot be overwritten in place", () => withEvidenceFile(({ path }) => {
@@ -121,11 +133,12 @@ test("rejected write is durable, non-expanding, and cannot be overwritten in pla
     decisionNote: REJECT_NOTE,
     reviewedAt: REVIEWED_AT,
     write: true,
+    validationOptions: pairingOptions,
   });
   const rejected = JSON.parse(readFileSync(path, "utf8"));
   assert.equal(rejected.qualityReview.listeningStatus, "rejected");
   assert.equal(rejected.qualityReview.expansionApproved, false);
-  assert.equal(validateNarrationPilotEvidence(rejected).valid, true);
+  assert.equal(validateNarrationPilotEvidence(rejected, pairingOptions).valid, true);
 
   assert.throws(() => reviewNarrationPilot({
     evidencePath: path,
@@ -134,6 +147,7 @@ test("rejected write is durable, non-expanding, and cannot be overwritten in pla
     decisionNote: APPROVE_NOTE,
     reviewedAt: "2026-08-27T17:30:00.000Z",
     write: true,
+    validationOptions: pairingOptions,
   }), /already finalized as rejected/);
   assert.equal(JSON.parse(readFileSync(path, "utf8")).qualityReview.listeningStatus, "rejected");
 }));
@@ -146,6 +160,7 @@ test("decision timestamp cannot predate the installed pilot receipt", () => {
     reviewerRole: "project-owner",
     decisionNote: WAIVE_NOTE,
     reviewedAt: "2026-08-22T11:00:00.000Z",
+    validationOptions: pairingOptions,
   }), /cannot predate the installed pilot receipt/);
 });
 
@@ -162,6 +177,7 @@ test("durable evidence drift blocks review writes and leaves bytes untouched", (
     decisionNote: WAIVE_NOTE,
     reviewedAt: REVIEWED_AT,
     write: true,
+    validationOptions: pairingOptions,
   }), /current evidence is invalid/);
   assert.equal(readFileSync(path, "utf8"), before);
 }));

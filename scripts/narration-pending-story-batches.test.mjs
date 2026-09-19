@@ -35,28 +35,19 @@ test("production algorithm expands exactly 23 whole-story batches / 207 items wh
   assert.ok(plan.pendingStories.every((story) => story.statuses.every((status) => ["missing", "stale", "unverified"].includes(status))));
 });
 
-test("live repository is only valid before expansion or after complete atomic expansion", () => {
-  const plan = buildPendingStoryBatchPlan({ plan: realPlan() });
-  assert.equal(plan.totalStories, 100);
-
-  const before = plan.currentStoryCount === 1
-    && plan.currentItemCount === 9
-    && plan.pendingStoryCount === 99
-    && plan.pendingItemCount === 891
-    && plan.currentStories.length === 1
-    && plan.currentStories[0].storyId === "shou-zhu";
-
-  const after = plan.currentStoryCount === 100
-    && plan.currentItemCount === 900
-    && plan.pendingStoryCount === 0
-    && plan.pendingItemCount === 0;
-
-  assert.ok(before || after, `live narration state is neither authorized pre-expansion nor completed post-expansion: ${JSON.stringify({
-    currentStoryCount: plan.currentStoryCount,
-    currentItemCount: plan.currentItemCount,
-    pendingStoryCount: plan.pendingStoryCount,
-    pendingItemCount: plan.pendingItemCount,
-  })}`);
+test("live repository after copy restore has stale body pages and is unsafe for whole-story expansion", () => {
+  const live = realPlan();
+  const current = live.items.filter((item) => item.status === "current");
+  const stale = live.items.filter((item) => item.status === "stale");
+  assert.equal(live.items.length, 900);
+  assert.equal(current.length, 232);
+  assert.equal(stale.length, 668);
+  assert.equal(current.filter((item) => item.pageId === "p0" || item.pageId === "moral").length, 200);
+  assert.ok(stale.every((item) => /^p[1-7]$/.test(item.pageId)));
+  assert.throws(
+    () => buildPendingStoryBatchPlan({ plan: live }),
+    /mixed current\/non-current story is unsafe/,
+  );
 });
 
 test("mixed current/non-current story fails closed instead of replacing a partial story", () => {

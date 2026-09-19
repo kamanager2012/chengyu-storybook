@@ -170,5 +170,10 @@ test("classic-hall sections cover the full dual-hall catalog with seven pages an
     assert.equal(sections.length, 7, id);
     assert.ok(sections[5].includes(published[id].title), `${id} p6 must include title`);
     assert.match(sections[5], /后来人们把这个故事叫做/);
+    const caption = /绘本风格|Q版|横构图|核心意象|16:9|严格遵照|严格遵循|准确演绎|严格演绎|画面中|无文字|古风工笔/;
+    for (const [index, text] of sections.entries()) {
+      assert.ok(text.trim().length > 6, `${id} p${index + 1} must be a readable sentence`);
+      assert.equal(caption.test(text), false, `${id} p${index + 1} must not be a picture caption`);
+    }
   }
 });

@@ -6,9 +6,17 @@ import {
   NARRATION_PILOT_STORY_ID,
   assertNarrationExpansionAllowed,
   readNarrationPilotEvidence,
+  validateCurrentNarrationPilot,
   validateNarrationPilotEvidence,
 } from "./narration-pilot-approval.mjs";
+import { buildNarrationPlan } from "./narration-plan.mjs";
 import { repoRoot } from "./story-model.mjs";
+
+function pairingAsCurrent() {
+  const plan = structuredClone(buildNarrationPlan({ story: NARRATION_PILOT_STORY_ID }));
+  for (const item of plan.items) item.status = "current";
+  return plan;
+}
 
 function reviewTimestamp() {
   const evidence = readNarrationPilotEvidence();
@@ -53,18 +61,21 @@ function waivedEvidence() {
   return evidence;
 }
 
-test("current installed narration pilot evidence remains structurally valid", () => {
+test("copy restore leaves shou-zhu body narration stale while Eve MP3 evidence stays byte-pinned", () => {
+  const live = validateCurrentNarrationPilot();
+  assert.equal(live.valid, false);
+  assert.ok(live.problems.some((problem) => /no longer current/.test(problem)));
   const evidence = readNarrationPilotEvidence();
-  const result = validateNarrationPilotEvidence(evidence);
-  assert.equal(result.valid, true, result.problems.join("; "));
   assert.equal(evidence.storyId, NARRATION_PILOT_STORY_ID);
+  const structure = validateNarrationPilotEvidence(evidence, { plan: pairingAsCurrent() });
+  assert.equal(structure.valid, true, structure.problems.join("; "));
 });
 
 test("pending pilot permits only disposable regeneration of the exact pilot story", () => {
   const evidence = pendingEvidence();
   const pilot = assertNarrationExpansionAllowed(
     { story: NARRATION_PILOT_STORY_ID, all: false },
-    { evidence },
+    { evidence, plan: pairingAsCurrent() },
   );
   assert.equal(pilot.allowed, true);
   assert.equal(pilot.pilotOnly, true);
@@ -75,19 +86,19 @@ test("pending pilot permits only disposable regeneration of the exact pilot stor
     /Narration expansion is blocked/,
   );
   assert.throws(
-    () => assertNarrationExpansionAllowed({ story: null, all: true }, { evidence }),
+    () => assertNarrationExpansionAllowed({ story: null, all: true }, { evidence, plan: pairingAsCurrent() }),
     /Narration expansion is blocked/,
   );
 });
 
 test("listening approval requires complete metadata and intact pilot evidence", () => {
   const approved = approvedEvidence();
-  const result = validateNarrationPilotEvidence(approved);
+  const result = validateNarrationPilotEvidence(approved, { plan: pairingAsCurrent() });
   assert.equal(result.valid, true, result.problems.join("; "));
   assert.equal(result.expansionApproved, true);
   assert.doesNotThrow(() => assertNarrationExpansionAllowed(
     { story: "wang-yang-bu-lao", all: false },
-    { evidence: approved },
+    { evidence: approved, plan: pairingAsCurrent() },
   ));
 
   for (const mutate of [
@@ -100,7 +111,7 @@ test("listening approval requires complete metadata and intact pilot evidence", 
   ]) {
     const changed = approvedEvidence();
     mutate(changed);
-    const changedResult = validateNarrationPilotEvidence(changed);
+    const changedResult = validateNarrationPilotEvidence(changed, { plan: pairingAsCurrent() });
     assert.equal(changedResult.valid, false);
     assert.equal(changedResult.expansionApproved, false);
   }
@@ -108,17 +119,17 @@ test("listening approval requires complete metadata and intact pilot evidence", 
 
 test("explicit owner waiver unlocks expansion without claiming listening occurred", () => {
   const waived = waivedEvidence();
-  const result = validateNarrationPilotEvidence(waived);
+  const result = validateNarrationPilotEvidence(waived, { plan: pairingAsCurrent() });
   assert.equal(result.valid, true, result.problems.join("; "));
   assert.equal(result.listeningStatus, "waived");
   assert.equal(result.expansionApproved, true);
   assert.doesNotThrow(() => assertNarrationExpansionAllowed(
     { story: "wang-yang-bu-lao", all: false },
-    { evidence: waived },
+    { evidence: waived, plan: pairingAsCurrent() },
   ));
   assert.doesNotThrow(() => assertNarrationExpansionAllowed(
     { story: null, all: true },
-    { evidence: waived },
+    { evidence: waived, plan: pairingAsCurrent() },
   ));
 
   for (const mutate of [
@@ -129,7 +140,7 @@ test("explicit owner waiver unlocks expansion without claiming listening occurre
   ]) {
     const changed = waivedEvidence();
     mutate(changed);
-    const changedResult = validateNarrationPilotEvidence(changed);
+    const changedResult = validateNarrationPilotEvidence(changed, { plan: pairingAsCurrent() });
     assert.equal(changedResult.valid, false);
     assert.equal(changedResult.expansionApproved, false);
   }

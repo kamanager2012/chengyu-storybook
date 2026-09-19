@@ -31,7 +31,7 @@ test("full narration generation set is complete and exactly pinned", () => {
   }
 
   assert.equal(set.inputDigestSha256, computeNarrationInputDigest(set.entries));
-  assert.equal(set.inputDigestSha256, "a690fe7620249bad69beb64c4f1c2d6da3f0e2d8c5917e146b6a0b4b12dabdda");
+  assert.equal(set.inputDigestSha256, "2232621cc097c0ec03b23df0f82d9d6ff2062eba878a94db68b309a98054ab56");
   assert.equal(evidence.schemaVersion, 1);
   assert.equal(evidence.evidenceType, "narration-generation-input-set");
   assert.equal(evidence.canonicalSource, set.canonicalSource);
