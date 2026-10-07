@@ -6,6 +6,7 @@ on:
       - "content/evidence/narration/providers/kokoro-v1.1-zh-zf001.json"
       - "scripts/kokoro-provider-profile.mjs"
       - ".github/workflows/kokoro-provider-audit.yml"
+  workflow_dispatch:
 
 permissions:
   contents: read

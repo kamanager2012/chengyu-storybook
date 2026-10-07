@@ -122,6 +122,8 @@ Chromium E2E 失败时，CI 只在失败路径上传 `test-results/`，用于保
 
 同一 PR/dispatch 的新 SHA 会取消旧的 exact-head run，减少过期状态和重复执行。`storybook-ci.yml` 与 `storybook-e2e.yml` 只保留为 **fork pull request 的只读验证**，避免同仓库 PR 在 exact-head gate 之外再重复跑一套相同 CI。
 
+各 workflow 触发策略（含 GitHub Pages **仅手动 dispatch**、legacy `gh-pages` 与 Actions 源互斥）见 `docs/GITHUB-ACTIONS.md`。Pages／真收款外部缺口见 `docs/OPS-GAPS.md`（**整体生产级＝否** 直至收款闭环）。
+
 ## 静态部署
 
 可部署到任何能够托管静态文件的服务。因为 `/story/$id` 是客户端路由，生产环境必须把未知页面请求回退到 `index.html`，否则直接打开故事深链会得到 404。

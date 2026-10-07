@@ -50,3 +50,14 @@ test("commerce adapter treats readGateEnabled as strict boolean true", () => {
   assert.match(commerceSrc, /readGateEnabled: source\.readGateEnabled === true/);
   assert.equal(commerce.readGateEnabled, true);
 });
+
+test("unlock and locked-story routes stay honest when VITE_PAY_API is unset at build time", () => {
+  const unlockSrc = readFileSync(new URL("../src/routes/unlock.tsx", import.meta.url), "utf8");
+  const storySrc = readFileSync(new URL("../src/routes/story.$id.tsx", import.meta.url), "utf8");
+  const checkoutSrc = readFileSync(new URL("../src/lib/checkout.ts", import.meta.url), "utf8");
+  assert.match(unlockSrc, /data-pay-pending="true"/);
+  assert.match(unlockSrc, /VITE_PAY_API/);
+  assert.match(storySrc, /isPayConfigured\(\)/);
+  assert.match(storySrc, /公网收款尚未接入/);
+  assert.match(checkoutSrc, /export function isPayConfigured/);
+});
