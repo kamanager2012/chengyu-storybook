@@ -21,7 +21,7 @@ Workflow 触发说明见 `docs/GITHUB-ACTIONS.md`。
 | 7 | `.pay-data` 持久卷 + 备份 + 恢复演练 | 运维 | 还原后订单与 entitlement 可查 |
 | 8 | Nginx 样例（限流 + 挡 `/dev/`） | 运维 | 公网不可访问 `/dev/simulate-paid` |
 | 9 | 真机试单 → notify → paid → claim | 产品／运维 | 订单 paid；`/auth/me` 有 entitlement；换设备同邮箱可读 |
-| 10 | **Pages 源对齐 Actions** + 成功 dispatch | 仓库管理员 | **已验收** run 37650307576 @ `1a69257`；见 R-PAGES 成功证据（可选 `VITE_PAY_API` 仍属收款） |
+| 10 | **Pages 源对齐 Actions** + 成功 dispatch | 仓库管理员 | **已验收** 最新 run 37659219416 @ `161d3ae`（2026-10-08 ~01:29 SGT）；历史 37650307576 @ `1a69257`；见 R-PAGES（可选 `VITE_PAY_API` 仍属收款） |
 
 本地门禁（防误判，**≠** 生产级）：
 
@@ -74,14 +74,25 @@ PAY_API=https://<pay-origin> npm run pay:prod-health
 **本仓策略：** 已去掉 `push: main` 触发，仅 `workflow_dispatch`；合并后由管理员在 UI dispatch，并先对齐 Pages Source。
 
 
-### 成功证据 SHA `1a69257`（2026-10-08 SGT）
+### 成功证据 SHA `161d3ae`（2026-10-08 ~01:29 SGT）— 最新
+
+| 项 | 值 |
+|----|-----|
+| 目标 commit | `161d3ae58c72fe20dcfd31e647903c42da4a4ea0`（main，含 PR#9 paths-ignore） |
+| Workflow run | [37659219416](https://github.com/kamanager2012/chengyu-storybook/actions/runs/37659219416)（`workflow_dispatch`） |
+| `head_sha` | `161d3ae…`（与目标一致） |
+| `conclusion` | **success**（build + deploy） |
+| page_url | https://kamanager2012.github.io/chengyu-storybook/ |
+| 构建产物 | `index-CPcpAIY9.js`（读门诚实文案） |
+
+### 历史成功证据 SHA `1a69257`（2026-10-08 SGT）
 
 | 项 | 值 |
 |----|-----|
 | 目标 commit | `1a69257724fe96cd5eb77fcfff9489063a5b3e4c`（main，含 PR#7/#8） |
 | Actions | `enabled=true`，`allowed_actions=all`；`default_workflow_permissions=write` |
 | Pages Source | `build_type=workflow`（已非 legacy/gh-pages） |
-| Workflow run | [37650307576](https://github.com/kamanager2012/chengyu-storybook/actions/runs/37650307576)（唯一一次 `workflow_dispatch`） |
+| Workflow run | [37650307576](https://github.com/kamanager2012/chengyu-storybook/actions/runs/37650307576)（当时 `workflow_dispatch`） |
 | `head_sha` | `1a69257…` |
 | `conclusion` | **success**（build + deploy） |
 | page_url | https://kamanager2012.github.io/chengyu-storybook/ （抽检 HTTP 200；执行器 Playwright 冒烟 PASS） |
@@ -90,7 +101,7 @@ PAY_API=https://<pay-origin> npm run pay:prod-health
 
 **本仓策略（保持）：** `github-pages.yml` 仅 `workflow_dispatch`；勿恢复 `push: main`。
 
-**待办 #10 状态：** Pages 源对齐 + 成功 dispatch **已验收**（仍缺可选 `vars.VITE_PAY_API`，属收款轨）。
+**待办 #10 状态：** Pages 源对齐 + 成功 dispatch **已验收**（最新 37659219416 @ `161d3ae`；历史 37650307576 @ `1a69257`）。仍缺可选 `vars.VITE_PAY_API`，属收款轨。
 
 
 ---
