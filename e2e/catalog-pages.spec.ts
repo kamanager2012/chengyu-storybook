@@ -7,7 +7,7 @@ test("about, privacy and unlock stay commercial without a fake checkout", async 
   await expect(page.getByRole("link", { name: "隐私", exact: true })).toBeVisible();
 
   await page.getByRole("link", { name: "关于", exact: true }).click();
-  await expect(page.getByRole("heading", { name: "给小朋友的有声绘本馆", exact: true })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "成册翻页，两座馆", exact: true })).toBeVisible();
   await expect(page.locator('[data-grok-attribution="true"]')).toContainText("Created with Grok");
   await expect(page.locator('[data-grok-attribution="true"]')).toContainText("有 11 本也是 Grok Imagine");
   await expect(page.locator('[data-grok-attribution="true"]')).toContainText("其余 65 本是后来的重绘");

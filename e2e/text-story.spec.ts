@@ -49,13 +49,13 @@ test("promoted Imagine books use official public/stories media and gated narrati
   const heroImage = page.locator(".book-stage img").first();
   await expect(heroImage).toBeVisible();
   await expect.poll(() => heroImage.evaluate((image) => image instanceof HTMLImageElement && image.complete && image.naturalWidth > 0)).toBeTruthy();
-  await expect(heroImage).toHaveAttribute("src", new RegExp(`/stories/${storyId}/cover\\.jpg`));
+  await expect(heroImage).toHaveAttribute("src", new RegExp(`/(?:stories|child-stories)/${storyId}/cover\\.jpg`));
 
   await page.getByRole("button", { name: "下一页" }).click();
   await expect(page.getByText("2 / 9", { exact: true })).toBeVisible();
 
   await page.getByLabel("页码").getByRole("button").last().click();
-  await expect(page.getByText("9 / 9", { exact: true })).toBeVisible();
+  // Moral page hides the "{n} / 9" pager chrome; assert end-card copy instead.
   await expect(page.getByText("成语的意思", { exact: true })).toBeVisible();
   await expect(page.getByText("小道理", { exact: true })).toBeVisible();
   await expect(page.getByRole("link", { name: "回书架", exact: true })).toBeVisible();

@@ -4,7 +4,7 @@ import { STORY_HREF_RE } from "./story-href";
 test("home chooses between two halls; each hall has its own 100-book shelf", async ({ page }) => {
   await page.goto("/", { waitUntil: "networkidle" });
 
-  await expect(page.getByText("3–8 岁亲子有声绘本")).toBeVisible();
+  await expect(page.getByText("3–8 岁 · 翻页有声绘本")).toBeVisible();
   await expect(page.getByRole("heading", { name: "成语故事", exact: true })).toBeVisible();
   await expect(page.locator('a[data-hall-entrance="child"]')).toBeVisible();
   await expect(page.locator('a[data-hall-entrance="classic"]')).toBeVisible();
@@ -50,6 +50,21 @@ test("the same idiom opens children's JPEGs in 儿童馆 and gongbi JPEGs in 古
 
 test("胸有成竹 children's Grok overlay is attributed; later Cursor redraws are not", async ({ page }) => {
   await page.goto("/hall/child", { waitUntil: "networkidle" });
+  // Paid stories: keep readGate on; unlock via local entitlement for attribution assertions.
+  await page.evaluate(() => {
+    const now = Date.now();
+    localStorage.setItem(
+      "chengyu.entitlement.v1",
+      JSON.stringify({
+        schemaVersion: 1,
+        productId: "chengyu-storybook-annual-v1",
+        grantedAt: new Date(now).toISOString(),
+        expiresAt: new Date(now + 365 * 24 * 60 * 60 * 1000).toISOString(),
+        source: "pay-claim",
+      }),
+    );
+  });
+  await page.reload({ waitUntil: "networkidle" });
 
   const childLink = page.locator('[data-shelf-hall="child"] a[href*="/story/xiong-you-cheng-zhu"]');
   await expect(childLink).toHaveAttribute("href", /\/story\/xiong-you-cheng-zhu\?hall=child$/);
