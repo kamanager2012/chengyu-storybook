@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 import { spawnSync } from "node:child_process";
-import { createHash } from "node:crypto";
 import {
   existsSync,
   mkdirSync,
@@ -18,7 +17,6 @@ import {
   CLASSIC_NARRATION_STATE_PATH,
   CLASSIC_RECEIPT_DIR,
   buildClassicHallGenerationSet,
-  buildClassicHallNarrationPlan,
   buildClassicStoryBatches,
   readClassicNarrationState,
   validateClassicHallReceipt,

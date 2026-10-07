@@ -1,11 +1,9 @@
 #!/usr/bin/env node
 import { spawnSync } from "node:child_process";
-import { createHash } from "node:crypto";
 import {
   existsSync,
   mkdirSync,
   readFileSync,
-  readdirSync,
   renameSync,
   rmSync,
   statSync,
@@ -45,7 +43,6 @@ export const EVE_RIGHTS_EVIDENCE = Object.freeze([
 const SYNTHESIZER = join(repoRoot, "scripts/generate-narration-grok-batch.py");
 const IMPORTER = join(repoRoot, "scripts/import-narration-receipt.mjs");
 const WORK_ROOT = join(repoRoot, ".narration-work");
-const RECEIPT_DIR = join(repoRoot, "content/evidence/narration/receipts");
 const PENDING_STATUSES = new Set(["missing", "stale", "unverified"]);
 const MIN_DURATION_SECONDS = 1;
 const MAX_DURATION_SECONDS = 40;
@@ -67,10 +64,6 @@ function argValues(name, argv = process.argv.slice(2)) {
     }
   }
   return values;
-}
-
-function sha256File(path) {
-  return createHash("sha256").update(readFileSync(path)).digest("hex");
 }
 
 function repoRel(path) {
