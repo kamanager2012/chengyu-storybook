@@ -1,8 +1,7 @@
 name: GitHub Pages
 
+# Manual deploy only — avoids failed push runs on main (see docs/OPS-GAPS.md § R-PAGES).
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:

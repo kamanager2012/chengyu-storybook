@@ -339,7 +339,7 @@ function UnlockPage() {
             </div>
           ) : (
             <p data-pay-pending="true" className="mt-6 rounded-2xl bg-paper px-4 py-3 text-sm leading-6 text-ink-soft">
-              全年册付款通道即将开放。现在可以先读免费 {COMMERCE.freeCount} 本，通道开通后即可用微信或支付宝购买。
+              全年册付款通道尚未接入公网（本站构建时未配置 VITE_PAY_API）。阅读门已开：除免费 {COMMERCE.freeCount} 本外，其余故事会提示开通全年册，但在此环境下暂时无法完成付费。通道开通后即可用微信或支付宝购买。
             </p>
           )}
         </section>
