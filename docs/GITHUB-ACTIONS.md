@@ -18,7 +18,7 @@
 ## GitHub Pages：Actions workflow vs legacy gh-pages
 
 - **仓库 workflow**（`.github/workflows/github-pages.yml`）使用 `actions/deploy-pages`，要求 **Settings → Pages → Source: GitHub Actions**。
-- **截至 2026-10-08：** Settings → Pages Source = **GitHub Actions**；成功证据 run [37650307576](https://github.com/kamanager2012/chengyu-storybook/actions/runs/37650307576)（`conclusion: success`，`head_sha`=`1a69257`）。
+- **截至 2026-10-08：** Settings → Pages Source = **GitHub Actions**；最新成功证据 run [37659219416](https://github.com/kamanager2012/chengyu-storybook/actions/runs/37659219416)（`conclusion: success`，`head_sha`=`161d3ae`）；历史 [37650307576](https://github.com/kamanager2012/chengyu-storybook/actions/runs/37650307576) @ `1a69257`。
 - 历史曾用内置 `pages-build-deployment`（`gh-pages` 分支）；与 Actions workflow **互斥**，勿切回 legacy。
 - 发布：仓库管理员对目标 SHA 手动 **Run workflow**（`github-pages.yml` 仅 `workflow_dispatch`）。
 - Cloud Agent / 集成 token 常 **无** `actions:write` 或 Pages 设置读权限，无法代发 dispatch；须指挥官在 GitHub UI 操作。
