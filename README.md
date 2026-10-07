@@ -1,6 +1,6 @@
 # 成语故事 · Chinese Idiom Storybook
 
-面向儿童的中文成语绘本。当前运行时无需账号即可翻阅 **100 个成语、两套画风**（儿童馆 100 本，古风馆 100 本）：每本封面 + 7 个故事页 + 道理页。儿童水彩在 `public/stories/`（前 24 本）和 `content/imagine-child-drafts/`（已齐的重绘，运行时 `/child-stories/`），前 24 本的工笔古风源稿在 `content/imagine-gongbi/`，运行时同步为 JPEG `/classic-stories/`，旁白在 `public/audio/`。旁白资产使用独立的生成、校验与 provenance 流水线；前端不会仅因为 MP3 文件存在就开放播放。
+面向儿童的中文成语绘本。**免费试看 12 本**（见 `content/commerce.json` 的 `freeStoryIds`）；开通全年册后可读全部 **100 个成语、两套画风**（儿童馆与古风馆各 100 本，同一 id 用 `?hall=` 选图）。每本封面 + 7 个故事页 + 道理页。公网收款未接入时解锁页会说明无法下单，试看 12 本仍可读。儿童水彩在 `public/stories/`（前 24 本）和 `content/imagine-child-drafts/`（已齐的重绘，运行时 `/child-stories/`），前 24 本的工笔古风源稿在 `content/imagine-gongbi/`，运行时同步为 JPEG `/classic-stories/`，旁白在 `public/audio/`。旁白资产使用独立的生成、校验与 provenance 流水线；前端不会仅因为 MP3 文件存在就开放播放。
 
 仓库已经收敛为一个 **local-first、静态部署的 Web/PWA 绘本**。阅读、翻页和本地状态都在浏览器侧完成，不需要应用服务器。
 

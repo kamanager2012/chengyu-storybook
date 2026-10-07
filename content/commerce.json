@@ -6,7 +6,7 @@
   "durationDays": 365,
   "freeCount": 12,
   "catalogCount": 100,
-  "readGateEnabled": false,
+  "readGateEnabled": true,
   "freeStoryIds": [
     "shou-zhu",
     "hu-jia",

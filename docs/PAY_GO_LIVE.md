@@ -7,7 +7,8 @@
 
 ## 已在仓内就绪
 
-- 定价与通道：`content/commerce.json`（19.9 元、微信+支付宝、`readGateEnabled: true`）
+- 定价与通道：`content/commerce.json`（19.9 元、微信+支付宝、试看 12 本、`readGateEnabled: true`）
+- 读门与支付未齐：**不要**长期关读门冒充「可全读」——应保持读门开、解锁页诚实提示 `VITE_PAY_API` 未配置时无法收款（见 `docs/OPS-GAPS.md`）
 - 扫码下单／异步 notify／邮箱账号／claim：`server/pay`
 - 契约测试：`npm run pay:test`（本地 12/12 PASS）
 - 部署样例：`server/pay/deploy/`（Dockerfile、compose、systemd、nginx）

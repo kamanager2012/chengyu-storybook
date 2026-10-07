@@ -68,13 +68,13 @@ curl -X POST http://127.0.0.1:8787/dev/simulate-paid/<orderId>
 - 支付宝 notify：RSA2 验签；公钥可写完整 PEM，也可只贴裸 base64。
 - 订单默认 `server/pay/.pay-data/orders.json`，账号在同目录 `accounts.json`（已 gitignore）。上线请换持久存储。
 - 密码用 scrypt；会话 token 只存哈希，约 400 天有效。
-- 配通并实测成功后，再考虑 `content/commerce.json` 的 `readGateEnabled: true`。
+- 公网 pay 与 `VITE_PAY_API` 验收通过后，保持 `content/commerce.json` 的 `readGateEnabled: true`（试看 12 本 + 全年册墙）。若 pay 未就绪却开着读门，其余 88 本会锁死且无法收款——见 `docs/OPS-GAPS.md`。
 
 ## 生产部署样例
 
 见 `server/pay/deploy/`（Dockerfile / compose / systemd / nginx）与仓库根 `docs/PAY_GO_LIVE.md`。
 
-`readGateEnabled` 已在 `content/commerce.json` 打开；无公网支付时前端解锁会失败，免费 12 本仍可读。
+当前 `readGateEnabled` 为 **true**（产品门禁与试看 12 一致）。无公网支付时解锁页显示「通道即将开放」、无法下单，免费 12 本仍可读。
 
 ## npm
 
