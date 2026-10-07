@@ -19,6 +19,8 @@ test.describe("read gate (12 free / annual unlock)", () => {
     await expect(page.getByRole("heading", { name: "叶公好龙", exact: true })).toBeVisible();
     await expect(page.getByRole("link", { name: "查看全年册" })).toBeVisible();
     await expect(page.locator('[data-illustrated-story="true"]')).toHaveCount(0);
+    await expect(page.getByText(/公网收款尚未接入/)).toBeVisible();
+    await expect(page.getByText(/VITE_PAY_API/)).toBeVisible();
   });
 
   test("with active entitlement: locked story opens reader", async ({ page }) => {

@@ -2,7 +2,34 @@
 
 **整体生产级＝否**（截至本文件维护时）：仓库内支付骨架与读门可验收，但下列外部项未齐时不得对真实用户收 19.9 元／年。
 
-审计基线 SHA：`1ce95c0`（`readGateEnabled` 曾误关）；本清单与 `docs/PAY_GO_LIVE.md` 互补——GO_LIVE 讲怎么做，本文只列**仍缺什么、谁提供、如何验收**。
+审计基线 SHA：`49514a05`（main，已合 PR #7）；本清单与 `docs/PAY_GO_LIVE.md` 互补——GO_LIVE 讲怎么做，本文只列**仍缺什么、谁提供、如何验收**。
+
+Workflow 触发说明见 `docs/GITHUB-ACTIONS.md`。
+
+---
+
+## 指挥官待办（汇总，未验收勿宣称生产级）
+
+| # | 事项 | 谁做 | 验收 |
+|---|------|------|------|
+| 1 | 微信 Native 商户全套 + 平台证书 | 商户主体 | `GET /health` → `wechat.ready` ∧ `wechat.notifyReady` |
+| 2 | 支付宝当面付密钥对 | 商户主体 | `/health` → `alipay.ready` |
+| 3 | 公网 HTTPS `NOTIFY_BASE_URL`（notify 可达） | 运维／域名 | `curl -sS https://<pay>/health` JSON；`notifyBaseConfigured: true` |
+| 4 | 生产 `server/pay/.env`（不进 git，`devSimulate=false`） | 运维 | `productionGuardsOk=true`；未开 `*_NOTIFY_TRUST_UNSIGNED` |
+| 5 | `PAY_CORS_ORIGINS` = 静态站真实 origin | 运维 + 前端 | 浏览器 `POST /create` 无 CORS 错误 |
+| 6 | 仓库变量 `VITE_PAY_API`（与 pay 同源，无尾斜杠） | 仓库管理员 | Pages／构建产物 `isPayConfigured()` 为 true；解锁页有扫码按钮 |
+| 7 | `.pay-data` 持久卷 + 备份 + 恢复演练 | 运维 | 还原后订单与 entitlement 可查 |
+| 8 | Nginx 样例（限流 + 挡 `/dev/`） | 运维 | 公网不可访问 `/dev/simulate-paid` |
+| 9 | 真机试单 → notify → paid → claim | 产品／运维 | 订单 paid；`/auth/me` 有 entitlement；换设备同邮箱可读 |
+| 10 | **Pages 源对齐 Actions** + 成功 dispatch | 仓库管理员 | 见下节 R-PAGES |
+
+本地门禁（防误判，**≠** 生产级）：
+
+```bash
+PAY_API=https://<pay-origin> npm run pay:prod-health
+```
+
+`npm run pay:smoke` / `PAY_DEV_SIMULATE=1` **不得**当作生产过关。
 
 ---
 
@@ -20,25 +47,31 @@
 | Nginx 样例套用（限流 + 挡 `/dev/`） | 运维 | 公网无法访问 `/dev/simulate-paid` |
 | 真机试单（0.01 或 19.9）notify → paid → 登录 claim | 产品／运维 | 订单变 paid；`/auth/me` 有 entitlement；换设备同邮箱可读 |
 
-**脚本门禁（防误判，≠ 生产级）：**
-
-```bash
-PAY_API=https://<pay-origin> npm run pay:prod-health
-```
-
 ---
 
 ## R-PAGES — 静态站部署
 
 | 缺口 | 谁提供 | 验收标准 |
 |------|--------|----------|
-| GitHub Pages 环境启用（Settings → Pages → GitHub Actions） | 仓库管理员 | `workflow_dispatch` 跑 `.github/workflows/github-pages.yml` 成功 |
-| Actions 计费／runner 可用 | 组织账单 | build job 有 runner（非 2s 空失败、`runner_id≠0`） |
-| 可选：`vars.VITE_PAY_API` 在 Pages 构建时注入 | 仓库管理员 | 线上解锁页可下单（依赖 R-OPS） |
+| GitHub Pages **Source 切到 GitHub Actions**（与 `github-pages.yml` 一致） | 仓库管理员 | Settings → Pages 不再使用 legacy `gh-pages` 分支源 |
+| `workflow_dispatch` 跑 `.github/workflows/github-pages.yml` 成功 | 仓库管理员 | run `conclusion: success`，`head_sha` = 目标 commit |
+| Actions 计费／runner 可用 | 组织账单 | build job 有 runner（非长期 `queued`、无步骤日志、`runner_id≠0`） |
+| 可选：`vars.VITE_PAY_API` 在 Pages 构建时注入 | 仓库管理员 | 线上解锁页可下单（仍依赖 R-OPS） |
 
-**历史根因（审计 SHA `1ce95c0`）：** Actions API 显示 `github-pages.yml` 多次 run 在 **~2–4s** 内 `build` 失败、`deploy` skipped；job 无步骤日志、`runner_id: 0`，与 **Pages 未启用／无 runner 配额** 一类基础设施问题一致，而非 `npm run build` 编译错误（本地 `GITHUB_PAGES=1 npm run build` 可通过）。
+### 基线 SHA `49514a05` 上的 Pages 证据（2026-10-07）
 
-**本仓策略：** 已去掉 `push: main` 触发，仅 `workflow_dispatch`，避免 main 上连续失败 run；合并后由管理员手动 dispatch 验证。
+| 项 | 值 |
+|----|-----|
+| 目标 commit | `49514a05b404be765d19aacaf41f56e15193bd3b` |
+| Workflow run | [37644092023](https://github.com/kamanager2012/chengyu-storybook/actions/runs/37644092023)（`workflow_dispatch`，actor: `kamanager2012`） |
+| `head_sha` | `49514a05…`（与目标一致） |
+| 当时 `status` | `queued`（`jobs: []`，超时仍无 runner） |
+| Cloud Agent dispatch | **403** `Resource not accessible by integration`（集成 token 无 workflow dispatch 权限） |
+| Legacy 部署 | 内置 `pages-build-deployment` 在 **gh-pages** 上仍有 **success**（例 run 35433020851），与 Actions workflow **源不一致** |
+
+**根因（推断，与历史 SHA `1ce95c0` 一致）：** Pages 未切到 **GitHub Actions** 源和／或组织 **无可用 runner 配额** → `github-pages.yml` 长期 `queued` 或秒失败；**不是** `npm run build` 编译问题（本地 `GITHUB_PAGES=1 npm run build` 可通过）。
+
+**本仓策略：** 已去掉 `push: main` 触发，仅 `workflow_dispatch`；合并后由管理员在 UI dispatch，并先对齐 Pages Source。
 
 ---
 
@@ -47,8 +80,8 @@ PAY_API=https://<pay-origin> npm run pay:prod-health
 | 项 | 状态 |
 |----|------|
 | `content/commerce.json` → `readGateEnabled: true` | 代码已恢复（勿在无 pay 时长期关读门） |
-| 未权益仅可读 `freeStoryIds`（12 本） | `npm test` → `commerce-entitlement.test.mjs`；E2E `e2e/read-gate.spec.ts` |
-| `VITE_PAY_API` 空时诚实文案 | `/unlock`、`/story/$id` 锁页 |
+| 未权益仅可读 `freeStoryIds`（12 本） | `npm test` → `commerce-entitlement.test.mjs`；E2E `e2e/read-gate.spec.ts`、`e2e/catalog-pages.spec.ts` |
+| `VITE_PAY_API` 空时诚实文案 | `/unlock`（`data-pay-pending`）、`/story/$id` 锁页 |
 
 读门开 + pay 未接 ＝ **可试看 12、其余挡读、暂时买不了**（预期，非生产级）。
 
@@ -56,8 +89,6 @@ PAY_API=https://<pay-origin> npm run pay:prod-health
 
 ## 改判「整体生产级＝是」须同时
 
-1. 上表 R-OPS 全部验收行通过（含真单闭环）。
-2. R-PAGES 至少一次成功静态部署（含目标 SHA）。
+1. 指挥官待办表 R-OPS（上表）全部验收行通过（含真单闭环）。
+2. R-PAGES：Pages Source = Actions，且至少一次 `github-pages.yml` 成功部署（含目标 SHA）。
 3. 读门开 + pay 配通 + 文档与 `commerce.json` 无关键漂移。
-
-本地 `pay:smoke`／`pay:test`／`PAY_DEV_SIMULATE=1` **不得**写成生产过。
