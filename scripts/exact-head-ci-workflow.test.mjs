@@ -19,6 +19,13 @@ test("observable exact-head CI runs on pull requests to main or manual dispatch 
   assert.equal(workflow.includes("git push"), false);
 });
 
+test("exact-head CI skips docs-only and root markdown-only PRs via paths-ignore", () => {
+  assert.match(
+    workflow,
+    /pull_request:\s*\n\s*branches:\s*\[main\]\s*\n\s*paths-ignore:\s*\n\s*-\s*["']docs\/\*\*["']\s*\n\s*-\s*["']\*\.md["']/,
+  );
+});
+
 test("observable gate executes Node 20/22, dependency audit, and Chromium E2E", () => {
   assert.match(workflow, /matrix:\s*\n\s*node:\s*\[20, 22\]/);
   assert.match(workflow, /npm run check/);

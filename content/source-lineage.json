@@ -2001,21 +2001,21 @@
       }
     },
     "image:public/stories/ba-miao/p1.jpg": {
-      "fingerprintSha256": "c9ae3085d887ee27cbad729a95fc0433c17b89bfaee815fb0e93fccaa3862e0d",
+      "fingerprintSha256": "615ff5856e3fc316243e595bc00f911ad0fd51eadfd0c287c8a2f9982166eed7",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/ba-miao/p1.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "b10361bc531a4c5e1bcc64c46c88b976c65ff3b0"
+        "gitBlob": "38daaebac1c41540739e6d220ecbfb21c13dba74"
       }
     },
     "image:public/stories/ba-miao/p2.jpg": {
-      "fingerprintSha256": "e23c9937410e8cd17c67f9a22346152518cdd4c9aa605723b9cdb5870dd1e636",
+      "fingerprintSha256": "f278ac7e0d7d157992307cdc983f9f380fd5db8a654833415b3a6a3e95654578",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/ba-miao/p2.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "28c204c1a0b1a54bd474bac7cceb94dd50764981"
+        "gitBlob": "db8631c369bbb17160d792d2feaf8563c7d1eda3"
       }
     },
     "image:public/stories/ba-miao/p3.jpg": {
@@ -2028,39 +2028,39 @@
       }
     },
     "image:public/stories/ba-miao/p4.jpg": {
-      "fingerprintSha256": "2cf6bd29288de90a02fc0fc968c4e5e73068cb19fe5039984af60ed52f7890d5",
+      "fingerprintSha256": "e6d13ef2754d47174872960e4cfca51caae1632e51793aa3467d6c661e340110",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/ba-miao/p4.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "602c593b7485c96acdda629134994979533658e5"
+        "gitBlob": "32bd4190cb7f59ffd8c235f35bd8b9d365237776"
       }
     },
     "image:public/stories/ba-miao/p5.jpg": {
-      "fingerprintSha256": "d2a0c3faeaf06a65518ff512a6873e28753720904c6e84c463216155136cfa04",
+      "fingerprintSha256": "c4a56288dc6f8cd8ec8ddbb8901debabdf23a8bbad158f3b30ba82b9934606dd",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/ba-miao/p5.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "90180222e97124160d0773d5972309d0903b4512"
+        "gitBlob": "508bf30802977b9a9087c123cd1bf89a47a19aba"
       }
     },
     "image:public/stories/ba-miao/p6.jpg": {
-      "fingerprintSha256": "5902796d0321a8bb549c83c96a0180fa366d90056599b6365daabce1444e1305",
+      "fingerprintSha256": "2b6f7f90882b7570bf6547c7a28babcf9ab4400a7e604f8fd013109be877d66e",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/ba-miao/p6.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "e697ab231885ade54a200d548a540dbee8435fca"
+        "gitBlob": "8608f806d5fa8f2379f128c8cc2e03a109c7d3f3"
       }
     },
     "image:public/stories/ba-miao/p7.jpg": {
-      "fingerprintSha256": "815d1c4af898a1cb22dce4e30a3836e50aef755b9455d8917201b2aa58314197",
+      "fingerprintSha256": "fc22d3ef7e5478a2b30fc1f17628802f4c8faeab08ca09d43a7714a73d2c9892",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/ba-miao/p7.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "1c1f1ee57803f91904c254e8dae8ba3d5ea35e63"
+        "gitBlob": "12a11631ec5b4cc83952160591fa395a12433531"
       }
     },
     "image:public/stories/dui-niu/cover.jpg": {
@@ -2073,21 +2073,21 @@
       }
     },
     "image:public/stories/dui-niu/p1.jpg": {
-      "fingerprintSha256": "565b68a1c19d2ca7d9746d775e477bf31f2be0a6f878b0a4bf122c8f9fe2e20b",
+      "fingerprintSha256": "fbd178129f6c5f39ba97938994033c106b82cf26ba2b15a9292491eea8f16c3f",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/dui-niu/p1.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "225a303b5a06ed04b9a35f8c45164d881596988d"
+        "gitBlob": "c183617ec0519a2ee9deb6b2cc2662f9f5374fa7"
       }
     },
     "image:public/stories/dui-niu/p2.jpg": {
-      "fingerprintSha256": "ca4800256f83bdf38c370768dbf31f7d3c66824a3f7199303e3272a3aebae37b",
+      "fingerprintSha256": "d0186d8c79d6ecee9df6efa64ce08685f940db417227b503ff539466efa9673c",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/dui-niu/p2.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "f01bbdceb9fb1ca78a6ec6ae8c28f7d190d7bfa7"
+        "gitBlob": "3c680a22efebf7545f8ae76b132ff648045a3395"
       }
     },
     "image:public/stories/dui-niu/p3.jpg": {
@@ -2118,21 +2118,21 @@
       }
     },
     "image:public/stories/dui-niu/p6.jpg": {
-      "fingerprintSha256": "43fee9d1073fb20dd627a11409231bbd73cc434e622d0278298a2dbb0b69c1a8",
+      "fingerprintSha256": "76f75cbdb70ffb124b04511a4781d11da5b8fe99744193a1c1759e7522710617",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/dui-niu/p6.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "58e25a0cbeb7365949ca39059f9694b11357afd4"
+        "gitBlob": "b0322ce84433ea367a69b6c4cd6a2402567eee3e"
       }
     },
     "image:public/stories/dui-niu/p7.jpg": {
-      "fingerprintSha256": "7cc542e47d17391a16c52157b7cefd3414c1b35941ce466ff8f86bb698d72d97",
+      "fingerprintSha256": "f17d969a5b09060ee1ef125c8de6246a03bf82980757f961cd401c8950360b0a",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/dui-niu/p7.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "986931ae727c5647bab8d082884106d7b6fa5c5a"
+        "gitBlob": "c54a720c287512ae73ac3fc2ca621e25bf33a098"
       }
     },
     "image:public/stories/hu-jia/cover.jpg": {
@@ -2145,21 +2145,21 @@
       }
     },
     "image:public/stories/hu-jia/p1.jpg": {
-      "fingerprintSha256": "624df34fc40c1ea997987d71a6204883d58225f68488ac1a12fc192cc5146f89",
+      "fingerprintSha256": "324fba8d138ff03f39cb338ca84229c94967611f737b5a0089234f6596853c6e",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/hu-jia/p1.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "b116ec36d220e02bec9085679b3243984b83534a"
+        "gitBlob": "1d6145cd0a9ac9d7eef8c148712bba0646b7df8b"
       }
     },
     "image:public/stories/hu-jia/p2.jpg": {
-      "fingerprintSha256": "1abc9030e7b9501ab015b3378d0028af0a3fb0135b9dca42e35f5131b3f2472a",
+      "fingerprintSha256": "c6b1485a2e9f710746c25cd46ef3824dbe3e1e59f357d755fce14102678b832b",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/hu-jia/p2.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "b9e4a046788d5cf80b794db17d45704ba356364d"
+        "gitBlob": "a6c97949c5f0fc568ef5d4be6cdf2657061a161d"
       }
     },
     "image:public/stories/hu-jia/p3.jpg": {
@@ -2181,12 +2181,12 @@
       }
     },
     "image:public/stories/hu-jia/p5.jpg": {
-      "fingerprintSha256": "c42861db04f45119a40bdca6f3f666995451e2946d3336cc10f2dc75bc1a38dc",
+      "fingerprintSha256": "07dd221e08601043847a978faff6aadc6fd5b76a61f92f07d749107b8cfc3015",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/hu-jia/p5.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "1872ac3683165299e470737ccaf891ceef9dec16"
+        "gitBlob": "a79a8dfa196d76271209b420fd6ae8c5941c5275"
       }
     },
     "image:public/stories/hu-jia/p6.jpg": {
@@ -2271,12 +2271,12 @@
       }
     },
     "image:public/stories/hua-long/p7.jpg": {
-      "fingerprintSha256": "d8241cf4b573bfbee65434b8de634c7facc4d425ffc1091d347796f559e73ff3",
+      "fingerprintSha256": "0db3c77f2c73dd93a4232927a3f244e1f0434009b55a9359664a3e04034a13f9",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/hua-long/p7.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "1de403f4c4662ba5548687a297750ef23c7ed877"
+        "gitBlob": "abddd51aaf4fb08f2df389ceb59de6443a2be225"
       }
     },
     "image:public/stories/hua-she/cover.jpg": {
@@ -2289,12 +2289,12 @@
       }
     },
     "image:public/stories/hua-she/p1.jpg": {
-      "fingerprintSha256": "acb4de573fab71529aa4d57b84fb2f6bd8b149e03bb18b7a405fa82eb76f32d6",
+      "fingerprintSha256": "b6742d99970eed24978c1fa10d296a8593b96087dcfb78c55cc87f63d1770343",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/hua-she/p1.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "f8211c1cd7f697f5072aec4f44231b0f21dc9dc1"
+        "gitBlob": "329990f392be708606d795c44897416995697a37"
       }
     },
     "image:public/stories/hua-she/p2.jpg": {
@@ -2334,21 +2334,21 @@
       }
     },
     "image:public/stories/hua-she/p6.jpg": {
-      "fingerprintSha256": "9716366b94035a869687a115ce2d2b427bcbadaa1175ca9bb91c939ef9d44a45",
+      "fingerprintSha256": "c66832b4ee19461caf3dde3f67a4b0e8b3dfdcb0655221626fe234f6120076d9",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/hua-she/p6.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "8cd11d2fbd871dec84cf961d925dbd96a4e384e5"
+        "gitBlob": "043b90513f424b100742e95b1927f2d95a1ff478"
       }
     },
     "image:public/stories/hua-she/p7.jpg": {
-      "fingerprintSha256": "aa9b93a97cf6c9b79adecce334cc50eb4379f949738dde0ba9c5eb21509b28dd",
+      "fingerprintSha256": "9421d4f4e011438ab09fad0d43f53e0d01d7ff0455f667078aeb32798d89ecc3",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/hua-she/p7.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "6058c66363c907432d58acb1bb7aea211c384ff1"
+        "gitBlob": "bc625c1e948bc5c31f4bfe4e09effa597cd4c5f4"
       }
     },
     "image:public/stories/jing-di/cover.jpg": {
@@ -2370,12 +2370,12 @@
       }
     },
     "image:public/stories/jing-di/p2.jpg": {
-      "fingerprintSha256": "806a6ecfd70b7543f6a4f86f4e2f8335465cc4f1522de162d2671dcc7eaaed70",
+      "fingerprintSha256": "13bad07f1d3b46458c624d6da3178ace219f5abeca5edcda330a9e26947ffde0",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/jing-di/p2.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "ecf62986ebafce969e9fcbc7e9a1839d37d85907"
+        "gitBlob": "71d0150c23fde869aaec3c4325fde4a0b2feccb2"
       }
     },
     "image:public/stories/jing-di/p3.jpg": {
@@ -2388,12 +2388,12 @@
       }
     },
     "image:public/stories/jing-di/p4.jpg": {
-      "fingerprintSha256": "73946e50dacc4b9486f42475669730b929371032d10f0a15fbf61e3528981b42",
+      "fingerprintSha256": "6e94370bb99f29c05b084ef05a9a5dfc6c924f51e98aa1dbf58d3905ae7538ae",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/jing-di/p4.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "1c6a7b4af9d5adcacbce5c8caa56ce996bbbcc5a"
+        "gitBlob": "78899caeae07e0ad0c095641604f9ec7c71e9707"
       }
     },
     "image:public/stories/jing-di/p5.jpg": {
@@ -2415,12 +2415,12 @@
       }
     },
     "image:public/stories/jing-di/p7.jpg": {
-      "fingerprintSha256": "edac37135c94cd7e8178bcebc21e407c0d932b9fbc1eb61f0aa4cb743ca6ac8a",
+      "fingerprintSha256": "bf23c850eb7a2bdfdae6ed351500d239ce502c1800dc2107b0fca99f348ceb24",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/jing-di/p7.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "f183f5fd1de764eb85a5ff3facd79a0699de363d"
+        "gitBlob": "6341f9e1a66d04d31e0027af472e34209481562e"
       }
     },
     "image:public/stories/jing-wei/cover.jpg": {
@@ -2433,48 +2433,48 @@
       }
     },
     "image:public/stories/jing-wei/p1.jpg": {
-      "fingerprintSha256": "daed07aade531683145353632eb88c47e738d371caa365c27091411f8156cb93",
+      "fingerprintSha256": "c200e3aa06bb31dbe67fedad542d65fd99ceb70383dd8267e5d47a81cfe236dd",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/jing-wei/p1.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "14379f9e6f1740a1f7f77addfcc530e5f09058bb"
+        "gitBlob": "03c2a11d7ce6af196448534c272958acf380a507"
       }
     },
     "image:public/stories/jing-wei/p2.jpg": {
-      "fingerprintSha256": "a1ec8b5b2301fcbc9a05734225bd34eaa14c097500663413fd14494ebb7d2218",
+      "fingerprintSha256": "4410786fee82d70bd6ea2433b15042ff3c828780af4669e71144af178e651e7f",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/jing-wei/p2.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "98392230cee2eb310a690d6a9c471e03b359b789"
+        "gitBlob": "938557765bfad2059bd56d5aa0dbbfdffbdb885a"
       }
     },
     "image:public/stories/jing-wei/p3.jpg": {
-      "fingerprintSha256": "e98f39a42f9b5e77099c619ba96efa38d7df3bd4e4cdd128bc0ae28e2aeb0e7e",
+      "fingerprintSha256": "bb228997268b1ba9a80ef88bf4a73f57310fc774ac5f77f3cb9c4debb1bf2c6c",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/jing-wei/p3.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "538b094a6784dd450eb9e1534bc13a677151e991"
+        "gitBlob": "2405508c377e818ab96f2e52e962d25a30cc7015"
       }
     },
     "image:public/stories/jing-wei/p4.jpg": {
-      "fingerprintSha256": "b8165ac66d09b44625a9a3dc6ff11658af9b357c72fd96926159e28d521a0cc7",
+      "fingerprintSha256": "cfa667e3111ed9111fe6bd28d30f3685762e52c5283e2ce711ffcc94ca130b07",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/jing-wei/p4.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "aaf3d93df85daf533cb795e3aada62731cafa0ad"
+        "gitBlob": "dd54f902de01678e1cb2e5c4975960e967bf745c"
       }
     },
     "image:public/stories/jing-wei/p5.jpg": {
-      "fingerprintSha256": "06e92a2fe9a0aaa4a0a39c91995255c7877ca9c2e8524b01139be5d82a53170d",
+      "fingerprintSha256": "18ea7dc5859d6df438ad94d68807ca6100335b7815e0f042fde8945cd668a25d",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/jing-wei/p5.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "5d6498ba41411f9ccb33f26b7ce746c9db803c9a"
+        "gitBlob": "6bf1ef9ecab6dd960c6fb546b03717bfd31378e7"
       }
     },
     "image:public/stories/jing-wei/p6.jpg": {
@@ -2487,12 +2487,12 @@
       }
     },
     "image:public/stories/jing-wei/p7.jpg": {
-      "fingerprintSha256": "dad5505df248c9fe4a1d20a90c551e717cb229dbe8728f00bbc50fd2f4b640fc",
+      "fingerprintSha256": "ac6cfb5a4954a4f66e9d23fdd739ddde30211a7b2e3349b004216dc45e6b8a52",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/jing-wei/p7.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "7055a69061dbc0931c1f38e714f074383664d874"
+        "gitBlob": "7baf89c4b27e7689b85bd3f144ebc1e516381015"
       }
     },
     "image:public/stories/ke-zhou/cover.jpg": {
@@ -2514,39 +2514,39 @@
       }
     },
     "image:public/stories/ke-zhou/p2.jpg": {
-      "fingerprintSha256": "2b01fada64f2e95e8cceb2716c1f0d290c95f4519d40b5797f3223b4b5e1abe6",
+      "fingerprintSha256": "41a48516e01fc4ff7d573d75b9e35618423f4aa7762dcc9f8293155fc58d5cc1",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/ke-zhou/p2.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "397c610755ac1fda69eb0fe816e13a9b0c092218"
+        "gitBlob": "2b204cb53de507090e28227aada3dbb039402224"
       }
     },
     "image:public/stories/ke-zhou/p3.jpg": {
-      "fingerprintSha256": "69cc95fc83735997d17fa256b939289fa41ecf200841c9d4e69917ad7a620508",
+      "fingerprintSha256": "1efb5ef5226f98aeb8bd3ec061b5fb38e9d6123d8b5e7d7f1581418f1c34cbfc",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/ke-zhou/p3.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "5a2322b9d1fea7ff6681538c524d50c7887d4da5"
+        "gitBlob": "f5afd0a20da857429a5f675bf1a1a3c24978e485"
       }
     },
     "image:public/stories/ke-zhou/p4.jpg": {
-      "fingerprintSha256": "15ac146881e810a6cf793d631ccf470c8c02ee1bc4a3b4c2cfc6cbb9eba3b8ad",
+      "fingerprintSha256": "0440fe5792f186e1b3e78947cd0ef6d5f31a32c9e399d181d9bdf7d112835f1b",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/ke-zhou/p4.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "9cdca68d829429be095b33d8a3b0684da9345494"
+        "gitBlob": "f509de433f55505b7d9e0a1e1ef515f4a3c6b4c1"
       }
     },
     "image:public/stories/ke-zhou/p5.jpg": {
-      "fingerprintSha256": "3e9034dbfab376b6f6246574aac1f9f16e73560306dfc372e3a68e1223650d5e",
+      "fingerprintSha256": "4f9fe363484f4e5143093a79cf707464f240a09beea93189e5d1a2a7a02ef552",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/ke-zhou/p5.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "a544dd3fb3a2afd910af6b39881387346000e91e"
+        "gitBlob": "c7fb442b932e90c342d5ad93980a100edd533145"
       }
     },
     "image:public/stories/ke-zhou/p6.jpg": {
@@ -2559,12 +2559,12 @@
       }
     },
     "image:public/stories/ke-zhou/p7.jpg": {
-      "fingerprintSha256": "d0702e771b43be9d0da62bbb960b8ff3ebdc80d9a2a867f34b8103e66da8f2c3",
+      "fingerprintSha256": "43776b2fc6fea74f916be0f0e103186c59467fcd2e0217de23520e229136e1be",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/ke-zhou/p7.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "3e0f67ff4e045572c6ebe04e556602bf13128af3"
+        "gitBlob": "dccf9345905acf62a43d0bd7cb0e7eaf8aa40b87"
       }
     },
     "image:public/stories/lan-yu/cover.jpg": {
@@ -2577,30 +2577,30 @@
       }
     },
     "image:public/stories/lan-yu/p1.jpg": {
-      "fingerprintSha256": "54afbe21097c854c68c8bb21f4738efffddbb25f45277bd96e520078c337d603",
+      "fingerprintSha256": "505fb98d5c01aba1da6dd7fcd4d6949d2fb14672758484a66ea77c43b75a0c86",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/lan-yu/p1.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "f2ead40814d34bd848c986810ac76d4a6cc8727b"
+        "gitBlob": "53b16b9e941ec74680aa92a9a391d2e9949ab1ae"
       }
     },
     "image:public/stories/lan-yu/p2.jpg": {
-      "fingerprintSha256": "48d2d1356132635da19f768291a14ada5bf1b85858423fb80e0f2e21549d71b3",
+      "fingerprintSha256": "6fe8a13fef12558c84f9afdeee703e0a5c320441d07a98a9234c1c26e5fc1fd2",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/lan-yu/p2.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "63428957ffa4034378bd3811de1507c54cbc6854"
+        "gitBlob": "710882adeacc23612ce603481f01e4923f2f0807"
       }
     },
     "image:public/stories/lan-yu/p3.jpg": {
-      "fingerprintSha256": "b0e646d2b8b8eeec20b0f293dfc8f7be0015b96e4cb3c41ac1a6ab3bbc7b71c3",
+      "fingerprintSha256": "be709f42853ec70c7fe043e68183da3265a4f92d67468e03d368b3d80b3aef31",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/lan-yu/p3.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "dad1fc2fcb355fab5d657af31f3dbc77c238a9af"
+        "gitBlob": "a9c710e93f6a4891cfd8c0d57c922d74c254db8b"
       }
     },
     "image:public/stories/lan-yu/p4.jpg": {
@@ -2613,30 +2613,30 @@
       }
     },
     "image:public/stories/lan-yu/p5.jpg": {
-      "fingerprintSha256": "4ad5a9e5b1c57896ae1e19aab77a85eb03af48a30ab352595489374e65569043",
+      "fingerprintSha256": "115b810f704f78500cff28dffbca9217f83e963278b3c39f23218694bd5d437d",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/lan-yu/p5.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "d020d67867220f5812e17f0d637523f3abccf7b3"
+        "gitBlob": "fa023212b21b49b9b8e87ed93afa457ce658f138"
       }
     },
     "image:public/stories/lan-yu/p6.jpg": {
-      "fingerprintSha256": "220cbe36c47a699a6b21e3024607bca8fbbcf99b2d56a88e07ceefdd59eccc0d",
+      "fingerprintSha256": "9d541f7c889f0391b01f9637a905c220b60df73bd6f9824c3b94552b73beee22",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/lan-yu/p6.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "6ef09aafbbe3c933a60483dbfcbe5a6dc5bcf37e"
+        "gitBlob": "c58fe075c424676d437d72ffd132365a79e0944f"
       }
     },
     "image:public/stories/lan-yu/p7.jpg": {
-      "fingerprintSha256": "5d41d55bebd32b635c723a6468e36a7550f1f36b6c22af6569a30c4bd0415f9b",
+      "fingerprintSha256": "b9e5e35b458095664e37721c613e4db93838936122c86b6766f887f6614bdb2b",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/lan-yu/p7.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "9f3ce95dbc22819bae3b2788c7394a8b8486ccd7"
+        "gitBlob": "e73133e909794440b0ee8b6c42faa6fc1a8778d8"
       }
     },
     "image:public/stories/mai-du/cover.jpg": {
@@ -2649,48 +2649,48 @@
       }
     },
     "image:public/stories/mai-du/p1.jpg": {
-      "fingerprintSha256": "c6417757066ddc731ff06fca1673b88f3de10be31f34ef7d3ce6c119aefd01d2",
+      "fingerprintSha256": "a407a3e4d4942f7d5f83e0db431cd9f2ce41e019855afaa754a85eabf91ff3fc",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/mai-du/p1.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "9ee783dcd562e6f24d18e9b9cdda4c4f654e11ff"
+        "gitBlob": "330de80ea3ccff7712704b5f6b43ddcfa623f83d"
       }
     },
     "image:public/stories/mai-du/p2.jpg": {
-      "fingerprintSha256": "e418cae307ae8c1e06ed2526eccb8688fef0180c4347651b3e76daf87b4447ac",
+      "fingerprintSha256": "2fdd03eb8d8c765b49bb499d2fec7161606db12c150968268ec0036586592ea8",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/mai-du/p2.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "cbc735c7da48c2e9499e1c7c1a017897dffee2b4"
+        "gitBlob": "cc59b07e2dd5b9159e3fed49c0ccefa16ddbcb88"
       }
     },
     "image:public/stories/mai-du/p3.jpg": {
-      "fingerprintSha256": "414eb6e4feff269b4f0cdfd2487a35a99a28b358507de54352ff1dd0b6cac5dc",
+      "fingerprintSha256": "37b198784d834b97b387f656a42f6eec088e58acc73d9c10b37de1388ee79200",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/mai-du/p3.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "32614963835349b3964fcaca43fbb375f03fe8c6"
+        "gitBlob": "3179a670bb9b43dcde0e56927dbfc8341173d209"
       }
     },
     "image:public/stories/mai-du/p4.jpg": {
-      "fingerprintSha256": "82f027383d8ae03816b6e92ba4b1c73e938a50aa8a9a8b44c91a1383e81a8369",
+      "fingerprintSha256": "3d6972c2c4b4c9d3d30ea56167cdf44b33ab6aa3e6c37873d494e8b2f78e1944",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/mai-du/p4.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "ca034956a9e67977e42b576ecd683951b98342ac"
+        "gitBlob": "70000bb8758a30e29a735aa3747e8634c028ff3e"
       }
     },
     "image:public/stories/mai-du/p5.jpg": {
-      "fingerprintSha256": "925a30d055db5e43a1ac37a69408a13b7b62ee9c236e11b26a125d16ce3401f2",
+      "fingerprintSha256": "2bce7ae892fcfe7354736d9db1a399b9e26521325d48e0fb6f55713e9963451f",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/mai-du/p5.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "737d5d9700697e4a476b97d7c782e21bbb1719e5"
+        "gitBlob": "6d590274f1391cfa4e40ac0aab40772470a349b3"
       }
     },
     "image:public/stories/mai-du/p6.jpg": {
@@ -2703,12 +2703,12 @@
       }
     },
     "image:public/stories/mai-du/p7.jpg": {
-      "fingerprintSha256": "5af3557da18c852b905dad61766bc03c79744cad6429e55ce79432c4ac02824c",
+      "fingerprintSha256": "6bd0dda4beeb10b7c52446da4921ee9b699b46abfca8b2f6c1bc44b6a455f1bf",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/mai-du/p7.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "b4a69f39658e0dd779eccaa968bd7752375ccfb6"
+        "gitBlob": "790866f4fe40a8a1dddc4beeb21d62d38422eb36"
       }
     },
     "image:public/stories/mang-ren/cover.jpg": {
@@ -2730,21 +2730,21 @@
       }
     },
     "image:public/stories/mang-ren/p2.jpg": {
-      "fingerprintSha256": "6cbd563d241350f89f14b9cd1bfefc6c5e3207824e9646711e0a37a348088bf8",
+      "fingerprintSha256": "559ed56e4e73b3b9919cf6226fa57e3a132f047cbb0156371ad98c9ae0a15771",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/mang-ren/p2.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "6014f9b1660c852f36afe79e96ed0dd922381582"
+        "gitBlob": "74d9f752630fea015d4275782a0e747d7fd7ee70"
       }
     },
     "image:public/stories/mang-ren/p3.jpg": {
-      "fingerprintSha256": "b0eb8268294085730b4dbe7ffeb6e29cb630e9b9074e89bfdcd6bd418d34500c",
+      "fingerprintSha256": "788500e50e9bfc58f3e2aebd93e583fbab3bd53d6557e23c50213771742f6221",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/mang-ren/p3.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "934f8e6afcd07a964d16255ddf6f932200d36261"
+        "gitBlob": "0e7847b21d2738231236d461f9d2818307f037da"
       }
     },
     "image:public/stories/mang-ren/p4.jpg": {
@@ -2757,21 +2757,21 @@
       }
     },
     "image:public/stories/mang-ren/p5.jpg": {
-      "fingerprintSha256": "3490cbda8e5699dadc721b851ebdd6a394435820e061c21387c7e6e3d97fae36",
+      "fingerprintSha256": "5a21bcacfab574704616f24267e1b06c1036600c7a8efc43dc75683e14ee6600",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/mang-ren/p5.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "0a649b7cb6dbf2e2e7b8be0e43f1b6764431e579"
+        "gitBlob": "54279548039ba2ccd6a073d492c1b551450a9b3f"
       }
     },
     "image:public/stories/mang-ren/p6.jpg": {
-      "fingerprintSha256": "1a94b851a3cef89783220869dfc8e0f636fdfb98886b215f46f2f6fd32e3f0b9",
+      "fingerprintSha256": "4ee5d1a19bf94292fa0d48838909f224700bce1736e0f123989a68a1812d0e27",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/mang-ren/p6.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "c7e04e15d1ab08e9016c6cb53532f96b4b9b846c"
+        "gitBlob": "f18eb1661a762a377f16fc7720bd49b234a707f1"
       }
     },
     "image:public/stories/mang-ren/p7.jpg": {
@@ -2793,66 +2793,66 @@
       }
     },
     "image:public/stories/nan-yuan/p1.jpg": {
-      "fingerprintSha256": "15c61efe3fef94ec2b9324084591d822ea9c3b506e134becd811be3c6920405b",
+      "fingerprintSha256": "b34906fa8f0e4f5913962b7a0ee1cafa4b7eeeaa69f2ddc01d0d44aab9d7135d",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/nan-yuan/p1.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "c390561b43b28984849ae181f047bd04ac02d0cb"
+        "gitBlob": "b305d6e69a12b005119870c86b0f2d95af94b5c7"
       }
     },
     "image:public/stories/nan-yuan/p2.jpg": {
-      "fingerprintSha256": "192615db8930bbb1cf1ee2a02aa760436ce63d544c90c8719cd61ad009939356",
+      "fingerprintSha256": "f5a9bce4ceaa3d78f7567a5ad2311b11b7cc7f0f03ea19d80a0a8dda1083c253",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/nan-yuan/p2.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "294d6160177de0e1097d96d2e745b80c49d09de4"
+        "gitBlob": "985e5e73ce7f572facf07e2f9ab834d8c3342ec2"
       }
     },
     "image:public/stories/nan-yuan/p3.jpg": {
-      "fingerprintSha256": "983db3461faf3a2395b4305d9536df360c1d59b62144c2fe7b1b12df94156443",
+      "fingerprintSha256": "6769e9063c20c06ecfa47f045f4ec989a047204bf7836bc88a5b44dd626c0129",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/nan-yuan/p3.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "9af92abefbe2b47e0f5293675147f376b41540ea"
+        "gitBlob": "c33d6496816eb59ace0bfa722e0040b69ba621ce"
       }
     },
     "image:public/stories/nan-yuan/p4.jpg": {
-      "fingerprintSha256": "050129d561af5fcfee3b9ef31be36658360c58c921a4bac4e0d0e2df8e32b1f1",
+      "fingerprintSha256": "c3e9f45fb4d5176488491693027b5903d4257cf6ea037cfd1afd8b34749efb85",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/nan-yuan/p4.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "673580572862d7fea68b865f000a350a6e63c2eb"
+        "gitBlob": "b7f2ecccd54f31f1576e25697ab7c24cb1c84a82"
       }
     },
     "image:public/stories/nan-yuan/p5.jpg": {
-      "fingerprintSha256": "813e30d855c6d5b140a3fc6fd3372942818e7703fc7fad7d5fcd8549140720ef",
+      "fingerprintSha256": "0d8c03c351b8ca083cd7661ceb96e61295bc8349986073b153b738958afa04b1",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/nan-yuan/p5.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "7da2b7c76b4ab42051721d94348456d83ac0ad4e"
+        "gitBlob": "16295c7e34f307fa9d3029f8c7b2458e311767ca"
       }
     },
     "image:public/stories/nan-yuan/p6.jpg": {
-      "fingerprintSha256": "17b599a2bfb8acb99c8ee757b404e44f56431c2906a126b70415175bc3ede376",
+      "fingerprintSha256": "2ed7c73688a743730036f8a018704148097c98d4c79b6b5200e478c158681bd8",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/nan-yuan/p6.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "3f1fee37550e0445be48bc3934a7694a8ece8daa"
+        "gitBlob": "81f163eab6e16d547532cc76334223e471b5e4af"
       }
     },
     "image:public/stories/nan-yuan/p7.jpg": {
-      "fingerprintSha256": "26543c6e4651b31b22db67e53460c51c610b1da5774fd8d0ca268066cfd920b4",
+      "fingerprintSha256": "b69beb7416a674d283dba8aeed20c2ab9a9fb09741494734e8a997b1486df312",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/nan-yuan/p7.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "a17b5282ef42e2fdcad7f1fc4e2f1d1c9565b5e1"
+        "gitBlob": "3306ad093e5915ca2396189bad7a325e275dfddb"
       }
     },
     "image:public/stories/qi-ren/cover.jpg": {
@@ -2865,66 +2865,66 @@
       }
     },
     "image:public/stories/qi-ren/p1.jpg": {
-      "fingerprintSha256": "c605fbd000a6ae7157c4312b4e5dcbc5e5f8ed503d6559f19fc5d04d7eb48e32",
+      "fingerprintSha256": "361265727caf7b4ae70181ef43afb9f7a141c84cb81c287580c8035a1c488dfc",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/qi-ren/p1.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "042acf1f13e59ecae8e6be4ba2932e954d752204"
+        "gitBlob": "43fab951221c80d3680021bb21ff93306371d572"
       }
     },
     "image:public/stories/qi-ren/p2.jpg": {
-      "fingerprintSha256": "4e4b07b5513ff20bd6e28edad352fdc6486504c6cccf5449181f6242fa5410ac",
+      "fingerprintSha256": "65d2e9d3110653168f1a79f1d4de2761b98333c871183f08f34050a3d823f44a",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/qi-ren/p2.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "047d1ca81b6f215bc413b33e987588e5daa60a32"
+        "gitBlob": "7a4061e58bb0fc636bf7610f0ec5c947793406e1"
       }
     },
     "image:public/stories/qi-ren/p3.jpg": {
-      "fingerprintSha256": "feeadd4c8afcd9203fbb368480fea51cc0a277e68e95087b1fb5545bc7e52293",
+      "fingerprintSha256": "9de81095cf89595d95dcfde2ed14e21db72e32f37e11e2ac3e1ae97884b405f7",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/qi-ren/p3.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "7926b7eb1aeefeebc74c99ddc0dbbd1e1deb97d1"
+        "gitBlob": "ca83162c159f30e9be08c23ddd7a2602f52b715f"
       }
     },
     "image:public/stories/qi-ren/p4.jpg": {
-      "fingerprintSha256": "17a5f4bc68e0b640603e8ec1f05332d97a3fbc3c45cda1242f3dc0ab378fb320",
+      "fingerprintSha256": "f7e108974fc7a5d601eaed398bb0717960f7e9683cdd940446331220c2e1810f",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/qi-ren/p4.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "2dad84a0e89c6b91b91fe0810a71b6f811f95b0d"
+        "gitBlob": "79b8bc9ada87e16cde16bd6f2b84bafaebe2578f"
       }
     },
     "image:public/stories/qi-ren/p5.jpg": {
-      "fingerprintSha256": "f6cc41495e7ab1e69c10558e5311a45c30089ad4dcaf8cbd82d4394f36c2d03e",
+      "fingerprintSha256": "fbf71471a386432ede1d396616749e47b9e42844b49c18811c4cff9ff259e22a",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/qi-ren/p5.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "a2a9cf82bbcab8209edf1e8a6e62c4e5fa8d7d93"
+        "gitBlob": "a8e3dab2139924ffc2fbf1f5708c37c4dda58b50"
       }
     },
     "image:public/stories/qi-ren/p6.jpg": {
-      "fingerprintSha256": "07997f846fde58bdc90ef9fe007e00190d69d71c51c708e4c8d4e8f40a012f29",
+      "fingerprintSha256": "3c42ea009fe34913a9643a2e92707b169169194303a1c2fb06f1d64e740aab37",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/qi-ren/p6.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "26bdde2c3e027c0088e7c14e569f633b3ae2767b"
+        "gitBlob": "267df595948eecd06a1a1b12d1718afcc4aca89e"
       }
     },
     "image:public/stories/qi-ren/p7.jpg": {
-      "fingerprintSha256": "296d4f51025fa6cfd44fa6b4d201362d2e192d67f638a0c93197ae73cc4c29dc",
+      "fingerprintSha256": "0cb1a1d25ceb71c0faed7f9ec45ad6d05b6017cf79710db879691a265bdae78e",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/qi-ren/p7.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "00c96333f7fd6875ec73587dff8e8d38e8090b72"
+        "gitBlob": "799ccdc0a5ff11296653c5da4e973e0cdf479236"
       }
     },
     "image:public/stories/sai-weng/cover.jpg": {
@@ -2937,21 +2937,21 @@
       }
     },
     "image:public/stories/sai-weng/p1.jpg": {
-      "fingerprintSha256": "b8f4ea7de7c047538db2832f37ed2c9df0ac17c60353e7eb13632edd75952d0c",
+      "fingerprintSha256": "34dfd1fca279a7548610eb49f10c709e27cfb0dcfc81baa442fdb005bc171fa6",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/sai-weng/p1.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "315d6910523a0fbc5654af2239572ae357bfaa68"
+        "gitBlob": "7b21b0268860967286ec2aac8a660104f0201a54"
       }
     },
     "image:public/stories/sai-weng/p2.jpg": {
-      "fingerprintSha256": "cd042f60a21e1107c57ad685bb453823e13ca2c06838a808cc5e29a272a9e353",
+      "fingerprintSha256": "189b1f126ab60aafefae4bd0b38f4f7c401ddb4a1b58ef20acc7b0af4afad91d",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/sai-weng/p2.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "4231bab4ed18c66d4a9ada4d8127504ed818b1ed"
+        "gitBlob": "e249838c404b1fccb6d66265724ba9b4dc7566d6"
       }
     },
     "image:public/stories/sai-weng/p3.jpg": {
@@ -2964,39 +2964,39 @@
       }
     },
     "image:public/stories/sai-weng/p4.jpg": {
-      "fingerprintSha256": "823c6099cf8e6ea26e17d198c1d75f313f424259ee7d9c99407cf8d44992a9aa",
+      "fingerprintSha256": "3622de73e2b5f85ce851ca8ec56211ec3d66cfe6341996bdf44b62afd643e05b",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/sai-weng/p4.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "53588aaeee2e2ce0f00d64370d4c5a55fcba48e4"
+        "gitBlob": "1beacaa498489fbe33fe131e5167b7fd26f0dbb5"
       }
     },
     "image:public/stories/sai-weng/p5.jpg": {
-      "fingerprintSha256": "812f29700d5a892f7ff9fc294e486e77a0bb4d625b6bda0cca5ee7a736172e52",
+      "fingerprintSha256": "93c7dc5067cf04ae1b1e17eaed33dfb32fae3df6fa80b11658a9a0b6c64c978c",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/sai-weng/p5.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "fb04736620c6dfa230e628cc0688883aeb332cd6"
+        "gitBlob": "ab9991d9a3cfaee3fe63f8c253bf71b6c35e639b"
       }
     },
     "image:public/stories/sai-weng/p6.jpg": {
-      "fingerprintSha256": "1cbd34e221cecd6e374aa533d74000e568f6e8c2717e856b80b77877ea23c48b",
+      "fingerprintSha256": "7c27adcbe9ca0995ebed89e4f5ded0769020a608b0c287ff2d195b1545a47c6b",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/sai-weng/p6.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "07152067a7bd21b339bae667f0ea5ec4bde1e317"
+        "gitBlob": "5011d3bc143fe629e55f5e45a2629f0393c8d81a"
       }
     },
     "image:public/stories/sai-weng/p7.jpg": {
-      "fingerprintSha256": "e39cdff1e9d2a0cfeff60f32c30ef0df1444a421ef489b2b14ab32c4f181529d",
+      "fingerprintSha256": "9793780fb23a47b0c24fc38b6f5616125c835ab3b6493ee5ca74665660965550",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/sai-weng/p7.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "ed1bdb2c54fa0ab61ed4f679bb6dedf05c636252"
+        "gitBlob": "f651b8310416a98c8250ee92a1c28aeb1926bfec"
       }
     },
     "image:public/stories/shou-zhu/cover.jpg": {
@@ -3009,21 +3009,21 @@
       }
     },
     "image:public/stories/shou-zhu/p1.jpg": {
-      "fingerprintSha256": "44f55c3e3320090129c16c5080997e89a91e94c28df41780bc5a17b403efbdb9",
+      "fingerprintSha256": "7c4fa9527a3bce90e79ecda381f94404f569209b59b29c2ec5918d9d1880bb32",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/shou-zhu/p1.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "d25220180479293729e3f532a8215efaa17bb178"
+        "gitBlob": "071498b5953dc16af3dc9c1965197f751951ffc2"
       }
     },
     "image:public/stories/shou-zhu/p2.jpg": {
-      "fingerprintSha256": "f34a0d37747d4aa20e666feb63c11e59971abef85ddaaaccfbd01ce69d4488d5",
+      "fingerprintSha256": "ac98bd95bb1b3cb0ba81e59f4b30ac2880c4ae301e4ca0558c0d21bfdab6822e",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/shou-zhu/p2.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "01e5a7089f8ef57f4ae1752590162171a592a1dd"
+        "gitBlob": "05eba73cd507b4ce72256eefb4e411613be40a50"
       }
     },
     "image:public/stories/shou-zhu/p3.jpg": {
@@ -3036,39 +3036,39 @@
       }
     },
     "image:public/stories/shou-zhu/p4.jpg": {
-      "fingerprintSha256": "45120195d6b6e51c8cc7dfdfce854cfecf7c05e62d62c5da386b15241300d2ba",
+      "fingerprintSha256": "d9226d63e1c7c51023a2da76148f23fbc8d085d100d8408de9ba463e2b3d5b06",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/shou-zhu/p4.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "af0ac6fe3c923c3a6aaac1f0f72c24b8537cbf39"
+        "gitBlob": "6049fc0290d9edb0a658490dad11136124030a4f"
       }
     },
     "image:public/stories/shou-zhu/p5.jpg": {
-      "fingerprintSha256": "a1df5b4e539df94dedfdaf00bbca22ed994685a9d4abe70c393eee586fb556ea",
+      "fingerprintSha256": "c91cd9f56e76f32fb40739441562f3493e72362dc0e84fb3fcd9d34302badaa1",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/shou-zhu/p5.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "08b5f9261447d1fa4c11abfe316833259a5ec1f9"
+        "gitBlob": "036237ac1e8dc3b522a34288f651e9949d2f8373"
       }
     },
     "image:public/stories/shou-zhu/p6.jpg": {
-      "fingerprintSha256": "a65b8f41746123a06493be5c52b7925dbe980be33a8abd6578999091b13d34bf",
+      "fingerprintSha256": "1ed98ce9acc2feba39c97f0019fc74b363f40ee0ae962638457aac595dec190d",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/shou-zhu/p6.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "c9bcc06ca9f29fccba5a3a6006aa12c9953ad098"
+        "gitBlob": "89df26c6b66a8eb0576a93f29575e8d328b968b1"
       }
     },
     "image:public/stories/shou-zhu/p7.jpg": {
-      "fingerprintSha256": "16de22edf2bffa4aee34fbf5a4b4bc68b82d633ecf35627ff2693671c328c964",
+      "fingerprintSha256": "76de1a3d500d05fdf7c137e8afa40ed95c66285ad8a4091cebce74c22aa39575",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/shou-zhu/p7.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "fdcb65bcec8791c66b9afeaca657e51816d4c8a3"
+        "gitBlob": "25a7ba43e96d842036ef07e964e079dd7b88600c"
       }
     },
     "image:public/stories/wang-mei/cover.jpg": {
@@ -3081,30 +3081,30 @@
       }
     },
     "image:public/stories/wang-mei/p1.jpg": {
-      "fingerprintSha256": "ea49c86ec52a301957987f097ce6f6c593fce6e55280deb140d6a2630c262739",
+      "fingerprintSha256": "96a7252c782d57ea6f67afc1aecdf9e2eb47f23890c8b7ddad614ee7eb303855",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/wang-mei/p1.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "79947ed663abb73740040c8b68101e25a36f69aa"
+        "gitBlob": "8e1b4d1e0d5c8fa1534d15b0223a6a61fca89bf4"
       }
     },
     "image:public/stories/wang-mei/p2.jpg": {
-      "fingerprintSha256": "6427c3a53eb97967eadde31aa80e8b19f21d05f90a437458ff2d039b3405e444",
+      "fingerprintSha256": "aa458645e0e326cf5c9250eb4d9533bd40d685daec6155c481ec6957b23bbe66",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/wang-mei/p2.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "b86d62321ab67c346c6971b30a58562e38266bad"
+        "gitBlob": "ee98d127c1060418b9c0e08ae3acf88cb468e32e"
       }
     },
     "image:public/stories/wang-mei/p3.jpg": {
-      "fingerprintSha256": "d25beddd571783f3fa40df7d1b82efc614f00f66ca32adc70e509e3ea6bbf2a6",
+      "fingerprintSha256": "2fb22164053c6f90f33cb547b34647e6a85f6503b8e405e547242a9503a48033",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/wang-mei/p3.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "3d38322c0519b4076f12faa3b11d73d649658113"
+        "gitBlob": "6e93e8c8f567bee6a8b32258cda25cf9da24bf65"
       }
     },
     "image:public/stories/wang-mei/p4.jpg": {
@@ -3117,30 +3117,30 @@
       }
     },
     "image:public/stories/wang-mei/p5.jpg": {
-      "fingerprintSha256": "97d2c08df6da3a9ab7a119812e15446209f30bfe9e970083ef4a0b708f03e379",
+      "fingerprintSha256": "2eb60f45e2445a5481e6bea3bca19dbeb429dd99b7eeb6c05ca1dece31eb1fd8",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/wang-mei/p5.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "24fc3b1bc48ce9eed561953a2c52cafc8d66769d"
+        "gitBlob": "1e428390a3f0d952da22b08a9fe06bcebf806909"
       }
     },
     "image:public/stories/wang-mei/p6.jpg": {
-      "fingerprintSha256": "2b06c30e2fdfbe5025d0c1501286484187dd782b811d135950ccab653da85d17",
+      "fingerprintSha256": "c165749192678d3a8ecdef77996b2ee5a9137d0c3930dac318c71de09611ad66",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/wang-mei/p6.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "6c8a3ae76f7beccbebe2dec282a5d8c657a95c5a"
+        "gitBlob": "99e50c8046e4ed2b8aa574aa6c1912f24e51ea68"
       }
     },
     "image:public/stories/wang-mei/p7.jpg": {
-      "fingerprintSha256": "d5315b7264137aaa135c6671e4a06247f7ec5057ad410ca12c0464e2a11671c4",
+      "fingerprintSha256": "1d494e28c2ffdb7a52252942e0b0a976ec445a2407350607c434f86e1fbcdc29",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/wang-mei/p7.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "96f61a0ea7c8cce9f175e82016d8561e155611aa"
+        "gitBlob": "a7818e3ce6f8bd0ba20f5f48f12d6fe838a5f7cc"
       }
     },
     "image:public/stories/wang-yang/cover.jpg": {
@@ -3153,66 +3153,66 @@
       }
     },
     "image:public/stories/wang-yang/p1.jpg": {
-      "fingerprintSha256": "9533816ebd7d290682e79fbab2afe01bd6d579e73c0e4fa02c3929f25a8dd1c8",
+      "fingerprintSha256": "6f56efdcd7851c991607d45281d840463f51f154b21562e796ae77a571bc6682",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/wang-yang/p1.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "6995a1b6332f1fca50624afbecc32fdd41cea332"
+        "gitBlob": "75672ec3b67c42e5548012f4fa54d657b60d0018"
       }
     },
     "image:public/stories/wang-yang/p2.jpg": {
-      "fingerprintSha256": "21decf68b738729fd51d3066e05751f1bdd9b4c03f97fbe5656b52bc8255dc0a",
+      "fingerprintSha256": "1bc87bc9a9aa98644df431598bd1aefaa5f8db949f1c04290a7eebe0400654f7",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/wang-yang/p2.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "34065c839b8f8372af54ec5c2d3245f12ac0bda8"
+        "gitBlob": "2b37b97576503d2bfa4ee4e86d6a91be7cc6e33d"
       }
     },
     "image:public/stories/wang-yang/p3.jpg": {
-      "fingerprintSha256": "a3ac3942fcc8bed7ca5205768d848711b70fe607a00a19f04d7b8d01d8ddc3c8",
+      "fingerprintSha256": "6d083886e1c3e97de55fb6e3285fd9024df9128691bf2a5d3e6bfdb3949d0cb8",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/wang-yang/p3.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "7396b7f880aac38021e67b924e55fb167655bcd9"
+        "gitBlob": "d281bd445b854f7e81cbbada85b9fef41a099bb9"
       }
     },
     "image:public/stories/wang-yang/p4.jpg": {
-      "fingerprintSha256": "dc6fca2f09ea0f69a62d88a8a36d7f4666c7fb34878d7c1d396ccdb3931f5693",
+      "fingerprintSha256": "234b16d52bb51423def7c0d30a97e3196f1c2a540c63d41eb7f7dbbadc461f64",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/wang-yang/p4.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "1bbec78ddaf1ed1609e74c388c93293420bd5081"
+        "gitBlob": "5acb01f54bbcc1cd5309b1010dff174e850941ce"
       }
     },
     "image:public/stories/wang-yang/p5.jpg": {
-      "fingerprintSha256": "3941ca31df638658a77b25e1a12f700c71e1bd1c098bece861a96639cf0002ee",
+      "fingerprintSha256": "369b410b8942a0459595f818fc9aacee0674a091f42198d39308647ce0ff8f66",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/wang-yang/p5.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "b9ecf95a7e5f0adb16df6b2fd759b9db5a6ef6aa"
+        "gitBlob": "46f918eec7a0bb5c88e17fa7ce330d692fe425fe"
       }
     },
     "image:public/stories/wang-yang/p6.jpg": {
-      "fingerprintSha256": "5d4230d7e2fcf8089dea4a4000d10302e8085702cae2f2aaaa7a9c39675ec571",
+      "fingerprintSha256": "214a32fa80bfecef471f73a39e53b558760ac5824a1b7307866a4c163e1672c4",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/wang-yang/p6.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "a0fc74f2891047a25c3a5d73196d11cc074caa0a"
+        "gitBlob": "8f1719991403072e4ed1dcdb01e11acc03927f89"
       }
     },
     "image:public/stories/wang-yang/p7.jpg": {
-      "fingerprintSha256": "7c8c1644a12bf466e3f541a7981028bd0936f63f5df23f7f47d9516c7e636e2c",
+      "fingerprintSha256": "07e551231dba1a3e825398603abdb6d623293f6b5b7237d14821a63fc8aae013",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/wang-yang/p7.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "31c3715334f36a6a9ebe8c47649c8fb95a5cfc62"
+        "gitBlob": "c64617a3521d27e2283477e5f344c253a9b04cad"
       }
     },
     "image:public/stories/yan-er/cover.jpg": {
@@ -3225,48 +3225,48 @@
       }
     },
     "image:public/stories/yan-er/p1.jpg": {
-      "fingerprintSha256": "d7cef8f0e190ce423c01e688f61b022319088db230cf3e1171cecf999c9a91be",
+      "fingerprintSha256": "df12de80c03648204c3e90b291c1bd49107777260a847c1bc9e663bf30eac81c",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/yan-er/p1.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "15420f80ade9e7ac1eb9434dc7fef9c24f938ade"
+        "gitBlob": "08f29150461af0f3928f9bb89683d671459288a7"
       }
     },
     "image:public/stories/yan-er/p2.jpg": {
-      "fingerprintSha256": "1699493b0870a616f0cdc8676a2412748080de1103dd6ecc71a2267619114801",
+      "fingerprintSha256": "7dfb36660f206c9dd1355bfd82d8f15cc2ff44e73de50c28c1101b1654dc1b28",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/yan-er/p2.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "d279fc2924333d4c9c886b417de94b5ab300a929"
+        "gitBlob": "4d5debf239bffb11285016dc69196c1c1df5d211"
       }
     },
     "image:public/stories/yan-er/p3.jpg": {
-      "fingerprintSha256": "bbc1efdec9eed1a7a87732b9184d0724ad5cab2c57e0f27ef7b43be09e0d2233",
+      "fingerprintSha256": "aec6ea4362deeb9229f9a0587561a368d49e1143b4fd4a612b8be77e6a5c1d97",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/yan-er/p3.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "efa8aa2204c71bdd8b188ae20da8a211493183e1"
+        "gitBlob": "f106b87b54c6eb1d44a655ce3706890e23ab5ba0"
       }
     },
     "image:public/stories/yan-er/p4.jpg": {
-      "fingerprintSha256": "67ac8b54031a16f6fa57b0600a1b5daa4ee5acfaeb8279665ed93e49f04a5b93",
+      "fingerprintSha256": "6035e50ffdd23bcff5c59fac6a2e08c539af13624106ce36575d95e3fce28dd0",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/yan-er/p4.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "2dbe739e06f5889e71b7ef89e9d4bf7c5827112c"
+        "gitBlob": "14efbe0c5dc5e24142b4f93e93133acd1bc50c63"
       }
     },
     "image:public/stories/yan-er/p5.jpg": {
-      "fingerprintSha256": "70f7aa0599dbee2277023d687aa7e360ff63fac8b086e0560cd6d1403c43448e",
+      "fingerprintSha256": "860be911655f9f31f6cf742f372c36ff03d220a35025c09070ca30385a25c0ef",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/yan-er/p5.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "f74aba518b0fc86257442216743377380d012c64"
+        "gitBlob": "cde59a2325a62711fa3d3e9f6ed0f515f97a95cc"
       }
     },
     "image:public/stories/yan-er/p6.jpg": {
@@ -3279,12 +3279,12 @@
       }
     },
     "image:public/stories/yan-er/p7.jpg": {
-      "fingerprintSha256": "40b7a504655324690c7b621243d0f8530b2f4156dcb096a2425c0c2f8dbaaae4",
+      "fingerprintSha256": "53ba2e048b8bfc23e51c4ddedebf0beff0a29d331279424786c20c35ee4d666c",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/yan-er/p7.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "2cf934c3de5c4897cc5b61c315e17eabcd64b854"
+        "gitBlob": "f5f202f23eb73d7356633fafbf951fd8388cb558"
       }
     },
     "image:public/stories/ye-gong/cover.jpg": {
@@ -3297,30 +3297,30 @@
       }
     },
     "image:public/stories/ye-gong/p1.jpg": {
-      "fingerprintSha256": "e58f4243442a3b9004d11548bb670c51e53f50e0f33e298ca9ad013d30426745",
+      "fingerprintSha256": "d699e7c95d0c99fa6c7a51dbefc2d4e107fb510a4134998450b76fa4d97b4230",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/ye-gong/p1.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "c7f8053448b531dca7b269f170fca966e8f3e8c0"
+        "gitBlob": "d15491a252657fb7adb116cc11044ef9158bd176"
       }
     },
     "image:public/stories/ye-gong/p2.jpg": {
-      "fingerprintSha256": "322dad01b80c995d3fa113ceac7a61504f52c08de55762f1b671dcb190001d39",
+      "fingerprintSha256": "eac328ac85abc92d0093aba582d00071f71c3e89699c5e6b4147df1d77497957",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/ye-gong/p2.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "a46e16952be87b0811a8f2d0fdb8c6bc91416152"
+        "gitBlob": "55e4f6eea906819383a87ea4ad28b28009df18a4"
       }
     },
     "image:public/stories/ye-gong/p3.jpg": {
-      "fingerprintSha256": "fe3432f55c79981960324e632b12b0bb6f27e2c32f9e95c2201e42ce2f3410a7",
+      "fingerprintSha256": "2bd83631251631cff486f78ef2c0de4c50147bb8a4877397baf6e910570139bd",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/ye-gong/p3.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "3f5a74117b53b9cefdb9313d07ae3d63b16a9e8f"
+        "gitBlob": "4a5c74dbab18cb9cca0f3bfbb167bbb8586a9bdd"
       }
     },
     "image:public/stories/ye-gong/p4.jpg": {
@@ -3342,21 +3342,21 @@
       }
     },
     "image:public/stories/ye-gong/p6.jpg": {
-      "fingerprintSha256": "68ea4c9e50258109fda4a2888cebc6b7af8e5fa4749dc44de5808b2803fdf59d",
+      "fingerprintSha256": "693447337345e325236f6620090594d29350d70bc16cec29bf5279ed9048ad75",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/ye-gong/p6.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "c44526d7f7b79a204b78aa8908a335bbbe5ffd90"
+        "gitBlob": "f65eb510f0383693a81b5203e07565458053d9ff"
       }
     },
     "image:public/stories/ye-gong/p7.jpg": {
-      "fingerprintSha256": "a7f9878ba6a0d5480c5bd513ac693d8268d9efe8aef08c122e88181122c42a29",
+      "fingerprintSha256": "be3cc634b37b6caa48ac3663bd903da568a7f4ddc153158ad8701d335d88501f",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/ye-gong/p7.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "5cee6a54bbec3ac4db44baa256792299962b1a07"
+        "gitBlob": "fe217c4f6426cfdf4dd414bf9f6f42baeac514bd"
       }
     },
     "image:public/stories/yi-ming/cover.jpg": {
@@ -3369,66 +3369,66 @@
       }
     },
     "image:public/stories/yi-ming/p1.jpg": {
-      "fingerprintSha256": "25661a7185824030a7b719761350d18ad14042d915f7e9aa02dab13b6a2538e8",
+      "fingerprintSha256": "9fb0bc8a185aa9840abc800f4e590006e2398ce2f8cfa1d207728e7f4cebe829",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/yi-ming/p1.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "bd7defbbee368b041ced3a72d505547db9da7928"
+        "gitBlob": "99a493678e8c934a856bf1f26ab43eaa3e6531e9"
       }
     },
     "image:public/stories/yi-ming/p2.jpg": {
-      "fingerprintSha256": "9ac204c897cd5b518cb14980db3c14a491f0c673c0307fcd6a3eb72a5b3a4d61",
+      "fingerprintSha256": "78a73ff3f6e41e28968f52088d7de476fe5bfdca9bf0b6a30f7cc78129cbe3aa",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/yi-ming/p2.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "6280acb64f65184ec8814b30d98c9adea7c24e90"
+        "gitBlob": "0a6a8c745de50319f804628ea411e9990a44153c"
       }
     },
     "image:public/stories/yi-ming/p3.jpg": {
-      "fingerprintSha256": "afff74f5526dcc5edb5cbda01644672256ba8d293a4981026178f19ad3a26ae3",
+      "fingerprintSha256": "b4bad2c9ae1320145fc7e53c9ad4e2fca912b7dedc8bb9a322d6f4543cb52570",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/yi-ming/p3.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "267f933552d09d64b98882551191bfd71b219f02"
+        "gitBlob": "ba23033bfaf929893aff0591a4d3d0ad8c8624ee"
       }
     },
     "image:public/stories/yi-ming/p4.jpg": {
-      "fingerprintSha256": "840c29952c515772d8d9c161c2de95934677deeac1fad17c1fec59abbe8a1f3c",
+      "fingerprintSha256": "3b30df3b07f327b03018877643cb15a27d3660022e7d7c905e0faae8a8ddb61d",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/yi-ming/p4.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "4943eb2f32b65e03a90fff7a50ed52ed4ad0a815"
+        "gitBlob": "6747114bdeb251ed3977a2c8fb6487aab7ece9ab"
       }
     },
     "image:public/stories/yi-ming/p5.jpg": {
-      "fingerprintSha256": "89b3a0f75092965c57da4bf7201fb388522eb523ee755ea510bd5e767c4f8465",
+      "fingerprintSha256": "632559ab3e805de23a7384d6586838c69d5fa98965c847f993e6801ac4c33d09",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/yi-ming/p5.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "a980916a6da55b9680840909dcd25c0e3e12b1a6"
+        "gitBlob": "8f15d89530ff8a55177e7a439f17b99c1029c38e"
       }
     },
     "image:public/stories/yi-ming/p6.jpg": {
-      "fingerprintSha256": "b05f88c9a4df845bfa87f42653e6f1ea7f0821f2f4b4cd750ea5a9cb9652ddcb",
+      "fingerprintSha256": "d473cb7e93ef5f83e91e235ea99194cde2afbf98fe746503068c97e6efd91539",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/yi-ming/p6.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "3cf76909d706c1a5b49012c0bd1dd4461aee2e00"
+        "gitBlob": "b463c51c7289eb7a102872651e1fd0eb67279dc2"
       }
     },
     "image:public/stories/yi-ming/p7.jpg": {
-      "fingerprintSha256": "b9623d3614801beac5bb58d78df4d45ae520b0fb022eb64c6fd9559c028b9601",
+      "fingerprintSha256": "46a03d8fd3df27ef489158ad6bdf39c2a2d643f8987b02b2642afa4ba064ba15",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/yi-ming/p7.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "cba01d4d7500a14b77ec008cd5950f7e50b4fac9"
+        "gitBlob": "3c43127c0af7ccf03b218d4c7889c808ae1edd1f"
       }
     },
     "image:public/stories/yu-bang/cover.jpg": {
@@ -3441,12 +3441,12 @@
       }
     },
     "image:public/stories/yu-bang/p1.jpg": {
-      "fingerprintSha256": "304798a0d3e7e0a06e505b0896d3e180c97b713eb8c269fa93420096b7278d54",
+      "fingerprintSha256": "b4a3724b2a2c5f805967d63edd0af08b3edb7d023eb009f4781105e3a8a4cb18",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/yu-bang/p1.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "4310d7a2cfdc2a6f2c6e4157beea475a8e6db1eb"
+        "gitBlob": "303eb0b33905f9f8649dbbf5a952c1d92b805bbb"
       }
     },
     "image:public/stories/yu-bang/p2.jpg": {
@@ -3459,12 +3459,12 @@
       }
     },
     "image:public/stories/yu-bang/p3.jpg": {
-      "fingerprintSha256": "dd9b33f533b378c9528cb6de62dedcc3c1b209d46b803a06517937ac1e74caaf",
+      "fingerprintSha256": "3328318a20e7ce9968ba7a8fe0d265f54c0147c75cb9f95131553413761d1e9c",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/yu-bang/p3.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "ddb9f3c2b2c95ca1add7f1b817aedd6073262573"
+        "gitBlob": "99fa48dc643f8f3f0c432fada35da88a61395dfe"
       }
     },
     "image:public/stories/yu-bang/p4.jpg": {
@@ -3495,12 +3495,12 @@
       }
     },
     "image:public/stories/yu-bang/p7.jpg": {
-      "fingerprintSha256": "efc53241d760360e975277294d707da18d3c08140158569513b0a75518d3f820",
+      "fingerprintSha256": "bdef78647b017abb075b388f122ae60872ce763ae37d94b5f16d5222483b0c13",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/yu-bang/p7.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "ce6b74113aba87fe3e7d6efb3cc6e0271dcc2db2"
+        "gitBlob": "74ce2019959853c117cf2b4a7dbb3c999f2dea61"
       }
     },
     "image:public/stories/yu-gong/cover.jpg": {
@@ -3522,57 +3522,57 @@
       }
     },
     "image:public/stories/yu-gong/p2.jpg": {
-      "fingerprintSha256": "db12894e499ff301a576530a218141f5c8743dfb08368c64b39caf6cd71c96cf",
+      "fingerprintSha256": "3f3f7f3ede8a6927a524334d109e877784c6c40583fae263da3edad5e256fd57",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/yu-gong/p2.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "7b5117e20b649c6ba106067740118743a0ef8675"
+        "gitBlob": "b5fc27299a0be673b4b21cc660adac337d162c06"
       }
     },
     "image:public/stories/yu-gong/p3.jpg": {
-      "fingerprintSha256": "cd20499b9ae4cd1104b2aa8702a804e6e86c5df2b993725eca0d6cb783cbfc5c",
+      "fingerprintSha256": "e9dd8f6da046d6e9ae23c85abd894268cb501aaaafe1012ffca345510878c21a",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/yu-gong/p3.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "b58dc481dc7ee87bfc4cfaecd34867075d1bc729"
+        "gitBlob": "0bd2eca5f965e24b775e5efa16aa00ab342c2233"
       }
     },
     "image:public/stories/yu-gong/p4.jpg": {
-      "fingerprintSha256": "0e149f56e975d555ff47cf96ad64379fa2ab63becbadd404e1b58167880e451e",
+      "fingerprintSha256": "d1eba9ee28dd2d92e51ff10156d0132c74ec07b060a25e8be9945cb82b6be153",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/yu-gong/p4.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "32603723c44e481b42819c9afdaae9a31b06ea19"
+        "gitBlob": "4646d7c1ea9dd7c2f59c576f221b7928d5bcbfdb"
       }
     },
     "image:public/stories/yu-gong/p5.jpg": {
-      "fingerprintSha256": "eba43440391ba85ec5f564216e4e7c7eab133bc7f49781eb5fee88498a768655",
+      "fingerprintSha256": "02d608c8818d8683894b3dedd72bfa6d6cb4c5a15aadf716fb71364cce15593c",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/yu-gong/p5.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "a33ac063c588729745390ff59766398131fa6234"
+        "gitBlob": "8a30cf9c9d1ef4bf10d9c1fbd3fb5f82a9f5625c"
       }
     },
     "image:public/stories/yu-gong/p6.jpg": {
-      "fingerprintSha256": "cea8a83c4478baef323bc634840d2fd57cacfd4218353dad63a84b5e3acd41f4",
+      "fingerprintSha256": "8e641858c7ac3819f620e44e975dea807783f6b692d3e3eb063fb867417403b6",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/yu-gong/p6.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "966f3593741ba5648bddac4a6a40c00dc20e7d60"
+        "gitBlob": "575a8ad2b97f72acecd1f6761bae645257802a0b"
       }
     },
     "image:public/stories/yu-gong/p7.jpg": {
-      "fingerprintSha256": "342d3b015791baa6becdcd5e476d389e18179ac2f3fd9e1f6eac6e21383a898e",
+      "fingerprintSha256": "82e580a858914cc148f087380515bc3364940100f67e4b2893efc80559deb505",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/yu-gong/p7.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "9c7370179019830be563b0f689caedd4e0d6a8b8"
+        "gitBlob": "4580769671af5511fc3d30f35e4a2e0d45ae2757"
       }
     },
     "image:public/stories/zhao-san/cover.jpg": {
@@ -3585,66 +3585,66 @@
       }
     },
     "image:public/stories/zhao-san/p1.jpg": {
-      "fingerprintSha256": "84f1400f320db69bfd42652a09681ce5592c631e5944df7c7cef732222d598e6",
+      "fingerprintSha256": "0c773fc64f4fc257bfb2cefebc6f52a7788e3bc48539253ca399f233f1250083",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/zhao-san/p1.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "e6b84a4dc199cb89734140daeeb2355464b28613"
+        "gitBlob": "d00d58acf91c1f2e56425ae060abfa9197bdfd9b"
       }
     },
     "image:public/stories/zhao-san/p2.jpg": {
-      "fingerprintSha256": "2ffe9ac4f9ad7e7c1176f7df2514006f10134b065044e28bc8630a0d973f528a",
+      "fingerprintSha256": "50db9b4572c624eeea434b4e6c89fa08e76a3140ccd82066661a2011f69b9c10",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/zhao-san/p2.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "ff57dcd4e78b66149ecaddf27d60509ff6fd0bc3"
+        "gitBlob": "9d3d4c718b8cc07851d9b919d31995d433fb8322"
       }
     },
     "image:public/stories/zhao-san/p3.jpg": {
-      "fingerprintSha256": "8ef0dbd3a4b5fc1e880b7e7ab6bace8c1e5368a6ffca6fd64a48223f2a605de1",
+      "fingerprintSha256": "fc6f308f6f42db3d5f9bac2124748d8cea5d2d063b1d6a22f9b6a4f042e1028d",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/zhao-san/p3.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "83b1a0a746cec2eede8555fff2006504431be968"
+        "gitBlob": "9166d405fc574edb4e6e0a4f26b96f724cf6f826"
       }
     },
     "image:public/stories/zhao-san/p4.jpg": {
-      "fingerprintSha256": "aa9fd54f8eadaf041a86daa69f012d6bc2c89881b3b6c3e69cf6700c75dc59d4",
+      "fingerprintSha256": "3f6fa4ef643ce707e80793c78105a1eb37e175717646ef1dbeedd2c09da7a0c4",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/zhao-san/p4.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "df78765cebe39890ddd9ad97d1f418014a38b28b"
+        "gitBlob": "2d2a3a423adb7ba9c237a4cc1ac4ec4d135ca812"
       }
     },
     "image:public/stories/zhao-san/p5.jpg": {
-      "fingerprintSha256": "1699467bd6d6236608b733402b360bb8bd64cfbb291109e71a152df012ba2eb4",
+      "fingerprintSha256": "f84fcb58003f340de79951e3b0de712b49690ac1abe9c7d7b00ad550cfd07a30",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/zhao-san/p5.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "4d0d18722e0a901a9e4dd3b9b66f0116a1c07240"
+        "gitBlob": "c59040d2ed405076423927e5dc52c0faa3420a32"
       }
     },
     "image:public/stories/zhao-san/p6.jpg": {
-      "fingerprintSha256": "c5c7eb0a8fa99850d5084b3cbfb53964605e96aae3a0dfb11c0b7c01503d914f",
+      "fingerprintSha256": "f0f2c1e970ebcb705b9ef0a115990beb74b8a7523bec3023323255304ad2c77c",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/zhao-san/p6.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "03ec70b097ce54baf5b1e8ef7b98fda386014000"
+        "gitBlob": "9070320a6c4038e26d001f21b92da55239ec79af"
       }
     },
     "image:public/stories/zhao-san/p7.jpg": {
-      "fingerprintSha256": "df76fce659c4f5608d903ede60ff3f369b974d168822ef4500aba786451b538a",
+      "fingerprintSha256": "3b2399ecf12497c6f9a2308c98b7b9e123addd66e401cbb9a32b9c7b98357cbc",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/zhao-san/p7.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "459e2f1fb0854ba7be5b4c7be147d0ab1aa468d4"
+        "gitBlob": "bab1cbb6f3eaa9a3a67e93f17bb58d7e71c31c21"
       }
     },
     "image:public/stories/zi-xiang/cover.jpg": {
@@ -3657,66 +3657,66 @@
       }
     },
     "image:public/stories/zi-xiang/p1.jpg": {
-      "fingerprintSha256": "156d7aebb8ecd5236ce3a06357f4ffeea89cb3ef85adfd7c858c006e8a803080",
+      "fingerprintSha256": "7f591a4f2d3e778ff64ac9d1d1246e1fa20d6d72490f590188b8daed550cdbfc",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/zi-xiang/p1.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "17cbf39f6acedaefa7f590cb0c6dd496b11fc8c1"
+        "gitBlob": "f42d75a421c5631c997ac933a95426e472395958"
       }
     },
     "image:public/stories/zi-xiang/p2.jpg": {
-      "fingerprintSha256": "448dafe3afcb10325c1eab1beb0c4ae4e8829bd07547c7b926be2130305bf219",
+      "fingerprintSha256": "7a6dc9e646e3ae03179f81b2c174c9fbbfe0927a937179545eedff381f60a7ff",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/zi-xiang/p2.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "8a3c1068432633b695d254dea5155dc10bc720f8"
+        "gitBlob": "8a166bbc4367a56682e21bc27dc2a1c7acbf22b1"
       }
     },
     "image:public/stories/zi-xiang/p3.jpg": {
-      "fingerprintSha256": "e0be68cbd83b84f10452a6ed0d665b18a05aa549ca05e657c4456ff009140e50",
+      "fingerprintSha256": "a374ffe4ed2c56f74188a18fb1c115d959e685df6c814469bf1f58e2a75240cf",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/zi-xiang/p3.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "be6278728e3cbfe6e4fe4b80444830cd08d360b8"
+        "gitBlob": "9cb5bb753972f3943d84c6dc148be3503d6bebad"
       }
     },
     "image:public/stories/zi-xiang/p4.jpg": {
-      "fingerprintSha256": "8a96f438ef5846b84753be9a1a00aed78a1f091608cb301d4af4a9de24e3b8ff",
+      "fingerprintSha256": "924f46a7f49a87c872cc1cc865432bd192c3b5f5937208818181b16efbc004d4",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/zi-xiang/p4.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "e30ac3961f7aadd90e09faee294813c50f4c47de"
+        "gitBlob": "f0b03e7a477fa43945baeb883bb98b9db907e772"
       }
     },
     "image:public/stories/zi-xiang/p5.jpg": {
-      "fingerprintSha256": "038c66de3c5145cf3d68b91988298015b900d956be8f6bf674d4f3863a4d5edb",
+      "fingerprintSha256": "cf872e89de39de0f3d80748557725a7a0cbda5420eafdc981189151f84d2be27",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/zi-xiang/p5.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "27dbd78a77f393df67188ce2401067e9cbcb4df1"
+        "gitBlob": "349b52bf50b842c206290358338827ae28271f1b"
       }
     },
     "image:public/stories/zi-xiang/p6.jpg": {
-      "fingerprintSha256": "cdebf1a57f652015d1878c90cf2f19bef343866acff23df1ceb958606e3f030a",
+      "fingerprintSha256": "88dd7cce7ac235c2b1d67be4da105622b5abb61ca835550b879905f9ecf8a2f0",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/zi-xiang/p6.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "80a156c89bf893cf574f891100fb5a5f6a386a75"
+        "gitBlob": "ef773e2d9f81319b79ee8bcaffe815c747e4a0de"
       }
     },
     "image:public/stories/zi-xiang/p7.jpg": {
-      "fingerprintSha256": "e5fe65fd8a4de7e285cccdfbee7ed108aa9d2084fa0dac66f36f5076fa4710c5",
+      "fingerprintSha256": "b8befa78b84098d630b1edd62557ed7b34ba308d7361e36f4381a63447ac2e25",
       "origin": {
-        "commit": "88c2080c715a1c37e64916970cbbc4af2ed7727a",
+        "commit": "9d94e3d23e8ea2ebd028fe4f4b5fb83726a808df",
         "path": "public/stories/zi-xiang/p7.jpg",
         "method": "git-blob-identity",
-        "gitBlob": "30195ab0a7c67efcb694e5a176e666665ad2fae8"
+        "gitBlob": "f7d750b59bb253d929574511374ffb93ce2f880f"
       }
     },
     "text:story:ba-miao": {

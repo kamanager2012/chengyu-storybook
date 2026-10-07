@@ -21,7 +21,7 @@ Workflow 触发说明见 `docs/GITHUB-ACTIONS.md`。
 | 7 | `.pay-data` 持久卷 + 备份 + 恢复演练 | 运维 | 还原后订单与 entitlement 可查 |
 | 8 | Nginx 样例（限流 + 挡 `/dev/`） | 运维 | 公网不可访问 `/dev/simulate-paid` |
 | 9 | 真机试单 → notify → paid → claim | 产品／运维 | 订单 paid；`/auth/me` 有 entitlement；换设备同邮箱可读 |
-| 10 | **Pages 源对齐 Actions** + 成功 dispatch | 仓库管理员 | 见下节 R-PAGES |
+| 10 | **Pages 源对齐 Actions** + 成功 dispatch | 仓库管理员 | **已验收** run 37650307576 @ `1a69257`；见 R-PAGES 成功证据（可选 `VITE_PAY_API` 仍属收款） |
 
 本地门禁（防误判，**≠** 生产级）：
 
@@ -72,6 +72,26 @@ PAY_API=https://<pay-origin> npm run pay:prod-health
 **根因（推断，与历史 SHA `1ce95c0` 一致）：** Pages 未切到 **GitHub Actions** 源和／或组织 **无可用 runner 配额** → `github-pages.yml` 长期 `queued` 或秒失败；**不是** `npm run build` 编译问题（本地 `GITHUB_PAGES=1 npm run build` 可通过）。
 
 **本仓策略：** 已去掉 `push: main` 触发，仅 `workflow_dispatch`；合并后由管理员在 UI dispatch，并先对齐 Pages Source。
+
+
+### 成功证据 SHA `1a69257`（2026-10-08 SGT）
+
+| 项 | 值 |
+|----|-----|
+| 目标 commit | `1a69257724fe96cd5eb77fcfff9489063a5b3e4c`（main，含 PR#7/#8） |
+| Actions | `enabled=true`，`allowed_actions=all`；`default_workflow_permissions=write` |
+| Pages Source | `build_type=workflow`（已非 legacy/gh-pages） |
+| Workflow run | [37650307576](https://github.com/kamanager2012/chengyu-storybook/actions/runs/37650307576)（唯一一次 `workflow_dispatch`） |
+| `head_sha` | `1a69257…` |
+| `conclusion` | **success**（build + deploy） |
+| page_url | https://kamanager2012.github.io/chengyu-storybook/ （抽检 HTTP 200；执行器 Playwright 冒烟 PASS） |
+| 本地预检 | `GITHUB_PAGES=1 npm run build` PASS；`npm test` 140 pass／0 fail；`typecheck` PASS |
+| 旧卡住 run | [37644092023](https://github.com/kamanager2012/chengyu-storybook/actions/runs/37644092023) 长期 queued、`jobs:[]`；根因为当时 `actions/permissions.enabled=false`；启用后仍无法 API cancel，但未起 runner |
+
+**本仓策略（保持）：** `github-pages.yml` 仅 `workflow_dispatch`；勿恢复 `push: main`。
+
+**待办 #10 状态：** Pages 源对齐 + 成功 dispatch **已验收**（仍缺可选 `vars.VITE_PAY_API`，属收款轨）。
+
 
 ---
 
