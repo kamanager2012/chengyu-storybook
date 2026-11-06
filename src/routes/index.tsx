@@ -50,8 +50,7 @@ function Home() {
           <p className="text-sm tracking-[0.35em] text-muted">3–8 岁 · 翻页有声绘本</p>
           <h1 className="mt-1 font-display text-5xl text-cinnabar sm:text-6xl">成语故事</h1>
           <p className="mt-2 max-w-lg text-sm leading-6 text-ink-soft">
-            {COMMERCE.catalogCount} 本成语成册，儿童馆与古风馆两套画风。免费试看 {COMMERCE.freeCount} 本，全年册{" "}
-            {COMMERCE.priceYuan} 元。
+            {COMMERCE.catalogCount} 本成语成册，儿童馆与古风馆两套画风，全套永久免费畅读。
           </p>
         </header>
 
@@ -71,14 +70,10 @@ function Home() {
         </section>
 
         <div className="mb-6 flex items-center justify-between gap-3">
-          <p className="text-xs text-muted">试看 {COMMERCE.freeCount} 本 · 余下开全年册</p>
-          <Link
-            to="/unlock"
-            search={{}}
-            className="shrink-0 rounded-full bg-cinnabar px-3 py-1.5 text-xs text-panel shadow-panel"
-          >
-            {COMMERCE.priceYuan} 元 / 年
-          </Link>
+          <p className="text-xs text-muted">双馆两套画风 · 全套 {COMMERCE.catalogCount} 本永久免费翻阅</p>
+          <span className="shrink-0 rounded-full bg-emerald-700/85 px-3 py-1 text-xs text-panel shadow-sm">
+            完全免费
+          </span>
         </div>
 
         <div className="grid gap-4 sm:grid-cols-2">
@@ -100,7 +95,7 @@ function Home() {
           />
         </div>
 
-        <SiteFooter attribution={`${COMMERCE.catalogCount} 本成语 · 双馆 · ${COMMERCE.priceYuan} 元 / 年`} />
+        <SiteFooter attribution={`${COMMERCE.catalogCount} 本成语 · 双馆 · 免费有声绘本 · MIT 开源`} />
       </div>
     </main>
   );

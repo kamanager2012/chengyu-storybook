@@ -93,13 +93,19 @@ function HallPage() {
             >
               去{HALL_COPY[otherHall].title}
             </Link>
-            <Link
-              to="/unlock"
-              search={{}}
-              className="rounded-full bg-cinnabar px-3 py-1.5 text-xs text-panel shadow-panel"
-            >
-              {COMMERCE.priceYuan} 元 / 年
-            </Link>
+            {COMMERCE.readGateEnabled ? (
+              <Link
+                to="/unlock"
+                search={{}}
+                className="rounded-full bg-cinnabar px-3 py-1.5 text-xs text-panel shadow-panel"
+              >
+                {COMMERCE.priceYuan} 元 / 年
+              </Link>
+            ) : (
+              <span className="rounded-full bg-emerald-700/85 px-3 py-1.5 text-xs text-panel shadow-sm">
+                全册免费
+              </span>
+            )}
           </div>
         </div>
 

@@ -46,3 +46,5 @@ public/child-stories/
 .DS_Store
 Thumbs.db
 *.log
+__pycache__/
+content/_imported-juniper-20260829/

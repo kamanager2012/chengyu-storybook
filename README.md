@@ -1,6 +1,11 @@
 # 成语故事 · Chinese Idiom Storybook
 
-面向儿童的中文成语绘本。**免费试看 12 本**（见 `content/commerce.json` 的 `freeStoryIds`）；开通全年册后可读全部 **100 个成语、两套画风**（儿童馆与古风馆各 100 本，同一 id 用 `?hall=` 选图）。每本封面 + 7 个故事页 + 道理页。公网收款未接入时解锁页会说明无法下单，试看 12 本仍可读。儿童水彩在 `public/stories/`（前 24 本）和 `content/imagine-child-drafts/`（已齐的重绘，运行时 `/child-stories/`），前 24 本的工笔古风源稿在 `content/imagine-gongbi/`，运行时同步为 JPEG `/classic-stories/`，旁白在 `public/audio/`。旁白资产使用独立的生成、校验与 provenance 流水线；前端不会仅因为 MP3 文件存在就开放播放。
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![100 Idioms](https://img.shields.io/badge/Stories-100%20Idioms-red.svg)](content/published-stories.json)
+[![Dual Hall](https://img.shields.io/badge/Artworks-200%20Dual--Hall%20Editions-blue.svg)](public/)
+[![100% Free](https://img.shields.io/badge/Edition-100%25%20Free-green.svg)](content/commerce.json)
+
+面向儿童的中文成语有声绘本（全套 100 本完全免费开放）。当前运行时无需账号即可翻阅 **100 个成语、两套画风**（儿童馆 100 本，古风馆 100 本）：每本封面 + 7 个故事页 + 道理页。儿童水彩在 `public/stories/`（前 24 本）和 `content/imagine-child-drafts/`（已齐的重绘，运行时 `/child-stories/`），前 24 本的工笔古风源稿在 `content/imagine-gongbi/`，运行时同步为 JPEG `/classic-stories/`，旁白在 `public/audio/`。旁白资产使用独立的生成、校验与 provenance 流水线；前端不会仅因为 MP3 文件存在就开放播放。
 
 仓库已经收敛为一个 **local-first、静态部署的 Web/PWA 绘本**。阅读、翻页和本地状态都在浏览器侧完成，不需要应用服务器。
 
@@ -203,3 +208,10 @@ reader playback UI
 ## 内容与资产来源
 
 项目中的故事文本、图片、音频和字体在扩大公开发布前，应逐项具备可复核的来源、授权或生成 provenance。仓库不会把“文件存在”当成“版权状态已确认”。
+
+## 许可证 (License)
+
+本项目采用 **[MIT 许可证](LICENSE)** 开源发布：
+- 全套 100 本绘本与 900 轨有声旁白永久完全免费开放；
+- 允许任何人自由复制、转载、修改或用于商业及教育用途；
+- 唯一要求：在所有分发和二次开发版本中保留原作者版权声明（`Copyright (c) 2026 James Oldman`）与 MIT 许可。
