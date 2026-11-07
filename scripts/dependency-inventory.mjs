@@ -49,9 +49,12 @@ function scan(path) {
   }
 }
 
+const SKIP_DIRS = new Set([".venv", "__pycache__", "narration-runtime", "node_modules", "dist"]);
+
 function walk(dir) {
   if (!existsSync(dir)) return;
   for (const name of readdirSync(dir)) {
+    if (SKIP_DIRS.has(name)) continue;
     const path = join(dir, name);
     const stat = statSync(path);
     if (stat.isDirectory()) walk(path);
