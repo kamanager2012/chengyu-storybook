@@ -1,7 +1,7 @@
 {
   "name": "chengyu-storybook",
   "version": "0.2.2",
-  "license": "MIT",
+  "license": "CC-BY-NC-SA-4.0",
   "description": "Local-first Chinese idiom audio storybook for children",
   "sideEffects": false,
   "type": "module",

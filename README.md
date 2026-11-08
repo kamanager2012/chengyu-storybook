@@ -1,6 +1,6 @@
 # 成语故事 · Chinese Idiom Storybook
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)](LICENSE)
 [![100 Idioms](https://img.shields.io/badge/Stories-100%20Idioms-red.svg)](content/published-stories.json)
 [![Dual Hall](https://img.shields.io/badge/Artworks-200%20Dual--Hall%20Editions-blue.svg)](public/)
 [![100% Free](https://img.shields.io/badge/Edition-100%25%20Free-green.svg)](content/commerce.json)
@@ -211,7 +211,8 @@ reader playback UI
 
 ## 许可证 (License)
 
-本项目采用 **[MIT 许可证](LICENSE)**（详见 [中文说明与商用转载授权指南](LICENSE.zh-CN.md)）开源发布：
-- 全套 100 本绘本与 900 轨有声旁白永久完全免费开放；
-- 允许任何人自由复制、转载、修改或用于商业及教育用途；
-- 唯一要求：在所有分发和二次开发版本中保留原作者版权声明（`Copyright (c) 2026 James Oldman`）与 MIT 许可。
+本项目采用 **[CC BY-NC-SA 4.0 许可证（署名-非商业性使用-相同方式共享）](LICENSE)**（详见 [中文说明与非商用保护指南](LICENSE.zh-CN.md)）发布：
+- 全套 100 本绘本与 900 轨有声旁白永久完全向公众免费开放阅读与学习；
+- 允许个人、家庭及公益教育机构出于非商业目的自由学习、展示与分享；
+- **严格禁止任何未经授权的商业化使用**（禁止商业出版、禁止收费早教硬件灌录、禁止收费课程/会员打包）；
+- 任何非商业衍生版本必须以相同的 CC BY-NC-SA 4.0 协议共享，并保留原作者版权声明（`Copyright (c) 2026 James Oldman`）。
