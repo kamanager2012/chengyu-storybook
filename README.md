@@ -50,7 +50,7 @@ src/data/stories.ts
 
 首页只需要书架 metadata，因此不会再为了渲染 100 张卡片主动加载所有故事正文、释义、道理、分段或页面结构。完整正文仍由故事路由使用的 full-body runtime adapter 提供。`scripts/runtime-story-index.mjs` 是 canonical 数据的派生视图，不是新的内容真源。
 
-`content/story-drafts/*.json` 是晋升前的历史文本快照，不再是 live catalog。`scripts/draft-story-catalog.mjs` 对运行时返回空目录。`content/imagine-drafts/` 仍是插图权利证据的来源档案，不是上架路径。
+`scripts/draft-story-catalog.mjs` 对运行时返回空目录，草稿不再是 live catalog。
 
 默认主链不包含登录、数据库、SSR、API server 或第三方 Builder runtime。只有未来出现明确的跨设备账号/同步需求时，才重新评估服务端能力。
 
@@ -89,8 +89,6 @@ npm run deps:inventory
 npm run typecheck
 npm run lint -- --max-warnings=0
 npm test
-# Optional legacy Kokoro narration pipeline (not the live Eve voice gate):
-# npm run test:kokoro
 # child-draft inventory asserts only when local content/imagine-child-drafts/logs exists (gitignored).
 npm run content:check
 npm run source:check
@@ -112,7 +110,7 @@ E2E 会在桌面与移动 Chromium 上验证真实书架链接、故事深链、
 
 ## CI 边界
 
-默认 `npm test` 对齐现网旁白口径（Eve／Grok TTS）。历史 Kokoro 生成／provenance 合同在 `npm run test:kokoro`，不作为干净树默认门禁，避免假绿。
+默认 `npm test` 对齐现网旁白口径（Eve／Grok TTS）。
 
 同仓库 **指向 `main` 的 pull request** 与 **手动 `workflow_dispatch`** 由 `.github/workflows/exact-head-ci.yml` 作为权威 gate。它**不**在 `main` push 上跑（pack 很大，不要重开同仓库 main push CI）：
 
@@ -125,7 +123,7 @@ E2E 会在桌面与移动 Chromium 上验证真实书架链接、故事深链、
 
 Chromium E2E 失败时，CI 只在失败路径上传 `test-results/`，用于保留 Playwright trace、截图和 video 诊断证据。第三方 Actions 必须固定到 immutable commit SHA。
 
-同一 PR/dispatch 的新 SHA 会取消旧的 exact-head run，减少过期状态和重复执行。`storybook-ci.yml` 与 `storybook-e2e.yml` 只保留为 **fork pull request 的只读验证**，避免同仓库 PR 在 exact-head gate 之外再重复跑一套相同 CI。
+同一 PR/dispatch 的新 SHA 会取消旧的 exact-head run，减少过期状态和重复执行。
 
 各 workflow 触发策略（含 GitHub Pages **仅手动 dispatch**、legacy `gh-pages` 与 Actions 源互斥）见 `docs/GITHUB-ACTIONS.md`。
 

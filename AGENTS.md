@@ -19,7 +19,7 @@ Maintain **成语故事** as a small, local-first Chinese idiom storybook. The d
 There is one live canonical content tier; browser/runtime adapters are **not** canonical sources.
 
 - `content/published-stories.json` is the canonical text/page-structure source for all 100 official illustrated stories.
-- `content/story-drafts/*.json` is a historical text snapshot from before those 76 Imagine titles were promoted. It is not the live catalog. `scripts/draft-story-catalog.mjs` must continue to report `draftCount: 0`.
+- `scripts/draft-story-catalog.mjs` must continue to report `draftCount: 0`; drafts are not the live catalog.
 - Official images live under `public/stories/<id>/`. Do not reintroduce `public/draft-stories/` as a runtime media root.
 - Canonical Imagine release JPEGs live under `public/stories/`. The duplicate `content/imagine-drafts/` tree is not kept in git; byte identity is recorded in `content/evidence/story-images/imagine-drafts-origin.json`.
 - `content/imagine-gongbi-jpeg/` is the committed 工笔 release set for 24 childOnly ids. PNG working masters under `content/imagine-gongbi/` are not kept in git. Dev/build syncs JPEGs to gitignored `public/classic-stories/<id>/`.
@@ -106,7 +106,6 @@ There is one live canonical content tier; browser/runtime adapters are **not** c
 - The exact-head gate runs Node 20/22, zero-warning lint, the complete project check, dependency audit, and Chromium desktop/mobile E2E before publishing the machine-readable `exact-head-ci` commit status.
 - Playwright diagnostics are uploaded only on E2E failure; diagnostic artifacts must not change success semantics.
 - Same-branch stale exact-head runs are canceled; do not add parallel workflows that duplicate the same PR/dispatch gate.
-- `storybook-ci.yml` and `storybook-e2e.yml` exist only as read-only fork-PR validation. Do not re-add same-repository push triggers to them.
 - Third-party GitHub Actions must be pinned to immutable commit SHAs, not floating tags.
 
 ## Required verification
