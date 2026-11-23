@@ -32,7 +32,6 @@ test("runtime is a static Vite + TanStack Router SPA", () => {
   assert.match(main, /RouterProvider/);
   assert.match(main, /createRoot/);
   assert.equal(existsSync(join(root, "index.html")), true);
-  assert.equal(existsSync(join(root, "server")), true);
 });
 
 test("browser runtime remains model-free and offline-first", () => {
@@ -133,6 +132,4 @@ test("PWA metadata and offline shell are static and product-owned", () => {
   assert.match(read("src/routes/about.tsx"), /作为独立一类纳入发行权清单/);
   assert.match(read("src/routes/privacy.tsx"), /作为独立一类纳入发行权清单/);
   assert.match(read("src/data/story-editions.ts"), /hasGrokChildOverlay/);
-  assert.match(read("src/routes/unlock.tsx"), /data-pay-pending/);
-  assert.match(read("src/lib/checkout.ts"), /isPayConfigured/);
 });

@@ -1,12 +1,12 @@
 # GitHub Actions 触发策略
 
-组织偏好：**默认不自动烧 Actions**；重型或发布类 workflow 以 `workflow_dispatch` 为主。本文件与 `docs/OPS-GAPS.md` 互补，说明各 workflow 为何仍保留 PR 触发。
+组织偏好：**默认不自动烧 Actions**；重型或发布类 workflow 以 `workflow_dispatch` 为主。说明各 workflow 为何仍保留 PR 触发。
 
 ## 一览
 
 | Workflow | 触发 | 说明 |
 |----------|------|------|
-| `github-pages.yml` | **仅** `workflow_dispatch` | 静态站发布；**禁止**恢复 `push: main`（见 OPS-GAPS § R-PAGES） |
+| `github-pages.yml` | **仅** `workflow_dispatch` | 静态站发布；**禁止**恢复 `push: main` |
 | `exact-head-ci.yml` | `pull_request` → `main`（`paths-ignore`: `docs/**`、`*.md`）+ `workflow_dispatch` | 同仓库合并 gate（Node 20/22、lint、check、audit、E2E、`exact-head-ci` status）；纯文档 PR 不烧；**不在** `main` push 上跑 |
 | `storybook-ci.yml` | `pull_request`（path 过滤） | **仅 fork PR**（`head.repo != github.repository`） |
 | `storybook-e2e.yml` | `pull_request`（path 过滤） | **仅 fork PR** |
@@ -28,5 +28,3 @@
 ```bash
 GITHUB_PAGES=1 npm run build
 ```
-
-未配置 `VITE_PAY_API` 时构建产物与 CI 一致：解锁页诚实提示通道未接入（预期，非生产级）。

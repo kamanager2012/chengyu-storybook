@@ -1,11 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { useEffect, useState } from "react";
 import { Petals } from "@/components/petals";
 import { SiteFooter } from "@/components/site-footer";
-import { COMMERCE } from "@/data/commerce";
-import { storyIndex } from "@/data/story-index";
-import { readSessionToken, syncAccountEntitlement } from "@/lib/account";
-import { isPayConfigured } from "@/lib/checkout";
+import { storyCount, storyIndex } from "@/data/story-index";
 import { useDocumentTitle } from "@/lib/document-title";
 import { publicAsset } from "@/lib/public-asset";
 
@@ -24,33 +20,16 @@ function Home() {
   const classicCount = storyIndex.filter((item) => item.hall === "classic").length;
   const childCovers = hallPreviewCovers("child");
   const classicCovers = hallPreviewCovers("classic");
-  const [entitlementTick, setEntitlementTick] = useState(0);
-
-  useEffect(() => {
-    if (!isPayConfigured() || !readSessionToken()) return;
-    let cancelled = false;
-    void (async () => {
-      try {
-        await syncAccountEntitlement();
-        if (!cancelled) setEntitlementTick((value) => value + 1);
-      } catch {
-        // Keep local entitlement if sync fails offline.
-      }
-    })();
-    return () => {
-      cancelled = true;
-    };
-  }, []);
 
   return (
-    <main className="relative min-h-dvh overflow-hidden" data-entitlement-tick={entitlementTick}>
+    <main className="relative min-h-dvh overflow-hidden">
       <Petals />
       <div className="relative mx-auto w-full max-w-3xl px-4 pb-8 pt-[max(1rem,env(safe-area-inset-top))] sm:px-6">
         <header className="mb-6">
           <p className="text-sm tracking-[0.35em] text-muted">3–8 岁 · 翻页有声绘本</p>
           <h1 className="mt-1 font-display text-5xl text-cinnabar sm:text-6xl">成语故事</h1>
           <p className="mt-2 max-w-lg text-sm leading-6 text-ink-soft">
-            {COMMERCE.catalogCount} 本成语成册，儿童馆与古风馆两套画风，全套永久免费畅读。
+            {storyCount} 本成语成册，儿童馆与古风馆两套画风，全套永久免费畅读。
           </p>
         </header>
 
@@ -70,7 +49,7 @@ function Home() {
         </section>
 
         <div className="mb-6 flex items-center justify-between gap-3">
-          <p className="text-xs text-muted">双馆两套画风 · 全套 {COMMERCE.catalogCount} 本永久免费翻阅</p>
+          <p className="text-xs text-muted">双馆两套画风 · 全套 {storyCount} 本永久免费翻阅</p>
           <span className="shrink-0 rounded-full bg-emerald-700/85 px-3 py-1 text-xs text-panel shadow-sm">
             完全免费
           </span>
@@ -95,7 +74,7 @@ function Home() {
           />
         </div>
 
-        <SiteFooter attribution={`${COMMERCE.catalogCount} 本成语 · 双馆 · 免费有声绘本 · MIT 开源`} />
+        <SiteFooter attribution={`${storyCount} 本成语 · 双馆 · 免费有声绘本 · CC BY-NC-SA 4.0`} />
       </div>
     </main>
   );

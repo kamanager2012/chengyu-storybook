@@ -1,7 +1,6 @@
 import { Link } from "@tanstack/react-router";
-import { BookOpen, Lock } from "lucide-react";
+import { BookOpen } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
-import { canReadStory } from "@/lib/entitlement";
 import { type StoryHall, type StoryIndexItem, type StoryIndexTone } from "@/data/story-index";
 import { cn } from "@/lib/utils";
 
@@ -91,8 +90,6 @@ function DeferredCover({ src, alt }: { src: string; alt: string }) {
 }
 
 function StoryCard({ item, eager, index }: { item: StoryIndexItem; eager: boolean; index: number }) {
-  const unlocked = canReadStory(item.id);
-
   return (
     <li className="rise-in" style={{ animationDelay: `${Math.min(index, 12) * 35}ms` }}>
       <Link
@@ -102,7 +99,6 @@ function StoryCard({ item, eager, index }: { item: StoryIndexItem; eager: boolea
         className="group block rounded-[24px] focus:outline-none focus-visible:ring-4 focus-visible:ring-cinnabar/50 focus-visible:ring-offset-4 focus-visible:ring-offset-paper"
         data-story-hall={item.hall}
         {...(item.kind === "media" ? { "data-media-story": "true" } : { "data-text-story": "true" })}
-        {...(unlocked ? {} : { "data-locked-story": "true" })}
       >
         <article
           className={cn(
@@ -143,12 +139,6 @@ function StoryCard({ item, eager, index }: { item: StoryIndexItem; eager: boolea
               <div className="absolute inset-x-0 bottom-0 bg-linear-to-t from-ink/80 via-ink/25 to-transparent px-3 pb-3 pt-16">
                 <h3 className="font-display text-2xl leading-tight text-panel drop-shadow-sm">{item.title}</h3>
                 <p className="text-[11px] tracking-widest text-panel/85">{item.pinyin}</p>
-              </div>
-            )}
-            {!unlocked && (
-              <div className="absolute right-3 top-3 inline-flex items-center gap-1 rounded-full bg-ink/70 px-2 py-1 text-[10px] text-panel">
-                <Lock className="size-3" aria-hidden="true" />
-                开通
               </div>
             )}
           </div>

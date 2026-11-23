@@ -1,14 +1,9 @@
 import { createFileRoute, Link, redirect } from "@tanstack/react-router";
-import { useEffect, useState } from "react";
 import { HallShelf } from "@/components/hall-shelf";
 import { Petals } from "@/components/petals";
 import { SiteFooter } from "@/components/site-footer";
-import { COMMERCE } from "@/data/commerce";
 import { storyIndex, type StoryHall } from "@/data/story-index";
-import { readSessionToken, syncAccountEntitlement } from "@/lib/account";
-import { isPayConfigured } from "@/lib/checkout";
 import { useDocumentTitle } from "@/lib/document-title";
-import { isEntitlementActive } from "@/lib/entitlement";
 
 const EAGER_COVER_COUNT = 4;
 
@@ -24,10 +19,7 @@ const HALL_COPY: Record<
   child: {
     title: "儿童馆",
     eyebrow: "给小朋友看",
-    blurb: (count) =>
-      !COMMERCE.readGateEnabled || isEntitlementActive()
-        ? `${count} 本`
-        : `${count} 本 · 免费 ${COMMERCE.freeCount} 本`,
+    blurb: (count) => `${count} 本`,
     footer: "儿童馆 · 前 24 本与 11 本重绘 Created with Grok",
   },
   classic: {
@@ -57,28 +49,11 @@ function HallPage() {
   const copy = HALL_COPY[hall];
   const items = storyIndex.filter((item) => item.hall === hall);
   const otherHall: StoryHall = hall === "child" ? "classic" : "child";
-  const [entitlementTick, setEntitlementTick] = useState(0);
 
   useDocumentTitle(copy.title);
 
-  useEffect(() => {
-    if (!isPayConfigured() || !readSessionToken()) return;
-    let cancelled = false;
-    void (async () => {
-      try {
-        await syncAccountEntitlement();
-        if (!cancelled) setEntitlementTick((value) => value + 1);
-      } catch {
-        // Keep local entitlement if sync fails offline.
-      }
-    })();
-    return () => {
-      cancelled = true;
-    };
-  }, []);
-
   return (
-    <main className="relative min-h-dvh overflow-hidden" data-entitlement-tick={entitlementTick}>
+    <main className="relative min-h-dvh overflow-hidden">
       <Petals />
       <div className="relative mx-auto w-full max-w-6xl px-3 pb-8 pt-[max(1rem,env(safe-area-inset-top))] sm:px-5">
         <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
@@ -93,19 +68,7 @@ function HallPage() {
             >
               去{HALL_COPY[otherHall].title}
             </Link>
-            {COMMERCE.readGateEnabled ? (
-              <Link
-                to="/unlock"
-                search={{}}
-                className="rounded-full bg-cinnabar px-3 py-1.5 text-xs text-panel shadow-panel"
-              >
-                {COMMERCE.priceYuan} 元 / 年
-              </Link>
-            ) : (
-              <span className="rounded-full bg-emerald-700/85 px-3 py-1.5 text-xs text-panel shadow-sm">
-                全册免费
-              </span>
-            )}
+            <span className="rounded-full bg-emerald-700/85 px-3 py-1.5 text-xs text-panel shadow-sm">全册免费</span>
           </div>
         </div>
 

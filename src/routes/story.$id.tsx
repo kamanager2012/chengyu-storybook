@@ -2,12 +2,9 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { DraftStoryReader } from "@/components/draft-story-reader";
 import { IllustratedStoryReader } from "@/components/illustrated-story-reader";
 import { SiteFooter } from "@/components/site-footer";
-import { COMMERCE } from "@/data/commerce";
 import { resolveStoryHall, storyForHall } from "@/data/story-editions";
 import { storyIndex, type StoryHall } from "@/data/story-index";
 import { useDocumentTitle } from "@/lib/document-title";
-import { isPayConfigured } from "@/lib/checkout";
-import { canReadStory } from "@/lib/entitlement";
 
 function parseHall(value: unknown): StoryHall | undefined {
   return value === "child" || value === "classic" ? value : undefined;
@@ -21,9 +18,6 @@ export const Route = createFileRoute("/story/$id")({
   loader: async ({ params }) => {
     const item = storyIndex.find((candidate) => candidate.id === params.id);
     if (!item) return { kind: "missing" } as const;
-    if (!canReadStory(params.id)) {
-      return { kind: "locked", id: params.id, title: item.title } as const;
-    }
 
     if (item.kind === "media") {
       const { getStory } = await import("@/data/stories");
@@ -50,45 +44,8 @@ function StoryRoute() {
     return <IllustratedStoryReader key={`${data.story.id}:${hall}`} story={storyForHall(data.story, hall)} hall={hall} />;
   }
   if (data.kind === "text") return <DraftStoryReader story={data.story} />;
-  if (data.kind === "locked") {
-    return <LockedStory id={data.id} title={data.title} />;
-  }
 
   return <MissingStory />;
-}
-
-function LockedStory({ id, title }: { id: string; title: string }) {
-  useDocumentTitle(title);
-  return (
-    <main className="grid min-h-dvh place-items-center px-6 text-center">
-      <div>
-        <p className="text-sm tracking-[0.3em] text-muted">全年册故事</p>
-        <h1 className="mt-2 font-display text-3xl text-cinnabar">{title}</h1>
-        <p className="mt-3 text-sm text-ink-soft">
-          免费可看 {COMMERCE.freeCount} 本。这本在全年册里，{COMMERCE.priceYuan} 元开通一年。
-        </p>
-        {!isPayConfigured() ? (
-          <p className="mt-3 text-sm leading-6 text-muted">
-            公网收款尚未接入（构建时未配置 <code className="text-xs">VITE_PAY_API</code>），暂时无法完成付费解锁；可先阅读免费{" "}
-            {COMMERCE.freeCount} 本，通道开通后再来开通全年册。
-          </p>
-        ) : null}
-        <div className="mt-6 flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
-          <Link
-            to="/unlock"
-            search={{ from: id }}
-            className="inline-flex h-12 items-center rounded-full bg-cinnabar px-6 text-panel"
-          >
-            查看全年册
-          </Link>
-          <Link to="/hall/$hall" params={{ hall: "child" }} className="inline-flex h-12 items-center rounded-full bg-panel px-6 text-ink">
-            回书架
-          </Link>
-        </div>
-        <SiteFooter />
-      </div>
-    </main>
-  );
 }
 
 function MissingStory() {

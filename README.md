@@ -3,7 +3,7 @@
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)](LICENSE)
 [![100 Idioms](https://img.shields.io/badge/Stories-100%20Idioms-red.svg)](content/published-stories.json)
 [![Dual Hall](https://img.shields.io/badge/Artworks-200%20Dual--Hall%20Editions-blue.svg)](public/)
-[![100% Free](https://img.shields.io/badge/Edition-100%25%20Free-green.svg)](content/commerce.json)
+[![100% Free](https://img.shields.io/badge/Edition-100%25%20Free-green.svg)](LICENSE.zh-CN.md)
 
 面向儿童的中文成语有声绘本（全套 100 本完全免费开放）。当前运行时无需账号即可翻阅 **100 个成语、两套画风**（儿童馆 100 本，古风馆 100 本）：每本封面 + 7 个故事页 + 道理页。儿童水彩在 `public/stories/`（前 24 本）和 `content/imagine-child-drafts/`（已齐的重绘，运行时 `/child-stories/`），前 24 本的工笔古风源稿在 `content/imagine-gongbi/`，运行时同步为 JPEG `/classic-stories/`，旁白在 `public/audio/`。旁白资产使用独立的生成、校验与 provenance 流水线；前端不会仅因为 MP3 文件存在就开放播放。
 
@@ -127,7 +127,7 @@ Chromium E2E 失败时，CI 只在失败路径上传 `test-results/`，用于保
 
 同一 PR/dispatch 的新 SHA 会取消旧的 exact-head run，减少过期状态和重复执行。`storybook-ci.yml` 与 `storybook-e2e.yml` 只保留为 **fork pull request 的只读验证**，避免同仓库 PR 在 exact-head gate 之外再重复跑一套相同 CI。
 
-各 workflow 触发策略（含 GitHub Pages **仅手动 dispatch**、legacy `gh-pages` 与 Actions 源互斥）见 `docs/GITHUB-ACTIONS.md`。Pages／真收款外部缺口见 `docs/OPS-GAPS.md`（**整体生产级＝否** 直至收款闭环）。
+各 workflow 触发策略（含 GitHub Pages **仅手动 dispatch**、legacy `gh-pages` 与 Actions 源互斥）见 `docs/GITHUB-ACTIONS.md`。
 
 ## 静态部署
 
