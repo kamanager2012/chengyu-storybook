@@ -1,11 +1,13 @@
 # 成语故事 · Chinese Idiom Storybook
 
+在线阅读：[https://kamanager2012.github.io/chengyu-storybook/](https://kamanager2012.github.io/chengyu-storybook/)
+
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)](LICENSE)
 [![100 Idioms](https://img.shields.io/badge/Stories-100%20Idioms-red.svg)](content/published-stories.json)
 [![Dual Hall](https://img.shields.io/badge/Artworks-200%20Dual--Hall%20Editions-blue.svg)](public/)
 [![100% Free](https://img.shields.io/badge/Edition-100%25%20Free-green.svg)](LICENSE.zh-CN.md)
 
-面向儿童的中文成语有声绘本（全套 100 本完全免费开放）。当前运行时无需账号即可翻阅 **100 个成语、两套画风**（儿童馆 100 本，古风馆 100 本）：每本封面 + 7 个故事页 + 道理页。儿童水彩在 `public/stories/`（前 24 本）和 `content/imagine-child-drafts/`（已齐的重绘，运行时 `/child-stories/`），前 24 本的工笔古风源稿在 `content/imagine-gongbi/`，运行时同步为 JPEG `/classic-stories/`，旁白在 `public/audio/`。旁白资产使用独立的生成、校验与 provenance 流水线；前端不会仅因为 MP3 文件存在就开放播放。
+面向儿童的中文成语有声绘本（全套 100 本完全免费开放）。当前运行时无需账号即可翻阅 **100 个成语、两套画风**（儿童馆 100 本，古风馆 100 本）：每本封面 + 7 个故事页 + 道理页。儿童水彩在 `public/stories/`（前 24 本）和 `content/imagine-child-drafts/`（已齐的重绘，运行时 `/child-stories/`），前 24 本的工笔古风 JPEG 在 `content/imagine-gongbi-jpeg/`，运行时同步到 `/classic-stories/`，旁白在 `public/audio/`。旁白资产有独立的校验与 provenance 记录；前端不会仅因为 MP3 文件存在就开放播放。
 
 仓库已经收敛为一个 **local-first、静态部署的 Web/PWA 绘本**。阅读、翻页和本地状态都在浏览器侧完成，不需要应用服务器。
 
@@ -14,7 +16,7 @@
 - 100 个正式成语，儿童馆与古风馆两套画风；同一 id 用 `?hall=` 选图
 - 每本 8 张插图（封面 + p1–p7）与 9 轨旁白（封面、7 个故事页、道理页）
 - 成语释义与儿童友好的“小道理”总结
-- 阅读器在旁白通过 runtime availability 后提供点播；未点播前不加载音频
+- 阅读器在旁白通过 runtime availability 后才开放旁白；打开故事后逐页自动朗读，只加载当前这一页的音频
 - 移动端安全区、键盘焦点与触控分页体验
 - 标准静态 Web App Manifest，含 192/512 PNG 与 maskable 安装图标
 - 产品自有离线 app shell；已访问故事图片可在断网后继续显示
@@ -106,7 +108,7 @@ npx playwright install chromium
 npm run test:e2e
 ```
 
-E2E 会在桌面与移动 Chromium 上验证真实书架链接、故事深链、媒体请求边界、阅读行为、离线 shell、浏览器错误以及基础横向溢出。旁白只在用户点击播放后加载；E2E 也会防止旧 listening 状态或旧播放器绕过发布边界。
+E2E 会在桌面与移动 Chromium 上验证真实书架链接、故事深链、媒体请求边界、阅读行为、离线 shell、浏览器错误以及基础横向溢出。打开故事后旁白逐页自动朗读，只加载当前这一页；E2E 也会防止旧 listening 状态或旧播放器绕过发布边界。
 
 ## CI 边界
 
@@ -174,9 +176,9 @@ npm run release:check
 
 `content/narration-state.json` 只记录通过当前 pipeline 生成或验证过的旁白。历史 MP3 如果没有匹配的 text/audio SHA-256 记录，只能标记为 `unverified`，不能因为文件存在就宣称“与当前正文一致”。
 
-### 旁白生成与激活
+### 旁白状态与激活
 
-旁白生产必须走受保护的 provider/runtime/encoder 合同与 receipt 导入流程，并保持范围显式、失败关闭。已经验证并绑定证据的旁白不得被宽泛的全量替换命令静默覆盖。
+仓库不再包含旁白生成脚本和对应的 workflow，现有旁白是已经生成、验证并绑定证据的成品；每轨状态用 `npm run narration:plan` 查看。如需登记新一批旁白，用 `npm run narration:import -- --receipt <回执文件>`（默认只演练，加 `--write` 才写入 `content/narration-state.json`；替换已验证的旁白必须显式加 `--replace`）。
 
 旁白的 **技术 current** 与 **发布可用** 是两个条件：
 

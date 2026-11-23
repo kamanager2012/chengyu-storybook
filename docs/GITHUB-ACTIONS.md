@@ -8,6 +8,7 @@
 |----------|------|------|
 | `github-pages.yml` | **仅** `workflow_dispatch` | 静态站发布；**禁止**恢复 `push: main` |
 | `exact-head-ci.yml` | `pull_request` → `main`（`paths-ignore`: `docs/**`、`*.md`）+ `workflow_dispatch` | 同仓库合并 gate（Node 20/22、lint、check、audit、E2E、`exact-head-ci` status）；纯文档 PR 不烧；**不在** `main` push 上跑 |
+| `story-image-origin-audit.yml` | `pull_request`（不限目标分支，仅当改动 `scripts/story-image-origin-audit.mjs`、`scripts/story-image-origin-audit-check.mjs`、本 workflow 文件、`public/stories/**`、`content/evidence/story-images/**` 之一时触发）+ `workflow_dispatch`；**不在** `push` 上跑 | 完整历史 checkout，重建历史 Imagine 插图来源映射并核对来源证据；`jpeg-js@0.4.4` 是钉死版本的审计专用解码器，只在 CI 里临时安装；权限 `contents: read`，超时 20 分钟 |
 | `pages-build-deployment`（GitHub 内置） | legacy **gh-pages** 分支 | 与 `github-pages.yml` **互斥**；Settings 只能选一种 Pages 源 |
 
 ## GitHub Pages：Actions workflow vs legacy gh-pages

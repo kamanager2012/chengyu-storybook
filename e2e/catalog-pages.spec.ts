@@ -11,7 +11,7 @@ test("about and privacy pages state free access and the CC BY-NC-SA licence", as
   await expect(page.locator('[data-grok-attribution="true"]')).toContainText("Created with Grok");
   await expect(page.locator('[data-grok-attribution="true"]')).toContainText("有 11 本也是 Grok Imagine");
   await expect(page.locator('[data-grok-attribution="true"]')).toContainText("其余 65 本是后来的重绘");
-  await expect(page.locator('[data-grok-attribution="true"]')).toContainText("作为独立一类纳入发行权清单");
+  await expect(page.locator('[data-grok-attribution="true"]')).toContainText("古风馆里另有一套工笔画");
   await expect(page.getByText(/CC BY-NC-SA 4\.0/).first()).toBeVisible();
   await expect(page.getByText(/\bMIT\b/)).toHaveCount(0);
 
@@ -19,6 +19,6 @@ test("about and privacy pages state free access and the CC BY-NC-SA licence", as
   await expect(page.getByRole("heading", { name: "隐私说明", exact: true })).toBeVisible();
   await expect(page.getByText("无需注册或登录")).toBeVisible();
   await expect(page.getByText("11 本儿童馆 Grok 重绘")).toBeVisible();
-  await expect(page.getByText("作为独立一类纳入发行权清单")).toBeVisible();
-  await expect(page.getByText("生成方式本身不是发行许可")).toBeVisible();
+  await expect(page.getByText("古风馆里另有一套工笔画")).toBeVisible();
+  await expect(page.getByText("AI 生成本身不等于获得发行许可")).toBeVisible();
 });

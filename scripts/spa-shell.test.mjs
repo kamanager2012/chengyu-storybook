@@ -129,7 +129,7 @@ test("PWA metadata and offline shell are static and product-owned", () => {
   assert.match(read("src/routes/about.tsx"), /createFileRoute\("\/about"\)/);
   assert.match(read("src/routes/about.tsx"), /其余 65 本是后来的重绘/);
   assert.match(read("src/routes/privacy.tsx"), /createFileRoute\("\/privacy"\)/);
-  assert.match(read("src/routes/about.tsx"), /作为独立一类纳入发行权清单/);
-  assert.match(read("src/routes/privacy.tsx"), /作为独立一类纳入发行权清单/);
+  assert.match(read("src/routes/about.tsx"), /古风馆里另有一套工笔画/);
+  assert.match(read("src/routes/privacy.tsx"), /古风馆里另有一套工笔画/);
   assert.match(read("src/data/story-editions.ts"), /hasGrokChildOverlay/);
 });

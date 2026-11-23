@@ -20,13 +20,13 @@ const HALL_COPY: Record<
     title: "儿童馆",
     eyebrow: "给小朋友看",
     blurb: (count) => `${count} 本`,
-    footer: "儿童馆 · 前 24 本与 11 本重绘 Created with Grok",
+    footer: "儿童馆 · 插图由 AI 生成，用 Grok Imagine 生成的页面标有 Created with Grok",
   },
   classic: {
     title: "古风馆",
     eyebrow: "国风工笔",
     blurb: (count) => `${count} 本`,
-    footer: "古风馆工笔线 · 独立一类发行权清单",
+    footer: "古风馆 · 插图由 AI 生成，另有一套工笔画标为「工笔线」",
   },
 };
 
