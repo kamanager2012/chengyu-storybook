@@ -261,25 +261,4 @@ test("obsolete content, direct-state generators, and retired reader state cannot
   ]) {
     assert.equal(existsSync(join(repoRoot, path)), false, `${path} is retired and must not return to the active runtime`);
   }
-
-  const guard = readFileSync(join(repoRoot, "scripts/generate-narration.mjs"), "utf8");
-  assert.match(guard, /assertNarrationExpansionAllowed/);
-  assert.match(guard, /generate-narration-core\.mjs/);
-
-  const generator = readFileSync(join(repoRoot, "scripts/generate-narration-core.mjs"), "utf8");
-  assert.match(generator, /buildNarrationPlan/);
-  assert.match(generator, /validateApprovedGenerationSet/);
-  assert.match(generator, /buildKokoroNarrationReceipt/);
-  assert.match(generator, /narrationStateUpdated:\s*false/);
-  assert.match(generator, /narration:import/);
-
-  for (const forbidden of [
-    "api.x.ai",
-    "XAI_API_KEY",
-    "XAI_TTS_VOICE_ID",
-    "narrationStatePath",
-    "readNarrationState",
-  ]) {
-    assert.equal(generator.includes(forbidden), false, `retired narration implementation token returned: ${forbidden}`);
-  }
 });

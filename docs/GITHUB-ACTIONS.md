@@ -8,11 +8,6 @@
 |----------|------|------|
 | `github-pages.yml` | **仅** `workflow_dispatch` | 静态站发布；**禁止**恢复 `push: main` |
 | `exact-head-ci.yml` | `pull_request` → `main`（`paths-ignore`: `docs/**`、`*.md`）+ `workflow_dispatch` | 同仓库合并 gate（Node 20/22、lint、check、audit、E2E、`exact-head-ci` status）；纯文档 PR 不烧；**不在** `main` push 上跑 |
-| `storybook-ci.yml` | `pull_request`（path 过滤） | **仅 fork PR**（`head.repo != github.repository`） |
-| `storybook-e2e.yml` | `pull_request`（path 过滤） | **仅 fork PR** |
-| `kokoro-*.yml`、`narration-*.yml`（多数） | path 过滤 PR + 部分 `workflow_dispatch` | 旁白生产链；同仓库 PR 仅在触及相关路径时跑 |
-| `kokoro-provider-audit.yml` | path 过滤 PR + `workflow_dispatch` | 上游 provider 资产审计 |
-| `narration-production-expansion.yml` | `push` → `feat/narration-story-batch-expansion` | 受控生产分支；非 `main` |
 | `pages-build-deployment`（GitHub 内置） | legacy **gh-pages** 分支 | 与 `github-pages.yml` **互斥**；Settings 只能选一种 Pages 源 |
 
 ## GitHub Pages：Actions workflow vs legacy gh-pages

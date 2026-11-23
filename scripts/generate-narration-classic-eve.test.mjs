@@ -14,10 +14,6 @@ import {
   loadClassicHallSections,
   validateClassicHallReceipt,
 } from "./classic-hall-narration.mjs";
-import {
-  CLASSIC_EVE_RIGHTS_EVIDENCE,
-  snapshotChildCurrentNarration,
-} from "./generate-narration-classic-eve.mjs";
 import { buildNarrationGenerationSet, computeNarrationInputDigest } from "./narration-generation-set.mjs";
 import { buildNarrationPlan } from "./narration-plan.mjs";
 import { loadStoryModel, repoRoot } from "./story-model.mjs";
@@ -101,28 +97,11 @@ test("live classic-hall Eve body pages are fully current after refresh", () => {
 test("children's narration remains a separate 900-current public/audio set", () => {
   const childPlan = buildNarrationPlan();
   const childSet = buildNarrationGenerationSet();
-  const snapshot = snapshotChildCurrentNarration(childPlan);
   assert.equal(childPlan.items.length, 900);
   assert.equal(childSet.count, 900);
-  assert.equal(snapshot.length, 900);
   assert.ok(childSet.entries.every((entry) => entry.file.startsWith("public/audio/")));
   assert.equal(childSet.entries.some((entry) => entry.file.includes("audio-classic")), false);
   assert.equal(childSet.inputDigestSha256, "2232621cc097c0ec03b23df0f82d9d6ff2062eba878a94db68b309a98054ab56");
-});
-
-test("classic Eve orchestrator forbids children's replacement flags and writes only audio-classic", () => {
-  const source = readFileSync(join(repoRoot, "scripts/generate-narration-classic-eve.mjs"), "utf8");
-  assert.match(source, /\["--all", "--replace", "--pending"\]/);
-  assert.match(source, /Classic Eve execute requires --classic-only/);
-  assert.match(source, /--no-public-write/);
-  assert.match(source, /--no-voice-mirror/);
-  assert.match(source, /public\/audio-classic/);
-  assert.equal(source.includes("--all --replace"), false);
-  assert.match(source, /childNarrationStateUpdated: false/);
-  assert.deepEqual([...CLASSIC_EVE_RIGHTS_EVIDENCE], [
-    "content/evidence/narration/providers/xai-grok-tts-eve.json",
-    CLASSIC_GENERATION_SET_EVIDENCE_PATH,
-  ]);
 });
 
 test("classic receipt validator accepts audio-classic p1-p7 and rejects children's public/audio", () => {
@@ -147,7 +126,10 @@ test("classic receipt validator accepts audio-classic p1-p7 and rejects children
       generator: "xai-grok-tts-batch-v1",
       profile: { id: "xai-grok-tts-eve-v1" },
     },
-    rights: { claim: "permission", evidence: [...CLASSIC_EVE_RIGHTS_EVIDENCE] },
+    rights: {
+      claim: "permission",
+      evidence: ["content/evidence/narration/providers/xai-grok-tts-eve.json", CLASSIC_GENERATION_SET_EVIDENCE_PATH],
+    },
     items,
   };
   const ok = validateClassicHallReceipt(receipt);
