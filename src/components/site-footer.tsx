@@ -16,7 +16,7 @@ export function SiteFooter({ attribution }: { attribution?: string }) {
           隐私
         </Link>
       </nav>
-      <p>适合 3–8 岁亲子共读。阅读记录只保存在这台设备上。</p>
+      <p>适合 3–8 岁亲子共读。不上传孩子的翻页记录。</p>
     </footer>
   );
 }

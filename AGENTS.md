@@ -51,7 +51,7 @@ There is one live canonical content tier; browser/runtime adapters are **not** c
 - Narration planning is derived from canonical page text with SHA-256 fingerprints. `content/narration-state.json` records only narration generated/verified through the current pipeline.
 - Existing MP3 files without a matching state entry are **unverified**, not current. Never fabricate or infer provenance for them.
 - Do not restore duplicate story-text sources or historical bulk-generation scripts into the active pipeline.
-- Narration generation must be explicitly scoped and must respect committed provider/runtime/encoder evidence. No silent bulk replacement of evidence-bound audio.
+- The narration generation scripts and their workflows have been deleted from this repository; do not restore them. Only `npm run narration:plan` (read-only status) and `npm run narration:import` (receipt import) remain. No silent bulk replacement of evidence-bound audio.
 - API credentials stay in environment variables only. Never commit API keys, tokens, or generated secret-bearing logs.
 
 ## Narration production boundary
@@ -59,7 +59,7 @@ There is one live canonical content tier; browser/runtime adapters are **not** c
 - Treat narration generation as a production transaction, not as a convenient rebuild step.
 - Never use broad `--all --replace` behavior against evidence-bound narration.
 - The verified `shou-zhu` pilot must remain byte-identical unless an explicit new review/evidence transaction supersedes it.
-- A production batch must prove its exact input scope, durable receipts, text/audio hashes, provider profile, runtime environment, encoder profile, QC, staged-file accounting, and release gate before committing assets.
+- `npm run narration:import -- --receipt <file>` is a dry run until `--write` is passed; only `--write` updates `content/narration-state.json`. The receipt must match the canonical plan (item keys, text SHA-256, and the SHA-256 of the MP3 already under `public/audio`) and cite valid rights evidence. An existing entry with a different text/audio pair is replaced only with `--replace`, after an intentional review.
 - A generated asset commit is not mergeable merely because synthesis completed; its exact diff and exact-head CI must still be verified.
 
 ## Source-lineage boundary
