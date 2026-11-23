@@ -14,19 +14,6 @@ test("promoted Imagine books use official public/stories media and gated narrati
   });
 
   await page.goto("/hall/child", { waitUntil: "networkidle" });
-  await page.evaluate(() => {
-    const now = Date.now();
-    localStorage.setItem(
-      "chengyu.entitlement.v1",
-      JSON.stringify({
-        schemaVersion: 1,
-        productId: "chengyu-storybook-annual-v1",
-        grantedAt: new Date(now).toISOString(),
-        expiresAt: new Date(now + 365 * 24 * 60 * 60 * 1000).toISOString(),
-      }),
-    );
-  });
-  await page.reload({ waitUntil: "networkidle" });
   const mediaLinks = page.locator('a[data-media-story="true"]');
   const textLinks = page.locator('a[data-text-story="true"]');
   expect(await mediaLinks.count()).toBe(100);

@@ -7,13 +7,6 @@ coverage/
 # Local environment
 .env
 .env.*
-!.env.example
-
-# Pay service local order store / secrets
-server/pay/.pay-data/
-server/pay/.env
-server/pay/.env.*
-!server/pay/env.example
 
 # Local narration generation workspace
 .narration-work/

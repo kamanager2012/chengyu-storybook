@@ -9,12 +9,6 @@ import type { StoryHall } from "@/data/story-index";
 import { nextStoryInHall } from "@/lib/hall-nav";
 import { useDocumentTitle } from "@/lib/document-title";
 import { activeSpokenIndex, seekTimeForIndex, spokenProgress, tokenizeFollowText } from "@/lib/narration-follow";
-import {
-  getNarrationVoicePilot,
-  narrationVoiceSrc,
-  resolveNarrationVoiceId,
-  writeStoredNarrationVoice,
-} from "@/lib/narration-voice";
 import { playPictureSfx, playTurnSfx } from "@/lib/page-sfx";
 import { cn } from "@/lib/utils";
 
@@ -52,30 +46,18 @@ export function IllustratedStoryReader({ story, hall }: { story: Story; hall?: S
   const isCover = page.kind === "cover";
   const credit = illustrationAttribution(story.id, resolvedHall);
   const isMoral = page.kind === "moral";
-  const voicePilot = useMemo(() => getNarrationVoicePilot(story.id), [story.id]);
-  const [voiceId, setVoiceId] = useState<string | null>(() => resolveNarrationVoiceId(story.id));
   const baseNarration = getNarrationAvailability(story.id, page.id);
   const narration = useMemo(() => {
     if (!baseNarration) return undefined;
-    if (voicePilot && voiceId) {
-      return {
-        ...baseNarration,
-        src: narrationVoiceSrc(story.id, voiceId, page.id),
-      };
-    }
     // Prefer page.audio so dual-hall can point classic overlay pages at /audio-classic/.
     return {
       ...baseNarration,
       src: page.audio || baseNarration.src,
     };
-  }, [baseNarration, page.audio, page.id, story.id, voiceId, voicePilot]);
-  const narrationKey = `${story.id}/${page.id}/${voiceId ?? "default"}/${page.audio}`;
+  }, [baseNarration, page.audio]);
+  const narrationKey = `${story.id}/${page.id}/${page.audio}`;
   const motion = isMoral ? "still" : MOTION[index % MOTION.length]!;
   const followTokens = useMemo(() => (isMoral ? [] : tokenizeFollowText(page.text)), [isMoral, page.text]);
-
-  useEffect(() => {
-    setVoiceId(resolveNarrationVoiceId(story.id));
-  }, [story.id]);
 
   useEffect(() => () => releaseAudio(audioRef.current), []);
   useEffect(() => () => {
@@ -304,31 +286,6 @@ export function IllustratedStoryReader({ story, hall }: { story: Story; hall?: S
           {story.title}
         </p>
         <div className="flex items-center gap-2">
-          {voicePilot && voiceId ? (
-            <label className="sr-only" htmlFor={`narration-voice-${story.id}`}>
-              旁白音色
-            </label>
-          ) : null}
-          {voicePilot && voiceId ? (
-            <select
-              id={`narration-voice-${story.id}`}
-              data-narration-voice="true"
-              value={voiceId}
-              onChange={(event) => {
-                const next = event.target.value;
-                setVoiceId(next);
-                writeStoredNarrationVoice(story.id, next);
-                setPlaying(true);
-              }}
-              className="h-10 max-w-[9.5rem] rounded-full bg-ink/35 px-2 text-xs font-medium text-panel backdrop-blur-md"
-            >
-              {voicePilot.voices.map((voice) => (
-                <option key={voice.id} value={voice.id}>
-                  {voice.label}
-                </option>
-              ))}
-            </select>
-          ) : null}
           <button
             type="button"
             onClick={toggleNarration}
@@ -428,7 +385,6 @@ export function IllustratedStoryReader({ story, hall }: { story: Story; hall?: S
             ref={audioRef}
             preload="none"
             data-narration-audio="true"
-            data-narration-voice-id={voiceId ?? undefined}
             data-narration-playback-rate={String(NARRATION_PLAYBACK_RATE)}
             className="hidden"
             aria-hidden="true"

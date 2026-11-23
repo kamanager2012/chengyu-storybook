@@ -12,7 +12,6 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as AboutRouteImport } from './routes/about'
 import { Route as PrivacyRouteImport } from './routes/privacy'
-import { Route as UnlockRouteImport } from './routes/unlock'
 import { Route as HallHallRouteImport } from './routes/hall.$hall'
 import { Route as StoryIdRouteImport } from './routes/story.$id'
 
@@ -31,11 +30,6 @@ const PrivacyRoute = PrivacyRouteImport.update({
   path: '/privacy',
   getParentRoute: () => rootRouteImport,
 } as any)
-const UnlockRoute = UnlockRouteImport.update({
-  id: '/unlock',
-  path: '/unlock',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const HallHallRoute = HallHallRouteImport.update({
   id: '/hall/$hall',
   path: '/hall/$hall',
@@ -51,7 +45,6 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/privacy': typeof PrivacyRoute
-  '/unlock': typeof UnlockRoute
   '/hall/$hall': typeof HallHallRoute
   '/story/$id': typeof StoryIdRoute
 }
@@ -59,7 +52,6 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/privacy': typeof PrivacyRoute
-  '/unlock': typeof UnlockRoute
   '/hall/$hall': typeof HallHallRoute
   '/story/$id': typeof StoryIdRoute
 }
@@ -68,31 +60,21 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/about': typeof AboutRoute
   '/privacy': typeof PrivacyRoute
-  '/unlock': typeof UnlockRoute
   '/hall/$hall': typeof HallHallRoute
   '/story/$id': typeof StoryIdRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths:
-    '/' | '/about' | '/privacy' | '/unlock' | '/hall/$hall' | '/story/$id'
+  fullPaths: '/' | '/about' | '/privacy' | '/hall/$hall' | '/story/$id'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/about' | '/privacy' | '/unlock' | '/hall/$hall' | '/story/$id'
-  id:
-    | '__root__'
-    | '/'
-    | '/about'
-    | '/privacy'
-    | '/unlock'
-    | '/hall/$hall'
-    | '/story/$id'
+  to: '/' | '/about' | '/privacy' | '/hall/$hall' | '/story/$id'
+  id: '__root__' | '/' | '/about' | '/privacy' | '/hall/$hall' | '/story/$id'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   AboutRoute: typeof AboutRoute
   PrivacyRoute: typeof PrivacyRoute
-  UnlockRoute: typeof UnlockRoute
   HallHallRoute: typeof HallHallRoute
   StoryIdRoute: typeof StoryIdRoute
 }
@@ -120,13 +102,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof PrivacyRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/unlock': {
-      id: '/unlock'
-      path: '/unlock'
-      fullPath: '/unlock'
-      preLoaderRoute: typeof UnlockRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/hall/$hall': {
       id: '/hall/$hall'
       path: '/hall/$hall'
@@ -148,7 +123,6 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   AboutRoute: AboutRoute,
   PrivacyRoute: PrivacyRoute,
-  UnlockRoute: UnlockRoute,
   HallHallRoute: HallHallRoute,
   StoryIdRoute: StoryIdRoute,
 }

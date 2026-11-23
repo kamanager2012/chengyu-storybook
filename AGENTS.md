@@ -9,7 +9,7 @@ Maintain **成语故事** as a small, local-first Chinese idiom storybook. The d
 - Do not add authentication, accounts, cloud databases, server functions, SSR, API routes, multiplayer, analytics SDKs, or vendor preview bridges unless a concrete product requirement explicitly needs them.
 - Do not reintroduce `@tanstack/react-start`, Nitro, Better Auth, PostgreSQL/PGlite/Kysely, or Grok Builder runtime code as generic infrastructure.
 - Keep the deployable runtime static: Vite + React + TanStack Router + files under `public/`.
-- The product in this repository is the commercial dual-hall illustrated storybook (`/` shelf + `IllustratedStoryReader`). Do not add three.js, paper pop-up books, `/study` rooms, or StoryComet-style 3D here.
+- The product in this repository is the free, non-commercial (CC BY-NC-SA 4.0) dual-hall illustrated storybook (`/` shelf + `IllustratedStoryReader`). Do not add three.js, paper pop-up books, `/study` rooms, or StoryComet-style 3D here.
 - Do not silently rename story IDs, page IDs, or asset paths; these are persistence/content keys.
 - Do not commit generated deployment output, screenshots, local workspace state, secrets, or `.env` files.
 - Do not claim content provenance, copyright clearance, narration freshness, release readiness, or production readiness merely because files exist.

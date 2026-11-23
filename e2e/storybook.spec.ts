@@ -14,7 +14,7 @@ test("bookshelf, deep link, illustrated assets, attribution and viewport stay he
   page.on("requestfailed", (req) => failedRequests.push(`${req.method()} ${req.url()}`));
   page.on("request", (req) => {
     const path = new URL(req.url()).pathname;
-    if (path.startsWith("/audio/") || path.startsWith("/audio-voices/")) audioRequests.push(req.url());
+    if (path.startsWith("/audio/")) audioRequests.push(req.url());
   });
   page.on("response", (response) => {
     if (response.status() >= 400) badResponses.push(`${response.status()} ${response.request().method()} ${response.url()}`);

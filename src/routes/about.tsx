@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Petals } from "@/components/petals";
 import { SiteFooter } from "@/components/site-footer";
-import { COMMERCE } from "@/data/commerce";
+import { storyCount } from "@/data/story-index";
 import { useDocumentTitle } from "@/lib/document-title";
 
 export const Route = createFileRoute("/about")({
@@ -22,11 +22,11 @@ function AboutPage() {
         <h1 className="mt-1 font-display text-4xl text-cinnabar">成册翻页，两座馆</h1>
         <div className="mt-6 space-y-4 text-sm leading-7 text-ink-soft">
           <p>
-            这不是几万集的故事 App，而是一本本翻完的成语绘本馆：{COMMERCE.catalogCount}{" "}
+            这不是几万集的故事 App，而是一本本翻完的成语绘本馆：{storyCount}{" "}
             个成语，看图、听旁白、读句子、记住小道理。适合 3–8 岁亲子共读。儿童馆水彩、古风馆工笔，同一批故事两套画。
           </p>
           <p>
-            全套 {COMMERCE.catalogCount} 本成语绘本永久免费开放畅读，无需付费。采用 MIT 许可证开源，欢迎亲子共读与学习传播。
+            全套 {storyCount} 本成语绘本永久免费开放阅读，无需付费。作品以 CC BY-NC-SA 4.0（署名—非商业性使用—相同方式共享）许可发布，欢迎家庭与公益教育机构非商业地使用和分享。
           </p>
           <p>
             采用 Local-first 纯静态架构，无需注册登录即可在任意设备流畅阅读全部绘本。阅读与离线缓存均在本地完成。
